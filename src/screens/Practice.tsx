@@ -37,6 +37,20 @@ export function Practice({ episodeId, plan, onClose }: { episodeId: string; plan
   }, [episodeId]);
 
   const step = steps[k];
+  const isCall = step === 'call';
+
+  // Page background + status-bar colour follow the full-screen step (iOS standalone).
+  useEffect(() => {
+    const root = document.documentElement;
+    root.dataset.screen = isCall ? 'call' : 'practice';
+    const metas = [...document.querySelectorAll<HTMLMetaElement>('meta[name="theme-color"]')];
+    const saved = metas.map((m) => m.content);
+    if (isCall) metas.forEach((m) => { m.content = '#0c3a35'; });
+    return () => {
+      delete root.dataset.screen;
+      metas.forEach((m, i) => { m.content = saved[i]; });
+    };
+  }, [isCall]);
   const next = () => (k < steps.length - 1 ? setK(k + 1) : close());
   const close = () => { stopAudio(); stopSpeaking(); void refresh(); onClose(); };
 

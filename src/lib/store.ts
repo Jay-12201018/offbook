@@ -17,6 +17,8 @@ export interface Settings {
   pace: Pace;
   showEnglish: boolean;
   aiModel: string;
+  /** Model ids from the user's GET /models (filled by 测试连接). */
+  aiModels: string[];
   voiceURI: string | null;
   voiceURIMale: string | null;
 }
@@ -66,6 +68,7 @@ export const DEFAULT_SETTINGS: Settings = {
   pace: 'ok',
   showEnglish: false,
   aiModel: 'deepseek-flash',
+  aiModels: [],
   voiceURI: null,
   voiceURIMale: null,
 };
@@ -179,7 +182,11 @@ export async function allCalls(): Promise<CallLog[]> {
 /* ---------- secrets (API key) ---------- */
 
 export async function getApiKey(): Promise<string> {
-  return ((await (await db()).get('secrets', 'deepseek')) as string | undefined) ?? '';
+  try {
+    return ((await (await db()).get('secrets', 'deepseek')) as string | undefined) ?? '';
+  } catch {
+    return '';
+  }
 }
 
 export async function setApiKey(key: string): Promise<void> {

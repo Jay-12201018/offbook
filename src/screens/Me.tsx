@@ -3,7 +3,8 @@ import { useApp, weekCount } from '@/lib/appState.tsx';
 import { EPISODES } from '@/content/season1.ts';
 import { Icon } from '@/components/Icon.tsx';
 import { toast } from '@/components/Toast.tsx';
-import { MODELS, testConnection } from '@/lib/ai.ts';
+import { MODELS, preferredModel, testConnection } from '@/lib/ai.ts';
+import { clearDebug, debugEnabled, debugEvents, envSummary, fmtEvent, setDebugEnabled, subscribeDebug } from '@/lib/debug.ts';
 import { allCalls, exportBackup, getApiKey, importBackup, resetAll, setApiKey, type Pace } from '@/lib/store.ts';
 import { englishVoices, pickVoice, speak, waitVoices } from '@/lib/tts.ts';
 import { isIos, isStandalone } from '@/lib/install.ts';
@@ -64,6 +65,8 @@ export function Me() {
         <p className="group__text">脱稿 Offbook 2.0 · 第一季第 1–7 集。全部对白为原创。没有账号，进度只存在这台设备。</p>
         <Licenses />
       </section>
+
+      <DebugSection />
     </div>
   );
 }
@@ -73,17 +76,20 @@ function AiSection() {
   const [key, setKey] = useState('');
   const [show, setShow] = useState(false);
   const [busy, setBusy] = useState(false);
-  const [result, setResult] = useState<{ ok: boolean; msg: string } | null>(null);
-  const custom = !MODELS.some((m) => m.id === settings.aiModel);
+  const [result, setResult] = useState<{ ok: boolean; msg: string; detail?: string } | null>(null);
+  const options = settings.aiModels.length ? settings.aiModels : MODELS.map((m) => m.id);
+  const custom = !options.includes(settings.aiModel);
   const [customModel, setCustomModel] = useState(custom ? settings.aiModel : '');
+  const labelOf = (id: string) => MODELS.find((m) => m.id === id)?.label ?? id;
 
   useEffect(() => { void getApiKey().then(setKey); }, []);
 
   async function save() {
     const k = key.trim();
     await setApiKey(k);
+    const back = await getApiKey();
     await refresh();
-    toast(k ? '密钥已保存在这台设备' : '已清除');
+    toast(k ? (back === k ? '密钥已保存在这台设备' : '保存失败：存储不可用') : '已清除');
   }
 
   async function test() {
@@ -91,10 +97,20 @@ function AiSection() {
     setResult(null);
     const r = await testConnection(key.trim(), settings.aiModel);
     setBusy(false);
+    if (r.models?.length) {
+      // Populate the dropdown from the live list; keep current model if it exists there.
+      const keep = r.models.includes(settings.aiModel) ? settings.aiModel : preferredModel(r.models) ?? settings.aiModel;
+      await update({ aiModels: r.models, aiModel: keep });
+    }
     if (r.ok) {
-      setResult({ ok: true, msg: '连上了。通话现在由 AI 实时扮演角色。' });
       await setApiKey(key.trim());
+      await update({ aiModel: r.usedModel });
       await refresh();
+      setResult({
+        ok: true,
+        msg: '连上了，通话会用 AI 实时对话。',
+        detail: `模型 ${r.model}${r.tokens ? ` · 用了 ${r.tokens} tokens` : ''}\nAI 回复：“${r.reply}”`,
+      });
     } else setResult({ ok: false, msg: r.message });
   }
 
@@ -110,7 +126,7 @@ function AiSection() {
     <section className="group group--ai" id="ai">
       <div className="group__title-row">
         <h2 className="group__title"><Icon name="spark" size={18} /> AI 对话</h2>
-        <span className={`pill ${hasKey ? 'pill--ok' : 'pill--soft'}`}>{hasKey ? '已开启' : '未设置'}</span>
+        <span className={`pill ${hasKey ? 'pill--ok' : 'pill--soft'}`}>{hasKey ? '已保存密钥' : '未设置'}</span>
       </div>
       <p className="group__text">填上你自己的 DeepSeek API Key，通话里的 Maya、Chris 就由 AI 实时扮演，提示和小结也由 AI 生成。不填也能用剧本通话。</p>
 
@@ -138,18 +154,18 @@ function AiSection() {
       </label>
 
       <label className="field">
-        <span className="field__label">模型</span>
+        <span className="field__label">模型{settings.aiModels.length ? '（来自你账户的模型列表）' : '（点「测试连接」后会读取你账户可用的模型）'}</span>
         <select
           className="select"
           value={custom ? '__custom' : settings.aiModel}
           onChange={(e) => {
             const v = e.target.value;
-            if (v === '__custom') void update({ aiModel: customModel || 'deepseek-flash' });
+            if (v === '__custom') void update({ aiModel: customModel || settings.aiModel });
             else { setCustomModel(''); void update({ aiModel: v }); }
             setResult(null);
           }}
         >
-          {MODELS.map((m) => <option key={m.id} value={m.id}>{m.label}</option>)}
+          {options.map((id) => <option key={id} value={id}>{labelOf(id)}</option>)}
           <option value="__custom">其他（自己填）</option>
         </select>
         {custom && (
@@ -158,7 +174,7 @@ function AiSection() {
             value={customModel}
             onChange={(e) => setCustomModel(e.target.value)}
             onBlur={() => customModel.trim() && void update({ aiModel: customModel.trim() })}
-            placeholder="模型名，例如 deepseek-flash"
+            placeholder="模型名"
             autoCapitalize="off"
             spellCheck={false}
           />
@@ -170,15 +186,47 @@ function AiSection() {
         <button className="btn btn--soft" onClick={() => void save()} disabled={busy}>保存</button>
         <button className="btn btn--ghost" onClick={() => void clear()} disabled={busy || (!key && !hasKey)}>清除</button>
       </div>
-      {result && <p className={result.ok ? 'good' : 'error'} role="status">{result.ok ? '✓ ' : ''}{result.msg}</p>}
+      {result && (
+        <div className={`test-result ${result.ok ? 'is-ok' : 'is-err'}`} role="status">
+          <b>{result.ok ? '✓ ' : '✕ '}{result.msg}</b>
+          {result.detail && <span>{result.detail}</span>}
+        </div>
+      )}
 
       <ul className="privacy">
-        <li>密钥只存在这台设备的浏览器里。</li>
+        <li>密钥只存在这台设备的浏览器里。浏览器和主屏幕图标是两份存储，要在你实际使用的那个里填。</li>
         <li>只发送给 api.deepseek.com，不经过任何别的服务器。</li>
         <li>不会写进「导出备份」，也不会上传到 GitHub。</li>
         <li>费用按 DeepSeek 用量从你自己的账户扣，一通电话大约几分钱人民币。</li>
       </ul>
       <a className="link-btn" href="https://platform.deepseek.com/api_keys" target="_blank" rel="noreferrer">去 DeepSeek 开放平台拿密钥 →</a>
+    </section>
+  );
+}
+
+function DebugSection() {
+  const [on, setOn] = useState(debugEnabled());
+  const [, tick] = useState(0);
+  useEffect(() => subscribeDebug(() => tick((n) => n + 1)), []);
+  const text = () => `${envSummary()}\n---\n${debugEvents().map(fmtEvent).join('\n')}`;
+  return (
+    <section className="group group--debug">
+      <label className="group__row">
+        <span>debug 语音</span>
+        <input type="checkbox" className="switch" checked={on} onChange={(e) => { setDebugEnabled(e.target.checked); setOn(e.target.checked); }} />
+      </label>
+      {on && (
+        <>
+          <p className="group__text">打开后，通话和跟读页面上方会显示识别 / 发声 / AI 请求的事件。出问题时点「复制」发给我。不会记录密钥本身。</p>
+          <pre className="debug-log">{text()}</pre>
+          <div className="row gap">
+            <button className="btn btn--soft" onClick={async () => {
+              try { await navigator.clipboard.writeText(text()); toast('已复制'); } catch { toast('复制失败，可以长按选中'); }
+            }}>复制</button>
+            <button className="btn btn--ghost" onClick={clearDebug}>清空</button>
+          </div>
+        </>
+      )}
     </section>
   );
 }

@@ -8,6 +8,7 @@ import type { Scene } from './content.ts';
 import { NAMES } from './content.ts';
 import type { EpisodeMeta } from '@/content/season1.ts';
 import type { Pace } from './store.ts';
+import { dlog } from './debug.ts';
 
 export const DEEPSEEK_BASE = 'https://api.deepseek.com';
 
@@ -27,19 +28,33 @@ export class AiError extends Error {
   }
 }
 
-function zhError(status: number, body: string): AiError {
-  if (status === 401) return new AiError('auth', '密钥不对：DeepSeek 拒绝了这个 API Key。');
-  if (status === 402) return new AiError('balance', 'DeepSeek 账户余额不足，请先充值。');
-  if (status === 429) return new AiError('rate', '请求太频繁了，等几秒再试。');
-  if (status === 400 && /model/i.test(body)) return new AiError('model', '这个模型名 DeepSeek 不认识，换一个试试。');
-  if (status === 422 || status === 400) return new AiError('bad', 'DeepSeek 不接受这次请求（参数错误）。');
-  return new AiError('server', `DeepSeek 暂时出错了（${status}），稍后再试。`);
+function dsMessage(body: string): string {
+  try {
+    const j = JSON.parse(body);
+    return String(j?.error?.message ?? '').replace(/\s*\(request_id:[^)]*\)/, '').slice(0, 160);
+  } catch {
+    return body.slice(0, 160);
+  }
 }
 
-async function post(key: string, body: unknown, signal?: AbortSignal): Promise<Response> {
+function zhError(status: number, body: string): AiError {
+  const ds = dsMessage(body);
+  const tail = ` [HTTP ${status}${ds ? ` · ${ds}` : ''}]`;
+  if (status === 401) return new AiError('auth', `密钥不对：DeepSeek 拒绝了这个 API Key。${tail}`);
+  if (status === 402) return new AiError('balance', `DeepSeek 账户余额不足，请先充值。${tail}`);
+  if (status === 429) return new AiError('rate', `请求太频繁了，等几秒再试。${tail}`);
+  if ((status === 400 || status === 404 || status === 422) && /model/i.test(body)) return new AiError('model', `DeepSeek 不认这个模型名，在「我」里换一个。${tail}`);
+  if (status === 400 || status === 422) return new AiError('bad', `DeepSeek 不接受这次请求。${tail}`);
+  return new AiError('server', `DeepSeek 暂时出错了，稍后再试。${tail}`);
+}
+
+async function post(key: string, body: Record<string, unknown>, signal?: AbortSignal): Promise<Response> {
+  const url = `${DEEPSEEK_BASE}/chat/completions`;
+  const t0 = Date.now();
+  dlog('ai', `POST ${url} model=${String(body.model)} stream=${!!body.stream} key=${key ? `yes(${key.length} chars)` : 'NO'}`);
   let res: Response;
   try {
-    res = await fetch(`${DEEPSEEK_BASE}/chat/completions`, {
+    res = await fetch(url, {
       method: 'POST',
       headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
       body: JSON.stringify(body),
@@ -47,9 +62,15 @@ async function post(key: string, body: unknown, signal?: AbortSignal): Promise<R
     });
   } catch (e) {
     if ((e as Error).name === 'AbortError') throw new AiError('aborted', '已取消');
-    throw new AiError('network', '连不上 DeepSeek，检查一下网络。');
+    dlog('ai', `network error: ${(e as Error).message}`);
+    throw new AiError('network', `连不上 DeepSeek，检查一下网络。[${(e as Error).message}]`);
   }
-  if (!res.ok) throw zhError(res.status, await res.text().catch(() => ''));
+  dlog('ai', `status ${res.status} (+${Date.now() - t0}ms)`);
+  if (!res.ok) {
+    const text = await res.text().catch(() => '');
+    dlog('ai', `error body: ${dsMessage(text)}`);
+    throw zhError(res.status, text);
+  }
   return res;
 }
 
@@ -94,18 +115,21 @@ export async function chatStream(
         buf = buf.slice(nl + 1);
         if (!line.startsWith('data:')) continue;
         const data = line.slice(5).trim();
-        if (data === '[DONE]') return full;
+        if (data === '[DONE]') { dlog('ai', `stream done, ${full.length} chars`); if (!full.trim()) throw new AiError('bad', 'DeepSeek 返回了空内容（可能模型在“思考模式”），换 deepseek-flash 再试。'); return full; }
         try {
           const j = JSON.parse(data);
           const d = j.choices?.[0]?.delta?.content;
           if (d) { full += d; onDelta(d); }
-        } catch { /* partial / keep-alive */ }
+        } catch (err) { if (err instanceof AiError) throw err; /* partial / keep-alive */ }
       }
     }
   } catch (e) {
+    if (e instanceof AiError) throw e;
     if ((e as Error).name === 'AbortError') throw new AiError('aborted', '已取消');
-    throw new AiError('network', '连接中断了。');
+    throw new AiError('network', `连接中断了。[${(e as Error).message}]`);
   }
+  dlog('ai', `stream closed, ${full.length} chars`);
+  if (!full.trim()) throw new AiError('bad', 'DeepSeek 返回了空内容，换个模型再试。');
   return full;
 }
 
@@ -130,25 +154,57 @@ export async function chatText(key: string, model: string, messages: Msg[], opts
   return (j.choices?.[0]?.message?.content ?? '').trim();
 }
 
-/** Verify key with GET /models (free), then a 1-token completion on the chosen model. */
-export async function testConnection(key: string, model: string): Promise<{ ok: true; models: string[] } | { ok: false; message: string }> {
-  if (!key.trim()) return { ok: false, message: '先填上 API Key。' };
-  if (!/^[\x21-\x7e]+$/.test(key.trim())) return { ok: false, message: '密钥里有空格或中文字符，复制时可能多带了东西。' };
+export async function listModels(key: string): Promise<string[]> {
+  const url = `${DEEPSEEK_BASE}/models`;
+  dlog('ai', `GET ${url} key=${key ? 'yes' : 'NO'}`);
+  let r: Response;
+  try {
+    r = await fetch(url, { headers: { Authorization: `Bearer ${key}` } });
+  } catch (e) {
+    throw new AiError('network', `连不上 DeepSeek，检查一下网络。[${(e as Error).message}]`);
+  }
+  dlog('ai', `models status ${r.status}`);
+  if (!r.ok) throw zhError(r.status, await r.text().catch(() => ''));
+  const j = await r.json();
+  const ids: string[] = (j.data ?? []).map((m: { id: string }) => m.id).filter(Boolean);
+  dlog('ai', `models: ${ids.join(', ')}`);
+  return ids;
+}
+
+/** Pick a sensible default chat model from a /models list. */
+export function preferredModel(ids: string[]): string | null {
+  if (!ids.length) return null;
+  return ids.find((m) => m === 'deepseek-flash') ?? ids.find((m) => /flash/.test(m)) ?? ids.find((m) => /chat|v\d/.test(m)) ?? ids[0];
+}
+
+export type TestResult =
+  | { ok: true; models: string[]; reply: string; model: string; tokens?: number; usedModel: string }
+  | { ok: false; message: string; models?: string[] };
+
+/** GET /models, then a REAL short chat completion on the chosen model (counts as usage). */
+export async function testConnection(rawKey: string, model: string): Promise<TestResult> {
+  const key = rawKey.trim();
+  if (!key) return { ok: false, message: '先填上 API Key。' };
+  if (!/^[\x21-\x7e]+$/.test(key)) return { ok: false, message: '密钥里有空格或中文字符，复制时可能多带了东西。' };
   let models: string[] = [];
   try {
-    const r = await fetch(`${DEEPSEEK_BASE}/models`, { headers: { Authorization: `Bearer ${key.trim()}` } });
-    if (!r.ok) return { ok: false, message: zhError(r.status, await r.text().catch(() => '')).message };
-    const j = await r.json();
-    models = (j.data ?? []).map((m: { id: string }) => m.id);
-  } catch {
-    return { ok: false, message: '连不上 DeepSeek，检查一下网络。' };
-  }
-  try {
-    await post(key.trim(), baseBody(model, [{ role: 'user', content: 'Say OK.' }], { max_tokens: 3 }));
+    models = await listModels(key);
   } catch (e) {
-    return { ok: false, message: (e as AiError).message };
+    return { ok: false, message: (e as Error).message };
   }
-  return { ok: true, models };
+  const usedModel = models.length && !models.includes(model) ? preferredModel(models) ?? model : model;
+  try {
+    const res = await post(key, baseBody(usedModel, [
+      { role: 'system', content: 'You are Maya, a friendly American. Reply in one short sentence.' },
+      { role: 'user', content: 'Say hi to Jay and tell him you are ready to practice.' },
+    ], { max_tokens: 40 }));
+    const j = await res.json();
+    const reply = String(j.choices?.[0]?.message?.content ?? '').trim();
+    dlog('ai', `test reply model=${j.model} tokens=${j.usage?.total_tokens}`);
+    return { ok: true, models, reply: reply || '(空回复)', model: String(j.model ?? usedModel), tokens: j.usage?.total_tokens, usedModel };
+  } catch (e) {
+    return { ok: false, message: (e as Error).message, models };
+  }
 }
 
 /* ---------------- prompts ---------------- */

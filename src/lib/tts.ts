@@ -1,3 +1,4 @@
+import { dlog } from './debug.ts';
 /**
  * Device speech synthesis for call partner lines (AI + scripted calls).
  * Picks a natural en-US voice; separate preference for male characters.
@@ -90,11 +91,16 @@ export function speak(text: string, opts: { voice?: SpeechSynthesisVoice | null;
     if (opts.voice) { u.voice = opts.voice; u.lang = opts.voice.lang; } else u.lang = 'en-US';
     u.rate = opts.rate ?? 1;
     let settled = false;
-    const end = () => { if (!settled) { settled = true; window.clearTimeout(t); resolve(); } };
-    // Chrome sometimes never fires onend; estimate a ceiling from length.
-    const t = window.setTimeout(end, 2500 + text.length * 110 / (opts.rate ?? 1));
-    u.onend = end;
-    u.onerror = end;
+    const t0 = Date.now();
+    const end = (why: string) => { if (!settled) { settled = true; window.clearTimeout(t); dlog('tts', `${why} (+${Date.now() - t0}ms)`); resolve(); } };
+    // Chrome / iOS sometimes never fire onend; estimate a ceiling from length.
+    const t = window.setTimeout(() => end('timeout'), 3000 + text.length * 120 / (opts.rate ?? 1));
+    u.onstart = () => dlog('tts', `onstart voice=${u.voice?.name ?? 'default'}`);
+    u.onend = () => end('onend');
+    u.onerror = (e) => end(`onerror ${(e as SpeechSynthesisErrorEvent).error ?? ''}`);
+    // iOS: a stuck queue (pending, never speaking) blocks every later utterance.
+    if (synth.pending && !synth.speaking) { dlog('tts', 'queue stuck -> cancel()'); synth.cancel(); }
+    dlog('tts', `speak "${text.slice(0, 40)}"`);
     synth.speak(u);
     // Chrome bug: queue can be paused after a tab switch.
     if (synth.paused) synth.resume();

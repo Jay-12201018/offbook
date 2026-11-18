@@ -48,10 +48,13 @@
     <link rel="apple-touch-startup-image" media="(prefers-color-scheme: light) and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="/splash/apple-splash-1668-2388.png" />
     <link rel="apple-touch-startup-image" media="(prefers-color-scheme: light) and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="/splash/apple-splash-2048-2732.png" />
     <style>
-      html, body, #root { height: 100%; margin: 0; background: #FFFFFF; }
+      html { background: #FFFFFF; height: -webkit-fill-available; }
+      body { margin: 0; background: #FFFFFF; min-height: 100vh; min-height: -webkit-fill-available; }
+      #root { min-height: 100%; }
       @media (prefers-color-scheme: dark) {
-        html, body, #root { background: #0F1A1F; }
+        html, body { background: #0F1A1F; }
       }
+      html[data-screen="call"], html[data-screen="call"] body { background: #082a27; }
     </style>
   </head>
   <body>

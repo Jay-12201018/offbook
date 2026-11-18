@@ -43,8 +43,15 @@
 }
 
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-html, body, #root { margin: 0; padding: 0; min-height: 100%; }
-html { -webkit-text-size-adjust: 100%; }
+html, body, #root { margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; background: var(--bg); height: -webkit-fill-available; }
+body { min-height: 100vh; min-height: -webkit-fill-available; }
+#root { min-height: 100%; }
+/* Full-screen practice: page background follows the screen so no white can show
+   through at the status bar or home indicator (iOS standalone). */
+html[data-screen="practice"], html[data-screen="practice"] body { background: var(--bg); }
+html[data-screen="call"], html[data-screen="call"] body { background: #082a27; }
+html[data-screen], html[data-screen] body { overflow: hidden; overscroll-behavior: none; }
 body {
   font-family: var(--font);
   background: var(--bg);
@@ -136,6 +143,8 @@ img { display: block; }
   backdrop-filter: saturate(1.4) blur(14px); -webkit-backdrop-filter: saturate(1.4) blur(14px);
   border-top: 1px solid var(--line);
 }
+/* If iOS ever leaves a gap under the fixed bar, fill it with the same colour. */
+.tabbar::after { content: ''; position: absolute; left: 0; right: 0; top: 100%; height: 80px; background: var(--bg); }
 .tab { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; font-size: 12px; font-weight: 700; color: var(--ink-3); }
 .tab.is-on { color: var(--mint-600); }
 
@@ -213,10 +222,14 @@ img { display: block; }
 
 /* ---------- practice frame ---------- */
 .practice {
-  position: fixed; inset: 0; z-index: 40; background: var(--bg); display: flex; flex-direction: column;
-  padding-top: var(--sat);
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 40;
+  /* Edge to edge: cover the status bar and home indicator; insets are padding inside. */
+  min-height: 100vh; min-height: 100lvh;
+  background: var(--bg); display: flex; flex-direction: column;
+  padding: var(--sat) env(safe-area-inset-right, 0px) 0 env(safe-area-inset-left, 0px);
+  overflow: hidden;
 }
-.practice--dark { background: #0c3a35; }
+.practice--dark { background: radial-gradient(120% 70% at 50% 18%, #1b6d60 0%, #0c3a35 58%, #082a27 100%); background-color: #082a27; }
 .practice__bar { display: flex; align-items: center; gap: 10px; padding: 8px 12px 4px 8px; flex: none; }
 .practice__step { font-size: 13px; font-weight: 700; color: var(--ink-3); min-width: 48px; text-align: right; }
 .progress { flex: 1; display: flex; gap: 6px; }
@@ -292,7 +305,7 @@ img { display: block; }
 /* ---------- call ---------- */
 .call {
   flex: 1; min-height: 0; display: flex; flex-direction: column; color: #fff;
-  background: radial-gradient(120% 70% at 50% 15%, #1b6d60 0%, #0c3a35 60%, #082a27 100%);
+  background: transparent;
   padding: 8px 20px calc(var(--sab) + 14px);
 }
 .call__center { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; text-align: center; }
@@ -458,3 +471,21 @@ img { display: block; }
 
 .licenses { display: flex; flex-direction: column; gap: 10px; font-size: 14px; color: var(--ink-2); white-space: pre-line; overflow-wrap: anywhere; }
 .licenses h3 { font-size: 16px; color: var(--ink); margin-top: 6px; }
+
+.pill--script { background: rgba(255,255,255,.92); color: #0b6652; }
+.pill--lg { font-size: 14px; padding: 6px 14px; }
+.mine__label { display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; opacity: .85; margin-bottom: 2px; }
+.mine__ph { opacity: .6; }
+.rec-dot-sm { width: 8px; height: 8px; border-radius: 50%; background: var(--coral); animation: blink 1s infinite; }
+.hint-card--error { background: #fff; }
+.debug-overlay {
+  position: relative; z-index: 5; margin: 0 0 6px; padding: 6px 8px; border-radius: 10px; background: rgba(0,0,0,.55); color: #b9ffe9;
+  font: 10.5px/1.35 ui-monospace, SFMono-Regular, Menlo, monospace; max-height: 112px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;
+}
+.debug-overlay div { overflow: hidden; text-overflow: ellipsis; }
+.stage .debug-overlay { color: #0b6652; background: var(--bg-2); }
+.debug-log { margin: 0; max-height: 280px; overflow: auto; font: 11px/1.4 ui-monospace, Menlo, monospace; background: var(--bg-2); padding: 10px; border-radius: 12px; white-space: pre-wrap; word-break: break-all; }
+.test-result { display: flex; flex-direction: column; gap: 4px; padding: 10px 12px; border-radius: 12px; font-size: 14px; white-space: pre-line; }
+.test-result.is-ok { background: var(--mint-50); color: var(--mint-800); }
+.test-result.is-err { background: var(--coral-50); color: var(--red); }
+@media (prefers-color-scheme: dark) { .test-result.is-ok { color: var(--mint-100); } }

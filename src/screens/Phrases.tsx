@@ -6,7 +6,8 @@ import { playClip, stopAudio } from '@/lib/player.ts';
 import { pickVoice, speak } from '@/lib/tts.ts';
 import { Icon } from '@/components/Icon.tsx';
 import { Avatar } from '@/components/Avatar.tsx';
-import { asrSupported, listen, type ListenHandle } from '@/lib/asr.ts';
+import { asrSupported } from '@/lib/asr.ts';
+import { cueThenListen } from '@/lib/speech.ts';
 import { litWords } from '@/lib/match.ts';
 import { useApp } from '@/lib/appState.tsx';
 
@@ -71,15 +72,15 @@ function Review({ items, onClose }: { items: Phrase[]; onClose: () => void }) {
   const [shown, setShown] = useState(false);
   const [heard, setHeard] = useState('');
   const [live, setLive] = useState(false);
-  const h = useRef<ListenHandle | null>(null);
+  const h = useRef<ReturnType<typeof cueThenListen> | null>(null);
   const p = items[i];
 
   useEffect(() => () => { h.current?.cancel(); stopAudio(); }, []);
 
   async function sayIt() {
-    if (live) { h.current?.stop(); return; }
+    if (live) { h.current?.finish(); return; }
     setLive(true); setHeard('');
-    const hh = listen({ onInterim: setHeard, maxMs: 7000 });
+    const hh = cueThenListen('Go ahead.', { onInterim: setHeard });
     h.current = hh;
     const r = await hh.done;
     setLive(false);

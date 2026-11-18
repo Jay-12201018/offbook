@@ -35,9 +35,18 @@ Practice screens are full-screen: `Watch` (chat-bubble episode player with blurr
 npm ci
 npm run dev        # http://localhost:5173/offbook/
 npm run build && npm run preview   # http://localhost:4173/offbook/
-node qa/e2e.cjs    # headless walkthrough (needs Playwright; BASE=... OUT=...)
+node qa/e2e.cjs    # headless iPhone-like walkthrough: fake recognizer reproducing the iOS "deaf after a cut session" bug, mocked DeepSeek (needs Playwright; BASE=... OUT=... CLEAN=1)
 ```
 
 ## Deploy
 
 Pushes to `main` run [`.github/workflows/pages.yml`](.github/workflows/pages.yml): `npm ci && npm run build`, then deploy to GitHub Pages. Vite `base` is `/offbook/`; content fetches go through `publicUrl()`, and the manifest `start_url` / `scope` are `/offbook/`.
+
+## iOS speech notes
+
+Safari on iOS 27 has a bug (WebKit 321436): once a speech-recognition session is cut
+with `stop()`/`abort()`, later sessions hear nothing until the app is relaunched.
+Offbook therefore speaks a short cue with `speechSynthesis` before every listening
+session, creates a new recognizer each time, never cuts a session on iOS (✓ just stops
+waiting), and keeps every result until the session ends. 「我 → debug 语音」 shows the
+recognizer / TTS / DeepSeek request events on screen.

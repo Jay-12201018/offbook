@@ -3,14 +3,16 @@ import type { Scene } from '@/lib/content.ts';
 import { audioUrl } from '@/lib/content.ts';
 import type { EpisodeMeta } from '@/content/season1.ts';
 import { playClip, stopAudio } from '@/lib/player.ts';
-import { asrSupported, listen, type ListenHandle } from '@/lib/asr.ts';
+import { asrSupported } from '@/lib/asr.ts';
+import { cueThenListen } from '@/lib/speech.ts';
 import { litWords } from '@/lib/match.ts';
 import { recorderSupported, startRecording, stopRecording } from '@/lib/recorder.ts';
 import { addPhrases, markEpisode } from '@/lib/store.ts';
 import { Icon } from '@/components/Icon.tsx';
+import { DebugOverlay } from '@/components/DebugPanel.tsx';
 import { useApp } from '@/lib/appState.tsx';
 
-type Mode = 'idle' | 'listening' | 'recording';
+type Mode = 'idle' | 'cue' | 'listening' | 'recording';
 
 export function Steal({ scene, ep, onDone }: { scene: Scene; ep: EpisodeMeta; onDone: () => void }) {
   const { refresh } = useApp();
@@ -22,7 +24,7 @@ export function Steal({ scene, ep, onDone }: { scene: Scene; ep: EpisodeMeta; on
   const [mine, setMine] = useState<string | null>(null);
   const [asrBroken, setAsrBroken] = useState(!asrSupported());
   const [msg, setMsg] = useState<string | null>(null);
-  const handle = useRef<ListenHandle | null>(null);
+  const handle = useRef<ReturnType<typeof cueThenListen> | null>(null);
   const c = chunks[i];
   const target = c.form.replace(/…/g, '').trim();
   const lit = heard ? litWords(target, heard) : [];
@@ -38,10 +40,12 @@ export function Steal({ scene, ep, onDone }: { scene: Scene; ep: EpisodeMeta; on
 
   async function speakIt() {
     stopAudio();
-    if (mode === 'listening') { handle.current?.stop(); return; }
+    if (mode === 'listening' || mode === 'cue') { handle.current?.finish(); return; }
     if (asrBroken) return recordIt();
-    setMode('listening'); setHeard(''); setMsg(null);
-    const h = listen({ onInterim: setHeard, maxMs: 7000 });
+    setMode('cue'); setHeard(''); setMsg(null);
+    // The model line is spoken by speechSynthesis right before listening (iOS needs this).
+    const h = cueThenListen(target, { onInterim: setHeard, rate: 0.9 });
+    h.onListening(() => setMode('listening'));
     handle.current = h;
     const r = await h.done;
     handle.current = null;
@@ -50,8 +54,8 @@ export function Steal({ scene, ep, onDone }: { scene: Scene; ep: EpisodeMeta; on
     if (r.ok) setHeard(r.text);
     else if (r.error === 'not-allowed' || r.error === 'service' || r.error === 'missing' || r.error === 'failed') {
       setAsrBroken(true);
-      setMsg(r.error === 'not-allowed' ? '麦克风没开。可以录音自己对比，或直接继续。' : '这台设备认不出语音，改用录音对比。');
-    } else if (r.error === 'no-speech') setMsg('没听到声音，再说一次？');
+      setMsg(r.error === 'service' ? '语音识别没开（iPhone：设置 → Siri / 听写）。改用录音对比。' : r.error === 'not-allowed' ? '麦克风没开。可以录音自己对比，或直接继续。' : '这台设备认不出语音，改用录音对比。');
+    } else if (r.error === 'no-speech' || r.error === 'deaf') setMsg('没听到声音，再说一次？');
     else if (r.error === 'network') { setAsrBroken(true); setMsg('语音识别要联网，改用录音对比。'); }
   }
 
@@ -87,6 +91,7 @@ export function Steal({ scene, ep, onDone }: { scene: Scene; ep: EpisodeMeta; on
         <div className="dots">{chunks.map((_, k) => <span key={k} className={k <= i ? 'on' : ''} />)}</div>
       </div>
 
+      <DebugOverlay lines={5} />
       <div className="card steal__card" key={c.id}>
         <p className="steal__zh">{c.meaningZh}</p>
         <p className="steal__en">
@@ -112,7 +117,8 @@ export function Steal({ scene, ep, onDone }: { scene: Scene; ep: EpisodeMeta; on
       </div>
 
       <div className="steal__feedback" aria-live="polite">
-        {mode === 'listening' && <p className="listening-dots">在听… {heard && <i>{heard}</i>}</p>}
+        {mode === 'cue' && <p className="muted">先听一遍…</p>}
+        {mode === 'listening' && <p className="listening-dots">在听，跟着说… {heard && <i>{heard}</i>}</p>}
         {mode === 'recording' && <p className="rec-dot">录音中，说完点一下停止</p>}
         {mode === 'idle' && heard && (
           <p className={allLit ? 'good' : 'muted'}>{allLit ? '说得好！' : '我听到：'} <i>{heard}</i></p>
@@ -132,9 +138,9 @@ export function Steal({ scene, ep, onDone }: { scene: Scene; ep: EpisodeMeta; on
           onClick={() => void speakIt()}
           aria-label={mode === 'idle' ? '跟着说一遍' : '停止'}
         >
-          <Icon name={mode === 'idle' ? 'mic' : 'stop'} size={34} />
+          <Icon name={mode === 'idle' ? 'mic' : mode === 'listening' ? 'check' : 'volume'} size={34} />
         </button>
-        <p className="dock__hint">{mode === 'idle' ? (asrBroken ? '点一下录音，跟着说' : '点一下，跟着说') : '说完点一下'}</p>
+        <p className="dock__hint">{mode === 'idle' ? (asrBroken ? '点一下录音，跟着说' : '点一下：先听，再跟着说') : mode === 'cue' ? '先听…' : '说完点一下（或停一下）'}</p>
         <div className="row gap center">
           {tries > 0 && !allLit && mode === 'idle' && <button className="btn btn--ghost" onClick={() => void speakIt()}>再来</button>}
           <button className={`btn ${tries > 0 ? 'btn--primary' : 'btn--ghost'}`} onClick={() => void next()} disabled={mode !== 'idle'}>

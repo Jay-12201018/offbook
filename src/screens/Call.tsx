@@ -4,8 +4,9 @@ import { GENDER, NAMES } from '@/lib/content.ts';
 import type { EpisodeMeta } from '@/content/season1.ts';
 import { Avatar } from '@/components/Avatar.tsx';
 import { Icon } from '@/components/Icon.tsx';
+import { DebugOverlay } from '@/components/DebugPanel.tsx';
 import { useApp } from '@/lib/appState.tsx';
-import { asrFailStreak, asrSupported, listen, type ListenHandle } from '@/lib/asr.ts';
+import { asrFailStreak, asrSupported, listen, waitIdle, type ListenHandle } from '@/lib/asr.ts';
 import { pickVoice, speak, SpeechQueue, stopSpeaking, unlockTts, waitVoices } from '@/lib/tts.ts';
 import { matchOption } from '@/lib/match.ts';
 import {
@@ -13,10 +14,12 @@ import {
 } from '@/lib/ai.ts';
 import { getApiKey, type CallLog, type CallTurnLog } from '@/lib/store.ts';
 import { stopAudio } from '@/lib/player.ts';
+import { dlog } from '@/lib/debug.ts';
 
 type Status = 'ringing' | 'connecting' | 'partner' | 'you' | 'listening' | 'thinking' | 'error' | 'ended';
 
 const GENERIC_REACT = ['Ha, okay.', 'Got it.', 'Fair enough.', 'Okay, okay.'];
+const RETRY_CUES = ['Sorry, go ahead.', "Sorry, I didn't catch that. Say it again?", "I'm listening."];
 const RATE = { slow: 0.9, ok: 1, fast: 1.06 } as const;
 
 export function Call(props: {
@@ -37,8 +40,8 @@ export function Call(props: {
   const [status, setStatus] = useState<Status>('ringing');
   const [caption, setCaption] = useState('');
   const [captionZh, setCaptionZh] = useState('');
-  const [showCaption, setShowCaption] = useState(true);
   const [zhOpen, setZhOpen] = useState(false);
+  const [showCaption, setShowCaption] = useState(true);
   const [mine, setMine] = useState('');
   const [interim, setInterim] = useState('');
   const [note, setNote] = useState<string | null>(null);
@@ -54,6 +57,7 @@ export function Call(props: {
   const turns = useRef<CallTurnLog[]>([]);
   const idx = useRef(0);
   const retried = useRef(false);
+  const retryNo = useRef(0);
   const partnerEnd = useRef(0);
   const speakMs = useRef(0);
   const lastPartner = useRef('');
@@ -64,11 +68,19 @@ export function Call(props: {
   const alive = useRef(true);
   const voice = useRef<SpeechSynthesisVoice | null>(null);
   const keyRef = useRef('');
+  const typingRef = useRef(typing);
+  typingRef.current = typing;
   const rate = RATE[settings.pace];
 
   useEffect(() => {
     alive.current = true;
     stopAudio();
+    // Read the key straight from storage so the badge is never stale.
+    void getApiKey().then((k) => {
+      keyRef.current = k;
+      dlog('call', `key present: ${k ? `yes (${k.length} chars)` : 'no'} · model ${settings.aiModel}`);
+      if (alive.current) setMode(k ? 'ai' : 'script');
+    });
     return () => {
       alive.current = false;
       handle.current?.cancel();
@@ -76,7 +88,7 @@ export function Call(props: {
       abort.current?.abort();
       stopSpeaking();
     };
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if (status === 'ringing' || status === 'ended') return;
@@ -84,9 +96,53 @@ export function Call(props: {
     return () => window.clearInterval(t);
   }, [status]);
 
+  /* ---------- listening: always right after a speechSynthesis utterance ---------- */
+
+  async function startListening() {
+    if (!alive.current) return;
+    if (typingRef.current || !asrSupported()) { setStatus('you'); return; }
+    await waitIdle(3000);
+    if (!alive.current) return;
+    setStatus('listening');
+    setInterim('');
+    setNote(null);
+    let speechAt = 0;
+    const t0 = Date.now();
+    const h = listen({ onInterim: setInterim, onSpeechStart: () => { speechAt = Date.now(); } });
+    handle.current = h;
+    const r = await h.done;
+    if (handle.current === h) handle.current = null;
+    if (!alive.current) return;
+    if (r.ok) {
+      speakMs.current += Date.now() - (speechAt || t0);
+      return handleAnswer(r.text);
+    }
+    setStatus('you');
+    if (r.error === 'not-allowed') { setTyping(true); setNote('麦克风或语音识别没被允许。可以在系统设置里打开，先打字回答。'); }
+    else if (r.error === 'service') { setTyping(true); setNote('这台手机的语音识别没开（iPhone：设置 → Siri / 听写）。先打字回答。'); }
+    else if (r.error === 'missing' || r.error === 'network') { setTyping(true); setNote('这台设备暂时用不了语音识别，先打字回答。'); }
+    else if (r.error === 'aborted') setNote(null);
+    else setNote(asrFailStreak() >= 2 ? '还是没听到。点「再说一次」，或者点键盘打字。' : '没听到。点「再说一次」，或者打字。');
+  }
+
+  /** Mic button when idle: a short spoken cue first (iOS needs speech right before a session), then listen. */
+  async function retryListen() {
+    if (status !== 'you') return;
+    unlockTts();
+    stopSpeaking();
+    setStatus('partner');
+    const cue = RETRY_CUES[retryNo.current++ % RETRY_CUES.length];
+    await speak(cue, { voice: voice.current, rate });
+    void startListening();
+  }
+
+  function finishSpeaking() {
+    handle.current?.finish();
+  }
+
   /* ---------- partner side ---------- */
 
-  async function sayScripted(text: string, zh = '') {
+  async function sayScripted(text: string, zh = '', thenListen = true) {
     if (!alive.current) return;
     setStatus('partner');
     setCaption(text);
@@ -96,12 +152,14 @@ export function Call(props: {
     await speak(text, { voice: voice.current, rate });
     if (!alive.current) return;
     partnerEnd.current = Date.now();
-    setStatus('you');
+    if (thenListen) void startListening();
+    else setStatus('you');
   }
 
   async function aiTurn() {
     setStatus('thinking');
     setCaptionZh('');
+    setError(null);
     const q = new SpeechQueue(voice.current, rate);
     queue.current = q;
     const ac = new AbortController();
@@ -110,7 +168,6 @@ export function Call(props: {
     try {
       const userTurns = turns.current.length;
       const msgs = [...history.current];
-      // Stage notes go on a copy of the last message only, never into history.
       const notes: string[] = [];
       const lastTurn = turns.current[turns.current.length - 1];
       if (lastTurn) {
@@ -137,28 +194,27 @@ export function Call(props: {
       if (!alive.current) return;
       partnerEnd.current = Date.now();
       if (/\[END\]/i.test(full) || turns.current.length >= aiMax + 2) finish();
-      else setStatus('you');
+      else void startListening();
     } catch (e) {
       if (!alive.current) return;
       const err = e as AiError;
       if (err.code === 'aborted') return;
       q.cancel();
-      if (turns.current.length === 0 && (err.code === 'auth' || err.code === 'balance' || err.code === 'model')) {
-        setNote(`${err.message} 先用剧本通话。`);
-        setMode('script');
-        void scriptStart();
-        return;
-      }
-      setError(err.message);
+      dlog('call', `AI error shown: ${err.message}`);
+      // Never switch silently: show the real error, the user decides.
+      setError(err.message || String(e));
       setStatus('error');
     }
   }
 
-  async function scriptStart() {
-    idx.current = 0;
+  function switchToScript() {
+    setError(null);
+    setMode('script');
+    dlog('call', 'user switched to script mode');
+    idx.current = Math.min(turns.current.length, script.length - 1);
     retried.current = false;
-    const t = script[0];
-    await sayScripted(t.line, t.zh);
+    const t = script[idx.current];
+    void sayScripted(t.line, t.zh);
   }
 
   /* ---------- call control ---------- */
@@ -167,19 +223,25 @@ export function Call(props: {
     unlockTts();
     setStatus('connecting');
     startedAt.current = Date.now();
-    const voices = await waitVoices();
-    void voices;
+    await waitVoices();
     voice.current = pickVoice(GENDER[partner] ?? 'female', GENDER[partner] === 'male' ? settings.voiceURIMale : settings.voiceURI);
+    keyRef.current = await getApiKey();
+    dlog('call', `accept: mode=${mode} key=${keyRef.current ? 'yes' : 'no'} model=${settings.aiModel} voice=${voice.current?.name ?? 'default'}`);
     if (mode === 'ai') {
-      keyRef.current = await getApiKey();
-      if (!keyRef.current) { setMode('script'); return scriptStart(); }
+      if (!keyRef.current) {
+        setError('没有读到 API Key（浏览器和主屏幕图标是两份存储，请在这个图标里的「我」重新填写）。');
+        setStatus('error');
+        return;
+      }
       history.current = [
         { role: 'system', content: roleplaySystem(scene, ep, partner, settings.pace, aiMax) },
         openingUser(),
       ];
       return aiTurn();
     }
-    return scriptStart();
+    idx.current = 0;
+    retried.current = false;
+    return sayScripted(script[0].line, script[0].zh);
   }
 
   function finish() {
@@ -197,19 +259,15 @@ export function Call(props: {
   }
 
   function goRecap() {
-    onDone({
-      episodeId: ep.id,
-      at: Date.now(),
-      mode,
-      turns: turns.current,
-      speakMs: speakMs.current,
-    });
+    onDone({ episodeId: ep.id, at: Date.now(), mode, turns: turns.current, speakMs: speakMs.current });
   }
 
   /* ---------- your side ---------- */
 
   async function handleAnswer(text: string, opts: { typed?: boolean } = {}) {
     const clean = text.trim();
+    if (!clean) return;
+    if (handle.current) { handle.current.cancel(); handle.current = null; }
     setMine(clean);
     setInterim('');
     setNote(null);
@@ -217,6 +275,8 @@ export function Call(props: {
     setHintLevel(0);
     setHint(null);
     const latency = partnerEnd.current ? Date.now() - partnerEnd.current : undefined;
+    // Let an un-cut iOS session finish before the partner speaks again.
+    await waitIdle(3000);
 
     if (mode === 'ai') {
       turns.current.push({ partner: lastPartner.current, user: clean, hintUsed: usedHint || undefined, typed: opts.typed, latencyMs: latency });
@@ -224,7 +284,6 @@ export function Call(props: {
       return aiTurn();
     }
 
-    // scripted branching
     const t = script[idx.current];
     const k = matchOption(clean, t.options);
     const wordsCount = clean.split(/\s+/).filter(Boolean).length;
@@ -241,37 +300,11 @@ export function Call(props: {
     idx.current += 1;
     retried.current = false;
     if (idx.current >= script.length) {
-      await sayScripted(`${react} ${ep.call.bye}`);
+      await sayScripted(`${react} ${ep.call.bye}`, '', false);
       return finish();
     }
     const nt = script[idx.current];
     return sayScripted(`${react} ${nt.line}`, nt.zh);
-  }
-
-  async function tapMic() {
-    if (status === 'listening') { handle.current?.stop(); return; }
-    if (status !== 'you') return;
-    stopSpeaking();
-    setStatus('listening');
-    setInterim('');
-    setNote(null);
-    let speechAt = 0;
-    const t0 = Date.now();
-    const h = listen({ onInterim: setInterim, onSpeechStart: () => { speechAt = Date.now(); }, maxMs: 15000 });
-    handle.current = h;
-    const r = await h.done;
-    handle.current = null;
-    if (!alive.current) return;
-    if (r.ok) {
-      speakMs.current += Date.now() - (speechAt || t0);
-      return handleAnswer(r.text);
-    }
-    setStatus('you');
-    if (r.error === 'not-allowed') { setTyping(true); setNote('麦克风没开。可以在浏览器设置里允许，或者先打字回答。'); }
-    else if (r.error === 'service') { setTyping(true); setNote('这台手机的语音识别没开（iPhone：设置 → Siri / 听写）。先打字回答。'); }
-    else if (r.error === 'missing' || r.error === 'network') { setTyping(true); setNote('这台设备暂时用不了语音识别，先打字回答。'); }
-    else if (r.error === 'no-speech') setNote(asrFailStreak() >= 2 ? '还是没听到。可以点键盘打字。' : '没听到，再说一次？');
-    else if (r.error === 'failed') { setNote('识别出错了，再试一次，或点键盘打字。'); }
   }
 
   async function tapHint() {
@@ -298,14 +331,21 @@ export function Call(props: {
     : null;
   const h = mode === 'ai' ? hint : scriptHint;
 
-  function sayHintLine() {
-    if (!h) return;
+  /** Model line (other voice), then listen: doubles as the iOS pre-session utterance. */
+  async function sayHintLine() {
+    if (!h || status !== 'you') return;
+    unlockTts();
+    setStatus('partner');
     const other = GENDER[partner] === 'male' ? 'female' : 'male';
-    void speak(h.line, { voice: pickVoice(other), rate: 0.9 });
+    await speak(h.line, { voice: pickVoice(other), rate: 0.9 });
+    void startListening();
   }
 
   const mm = `${Math.floor(elapsed / 60)}:${String(elapsed % 60).padStart(2, '0')}`;
   const chips = mode === 'script' && script[idx.current] ? script[idx.current].options.map((o) => o.say) : [];
+  const badge = mode === 'ai'
+    ? <span className="pill pill--ai"><Icon name="spark" size={12} /> AI 实时</span>
+    : <span className="pill pill--script">剧本模式</span>;
 
   /* ---------- render ---------- */
 
@@ -316,9 +356,11 @@ export function Call(props: {
           <div className="ring-pulse"><Avatar id={partner} size={148} /></div>
           <h1 className="call__name">{name}</h1>
           <p className="call__sub">来电 · {ep.call.sceneZh}</p>
-          {mode === 'script' && <p className="pill pill--soft">剧本通话 · 在「我」里加 DeepSeek 密钥，可以自由聊</p>}
-          {mode === 'ai' && <p className="pill pill--ai"><Icon name="spark" size={14} /> AI 实时对话</p>}
+          {mode === 'ai'
+            ? <p className="pill pill--ai pill--lg"><Icon name="spark" size={14} /> AI 实时 · {settings.aiModel}</p>
+            : <p className="pill pill--script pill--lg">剧本模式 · 没有读到 DeepSeek 密钥</p>}
         </div>
+        <DebugOverlay />
         <div className="call__answer">
           <div className="call__answer-col">
             <button className="round-btn round-btn--red" onClick={onExit} aria-label="拒绝"><Icon name="phone" size={30} style={{ transform: 'rotate(135deg)' }} /></button>
@@ -339,7 +381,7 @@ export function Call(props: {
         <div className="call__center">
           <Avatar id={partner} size={112} />
           <h1 className="call__name">通话结束</h1>
-          <p className="call__sub">{mm} · 你开口 {turns.current.length} 次</p>
+          <p className="call__sub">{mm} · 你开口 {turns.current.length} 次 · {mode === 'ai' ? 'AI 实时' : '剧本模式'}</p>
         </div>
         <div className="call__end-actions">
           <button className="btn btn--primary btn--block" onClick={goRecap}>看小结</button>
@@ -349,15 +391,17 @@ export function Call(props: {
   }
 
   const speaking = status === 'partner';
+  const listening = status === 'listening';
   return (
     <div className="call call--live">
       <div className="call__top">
         <span className="call__timer">{mm}</span>
-        <span className={`pill ${mode === 'ai' ? 'pill--ai' : 'pill--soft'}`}>{mode === 'ai' ? <><Icon name="spark" size={12} /> AI</> : '剧本'}</span>
+        {badge}
         <button className={`icon-btn icon-btn--dark${showCaption ? ' is-on' : ''}`} onClick={() => setShowCaption((v) => !v)} aria-label="字幕">
           <Icon name={showCaption ? 'eye' : 'eyeOff'} size={20} />
         </button>
       </div>
+      <DebugOverlay />
 
       <div className="call__center call__center--live">
         <div className={`speaker-ring${speaking ? ' is-speaking' : ''}`}><Avatar id={partner} size={120} /></div>
@@ -369,7 +413,7 @@ export function Call(props: {
             <>
               <p className="caption__en" onClick={() => setZhOpen((v) => !v)}>{caption}</p>
               {captionZh && (zhOpen || hintLevel > 0) && <p className="caption__zh">{captionZh}</p>}
-              {captionZh && !zhOpen && hintLevel === 0 && status === 'you' && (
+              {captionZh && !zhOpen && hintLevel === 0 && (status === 'you' || listening) && (
                 <button className="link-btn link-btn--light" onClick={() => setZhOpen(true)}>没听懂？看中文</button>
               )}
             </>
@@ -378,9 +422,12 @@ export function Call(props: {
           )}
           {status === 'thinking' && caption && <span className="typing typing--sm"><i /><i /><i /></span>}
         </div>
-        {(mine || interim) && (
-          <div className={`mine${status === 'listening' ? ' is-live' : ''}`}>{status === 'listening' ? interim || '…' : mine}</div>
-        )}
+        {listening ? (
+          <div className="mine is-live">
+            <span className="mine__label"><span className="rec-dot-sm" /> 在听</span>
+            {interim || <span className="mine__ph">直接说英文…</span>}
+          </div>
+        ) : mine ? <div className="mine">{mine}</div> : null}
       </div>
 
       <div className="call__bottom">
@@ -388,28 +435,23 @@ export function Call(props: {
           <div className="hint-card">
             <p className="hint-card__zh"><Icon name="bulb" size={16} /> {h.zh}</p>
             {hintLevel >= 2 && <p className="hint-card__first">{hintLevel >= 3 ? h.line : h.first}</p>}
-            {hintLevel >= 3 && (
-              <button className="link-btn" onClick={sayHintLine}><Icon name="volume" size={16} /> 听一遍，跟着说</button>
+            {hintLevel >= 3 && status === 'you' && (
+              <button className="link-btn" onClick={() => void sayHintLine()}><Icon name="volume" size={16} /> 听一遍，然后跟着说</button>
             )}
           </div>
         )}
         {note && <p className="call__note">{note}</p>}
         {status === 'error' && (
-          <div className="hint-card">
+          <div className="hint-card hint-card--error">
             <p className="error">{error}</p>
-            <div className="row gap">
-              <button className="btn btn--soft" onClick={() => { setError(null); void aiTurn(); }}>重试</button>
-              <button className="btn btn--soft" onClick={() => {
-                setError(null); setMode('script');
-                idx.current = Math.min(turns.current.length, script.length - 1);
-                const t = script[idx.current];
-                void sayScripted(t.line, t.zh);
-              }}>改用剧本</button>
+            <div className="row gap wrap">
+              {mode === 'ai' && history.current.length > 0 && <button className="btn btn--soft" onClick={() => void aiTurn()}>重试</button>}
+              <button className="btn btn--soft" onClick={switchToScript}>改用剧本</button>
             </div>
           </div>
         )}
 
-        {typing && (status === 'you' || status === 'listening') && (
+        {typing && (status === 'you' || listening) && (
           <div className="type-area">
             {chips.length > 0 && (
               <div className="chips">
@@ -432,25 +474,33 @@ export function Call(props: {
         )}
 
         <div className="call__controls">
-          <button className="ctrl" onClick={() => void tapHint()} disabled={status !== 'you' || hintLevel >= 3 || hintBusy} aria-label="提示">
+          <button className="ctrl" onClick={() => void tapHint()} disabled={(status !== 'you' && !listening) || hintLevel >= 3 || hintBusy} aria-label="提示">
             <span className="ctrl__icon"><Icon name="bulb" size={22} /></span>
             <span>{hintBusy ? '…' : hintLevel === 0 ? '提示' : `提示 ${hintLevel}/3`}</span>
           </button>
-          <button
-            className={`talk-btn${status === 'listening' ? ' is-live' : ''}${status === 'you' ? ' is-ready' : ''}`}
-            onClick={() => void tapMic()}
-            disabled={status !== 'you' && status !== 'listening'}
-            aria-label={status === 'listening' ? '说完了' : '说话'}
-          >
-            <Icon name={status === 'listening' ? 'stop' : 'mic'} size={38} />
-          </button>
+          {listening ? (
+            <button className="talk-btn is-live" onClick={finishSpeaking} aria-label="说完了">
+              <Icon name="check" size={40} />
+            </button>
+          ) : (
+            <button
+              className={`talk-btn${status === 'you' && !typing ? ' is-ready' : ''}`}
+              onClick={() => void retryListen()}
+              disabled={status !== 'you'}
+              aria-label="再说一次"
+            >
+              <Icon name="mic" size={38} />
+            </button>
+          )}
           <button className="ctrl" onClick={() => setTyping((v) => !v)} aria-label="打字">
             <span className={`ctrl__icon${typing ? ' is-on' : ''}`}><Icon name="keyboard" size={22} /></span>
             <span>打字</span>
           </button>
         </div>
         <p className="call__status">
-          {status === 'you' ? '轮到你了，点麦克风说' : status === 'listening' ? '在听… 说完点一下' : status === 'partner' ? `${name} 在说` : status === 'thinking' || status === 'connecting' ? '…' : ''}
+          {listening ? '在听，说完点 ✓（或停一下）'
+            : status === 'you' ? (typing ? '打字回答，或点麦克风说' : '点麦克风，再说一次')
+            : speaking ? `${name} 在说…` : status === 'thinking' || status === 'connecting' ? `${name} 在想…` : ''}
         </p>
         <button className="hangup" onClick={() => void hangUp()} aria-label="挂断"><Icon name="phone" size={26} style={{ transform: 'rotate(135deg)' }} /></button>
       </div>
