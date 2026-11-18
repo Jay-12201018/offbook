@@ -16,11 +16,10 @@ export default defineConfig({
       workbox: {
         // App shell + small catalog JSON only. Never precache content/audio.
         globPatterns: [
-          '**/*.{js,css,html,ico,png,woff2,webmanifest,svg,txt}',
+          '**/*.{js,css,html,ico,png,webp,woff2,webmanifest,svg,txt}',
           'content/index.json',
           'content/packs.json',
           'content/sequence.json',
-          'content/skill-tree.json',
           'content/licenses.md',
           'content/scenes/*.json',
         ],

@@ -2,15 +2,15 @@
   "id": "/offbook/",
   "name": "脱稿 Offbook",
   "short_name": "脱稿",
-  "description": "练习听懂没字幕的英语，并且敢说出来。",
+  "description": "每天一通电话，把英语说出口。",
   "lang": "zh-CN",
   "dir": "ltr",
   "start_url": "/offbook/",
   "scope": "/offbook/",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#F3EEE4",
-  "theme_color": "#F3EEE4",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
   "icons": [
     {
       "src": "/offbook/icons/icon-192.png",

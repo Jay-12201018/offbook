@@ -22,10 +22,16 @@ libritts_r voices.
 
 Rendered audio in this app is of our own original lines.
 
-## Source Serif 4
+## Character avatars
 
-Copyright 2014–2023 Adobe, with Reserved Font Name “Source”.
-Licensed under the SIL Open Font License, Version 1.1.
-https://scripts.sil.org/OFL
+The Maya, Chris, Matt and Jordan avatars are original illustrations made for this app.
 
-The full license text is also at `/fonts/OFL.txt`.
+## Device voices and AI
+
+Live calls use your device's built-in speech synthesis and speech recognition.
+If you add your own DeepSeek API key, call text is sent from your device
+directly to api.deepseek.com under DeepSeek's terms. The app has no server.
+
+## Libraries
+
+React, idb, Vite and Workbox are used under the MIT License.
