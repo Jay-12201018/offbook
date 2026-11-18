@@ -1,0 +1,297 @@
+{
+  "id": "diag-listen-120",
+  "packId": "diag",
+  "dayInPack": 1,
+  "title": "An easy weekend",
+  "titleZh": "一个轻松的周末",
+  "setting": "Maya and Chris are on a quiet afternoon call, making a simple weekend plan. This is the slow, clear diagnostic: familiar topic, lighter reductions, more complete function words.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "diag",
+  "targetWpm": 120,
+  "slowerWpm": 100,
+  "durationSec": 90,
+  "newItems": [],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "chris",
+      "text": "So, what do you want to do this weekend?",
+      "spoken": "So, what do you want to do this weekend?",
+      "audio": "audio/diag-listen-120/l1.m4a",
+      "durationMs": 2302
+    },
+    {
+      "id": "l2",
+      "speaker": "maya",
+      "text": "I don't know. I was thinking we could just get food and walk around. Nothing big.",
+      "spoken": "I don't know. I was thinking we could just get food and walk around. Nothing big.",
+      "audio": "audio/diag-listen-120/l2.m4a",
+      "durationMs": 4856
+    },
+    {
+      "id": "l3",
+      "speaker": "chris",
+      "text": "That sounds good. I have to do laundry Saturday morning, but I'm free after that.",
+      "spoken": "That sounds good. I have to do laundry Saturday morning, but I'm free after that.",
+      "audio": "audio/diag-listen-120/l3.m4a",
+      "durationMs": 5083
+    },
+    {
+      "id": "l4",
+      "speaker": "maya",
+      "text": "Okay. Maybe Saturday afternoon? We could go to that market, the one near your place.",
+      "spoken": "Okay. Maybe Saturday afternoon? We could go to that market, the one near your place.",
+      "audio": "audio/diag-listen-120/l4.m4a",
+      "durationMs": 6639
+    },
+    {
+      "id": "l5",
+      "speaker": "chris",
+      "text": "Yeah, I like that market. We can go early, though, because it gets crowded.",
+      "spoken": "Yeah, I like that market. We can go early, though, because it gets crowded.",
+      "audio": "audio/diag-listen-120/l5.m4a",
+      "durationMs": 5070
+    },
+    {
+      "id": "l6",
+      "speaker": "maya",
+      "text": "Early is fine. Like, two?",
+      "spoken": "Early is fine. Like, two?",
+      "audio": "audio/diag-listen-120/l6.m4a",
+      "durationMs": 2294
+    },
+    {
+      "id": "l7",
+      "speaker": "chris",
+      "text": "Two is not early, but two is fine.",
+      "spoken": "Two is not early, but two is fine.",
+      "audio": "audio/diag-listen-120/l7.m4a",
+      "durationMs": 2031
+    },
+    {
+      "id": "l8",
+      "speaker": "maya",
+      "text": "Okay, two. And if it is raining, we can just go to a cafe instead.",
+      "spoken": "Okay, two. And if it is raining, we can just go to a cafe instead.",
+      "audio": "audio/diag-listen-120/l8.m4a",
+      "durationMs": 4659
+    },
+    {
+      "id": "l9",
+      "speaker": "chris",
+      "text": "Yeah. I'll text you Saturday morning and we'll decide.",
+      "spoken": "Yeah. I'll text you Saturday morning and we'll decide.",
+      "audio": "audio/diag-listen-120/l9.m4a",
+      "durationMs": 3597
+    },
+    {
+      "id": "l10",
+      "speaker": "maya",
+      "text": "Perfect. I need an easy weekend, honestly. This week was a lot.",
+      "spoken": "Perfect. I need an easy weekend, honestly. This week was a lot.",
+      "audio": "audio/diag-listen-120/l10.m4a",
+      "durationMs": 4804
+    },
+    {
+      "id": "l11",
+      "speaker": "chris",
+      "text": "Same. Food and walking. That's the whole plan.",
+      "spoken": "Same. Food and walking. That's the whole plan.",
+      "audio": "audio/diag-listen-120/l11.m4a",
+      "durationMs": 3795
+    },
+    {
+      "id": "l12",
+      "speaker": "maya",
+      "text": "That's the whole plan. I love that.",
+      "spoken": "That's the whole plan. I love that.",
+      "audio": "audio/diag-listen-120/l12.m4a",
+      "durationMs": 2517
+    },
+    {
+      "id": "l13",
+      "speaker": "chris",
+      "text": "Do you want to look at the weather, or do we just wait?",
+      "spoken": "Do you want to look at the weather, or do we just wait?",
+      "audio": "audio/diag-listen-120/l13.m4a",
+      "durationMs": 2729
+    },
+    {
+      "id": "l14",
+      "speaker": "maya",
+      "text": "We can wait. I do not want to overthink it.",
+      "spoken": "We can wait. I do not want to overthink it.",
+      "audio": "audio/diag-listen-120/l14.m4a",
+      "durationMs": 3100
+    },
+    {
+      "id": "l15",
+      "speaker": "chris",
+      "text": "Good. Then I'll see you Saturday, around two, near the market.",
+      "spoken": "Good. Then I'll see you Saturday, around two, near the market.",
+      "audio": "audio/diag-listen-120/l15.m4a",
+      "durationMs": 3898
+    },
+    {
+      "id": "l16",
+      "speaker": "maya",
+      "text": "Yes. Saturday, two, the market. I'm writing it down so I don't forget.",
+      "spoken": "Yes. Saturday, two, the market. I'm writing it down so I don't forget.",
+      "audio": "audio/diag-listen-120/l16.m4a",
+      "durationMs": 5059
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "他们在计划什么时候见面、做什么？",
+      "askEn": "What are they planning, and when?",
+      "accept": [
+        "Saturday afternoon",
+        "get food and walk around",
+        "go to the market",
+        "周六下午",
+        "吃饭散步",
+        "去市场"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "这是一个很复杂的计划吗？他们想要怎样的周末？",
+      "askEn": "Is this a complicated plan? What kind of weekend do they want?",
+      "accept": [
+        "no, it's simple",
+        "an easy weekend",
+        "nothing big",
+        "不复杂",
+        "轻松的周末",
+        "没什么大事"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "Chris 周六早上要先做什么？他们约在几点？",
+      "askEn": "What does Chris have to do Saturday morning, and what time do they say?",
+      "accept": [
+        "laundry",
+        "around two",
+        "洗衣服",
+        "大约两点"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "如果下雨，他们怎么办？何时再确认？",
+      "askEn": "What if it rains, and when will they confirm?",
+      "accept": [
+        "go to a cafe instead",
+        "text Saturday morning",
+        "改去咖啡店",
+        "周六早上发消息"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l1",
+      "span": "what do you want to do this weekend",
+      "hear": "what do you want to do this weekend",
+      "noteZh": "这段诊断里 want to 说得比较完整。后面更快的材料里，同样的位置常会变成 wanna。先听听完整形式。",
+      "standard": "what do you want to do this weekend"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l5",
+      "span": "because it gets crowded",
+      "hear": "because it gets crowded",
+      "noteZh": "这里的 because 也比较完整。注意 it gets 两个短词，说明市场会拥挤。",
+      "standard": "because it gets crowded"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l14",
+      "span": "I do not want to overthink it",
+      "hear": "I do not want to overthink it",
+      "noteZh": "do not want to 四个功能词都还在。更快的语速里，它可能变成 I don't wanna。",
+      "standard": "I do not want to overthink it"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "What do you want to do this weekend?",
+      "meaningZh": "你这周末想干什么？",
+      "fromLineId": "l1",
+      "sayAfter": "So, what do you want to do this weekend?",
+      "audio": "audio/diag-listen-120/c1.m4a",
+      "durationMs": 1698,
+      "afterAudio": "audio/diag-listen-120/c1-after.m4a",
+      "afterDurationMs": 2337
+    },
+    {
+      "id": "c2",
+      "form": "Nothing big.",
+      "meaningZh": "没什么大事 / 简单就好。",
+      "fromLineId": "l2",
+      "sayAfter": "We could just get food and walk around. Nothing big.",
+      "audio": "audio/diag-listen-120/c2.m4a",
+      "durationMs": 1191,
+      "afterAudio": "audio/diag-listen-120/c2-after.m4a",
+      "afterDurationMs": 3393
+    },
+    {
+      "id": "c3",
+      "form": "That is the whole plan.",
+      "meaningZh": "计划就是这样，就这些。",
+      "fromLineId": "l11",
+      "sayAfter": "Food and walking. That is the whole plan.",
+      "audio": "audio/diag-listen-120/c3.m4a",
+      "durationMs": 1409,
+      "afterAudio": "audio/diag-listen-120/c3-after.m4a",
+      "afterDurationMs": 2955
+    }
+  ],
+  "roleplay": {
+    "setupZh": "一个朋友问你这周末想干什么。你想要约一个轻松的计划：吃点东西、走走，不定太满。把时间、地点和下雨备选说清楚。",
+    "aiRole": "Chris, calm and easy to talk to. He has laundry in the morning but is free after that. He will help you land a simple plan without rushing you.",
+    "variants": [
+      "The learner prefers Sunday instead.",
+      "They pick a cafe from the start.",
+      "Chris is busy until four."
+    ],
+    "mustUse": [
+      "What do you want to do this weekend",
+      "Nothing big"
+    ],
+    "starters": [
+      "So, what do you want to do this weekend?",
+      "I was thinking we could just get food and walk around.",
+      "Nothing big."
+    ]
+  },
+  "fluency": {
+    "promptZh": "用自己的话把这个周末计划讲出来：哪一天、几点、去哪、下雨怎么办。准备 15 秒，然后说 60、45、30 秒。",
+    "promptEn": "Retell the weekend plan: which day, what time, where, and the rain backup. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/diag-listen-120/full.m4a",
+  "audioFullDurationMs": 67220
+}

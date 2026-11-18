@@ -1,0 +1,306 @@
+{
+  "id": "pack02-02-im-on-my-way",
+  "packId": "pack-02-change-of-plans",
+  "dayInPack": 2,
+  "title": "I'm on my way",
+  "titleZh": "我在路上了",
+  "setting": "A follow-up call. Chris is actually in the car this time. Maya is deciding whether to get a table.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "A-daily-open",
+  "targetWpm": 140,
+  "slowerWpm": 115,
+  "durationSec": 68,
+  "newItems": [],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "You close?",
+      "spoken": "You close?",
+      "audio": "audio/pack02-02-im-on-my-way/l1.m4a",
+      "durationMs": 905
+    },
+    {
+      "id": "l2",
+      "speaker": "chris",
+      "text": "I'm on my way. I just got on the freeway.",
+      "spoken": "I'm on my way. I just got on the freeway.",
+      "audio": "audio/pack02-02-im-on-my-way/l2.m4a",
+      "durationMs": 2967
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "Okay. The freeway at this hour, though.",
+      "spoken": "Okay. The freeway at this hour, though.",
+      "audio": "audio/pack02-02-im-on-my-way/l3.m4a",
+      "durationMs": 3016
+    },
+    {
+      "id": "l4",
+      "speaker": "chris",
+      "text": "I know. Traffic's being annoying, but it's moving. Sort of.",
+      "spoken": "I know. Traffic's being annoying, but it's moving. Sort of.",
+      "audio": "audio/pack02-02-im-on-my-way/l4.m4a",
+      "durationMs": 4626
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "You want me to get a table, or wait outside?",
+      "spoken": "You want me to get a table, or wait outside?",
+      "audio": "audio/pack02-02-im-on-my-way/l5.m4a",
+      "durationMs": 2541
+    },
+    {
+      "id": "l6",
+      "speaker": "chris",
+      "text": "Get a table. It's gonna be a minute. Give me like fifteen, maybe twenty.",
+      "spoken": "Get a table. It's gonna be a minute. Gimme like fifteen, maybe twenty.",
+      "audio": "audio/pack02-02-im-on-my-way/l6.m4a",
+      "durationMs": 5224
+    },
+    {
+      "id": "l7",
+      "speaker": "maya",
+      "text": "You said fifteen last time.",
+      "spoken": "You said fifteen last time.",
+      "audio": "audio/pack02-02-im-on-my-way/l7.m4a",
+      "durationMs": 2036
+    },
+    {
+      "id": "l8",
+      "speaker": "chris",
+      "text": "I know I did. I'm not sitting in my kitchen this time, I promise. I'm on the road.",
+      "spoken": "I know I did. I'm not sitting in my kitchen this time, I promise. I'm on the road.",
+      "audio": "audio/pack02-02-im-on-my-way/l8.m4a",
+      "durationMs": 5846
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "Okay, okay. I'll get a table. You want me to order you water or something?",
+      "spoken": "Okay, okay. I'll get a table. You want me to order you water or something?",
+      "audio": "audio/pack02-02-im-on-my-way/l9.m4a",
+      "durationMs": 4749
+    },
+    {
+      "id": "l10",
+      "speaker": "chris",
+      "text": "Yeah. That'd be great. I'm sorry this is taking so long.",
+      "spoken": "Yeah. That'd be great. I'm sorry this is taking so long.",
+      "audio": "audio/pack02-02-im-on-my-way/l10.m4a",
+      "durationMs": 4355
+    },
+    {
+      "id": "l11",
+      "speaker": "maya",
+      "text": "You're on your way. That's already better than 'I just left.'",
+      "spoken": "You're on your way. That's already better than 'I just left.'",
+      "audio": "audio/pack02-02-im-on-my-way/l11.m4a",
+      "durationMs": 3189
+    },
+    {
+      "id": "l12",
+      "speaker": "chris",
+      "text": "Wow. Okay. I deserve that.",
+      "spoken": "Wow. Okay. I deserve that.",
+      "audio": "audio/pack02-02-im-on-my-way/l12.m4a",
+      "durationMs": 3041
+    },
+    {
+      "id": "l13",
+      "speaker": "maya",
+      "text": "A little bit. Text me when you're pulling up.",
+      "spoken": "A little bit. Text me when you're pulling up.",
+      "audio": "audio/pack02-02-im-on-my-way/l13.m4a",
+      "durationMs": 2770
+    },
+    {
+      "id": "l14",
+      "speaker": "chris",
+      "text": "Will do. I'm on my way. For real.",
+      "spoken": "Will do. I'm on my way. For real.",
+      "audio": "audio/pack02-02-im-on-my-way/l14.m4a",
+      "durationMs": 3277
+    },
+    {
+      "id": "l15",
+      "speaker": "maya",
+      "text": "I know. Just drive. Don't talk and look for parking at the same time.",
+      "spoken": "I know. Just drive. Don't talk and look for parking at the same time.",
+      "audio": "audio/pack02-02-im-on-my-way/l15.m4a",
+      "durationMs": 4880
+    },
+    {
+      "id": "l16",
+      "speaker": "chris",
+      "text": "Yes. Hanging up. See you soon.",
+      "spoken": "Yes. Hanging up. See you soon.",
+      "audio": "audio/pack02-02-im-on-my-way/l16.m4a",
+      "durationMs": 3311
+    },
+    {
+      "id": "l17",
+      "speaker": "maya",
+      "text": "See you soon.",
+      "spoken": "See you soon.",
+      "audio": "audio/pack02-02-im-on-my-way/l17.m4a",
+      "durationMs": 1258
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "Chris 现在在哪儿？",
+      "askEn": "Where is Chris now?",
+      "accept": [
+        "on his way",
+        "on the freeway",
+        "in the car",
+        "on the road",
+        "在路上",
+        "上高速了",
+        "在开车"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "Maya 准备先做什么？",
+      "askEn": "What is Maya going to do while she waits?",
+      "accept": [
+        "get a table",
+        "order him water",
+        "先占桌",
+        "先要杯水",
+        "在店里等"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "路况怎么样？他还要多久？",
+      "askEn": "How's traffic, and how long does he need?",
+      "accept": [
+        "annoying but moving",
+        "fifteen maybe twenty",
+        "a minute",
+        "有点堵但在动",
+        "大概十五到二十分钟"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "Maya 让他到的时候做什么？",
+      "askEn": "What should Chris do when he's close?",
+      "accept": [
+        "text when he's pulling up",
+        "text her",
+        "快到时发消息",
+        "停车前发短信"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l2",
+      "span": "I'm on my way",
+      "hear": "I'm on my way",
+      "noteZh": "on my 两个弱读词连在一起，不要听成 I'm on the way 或丢掉 my。",
+      "standard": "I am on my way"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l6",
+      "span": "Give me like fifteen",
+      "hear": "Gimme like fifteen",
+      "noteZh": "Give me 缩成 gimme，like 又是填充词，时间数字被夹在缩减和口头禅中间。",
+      "standard": "Give me like fifteen"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l6",
+      "span": "It's gonna be a minute",
+      "hear": "It's gonna be a minute",
+      "noteZh": "gonna be a 三个词都很短，minute 在口语里常表示‘还要一会儿’，不是精确的一分钟。",
+      "standard": "It's going to be a minute"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "I'm on my way.",
+      "meaningZh": "我在路上了。",
+      "fromLineId": "l2",
+      "sayAfter": "I'm on my way. I just got on the freeway.",
+      "audio": "audio/pack02-02-im-on-my-way/c1.m4a",
+      "durationMs": 1022,
+      "afterAudio": "audio/pack02-02-im-on-my-way/c1-after.m4a",
+      "afterDurationMs": 2898
+    },
+    {
+      "id": "c2",
+      "form": "Traffic's being annoying.",
+      "meaningZh": "路上有点烦 / 有点堵。",
+      "fromLineId": "l4",
+      "sayAfter": "Traffic's being annoying, but it's moving.",
+      "audio": "audio/pack02-02-im-on-my-way/c2.m4a",
+      "durationMs": 1513,
+      "afterAudio": "audio/pack02-02-im-on-my-way/c2-after.m4a",
+      "afterDurationMs": 2541
+    },
+    {
+      "id": "c3",
+      "form": "Give me like fifteen.",
+      "meaningZh": "再给我大概十五分钟。",
+      "fromLineId": "l6",
+      "sayAfter": "Give me like fifteen, maybe twenty.",
+      "audio": "audio/pack02-02-im-on-my-way/c3.m4a",
+      "durationMs": 1198,
+      "afterAudio": "audio/pack02-02-im-on-my-way/c3-after.m4a",
+      "afterDurationMs": 2240
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你这次真的已经在路上了。对方还记得你上次说‘刚出门’。你要报路况，给出一个比较靠谱的时间，并请对方先占桌。",
+    "aiRole": "Maya, already there, teasing a little but helpful. She will get a table and may offer to order water. She wants a text when you're pulling up.",
+    "variants": [
+      "Traffic stops completely.",
+      "Maya can't get a table and waits at the bar.",
+      "Chris needs help with where to park."
+    ],
+    "mustUse": [
+      "I'm on my way",
+      "Give me like fifteen"
+    ],
+    "starters": [
+      "I'm on my way.",
+      "You close?",
+      "Get a table. Give me like fifteen."
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲这通电话：Chris 到哪了，路况如何，Maya 先做什么，他到的时候要发消息。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell this call: where Chris is, what traffic is like, what Maya will do first, and when he should text. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/pack02-02-im-on-my-way/full.m4a",
+  "audioFullDurationMs": 63088
+}

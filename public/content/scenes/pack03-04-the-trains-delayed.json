@@ -1,0 +1,293 @@
+{
+  "id": "pack03-04-the-trains-delayed",
+  "packId": "pack-03-getting-around",
+  "dayInPack": 4,
+  "title": "The train's delayed",
+  "titleZh": "火车晚点了",
+  "setting": "A crowded platform. An announcement just happened but was hard to hear. Maya asks a fellow passenger, Ben.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "ben",
+      "name": "Ben",
+      "gender": "male"
+    }
+  ],
+  "register": "travel",
+  "skillNode": "A-travel-open",
+  "targetWpm": 150,
+  "slowerWpm": 125,
+  "durationSec": 69,
+  "newItems": [
+    "delayed"
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "Sorry, do you know what's going on? We've been standing here forever.",
+      "spoken": "Sorry, d'you know what's going on? We've been standing here forever.",
+      "audio": "audio/pack03-04-the-trains-delayed/l1.m4a",
+      "durationMs": 3857
+    },
+    {
+      "id": "l2",
+      "speaker": "ben",
+      "text": "Yeah, the train's delayed. They just said it over the speaker, but I could barely hear it.",
+      "spoken": "Yeah, the train's delayed. They just said it over the speaker, but I could barely hear it.",
+      "audio": "audio/pack03-04-the-trains-delayed/l2.m4a",
+      "durationMs": 5052
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "Did they say how long?",
+      "spoken": "Did they say how long?",
+      "audio": "audio/pack03-04-the-trains-delayed/l3.m4a",
+      "durationMs": 1546
+    },
+    {
+      "id": "l4",
+      "speaker": "ben",
+      "text": "I think twenty minutes? Maybe more. They said 'mechanical issue,' which could mean anything.",
+      "spoken": "I think twenty minutes? Maybe more. They said 'mechanical issue,' which could mean anything.",
+      "audio": "audio/pack03-04-the-trains-delayed/l4.m4a",
+      "durationMs": 6400
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "Twenty. Okay. I guess we just wait.",
+      "spoken": "Twenty. Okay. I guess we just wait.",
+      "audio": "audio/pack03-04-the-trains-delayed/l5.m4a",
+      "durationMs": 3493
+    },
+    {
+      "id": "l6",
+      "speaker": "ben",
+      "text": "Unless you wanna try a cab. I thought about it, but at this hour it's probably worse.",
+      "spoken": "Unless you wanna try a cab. I thought about it, but at this hour it's probably worse.",
+      "audio": "audio/pack03-04-the-trains-delayed/l6.m4a",
+      "durationMs": 5032
+    },
+    {
+      "id": "l7",
+      "speaker": "maya",
+      "text": "Yeah, I don't wanna get stuck in traffic. I'll wait.",
+      "spoken": "Yeah, I don't wanna get stuck in traffic. I'll wait.",
+      "audio": "audio/pack03-04-the-trains-delayed/l7.m4a",
+      "durationMs": 3321
+    },
+    {
+      "id": "l8",
+      "speaker": "ben",
+      "text": "Same. If I hear an update I'll tell you. I'm going to the airport, so I'm already in a mood.",
+      "spoken": "Same. If I hear an update I'll tell you. I'm going to the airport, so I'm already in a mood.",
+      "audio": "audio/pack03-04-the-trains-delayed/l8.m4a",
+      "durationMs": 6120
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "Oh no. Are you gonna make it?",
+      "spoken": "Oh no. Are you gonna make it?",
+      "audio": "audio/pack03-04-the-trains-delayed/l9.m4a",
+      "durationMs": 2159
+    },
+    {
+      "id": "l10",
+      "speaker": "ben",
+      "text": "I should. I built in time, 'cause I don't trust this line. We'll see.",
+      "spoken": "I should. I built in time, 'cause I don't trust this line. We'll see.",
+      "audio": "audio/pack03-04-the-trains-delayed/l10.m4a",
+      "durationMs": 5037
+    },
+    {
+      "id": "l11",
+      "speaker": "maya",
+      "text": "That's smart. Okay. Thanks for telling me.",
+      "spoken": "That's smart. Okay. Thanks for telling me.",
+      "audio": "audio/pack03-04-the-trains-delayed/l11.m4a",
+      "durationMs": 3556
+    },
+    {
+      "id": "l12",
+      "speaker": "ben",
+      "text": "No problem. Might as well talk to someone if we're gonna stand here.",
+      "spoken": "No problem. Might as well talk to someone if we're gonna stand here.",
+      "audio": "audio/pack03-04-the-trains-delayed/l12.m4a",
+      "durationMs": 4125
+    },
+    {
+      "id": "l13",
+      "speaker": "maya",
+      "text": "True. I was just going to stare at the board and get annoyed.",
+      "spoken": "True. I was just gonna stare at the board and get annoyed.",
+      "audio": "audio/pack03-04-the-trains-delayed/l13.m4a",
+      "durationMs": 3591
+    },
+    {
+      "id": "l14",
+      "speaker": "ben",
+      "text": "You still can. I'm not that interesting.",
+      "spoken": "You still can. I'm not that interesting.",
+      "audio": "audio/pack03-04-the-trains-delayed/l14.m4a",
+      "durationMs": 2840
+    },
+    {
+      "id": "l15",
+      "speaker": "maya",
+      "text": "You're doing fine. I'll stay close in case they mumble again.",
+      "spoken": "You're doing fine. I'll stay close in case they mumble again.",
+      "audio": "audio/pack03-04-the-trains-delayed/l15.m4a",
+      "durationMs": 3904
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "站台上出了什么事？",
+      "askEn": "What's happening on the platform?",
+      "accept": [
+        "the train is delayed",
+        "they're waiting",
+        "announcement was hard to hear",
+        "火车晚点",
+        "在等",
+        "广播听不清"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "他们决定怎么做？",
+      "askEn": "What do they decide to do?",
+      "accept": [
+        "wait",
+        "not take a cab",
+        "stay on the platform",
+        "继续等",
+        "不打车"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "大概晚多久？广播怎么解释的？",
+      "askEn": "About how long is the delay, and what reason did they give?",
+      "accept": [
+        "twenty minutes maybe more",
+        "mechanical issue",
+        "大概二十分钟或更久",
+        "机械故障"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "Ben 为什么已经有点着急？他还来得及吗？",
+      "askEn": "Why is Ben already in a mood, and does he think he'll make it?",
+      "accept": [
+        "he's going to the airport",
+        "he should make it",
+        "he built in time",
+        "他要赶飞机",
+        "应该来得及",
+        "他留了富余时间"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l3",
+      "span": "Did they say how long",
+      "hear": "Did they say how long",
+      "noteZh": "Did they say 三个词都偏弱，how long 才是问题核心；they 不要听成 the。",
+      "standard": "Did they say how long"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l7",
+      "span": "I don't wanna get stuck in traffic",
+      "hear": "I don't wanna get stuck in traffic",
+      "noteZh": "don't wanna get stuck 一串缩减加连读，in traffic 才把原因说完。",
+      "standard": "I don't want to get stuck in traffic"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l8",
+      "span": "If I hear an update I'll tell you",
+      "hear": "If I hear an update I'll tell you",
+      "noteZh": "hear an 连成 hear-an，I'll tell you 很快，条件句的骨架全靠 if 和 I'll。",
+      "standard": "If I hear an update I will tell you"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "The train's delayed.",
+      "meaningZh": "火车晚点了。",
+      "fromLineId": "l2",
+      "sayAfter": "Yeah, the train's delayed. I could barely hear the announcement.",
+      "audio": "audio/pack03-04-the-trains-delayed/c1.m4a",
+      "durationMs": 1230,
+      "afterAudio": "audio/pack03-04-the-trains-delayed/c1-after.m4a",
+      "afterDurationMs": 3902
+    },
+    {
+      "id": "c2",
+      "form": "Did they say how long?",
+      "meaningZh": "他们说了要晚多久吗？",
+      "fromLineId": "l3",
+      "sayAfter": "Did they say how long? Twenty minutes?",
+      "audio": "audio/pack03-04-the-trains-delayed/c2.m4a",
+      "durationMs": 1515,
+      "afterAudio": "audio/pack03-04-the-trains-delayed/c2-after.m4a",
+      "afterDurationMs": 2640
+    },
+    {
+      "id": "c3",
+      "form": "I guess we just wait.",
+      "meaningZh": "那看来只能等了。",
+      "fromLineId": "l5",
+      "sayAfter": "Twenty. Okay. I guess we just wait.",
+      "audio": "audio/pack03-04-the-trains-delayed/c3.m4a",
+      "durationMs": 1502,
+      "afterAudio": "audio/pack03-04-the-trains-delayed/c3-after.m4a",
+      "afterDurationMs": 3298
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你在站台上等车，广播听不太清。你向旁边的人打听发生了什么、要晚多久，并一起权衡要不要改打车。",
+    "aiRole": "Ben, a fellow passenger heading to the airport. Slightly annoyed at the system, not at you. Helpful, dry, will share updates if he hears them.",
+    "variants": [
+      "The delay becomes 40 minutes.",
+      "A cab actually starts to look better.",
+      "A new announcement is also hard to hear."
+    ],
+    "mustUse": [
+      "The train's delayed",
+      "Did they say how long",
+      "I guess we just wait"
+    ],
+    "starters": [
+      "Do you know what's going on?",
+      "The train's delayed.",
+      "Did they say how long?"
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲站台上的情况：火车怎么了，广播说了什么，为什么不打车，Ben 要去哪。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell what happened on the platform: the delay, the announcement, why they didn't take a cab, and where Ben is headed. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/pack03-04-the-trains-delayed/full.m4a",
+  "audioFullDurationMs": 64618
+}

@@ -1,0 +1,314 @@
+{
+  "id": "pack01-04-card-machine-is-down",
+  "packId": "pack-01-who-pays",
+  "dayInPack": 4,
+  "title": "The card machine's down",
+  "titleZh": "刷卡机坏了",
+  "setting": "The end of a casual dinner. Their server, Matt, comes back looking apologetic. Slightly denser reductions; speed stays near the last scene.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    },
+    {
+      "id": "matt",
+      "name": "Matt",
+      "gender": "male"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "A-reduce-basic",
+  "targetWpm": 140,
+  "slowerWpm": 115,
+  "durationSec": 72,
+  "newItems": [
+    "card machine"
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "matt",
+      "text": "Hey, so, this is annoying, but our card machine's down. Do you guys have cash?",
+      "spoken": "Hey, so, this is annoying, but our card machine's down. D'you guys have cash?",
+      "audio": "audio/pack01-04-card-machine-is-down/l1.m4a",
+      "durationMs": 5956
+    },
+    {
+      "id": "l2",
+      "speaker": "maya",
+      "text": "Oh. Uh. I have like... six bucks.",
+      "spoken": "Oh. Uh. I have like... six bucks.",
+      "audio": "audio/pack01-04-card-machine-is-down/l2.m4a",
+      "durationMs": 3128
+    },
+    {
+      "id": "l3",
+      "speaker": "chris",
+      "text": "I only have a card. Of course.",
+      "spoken": "I only have a card. Of course.",
+      "audio": "audio/pack01-04-card-machine-is-down/l3.m4a",
+      "durationMs": 2563
+    },
+    {
+      "id": "l4",
+      "speaker": "matt",
+      "text": "Yeah, it's been down all night. There's an ATM in the convenience store next door, if that helps.",
+      "spoken": "Yeah, it's been down all night. There's an ATM in the convenience store next door, if that helps.",
+      "audio": "audio/pack01-04-card-machine-is-down/l4.m4a",
+      "durationMs": 6001
+    },
+    {
+      "id": "l5",
+      "speaker": "chris",
+      "text": "I can run next door. That's fine.",
+      "spoken": "I can run next door. That's fine.",
+      "audio": "audio/pack01-04-card-machine-is-down/l5.m4a",
+      "durationMs": 2761
+    },
+    {
+      "id": "l6",
+      "speaker": "maya",
+      "text": "You sure? I can come with you.",
+      "spoken": "You sure? I can come with you.",
+      "audio": "audio/pack01-04-card-machine-is-down/l6.m4a",
+      "durationMs": 2267
+    },
+    {
+      "id": "l7",
+      "speaker": "chris",
+      "text": "Nah, I got it. I'll be like two minutes.",
+      "spoken": "Nah, I got it. I'll be like two minutes.",
+      "audio": "audio/pack01-04-card-machine-is-down/l7.m4a",
+      "durationMs": 3045
+    },
+    {
+      "id": "l8",
+      "speaker": "maya",
+      "text": "Okay. I'll watch the table. You wanna just leave your jacket?",
+      "spoken": "Okay. I'll watch the table. You wanna just leave your jacket?",
+      "audio": "audio/pack01-04-card-machine-is-down/l8.m4a",
+      "durationMs": 4087
+    },
+    {
+      "id": "l9",
+      "speaker": "chris",
+      "text": "Yeah. Thanks. If they come back, just tell them I'm getting cash.",
+      "spoken": "Yeah. Thanks. If they come back, just tell 'em I'm getting cash.",
+      "audio": "audio/pack01-04-card-machine-is-down/l9.m4a",
+      "durationMs": 5061
+    },
+    {
+      "id": "l10",
+      "speaker": "maya",
+      "text": "Got it.",
+      "spoken": "Got it.",
+      "audio": "audio/pack01-04-card-machine-is-down/l10.m4a",
+      "durationMs": 740
+    },
+    {
+      "id": "l11",
+      "speaker": "matt",
+      "text": "Appreciate you. Sorry again. This thing's been dying on us all week.",
+      "spoken": "Appreciate you. Sorry again. This thing's been dying on us all week.",
+      "audio": "audio/pack01-04-card-machine-is-down/l11.m4a",
+      "durationMs": 4791
+    },
+    {
+      "id": "l12",
+      "speaker": "chris",
+      "text": "You're good. Happens.",
+      "spoken": "You're good. Happens.",
+      "audio": "audio/pack01-04-card-machine-is-down/l12.m4a",
+      "durationMs": 1847
+    },
+    {
+      "id": "l13",
+      "speaker": "maya",
+      "text": "Do you want me to throw in once he's back? I can give you the six, at least.",
+      "spoken": "D'you want me to throw in once he's back? I can give you the six, at least.",
+      "audio": "audio/pack01-04-card-machine-is-down/l13.m4a",
+      "durationMs": 4448
+    },
+    {
+      "id": "l14",
+      "speaker": "matt",
+      "text": "Whatever you guys wanna do is fine. I'll come back in a minute.",
+      "spoken": "Whatever you guys wanna do is fine. I'll come back in a minute.",
+      "audio": "audio/pack01-04-card-machine-is-down/l14.m4a",
+      "durationMs": 3882
+    },
+    {
+      "id": "l15",
+      "speaker": "chris",
+      "text": "Okay. I'll be right back.",
+      "spoken": "Okay. I'll be right back.",
+      "audio": "audio/pack01-04-card-machine-is-down/l15.m4a",
+      "durationMs": 2168
+    },
+    {
+      "id": "l16",
+      "speaker": "maya",
+      "text": "Don't lose your place in line. Those ATMs get weird at night.",
+      "spoken": "Don't lose your place in line. Those ATMs get weird at night.",
+      "audio": "audio/pack01-04-card-machine-is-down/l16.m4a",
+      "durationMs": 3971
+    },
+    {
+      "id": "l17",
+      "speaker": "chris",
+      "text": "I won't. Tell him I'll be two minutes. For real this time.",
+      "spoken": "I won't. Tell 'im I'll be two minutes. For real this time.",
+      "audio": "audio/pack01-04-card-machine-is-down/l17.m4a",
+      "durationMs": 4386
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "出了什么麻烦？",
+      "askEn": "What's the problem?",
+      "accept": [
+        "card machine is down",
+        "they need cash",
+        "can't pay by card",
+        "刷卡机坏了",
+        "没办法刷卡",
+        "要现金"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "他们打算怎么解决？",
+      "askEn": "How are they going to solve it?",
+      "accept": [
+        "Chris will go to the ATM",
+        "next door",
+        "convenience store",
+        "Chris 去取钱",
+        "隔壁便利店",
+        "ATM"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "Maya 身上大概有多少现金？",
+      "askEn": "How much cash does Maya have?",
+      "accept": [
+        "six bucks",
+        "six dollars",
+        "about six",
+        "六块",
+        "大约六美元"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "Chris 让 Maya 怎么跟服务员说？",
+      "askEn": "What should Maya tell the server?",
+      "accept": [
+        "he's getting cash",
+        "tell them he's getting cash",
+        "he'll be two minutes",
+        "他去取现金",
+        "他两分钟就回来"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l1",
+      "span": "Do you guys have cash",
+      "hear": "D'you guys have cash",
+      "noteZh": "Do you 被压缩成 d'you，和 guys 连在一起，问句开头几乎听不出 Do。",
+      "standard": "Do you guys have cash"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l9",
+      "span": "tell them I'm getting cash",
+      "hear": "tell 'em I'm getting cash",
+      "noteZh": "them 常弱读成 'em，tell 'em I'm 会并成一串，them 的 th 几乎没有。",
+      "standard": "tell them I'm getting cash"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l8",
+      "span": "You wanna just leave your jacket",
+      "hear": "You wanna just leave your jacket",
+      "noteZh": "熟悉的 you wanna just 再次出现，后面换了新的动词 leave。",
+      "standard": "You want to just leave your jacket"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "The card machine's down.",
+      "meaningZh": "刷卡机坏了 / 不能刷卡。",
+      "fromLineId": "l1",
+      "sayAfter": "The card machine's down. Do you guys have cash?",
+      "audio": "audio/pack01-04-card-machine-is-down/c1.m4a",
+      "durationMs": 1496,
+      "afterAudio": "audio/pack01-04-card-machine-is-down/c1-after.m4a",
+      "afterDurationMs": 3435
+    },
+    {
+      "id": "c2",
+      "form": "I only have a card.",
+      "meaningZh": "我只带了卡。",
+      "fromLineId": "l3",
+      "sayAfter": "I only have a card. I can run next door.",
+      "audio": "audio/pack01-04-card-machine-is-down/c2.m4a",
+      "durationMs": 1292,
+      "afterAudio": "audio/pack01-04-card-machine-is-down/c2-after.m4a",
+      "afterDurationMs": 3144
+    },
+    {
+      "id": "c3",
+      "form": "I can run next door.",
+      "meaningZh": "我可以跑一趟隔壁。",
+      "fromLineId": "l5",
+      "sayAfter": "I can run next door. I'll be like two minutes.",
+      "audio": "audio/pack01-04-card-machine-is-down/c3.m4a",
+      "durationMs": 1423,
+      "afterAudio": "audio/pack01-04-card-machine-is-down/c3-after.m4a",
+      "afterDurationMs": 3174
+    }
+  ],
+  "roleplay": {
+    "setupZh": "吃完饭要结账，服务员说刷卡机坏了。你只带了卡，需要想办法：去隔壁取现，或者问问对方有没有现金。",
+    "aiRole": "Matt, a tired but decent server, plus Maya who only has about six dollars. Nobody is angry. Keep it practical and a little awkward in a normal way.",
+    "variants": [
+      "The ATM next door is also down.",
+      "Maya finds enough cash after all.",
+      "They ask if they can send payment digitally; Matt has to check."
+    ],
+    "mustUse": [
+      "The card machine's down",
+      "I only have a card"
+    ],
+    "starters": [
+      "I only have a card.",
+      "I can run next door.",
+      "You sure? I can come with you."
+    ]
+  },
+  "fluency": {
+    "promptZh": "用自己的话讲：刷卡机怎么了，谁去取钱，Maya 要怎么跟服务员说。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell what happened with the card machine, who went for cash, and what Maya was supposed to tell the server. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l3"
+  ],
+  "audioFull": "audio/pack01-04-card-machine-is-down/full.m4a",
+  "audioFullDurationMs": 66200
+}

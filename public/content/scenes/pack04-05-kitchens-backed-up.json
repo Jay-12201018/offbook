@@ -1,0 +1,305 @@
+{
+  "id": "pack04-05-kitchens-backed-up",
+  "packId": "pack-04-food-and-help",
+  "dayInPack": 5,
+  "title": "The kitchen's backed up",
+  "titleZh": "后厨有点积压",
+  "setting": "Maya and Chris have already ordered. Jess comes back looking a little wrecked. Denser reductions; speed stays close to the last scene.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    },
+    {
+      "id": "jess",
+      "name": "Jess",
+      "gender": "female"
+    }
+  ],
+  "register": "travel",
+  "skillNode": "A-reduce-basic",
+  "targetWpm": 155,
+  "slowerWpm": 130,
+  "durationSec": 70,
+  "newItems": [
+    "backed up"
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "jess",
+      "text": "Hey, I just wanna be honest with you. The kitchen's a little backed up.",
+      "spoken": "Hey, I just wanna be honest with you. The kitchen's a little backed up.",
+      "audio": "audio/pack04-05-kitchens-backed-up/l1.m4a",
+      "durationMs": 4556
+    },
+    {
+      "id": "l2",
+      "speaker": "maya",
+      "text": "Oh. How long are we talking?",
+      "spoken": "Oh. How long are we talking?",
+      "audio": "audio/pack04-05-kitchens-backed-up/l2.m4a",
+      "durationMs": 2489
+    },
+    {
+      "id": "l3",
+      "speaker": "jess",
+      "text": "I'm not gonna lie, it's like thirty, maybe more. We had a big party just walk in, and they all ordered at once.",
+      "spoken": "I'm not gonna lie, it's like thirty, maybe more. We had a big party just walk in, and they all ordered at once.",
+      "audio": "audio/pack04-05-kitchens-backed-up/l3.m4a",
+      "durationMs": 7435
+    },
+    {
+      "id": "l4",
+      "speaker": "chris",
+      "text": "Thirty. Okay. You wanna wait, or...?",
+      "spoken": "Thirty. Okay. You wanna wait, or...?",
+      "audio": "audio/pack04-05-kitchens-backed-up/l4.m4a",
+      "durationMs": 3438
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "I can wait. I don't wanna go find someplace else and start over. Unless you're starving.",
+      "spoken": "I can wait. I don't wanna go find someplace else and start over. Unless you're starving.",
+      "audio": "audio/pack04-05-kitchens-backed-up/l5.m4a",
+      "durationMs": 5892
+    },
+    {
+      "id": "l6",
+      "speaker": "chris",
+      "text": "I can wait. I might just get another drink, if that's cool.",
+      "spoken": "I can wait. I might just get another drink, if that's cool.",
+      "audio": "audio/pack04-05-kitchens-backed-up/l6.m4a",
+      "durationMs": 3984
+    },
+    {
+      "id": "l7",
+      "speaker": "jess",
+      "text": "That's cool. I'll bring it. And I'll keep an eye on your food so it doesn't just... sit there when it's ready.",
+      "spoken": "That's cool. I'll bring it. And I'll keep an eye on your food so it doesn't just... sit there when it's ready.",
+      "audio": "audio/pack04-05-kitchens-backed-up/l7.m4a",
+      "durationMs": 6381
+    },
+    {
+      "id": "l8",
+      "speaker": "maya",
+      "text": "Thank you for telling us. I'd rather know.",
+      "spoken": "Thank you for telling us. I'd rather know.",
+      "audio": "audio/pack04-05-kitchens-backed-up/l8.m4a",
+      "durationMs": 2605
+    },
+    {
+      "id": "l9",
+      "speaker": "jess",
+      "text": "Yeah, I hate when people just leave you hanging. You want anything while you wait? Bread or whatever?",
+      "spoken": "Yeah, I hate when people just leave you hanging. You want anything while you wait? Bread or whatever?",
+      "audio": "audio/pack04-05-kitchens-backed-up/l9.m4a",
+      "durationMs": 5748
+    },
+    {
+      "id": "l10",
+      "speaker": "maya",
+      "text": "Bread would actually be amazing.",
+      "spoken": "Bread would actually be amazing.",
+      "audio": "audio/pack04-05-kitchens-backed-up/l10.m4a",
+      "durationMs": 1933
+    },
+    {
+      "id": "l11",
+      "speaker": "jess",
+      "text": "I'll grab some. Sorry again. It's just one of those nights.",
+      "spoken": "I'll grab some. Sorry again. It's just one of those nights.",
+      "audio": "audio/pack04-05-kitchens-backed-up/l11.m4a",
+      "durationMs": 4448
+    },
+    {
+      "id": "l12",
+      "speaker": "chris",
+      "text": "You're good. We all have those nights.",
+      "spoken": "You're good. We all have those nights.",
+      "audio": "audio/pack04-05-kitchens-backed-up/l12.m4a",
+      "durationMs": 2497
+    },
+    {
+      "id": "l13",
+      "speaker": "jess",
+      "text": "Appreciate you. I'll be back.",
+      "spoken": "Appreciate you. I'll be back.",
+      "audio": "audio/pack04-05-kitchens-backed-up/l13.m4a",
+      "durationMs": 2297
+    },
+    {
+      "id": "l14",
+      "speaker": "maya",
+      "text": "Should we text Jordan, or is it too late for them to change plans?",
+      "spoken": "Should we text Jordan, or is it too late for them to change plans?",
+      "audio": "audio/pack04-05-kitchens-backed-up/l14.m4a",
+      "durationMs": 4462
+    },
+    {
+      "id": "l15",
+      "speaker": "chris",
+      "text": "I'll text 'em. 'It's gonna be a minute' is still English.",
+      "spoken": "I'll text 'em. 'It's gonna be a minute' is still English.",
+      "audio": "audio/pack04-05-kitchens-backed-up/l15.m4a",
+      "durationMs": 3728
+    },
+    {
+      "id": "l16",
+      "speaker": "maya",
+      "text": "A very honest minute.",
+      "spoken": "A very honest minute.",
+      "audio": "audio/pack04-05-kitchens-backed-up/l16.m4a",
+      "durationMs": 1757
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "Jess 来跟他们说什么？",
+      "askEn": "What does Jess come to tell them?",
+      "accept": [
+        "the kitchen is backed up",
+        "food will be late",
+        "a big party just walked in",
+        "后厨积压",
+        "菜会晚",
+        "来了一大桌人"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "他们决定等吗？等待时会要什么？",
+      "askEn": "Do they wait, and what do they get in the meantime?",
+      "accept": [
+        "yes they wait",
+        "another drink",
+        "bread",
+        "等",
+        "再要一杯饮料",
+        "先来点面包"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "大概还要多久？原因是什么？",
+      "askEn": "How long might it be, and why?",
+      "accept": [
+        "thirty minutes maybe more",
+        "a big party ordered at once",
+        "大概三十或更久",
+        "一大桌人一起点单"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "他们要不要通知 Jordan？怎么说？",
+      "askEn": "Will they tell Jordan, and how?",
+      "accept": [
+        "Chris will text Jordan",
+        "it's gonna be a minute",
+        "Chris 会给 Jordan 发消息",
+        "还要再等一会儿"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l1",
+      "span": "The kitchen's a little backed up",
+      "hear": "The kitchen's a little backed up",
+      "noteZh": "backed up 在这里不是‘备份’，是‘积压、来不及’；kitchen's a little 说得很快。",
+      "standard": "The kitchen is a little backed up"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l3",
+      "span": "I'm not going to lie",
+      "hear": "I'm not gonna lie",
+      "noteZh": "I'm not gonna lie 是实话套话，后面才是时间；gonna 不要听成 gone to。",
+      "standard": "I am not going to lie"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l4",
+      "span": "You wanna wait, or",
+      "hear": "You wanna wait, or...?",
+      "noteZh": "You wanna wait or 是把选择扔给对方的不完整句，or 后面可以不说完。",
+      "standard": "Do you want to wait, or...?"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "The kitchen's a little backed up.",
+      "meaningZh": "后厨有点积压 / 出餐会慢一些。",
+      "fromLineId": "l1",
+      "sayAfter": "I just wanna be honest with you. The kitchen's a little backed up.",
+      "audio": "audio/pack04-05-kitchens-backed-up/c1.m4a",
+      "durationMs": 1766,
+      "afterAudio": "audio/pack04-05-kitchens-backed-up/c1-after.m4a",
+      "afterDurationMs": 3900
+    },
+    {
+      "id": "c2",
+      "form": "How long are we talking?",
+      "meaningZh": "大概要多久？（把‘晚’问清楚。）",
+      "fromLineId": "l2",
+      "sayAfter": "Oh. How long are we talking?",
+      "audio": "audio/pack04-05-kitchens-backed-up/c2.m4a",
+      "durationMs": 1825,
+      "afterAudio": "audio/pack04-05-kitchens-backed-up/c2-after.m4a",
+      "afterDurationMs": 2583
+    },
+    {
+      "id": "c3",
+      "form": "You wanna wait, or...?",
+      "meaningZh": "你还想等吗，还是……？",
+      "fromLineId": "l4",
+      "sayAfter": "Thirty. Okay. You wanna wait, or...?",
+      "audio": "audio/pack04-05-kitchens-backed-up/c3.m4a",
+      "durationMs": 1350,
+      "afterAudio": "audio/pack04-05-kitchens-backed-up/c3-after.m4a",
+      "afterDurationMs": 3441
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你们已经点了餐，服务员过来说后厨积压，可能还要半小时甚至更久。你要问清楚时间，和同伴商量是等还是换店，并可以要一点垫肚子的东西。",
+    "aiRole": "Jess, honest and a little wrecked after a big party walked in, plus Chris who is willing to wait. Jess will offer a drink or bread and keep an eye on the food. No fake cheerfulness.",
+    "variants": [
+      "Maya would rather leave and start over.",
+      "The wait jumps to 45 minutes.",
+      "Jordan is already on the way."
+    ],
+    "mustUse": [
+      "The kitchen's a little backed up",
+      "How long are we talking",
+      "You wanna wait, or"
+    ],
+    "starters": [
+      "The kitchen's a little backed up.",
+      "How long are we talking?",
+      "You wanna wait, or...?"
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲后厨积压这件事：Jess 怎么如实说的，要等多久，他们为什么留下，等待时要了什么、要不要通知 Jordan。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell the backed-up kitchen story: how Jess broke the news, the wait, why they stayed, what they asked for, and whether they texted Jordan. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/pack04-05-kitchens-backed-up/full.m4a",
+  "audioFullDurationMs": 68521
+}

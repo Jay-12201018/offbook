@@ -1,0 +1,286 @@
+{
+  "id": "pack04-04-im-allergic-to",
+  "packId": "pack-04-food-and-help",
+  "dayInPack": 4,
+  "title": "I'm allergic to peanuts",
+  "titleZh": "我对花生过敏",
+  "setting": "Maya is about to order at a casual place that has a couple of nut-heavy dishes on the menu. She flags down Sam, a server, before the ticket goes in.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "sam",
+      "name": "Sam",
+      "gender": "neutral"
+    }
+  ],
+  "register": "travel",
+  "skillNode": "A-travel-open",
+  "targetWpm": 155,
+  "slowerWpm": 130,
+  "durationSec": 89,
+  "newItems": [
+    "allergic"
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "Hey, before I order, I'm allergic to peanuts. Like, actually allergic, not just 'I don't love them.'",
+      "spoken": "Hey, before I order, I'm allergic to peanuts. Like, actually allergic, not just 'I don't love them.'",
+      "audio": "audio/pack04-04-im-allergic-to/l1.m4a",
+      "durationMs": 6818
+    },
+    {
+      "id": "l2",
+      "speaker": "sam",
+      "text": "Okay, thank you for telling me. Let me go check, 'cause some of the sauces, I don't wanna guess.",
+      "spoken": "Okay, thank you for telling me. Lemme go check, 'cause some of the sauces, I don't wanna guess.",
+      "audio": "audio/pack04-04-im-allergic-to/l2.m4a",
+      "durationMs": 6402
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "Yeah, please. Does the stir fry have any nuts in it? It looked like maybe peanuts on the menu, but I couldn't tell.",
+      "spoken": "Yeah, please. Does the stir fry have any nuts in it? It looked like maybe peanuts on the menu, but I couldn't tell.",
+      "audio": "audio/pack04-04-im-allergic-to/l3.m4a",
+      "durationMs": 7254
+    },
+    {
+      "id": "l4",
+      "speaker": "sam",
+      "text": "I think the Thai one does, and the other one doesn't, but I wanna confirm. I'll ask the kitchen. Anything else I should know? Tree nuts, sesame...?",
+      "spoken": "I think the Thai one does, and the other one doesn't, but I wanna confirm. I'll ask the kitchen. Anything else I should know? Tree nuts, sesame...?",
+      "audio": "audio/pack04-04-im-allergic-to/l4.m4a",
+      "durationMs": 8638
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "Peanuts is the main one. Tree nuts are usually okay, but if it's processed with peanuts I can't do it.",
+      "spoken": "Peanuts is the main one. Tree nuts are usually okay, but if it's processed with peanuts I can't do it.",
+      "audio": "audio/pack04-04-im-allergic-to/l5.m4a",
+      "durationMs": 6378
+    },
+    {
+      "id": "l6",
+      "speaker": "sam",
+      "text": "Got it. Give me one second.",
+      "spoken": "Got it. Gimme one second.",
+      "audio": "audio/pack04-04-im-allergic-to/l6.m4a",
+      "durationMs": 2050
+    },
+    {
+      "id": "l7",
+      "speaker": "sam",
+      "text": "Okay, so the noodle dish is safe if we leave the sauce off the peanut one—wait, no, they said skip the stir fry. The grilled fish is fine, and the vegetable plate is fine. They use a clean pan.",
+      "spoken": "Okay, so the noodle dish is safe if we leave the sauce off the peanut one—wait, no, they said skip the stir fry. The grilled fish is fine, and the vegetable plate is fine. They use a clean pan.",
+      "audio": "audio/pack04-04-im-allergic-to/l7.m4a",
+      "durationMs": 13104
+    },
+    {
+      "id": "l8",
+      "speaker": "maya",
+      "text": "Grilled fish is great. Thank you for checking.",
+      "spoken": "Grilled fish is great. Thank you for checking.",
+      "audio": "audio/pack04-04-im-allergic-to/l8.m4a",
+      "durationMs": 3196
+    },
+    {
+      "id": "l9",
+      "speaker": "sam",
+      "text": "Of course. I'd rather check than have a problem. I'll put it in big letters on the ticket.",
+      "spoken": "Of course. I'd rather check than have a problem. I'll put it in big letters on the ticket.",
+      "audio": "audio/pack04-04-im-allergic-to/l9.m4a",
+      "durationMs": 5264
+    },
+    {
+      "id": "l10",
+      "speaker": "maya",
+      "text": "I appreciate that. Really.",
+      "spoken": "I appreciate that. Really.",
+      "audio": "audio/pack04-04-im-allergic-to/l10.m4a",
+      "durationMs": 2373
+    },
+    {
+      "id": "l11",
+      "speaker": "sam",
+      "text": "Yeah. If anything comes out and you're not sure, just don't touch it and grab me.",
+      "spoken": "Yeah. If anything comes out and you're not sure, just don't touch it and grab me.",
+      "audio": "audio/pack04-04-im-allergic-to/l11.m4a",
+      "durationMs": 4913
+    },
+    {
+      "id": "l12",
+      "speaker": "maya",
+      "text": "I will. Can I do a side of rice with the fish?",
+      "spoken": "I will. Can I do a side of rice with the fish?",
+      "audio": "audio/pack04-04-im-allergic-to/l12.m4a",
+      "durationMs": 3022
+    },
+    {
+      "id": "l13",
+      "speaker": "sam",
+      "text": "Yes. Rice is fine. I'll write it down as allergen, grilled fish, side rice, clean pan.",
+      "spoken": "Yes. Rice is fine. I'll write it down as allergen, grilled fish, side rice, clean pan.",
+      "audio": "audio/pack04-04-im-allergic-to/l13.m4a",
+      "durationMs": 7162
+    },
+    {
+      "id": "l14",
+      "speaker": "maya",
+      "text": "Perfect. That's exactly what I needed.",
+      "spoken": "Perfect. That's exactly what I needed.",
+      "audio": "audio/pack04-04-im-allergic-to/l14.m4a",
+      "durationMs": 2665
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "Maya 为什么先叫住服务员？",
+      "askEn": "Why does Maya speak up before ordering?",
+      "accept": [
+        "she's allergic to peanuts",
+        "she needs to check the menu",
+        "她对花生过敏",
+        "要点菜前先确认"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "最后她点了什么？厨房怎么保证？",
+      "askEn": "What does she end up ordering, and how will the kitchen handle it?",
+      "accept": [
+        "grilled fish",
+        "side of rice",
+        "clean pan",
+        "note on the ticket",
+        "烤鱼",
+        "加米饭",
+        "用干净锅",
+        "票上会特别写"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "炒菜能点吗？为什么？",
+      "askEn": "Can she order the stir fry? Why or why not?",
+      "accept": [
+        "no",
+        "skip the stir fry",
+        "the Thai one has peanuts",
+        "不能点炒菜",
+        "厨房让她别点",
+        "泰式那份有花生"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "如果上菜后她不确定，该怎么做？",
+      "askEn": "What should she do if the plate comes out and she's not sure?",
+      "accept": [
+        "don't touch it",
+        "grab the server",
+        "先别动",
+        "叫服务员"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l1",
+      "span": "I'm allergic to peanuts",
+      "hear": "I'm allergic to peanuts",
+      "noteZh": "allergic to 里 to 弱读，但这个语块必须整块说清楚，不能含糊成 I have problem peanuts。",
+      "standard": "I am allergic to peanuts"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l2",
+      "span": "Let me go check",
+      "hear": "Lemme go check",
+      "noteZh": "Let me 缩成 lemme，go check 表示‘我先去后厨问一下’，不是自己去检查盘子。",
+      "standard": "Let me go check"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l3",
+      "span": "Does the stir fry have any nuts in it",
+      "hear": "Does the stir fry have any nuts in it",
+      "noteZh": "have any 和 in it 都弱，问的是‘里面有没有坚果’，any 不要听丢，否则变成肯定句。",
+      "standard": "Does the stir fry have any nuts in it"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "I'm allergic to peanuts.",
+      "meaningZh": "我对花生过敏。",
+      "fromLineId": "l1",
+      "sayAfter": "Before I order, I'm allergic to peanuts. Like, actually allergic.",
+      "audio": "audio/pack04-04-im-allergic-to/c1.m4a",
+      "durationMs": 1658,
+      "afterAudio": "audio/pack04-04-im-allergic-to/c1-after.m4a",
+      "afterDurationMs": 4730
+    },
+    {
+      "id": "c2",
+      "form": "Does this have any nuts in it?",
+      "meaningZh": "这个里面有坚果吗？",
+      "fromLineId": "l3",
+      "sayAfter": "Does the stir fry have any nuts in it?",
+      "audio": "audio/pack04-04-im-allergic-to/c2.m4a",
+      "durationMs": 1655,
+      "afterAudio": "audio/pack04-04-im-allergic-to/c2-after.m4a",
+      "afterDurationMs": 2232
+    },
+    {
+      "id": "c3",
+      "form": "Let me go check.",
+      "meaningZh": "我先去问一下 / 我去确认一下。",
+      "fromLineId": "l2",
+      "sayAfter": "Let me go check, 'cause I don't wanna guess.",
+      "audio": "audio/pack04-04-im-allergic-to/c3.m4a",
+      "durationMs": 1249,
+      "afterAudio": "audio/pack04-04-im-allergic-to/c3-after.m4a",
+      "afterDurationMs": 2997
+    }
+  ],
+  "roleplay": {
+    "setupZh": "点菜前你要说明自己对花生过敏（是真的过敏，不是不爱吃）。请服务员去后厨确认，问清楚哪些能点，并请他们在单据上写清楚。",
+    "aiRole": "Sam, a careful server who would rather check than guess. Sam will ask a follow-up (tree nuts, sesame), go to the kitchen, rule out the stir fry, and offer safe options. Never treat this casually.",
+    "variants": [
+      "The only safe option is a salad.",
+      "Maya also has to avoid sesame.",
+      "A dish she wanted is not safe after all."
+    ],
+    "mustUse": [
+      "I'm allergic to peanuts",
+      "Does this have any nuts in it",
+      "Let me go check"
+    ],
+    "starters": [
+      "Before I order, I'm allergic to peanuts.",
+      "Does this have any nuts in it?",
+      "Let me go check."
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲这次过敏确认：Maya 怎么说明情况，哪些菜不能点，最后点了什么，服务员还交代她上菜后怎么做。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell the allergy check: how Maya explained it, which dishes were not safe, what she ordered, and what to do if a plate looked uncertain. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/pack04-04-im-allergic-to/full.m4a",
+  "audioFullDurationMs": 83564
+}

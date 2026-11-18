@@ -1,0 +1,327 @@
+{
+  "id": "pack04-07-this-is-not-what-i-ordered",
+  "packId": "pack-04-food-and-help",
+  "dayInPack": 7,
+  "title": "This is not what I ordered",
+  "titleZh": "这不是我点的那个",
+  "setting": "A second, messier wrong-order moment, later the same week. Maya is trying not to be a jerk; Jess is trying to fix it; Chris is dry. TV-register: overlap, reductions, leftover attitude. Fully original, same food-and-help theme.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    },
+    {
+      "id": "jess",
+      "name": "Jess",
+      "gender": "female"
+    }
+  ],
+  "register": "tv",
+  "skillNode": "A-travel-open",
+  "targetWpm": 165,
+  "slowerWpm": 140,
+  "durationSec": 85,
+  "newItems": [],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "I'm sorry, this is not what I ordered.",
+      "spoken": "I'm sorry, this is not what I ordered.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/l1.m4a",
+      "durationMs": 2456
+    },
+    {
+      "id": "l2",
+      "speaker": "jess",
+      "text": "Yeah? What'd you—",
+      "spoken": "Yeah? What'd you—",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/l2.m4a",
+      "durationMs": 1267
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "I literally said no ice. And I think this is the spicy one, which I also didn't want, and now I'm like... I don't want to send it back again, but I also can't eat this.",
+      "spoken": "I literally said no ice. And I think this is the spicy one, which I also didn't want, and now I'm like... I don't want to send it back again, but I also can't eat this.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/l3.m4a",
+      "durationMs": 10020
+    },
+    {
+      "id": "l4",
+      "speaker": "maya",
+      "text": "I'm not trying to be a jerk, I just—yeah.",
+      "spoken": "I'm not trying to be a jerk, I just—yeah.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/l4.m4a",
+      "durationMs": 3023
+    },
+    {
+      "id": "l5",
+      "speaker": "jess",
+      "text": "No, don't eat it. I'm not gonna have you sit there and be polite about a wrong plate. Let me take care of that.",
+      "spoken": "No, don't eat it. I'm not gonna have you sit there and be polite about a wrong plate. Lemme take care of that.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/l5.m4a",
+      "durationMs": 7472
+    },
+    {
+      "id": "l6",
+      "speaker": "chris",
+      "text": "You want some of mine while you wait, or you wanna just... stare at me?",
+      "spoken": "You want some of mine while you wait, or you wanna just... stare at me?",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/l6.m4a",
+      "durationMs": 3247
+    },
+    {
+      "id": "l7",
+      "speaker": "maya",
+      "text": "I don't wanna pick at your plate. That's sad.",
+      "spoken": "I don't wanna pick at your plate. That's sad.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/l7.m4a",
+      "durationMs": 2710
+    },
+    {
+      "id": "l8",
+      "speaker": "chris",
+      "text": "It's practical. Don't be proud about a sandwich.",
+      "spoken": "It's practical. Don't be proud about a sandwich.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/l8.m4a",
+      "durationMs": 3377
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "It's not pride, I'm just—okay, I'll take a bite. One bite.",
+      "spoken": "It's not pride, I'm just—okay, I'll take a bite. One bite.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/l9.m4a",
+      "durationMs": 3848
+    },
+    {
+      "id": "l10",
+      "speaker": "jess",
+      "text": "I'll put a rush on the right one. And I'm taking this off the bill, obviously.",
+      "spoken": "I'll put a rush on the right one. And I'm taking this off the bill, obviously.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/l10.m4a",
+      "durationMs": 4777
+    },
+    {
+      "id": "l11",
+      "speaker": "maya",
+      "text": "You don't have to do all that, I just want the thing I asked for.",
+      "spoken": "You don't have to do all that, I just want the thing I asked for.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/l11.m4a",
+      "durationMs": 3901
+    },
+    {
+      "id": "l12",
+      "speaker": "jess",
+      "text": "I kind of do have to do all that. I'll be right back.",
+      "spoken": "I kinda do have to do all that. I'll be right back.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/l12.m4a",
+      "durationMs": 3905
+    },
+    {
+      "id": "l13",
+      "speaker": "chris",
+      "text": "She's gonna come back with the right one and you're gonna feel bad.",
+      "spoken": "She's gonna come back with the right one and you're gonna feel bad.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/l13.m4a",
+      "durationMs": 2930
+    },
+    {
+      "id": "l14",
+      "speaker": "maya",
+      "text": "I already feel bad. I hate this part.",
+      "spoken": "I already feel bad. I hate this part.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/l14.m4a",
+      "durationMs": 2859
+    },
+    {
+      "id": "l15",
+      "speaker": "chris",
+      "text": "You said it nicely. You're allowed to want your food.",
+      "spoken": "You said it nicely. You're allowed to want your food.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/l15.m4a",
+      "durationMs": 3266
+    },
+    {
+      "id": "l16",
+      "speaker": "maya",
+      "text": "I know. I still hate it.",
+      "spoken": "I know. I still hate it.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/l16.m4a",
+      "durationMs": 2054
+    },
+    {
+      "id": "l17",
+      "speaker": "chris",
+      "text": "Yeah. Eating's a lot of feelings for a Tuesday.",
+      "spoken": "Yeah. Eating's a lot of feelings for a Tuesday.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/l17.m4a",
+      "durationMs": 3132
+    },
+    {
+      "id": "l18",
+      "speaker": "maya",
+      "text": "Please don't make this a bit.",
+      "spoken": "Please don't make this a bit.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/l18.m4a",
+      "durationMs": 1637
+    },
+    {
+      "id": "l19",
+      "speaker": "chris",
+      "text": "Too late. Here, take the other half before you start apologizing to the sandwich.",
+      "spoken": "Too late. Here, take the other half before you start apologizing to the sandwich.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/l19.m4a",
+      "durationMs": 4776
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "这盘菜错在哪？",
+      "askEn": "What's wrong with Maya's order?",
+      "accept": [
+        "not what she ordered",
+        "has ice",
+        "it's the spicy one",
+        "不是她点的",
+        "有冰块",
+        "是辣的那份"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "Maya 为什么有点为难？Jess 和 Chris 分别怎么做？",
+      "askEn": "Why is Maya uncomfortable, and how do Jess and Chris respond?",
+      "accept": [
+        "she doesn't want to seem like a jerk",
+        "Jess will fix it and take it off the bill",
+        "Chris offers his food",
+        "她怕自己像在找茬",
+        "Jess 去改并免单这道",
+        "Chris 把食物分给她"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "Maya 明确说过不要什么？",
+      "askEn": "What did Maya specifically ask not to have?",
+      "accept": [
+        "no ice",
+        "not the spicy one",
+        "不要冰",
+        "不要辣的那份"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "Jess 准备怎么处理账和出餐速度？",
+      "askEn": "What will Jess do about the bill and the wait?",
+      "accept": [
+        "take it off the bill",
+        "put a rush on the right one",
+        "这道从账单去掉",
+        "催正确的那一份"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l3",
+      "span": "I literally said no ice",
+      "hear": "I literally said no ice",
+      "noteZh": "literally said no 说得很快，no ice 是关键细节；literally 在口语里常用来加强，不是文学含义。",
+      "standard": "I literally said no ice"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l5",
+      "span": "Let me take care of that",
+      "hear": "Lemme take care of that",
+      "noteZh": "Let me 缩成 lemme，take care of that 是‘这事交给我’，of 极弱。",
+      "standard": "Let me take care of that"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l5",
+      "span": "I'm not going to have you sit there",
+      "hear": "I'm not gonna have you sit there",
+      "noteZh": "I'm not gonna have you 表示‘我不会让你就这么忍着’，have you sit 是使役结构，功能词很多。",
+      "standard": "I am not going to have you sit there"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "This is not what I ordered.",
+      "meaningZh": "这不是我点的那个。",
+      "fromLineId": "l1",
+      "sayAfter": "I'm sorry, this is not what I ordered.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/c1.m4a",
+      "durationMs": 1710,
+      "afterAudio": "audio/pack04-07-this-is-not-what-i-ordered/c1-after.m4a",
+      "afterDurationMs": 2639
+    },
+    {
+      "id": "c2",
+      "form": "I'm not trying to be a jerk, I just…",
+      "meaningZh": "我不是想找茬，我只是……",
+      "fromLineId": "l4",
+      "sayAfter": "I'm not trying to be a jerk, I just can't eat this.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/c2.m4a",
+      "durationMs": 3027,
+      "afterAudio": "audio/pack04-07-this-is-not-what-i-ordered/c2-after.m4a",
+      "afterDurationMs": 3374
+    },
+    {
+      "id": "c3",
+      "form": "Let me take care of that.",
+      "meaningZh": "这事交给我 / 我来处理。",
+      "fromLineId": "l5",
+      "sayAfter": "Don't eat it. Let me take care of that.",
+      "audio": "audio/pack04-07-this-is-not-what-i-ordered/c3.m4a",
+      "durationMs": 1913,
+      "afterAudio": "audio/pack04-07-this-is-not-what-i-ordered/c3-after.m4a",
+      "afterDurationMs": 2825
+    }
+  ],
+  "roleplay": {
+    "setupZh": "菜又上错了（比如不该有冰，或者是辣的那份）。你要把问题说清楚，同时不想当那个‘很难搞的客人’。接受补救，也可以先吃同伴的一口垫垫饿。",
+    "aiRole": "Jess, who wants to make it right and will take the item off the bill, plus Chris, dry and practical, offering his food and teasing lightly. Keep the overlapping, slightly messy energy. Don't turn anyone into a cartoon.",
+    "variants": [
+      "It's the second wrong plate in one meal.",
+      "Maya refuses to share Chris's food.",
+      "Jess can only remake it, not take it off the bill."
+    ],
+    "mustUse": [
+      "This is not what I ordered",
+      "I'm not trying to be a jerk",
+      "Let me take care of that"
+    ],
+    "starters": [
+      "I'm sorry, this is not what I ordered.",
+      "I literally said no ice.",
+      "I'm not trying to be a jerk, I just..."
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲这次更别扭的上错菜：错在哪，Maya 为什么一边说一边为难，Jess 怎么补救，Chris 又是怎么起哄又帮忙的。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell this messier wrong-order scene: what was wrong, why Maya felt awkward saying it, how Jess tried to fix it, and how Chris both teased and helped. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l3"
+  ],
+  "audioFull": "audio/pack04-07-this-is-not-what-i-ordered/full.m4a",
+  "audioFullDurationMs": 76419
+}

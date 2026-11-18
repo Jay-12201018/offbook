@@ -1,0 +1,298 @@
+{
+  "id": "pack03-05-you-can-drop-me",
+  "packId": "pack-03-getting-around",
+  "dayInPack": 5,
+  "title": "You can drop me here",
+  "titleZh": "你就在这儿让我下",
+  "setting": "In a rideshare, approaching Maya's hotel. The driveway looks tight. The driver is Nina. Slightly denser reductions; speed holds.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "nina",
+      "name": "Nina",
+      "gender": "female"
+    }
+  ],
+  "register": "travel",
+  "skillNode": "A-reduce-basic",
+  "targetWpm": 150,
+  "slowerWpm": 125,
+  "durationSec": 66,
+  "newItems": [],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "You can actually... sorry, can you drop me at the corner? The one with the drugstore.",
+      "spoken": "You can actually... sorry, can you drop me at the corner? The one with the drugstore.",
+      "audio": "audio/pack03-05-you-can-drop-me/l1.m4a",
+      "durationMs": 4401
+    },
+    {
+      "id": "l2",
+      "speaker": "nina",
+      "text": "This corner up here?",
+      "spoken": "This corner up here?",
+      "audio": "audio/pack03-05-you-can-drop-me/l2.m4a",
+      "durationMs": 1575
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "Yeah. Here's fine, actually. If you go all the way to the door, you'll get stuck in that driveway.",
+      "spoken": "Yeah. Here's fine, actually. If you go all the way to the door, you'll get stuck in that driveway.",
+      "audio": "audio/pack03-05-you-can-drop-me/l3.m4a",
+      "durationMs": 6784
+    },
+    {
+      "id": "l4",
+      "speaker": "nina",
+      "text": "Oh, I know that driveway. Yeah. I'll pull up on the right.",
+      "spoken": "Oh, I know that driveway. Yeah. I'll pull up on the right.",
+      "audio": "audio/pack03-05-you-can-drop-me/l4.m4a",
+      "durationMs": 3934
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "Perfect. You can just let me out here. This is great.",
+      "spoken": "Perfect. You can just lemme out here. This is great.",
+      "audio": "audio/pack03-05-you-can-drop-me/l5.m4a",
+      "durationMs": 3929
+    },
+    {
+      "id": "l6",
+      "speaker": "nina",
+      "text": "You got all your stuff? Bag in the back?",
+      "spoken": "You got all your stuff? Bag in the back?",
+      "audio": "audio/pack03-05-you-can-drop-me/l6.m4a",
+      "durationMs": 2577
+    },
+    {
+      "id": "l7",
+      "speaker": "maya",
+      "text": "I got it, I got it. Thanks. Do I just... it's already in the app, right?",
+      "spoken": "I got it, I got it. Thanks. Do I just... it's already in the app, right?",
+      "audio": "audio/pack03-05-you-can-drop-me/l7.m4a",
+      "durationMs": 4675
+    },
+    {
+      "id": "l8",
+      "speaker": "nina",
+      "text": "Yeah, you're all set. Have a good one.",
+      "spoken": "Yeah, you're all set. Have a good one.",
+      "audio": "audio/pack03-05-you-can-drop-me/l8.m4a",
+      "durationMs": 3150
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "You too. Thanks again.",
+      "spoken": "You too. Thanks again.",
+      "audio": "audio/pack03-05-you-can-drop-me/l9.m4a",
+      "durationMs": 2138
+    },
+    {
+      "id": "l10",
+      "speaker": "nina",
+      "text": "Yep. Door's unlocked, just, you know, watch the bike lane.",
+      "spoken": "Yep. Door's unlocked, just, you know, watch the bike lane.",
+      "audio": "audio/pack03-05-you-can-drop-me/l10.m4a",
+      "durationMs": 4004
+    },
+    {
+      "id": "l11",
+      "speaker": "maya",
+      "text": "Watching. Okay. I'm good.",
+      "spoken": "Watching. Okay. I'm good.",
+      "audio": "audio/pack03-05-you-can-drop-me/l11.m4a",
+      "durationMs": 2777
+    },
+    {
+      "id": "l12",
+      "speaker": "nina",
+      "text": "You sure you don't want me to go in a little more? I can if you want.",
+      "spoken": "You sure you don't want me to go in a little more? I can if you want.",
+      "audio": "audio/pack03-05-you-can-drop-me/l12.m4a",
+      "durationMs": 3424
+    },
+    {
+      "id": "l13",
+      "speaker": "maya",
+      "text": "No, here's better. I don't want you stuck behind some delivery van.",
+      "spoken": "No, here's better. I don't want you stuck behind some delivery van.",
+      "audio": "audio/pack03-05-you-can-drop-me/l13.m4a",
+      "durationMs": 4298
+    },
+    {
+      "id": "l14",
+      "speaker": "nina",
+      "text": "Appreciate that. Okay, you're good to hop out.",
+      "spoken": "Appreciate that. Okay, you're good to hop out.",
+      "audio": "audio/pack03-05-you-can-drop-me/l14.m4a",
+      "durationMs": 3842
+    },
+    {
+      "id": "l15",
+      "speaker": "maya",
+      "text": "Thanks. See you. I mean, not see you, but—yeah. Thanks.",
+      "spoken": "Thanks. See you. I mean, not see you, but—yeah. Thanks.",
+      "audio": "audio/pack03-05-you-can-drop-me/l15.m4a",
+      "durationMs": 4949
+    },
+    {
+      "id": "l16",
+      "speaker": "nina",
+      "text": "I got it. Bye.",
+      "spoken": "I got it. Bye.",
+      "audio": "audio/pack03-05-you-can-drop-me/l16.m4a",
+      "durationMs": 1690
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "Maya 想在哪儿下车？为什么？",
+      "askEn": "Where does Maya want to get out, and why?",
+      "accept": [
+        "at the corner",
+        "by the drugstore",
+        "the driveway would get the car stuck",
+        "街角",
+        "药店那儿",
+        "车道容易堵住"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "司机同不同意？下车时要注意什么？",
+      "askEn": "Does the driver agree, and what should Maya watch for?",
+      "accept": [
+        "yes",
+        "pulls up on the right",
+        "watch the bike lane",
+        "同意",
+        "靠右停",
+        "注意自行车道"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "付钱还用另外做什么吗？",
+      "askEn": "Does Maya need to do anything else to pay?",
+      "accept": [
+        "it's already in the app",
+        "she's all set",
+        "已经在 App 里付了",
+        "不用再付"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "司机后来还问她要不要再往前开一点吗？",
+      "askEn": "Does the driver offer to go in a little farther?",
+      "accept": [
+        "yes",
+        "Maya says here's better",
+        "问了",
+        "Maya 说这里更好"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l1",
+      "span": "can you drop me at the corner",
+      "hear": "can you drop me at the corner",
+      "noteZh": "drop me at the 四个词里 at the 极弱，像 drop me-uh-the corner。",
+      "standard": "can you drop me at the corner"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l3",
+      "span": "Here's fine, actually",
+      "hear": "Here's fine, actually",
+      "noteZh": "Here's fine 是改口：刚才说了街角，现在表示‘这儿就行’；actually 常出现在这种临时改主意里。",
+      "standard": "Here is fine, actually"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l5",
+      "span": "You can just let me out here",
+      "hear": "You can just lemme out here",
+      "noteZh": "let me 缩成 lemme，out here 连读；整句就是‘让我在这儿下就行’。",
+      "standard": "You can just let me out here"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "Can you drop me at the corner?",
+      "meaningZh": "可以让我在街角下吗？",
+      "fromLineId": "l1",
+      "sayAfter": "Sorry, can you drop me at the corner? The one with the drugstore.",
+      "audio": "audio/pack03-05-you-can-drop-me/c1.m4a",
+      "durationMs": 1484,
+      "afterAudio": "audio/pack03-05-you-can-drop-me/c1-after.m4a",
+      "afterDurationMs": 3787
+    },
+    {
+      "id": "c2",
+      "form": "Here's fine, actually.",
+      "meaningZh": "其实这儿就行。",
+      "fromLineId": "l3",
+      "sayAfter": "Yeah. Here's fine, actually.",
+      "audio": "audio/pack03-05-you-can-drop-me/c2.m4a",
+      "durationMs": 1962,
+      "afterAudio": "audio/pack03-05-you-can-drop-me/c2-after.m4a",
+      "afterDurationMs": 2745
+    },
+    {
+      "id": "c3",
+      "form": "You can just let me out here.",
+      "meaningZh": "你就在这儿让我下就行。",
+      "fromLineId": "l5",
+      "sayAfter": "Perfect. You can just let me out here.",
+      "audio": "audio/pack03-05-you-can-drop-me/c3.m4a",
+      "durationMs": 1585,
+      "afterAudio": "audio/pack03-05-you-can-drop-me/c3-after.m4a",
+      "afterDurationMs": 2480
+    }
+  ],
+  "roleplay": {
+    "setupZh": "车快到酒店了，但酒店车道很容易堵住。你要请司机在街角或药店旁让你下，确认行李，并问是不是已经在 App 里付过了。",
+    "aiRole": "Nina, a practical rideshare driver who knows this driveway. She'll confirm the corner, remind you about the bike lane, and offer to go farther in if you want.",
+    "variants": [
+      "There's a car already stopped at the corner.",
+      "Maya almost leaves a bag in the back.",
+      "The app payment didn't go through."
+    ],
+    "mustUse": [
+      "Can you drop me at the corner",
+      "Here's fine, actually",
+      "let me out here"
+    ],
+    "starters": [
+      "Can you drop me at the corner?",
+      "Here's fine, actually.",
+      "You can just let me out here."
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲下车这一段：Maya 为什么不让车开进车道，她怎么跟司机说，下车时还确认了什么。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell the drop-off: why Maya didn't want the driveway, how she asked, and what they confirmed as she got out. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l3"
+  ],
+  "audioFull": "audio/pack03-05-you-can-drop-me/full.m4a",
+  "audioFullDurationMs": 62948
+}

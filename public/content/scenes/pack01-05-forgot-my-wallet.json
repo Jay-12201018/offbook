@@ -1,0 +1,308 @@
+{
+  "id": "pack01-05-forgot-my-wallet",
+  "packId": "pack-01-who-pays",
+  "dayInPack": 5,
+  "title": "I forgot my wallet",
+  "titleZh": "我忘带钱包了",
+  "setting": "The check has just arrived after a weeknight dinner. Chris pats his pockets and stops.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "A-daily-open",
+  "targetWpm": 145,
+  "slowerWpm": 120,
+  "durationSec": 69,
+  "newItems": [
+    "get you back"
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "chris",
+      "text": "Oh no.",
+      "spoken": "Oh no.",
+      "audio": "audio/pack01-05-forgot-my-wallet/l1.m4a",
+      "durationMs": 750
+    },
+    {
+      "id": "l2",
+      "speaker": "maya",
+      "text": "What.",
+      "spoken": "What.",
+      "audio": "audio/pack01-05-forgot-my-wallet/l2.m4a",
+      "durationMs": 705
+    },
+    {
+      "id": "l3",
+      "speaker": "chris",
+      "text": "I forgot my wallet. I think it's on the table at home. Or in my other jacket. I don't... yeah. I don't have it.",
+      "spoken": "I forgot my wallet. I think it's on the table at home. Or in my other jacket. I dunno... yeah. I don't have it.",
+      "audio": "audio/pack01-05-forgot-my-wallet/l3.m4a",
+      "durationMs": 7796
+    },
+    {
+      "id": "l4",
+      "speaker": "maya",
+      "text": "Are you serious?",
+      "spoken": "Are you serious?",
+      "audio": "audio/pack01-05-forgot-my-wallet/l4.m4a",
+      "durationMs": 1297
+    },
+    {
+      "id": "l5",
+      "speaker": "chris",
+      "text": "I am so serious. I'm sorry. That's on me. That's really on me.",
+      "spoken": "I am so serious. I'm sorry. That's on me. That's really on me.",
+      "audio": "audio/pack01-05-forgot-my-wallet/l5.m4a",
+      "durationMs": 5797
+    },
+    {
+      "id": "l6",
+      "speaker": "maya",
+      "text": "It's okay. I can cover you. I got this.",
+      "spoken": "It's okay. I can cover you. I got this.",
+      "audio": "audio/pack01-05-forgot-my-wallet/l6.m4a",
+      "durationMs": 3200
+    },
+    {
+      "id": "l7",
+      "speaker": "chris",
+      "text": "You sure? I feel like an idiot.",
+      "spoken": "You sure? I feel like an idiot.",
+      "audio": "audio/pack01-05-forgot-my-wallet/l7.m4a",
+      "durationMs": 2371
+    },
+    {
+      "id": "l8",
+      "speaker": "maya",
+      "text": "You're not an idiot. You're a person who left his wallet. I'll get you this, you get me back later.",
+      "spoken": "You're not an idiot. You're a person who left his wallet. I'll get you this, you get me back later.",
+      "audio": "audio/pack01-05-forgot-my-wallet/l8.m4a",
+      "durationMs": 5422
+    },
+    {
+      "id": "l9",
+      "speaker": "chris",
+      "text": "I'll get you back tonight. I can send it the second we get home.",
+      "spoken": "I'll get you back tonight. I can send it the second we get home.",
+      "audio": "audio/pack01-05-forgot-my-wallet/l9.m4a",
+      "durationMs": 3799
+    },
+    {
+      "id": "l10",
+      "speaker": "maya",
+      "text": "Or just get the next one. We don't have to make it a whole thing.",
+      "spoken": "Or just get the next one. We don't have to make it a whole thing.",
+      "audio": "audio/pack01-05-forgot-my-wallet/l10.m4a",
+      "durationMs": 3593
+    },
+    {
+      "id": "l11",
+      "speaker": "chris",
+      "text": "Okay. Yeah. Next one's on me, for real. I'm not even gonna joke about it.",
+      "spoken": "Okay. Yeah. Next one's on me, for real. I'm not even gonna joke about it.",
+      "audio": "audio/pack01-05-forgot-my-wallet/l11.m4a",
+      "durationMs": 6312
+    },
+    {
+      "id": "l12",
+      "speaker": "maya",
+      "text": "Good. Because I'm getting the good pasta, now that I know I'm paying.",
+      "spoken": "Good. 'Cause I'm getting the good pasta, now that I know I'm paying.",
+      "audio": "audio/pack01-05-forgot-my-wallet/l12.m4a",
+      "durationMs": 4357
+    },
+    {
+      "id": "l13",
+      "speaker": "chris",
+      "text": "That's fair. That's completely fair.",
+      "spoken": "That's fair. That's completely fair.",
+      "audio": "audio/pack01-05-forgot-my-wallet/l13.m4a",
+      "durationMs": 2738
+    },
+    {
+      "id": "l14",
+      "speaker": "maya",
+      "text": "You wanna throw in a dessert, or is that too much power?",
+      "spoken": "You wanna throw in a dessert, or is that too much power?",
+      "audio": "audio/pack01-05-forgot-my-wallet/l14.m4a",
+      "durationMs": 3485
+    },
+    {
+      "id": "l15",
+      "speaker": "chris",
+      "text": "Get the dessert. I deserve that.",
+      "spoken": "Get the dessert. I deserve that.",
+      "audio": "audio/pack01-05-forgot-my-wallet/l15.m4a",
+      "durationMs": 2450
+    },
+    {
+      "id": "l16",
+      "speaker": "maya",
+      "text": "You kind of do.",
+      "spoken": "You kinda do.",
+      "audio": "audio/pack01-05-forgot-my-wallet/l16.m4a",
+      "durationMs": 1189
+    },
+    {
+      "id": "l17",
+      "speaker": "chris",
+      "text": "I know. Thank you. Really.",
+      "spoken": "I know. Thank you. Really.",
+      "audio": "audio/pack01-05-forgot-my-wallet/l17.m4a",
+      "durationMs": 2871
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "出了什么事？",
+      "askEn": "What happened?",
+      "accept": [
+        "Chris forgot his wallet",
+        "he left his wallet",
+        "Chris 忘带钱包",
+        "没带钱包",
+        "钱包忘在家"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "他们最后怎么处理？",
+      "askEn": "How do they handle it?",
+      "accept": [
+        "Maya will pay",
+        "Maya can cover him",
+        "he'll get her back",
+        "Maya 先付",
+        "下次他请",
+        "他回头还她"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "Chris 觉得钱包可能在哪儿？",
+      "askEn": "Where does Chris think his wallet is?",
+      "accept": [
+        "on the table at home",
+        "in his other jacket",
+        "at home",
+        "家里桌上",
+        "另一件外套里"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "Maya 说现在可以点什么？",
+      "askEn": "What does Maya say she'll get, since she's paying?",
+      "accept": [
+        "the good pasta",
+        "dessert",
+        "pasta and dessert",
+        "好一点的意大利面",
+        "甜点"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l3",
+      "span": "I forgot my wallet",
+      "hear": "I forgot my wallet",
+      "noteZh": "forgot my 中间的 t 常常闪音或几乎消失，my 又弱读，不要听成 I for my wallet。",
+      "standard": "I forgot my wallet"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l9",
+      "span": "I'll get you back tonight",
+      "hear": "I'll get you back tonight",
+      "noteZh": "get you 在语流里像 getcha / get you 连读，back 又紧跟其后，三个词容易糊成一团。",
+      "standard": "I'll get you back tonight"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l12",
+      "span": "Because I'm getting",
+      "hear": "'Cause I'm getting",
+      "noteZh": "Because 常缩成 'cause，和 I'm 连在一起，句首的原因标记很容易被滑过去。",
+      "standard": "Because I'm getting"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "I forgot my wallet.",
+      "meaningZh": "我忘带钱包了。",
+      "fromLineId": "l3",
+      "sayAfter": "I forgot my wallet. I'm so sorry.",
+      "audio": "audio/pack01-05-forgot-my-wallet/c1.m4a",
+      "durationMs": 1217,
+      "afterAudio": "audio/pack01-05-forgot-my-wallet/c1-after.m4a",
+      "afterDurationMs": 2765
+    },
+    {
+      "id": "c2",
+      "form": "I can cover you.",
+      "meaningZh": "我可以先帮你付。",
+      "fromLineId": "l6",
+      "sayAfter": "It's okay. I can cover you.",
+      "audio": "audio/pack01-05-forgot-my-wallet/c2.m4a",
+      "durationMs": 1197,
+      "afterAudio": "audio/pack01-05-forgot-my-wallet/c2-after.m4a",
+      "afterDurationMs": 2265
+    },
+    {
+      "id": "c3",
+      "form": "I'll get you back.",
+      "meaningZh": "我回头补给你 / 我下次还你。",
+      "fromLineId": "l9",
+      "sayAfter": "I'll get you back tonight. I can send it when we get home.",
+      "audio": "audio/pack01-05-forgot-my-wallet/c3.m4a",
+      "durationMs": 866,
+      "afterAudio": "audio/pack01-05-forgot-my-wallet/c3-after.m4a",
+      "afterDurationMs": 3528
+    }
+  ],
+  "roleplay": {
+    "setupZh": "账单来了，你发现自己没带钱包。你需要道歉，但不要演成一场灾难。对方愿意先付，你要说清楚怎么还。",
+    "aiRole": "Maya, warm and practical. She will cover you without making a speech, then maybe joke about ordering something nicer. She prefers 'just get the next one' over a big repayment scene.",
+    "variants": [
+      "Maya also only has a little cash.",
+      "Chris wants to send the money immediately.",
+      "They also have to pay for a cab home."
+    ],
+    "mustUse": [
+      "I forgot my wallet",
+      "I'll get you back"
+    ],
+    "starters": [
+      "I forgot my wallet.",
+      "I can cover you.",
+      "You sure? I feel like an idiot."
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲钱包这件事：谁忘了，谁先付，他们说好怎么还，后来还点了什么。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell the wallet story: who forgot it, who covered, how they'll settle up, and what they ordered after. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l3"
+  ],
+  "audioFull": "audio/pack01-05-forgot-my-wallet/full.m4a",
+  "audioFullDurationMs": 63181
+}

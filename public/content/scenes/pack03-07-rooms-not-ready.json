@@ -1,0 +1,301 @@
+{
+  "id": "pack03-07-rooms-not-ready",
+  "packId": "pack-03-getting-around",
+  "dayInPack": 7,
+  "title": "The room's not ready",
+  "titleZh": "房间还没准备好",
+  "setting": "Maya arrives at the hotel earlier than check-in. A different clerk, Omar, is on the desk. Bags are at her feet.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "omar",
+      "name": "Omar",
+      "gender": "male"
+    }
+  ],
+  "register": "travel",
+  "skillNode": "A-travel-open",
+  "targetWpm": 160,
+  "slowerWpm": 135,
+  "durationSec": 73,
+  "newItems": [
+    "housekeeping"
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "omar",
+      "text": "Hey. You checking in?",
+      "spoken": "Hey. You checking in?",
+      "audio": "audio/pack03-07-rooms-not-ready/l1.m4a",
+      "durationMs": 1929
+    },
+    {
+      "id": "l2",
+      "speaker": "maya",
+      "text": "Yeah, I know I'm a little early. I have a reservation under Chen.",
+      "spoken": "Yeah, I know I'm a little early. I have a reservation under Chen.",
+      "audio": "audio/pack03-07-rooms-not-ready/l2.m4a",
+      "durationMs": 4078
+    },
+    {
+      "id": "l3",
+      "speaker": "omar",
+      "text": "Chen, okay. Yeah, so, the room's not ready yet. I'm sorry. Housekeeping's a little behind this morning.",
+      "spoken": "Chen, okay. Yeah, so, the room's not ready yet. I'm sorry. Housekeeping's a little behind this morning.",
+      "audio": "audio/pack03-07-rooms-not-ready/l3.m4a",
+      "durationMs": 7780
+    },
+    {
+      "id": "l4",
+      "speaker": "maya",
+      "text": "That's okay. Do you know about how long?",
+      "spoken": "That's okay. D'you know about how long?",
+      "audio": "audio/pack03-07-rooms-not-ready/l4.m4a",
+      "durationMs": 2685
+    },
+    {
+      "id": "l5",
+      "speaker": "omar",
+      "text": "I wanna say forty minutes? Maybe an hour, I don't want to promise forty and then... you know.",
+      "spoken": "I wanna say forty minutes? Maybe an hour, I don't want to promise forty and then... you know.",
+      "audio": "audio/pack03-07-rooms-not-ready/l5.m4a",
+      "durationMs": 5490
+    },
+    {
+      "id": "l6",
+      "speaker": "maya",
+      "text": "An hour's fine. Is there somewhere I can wait? Or can I leave my bag?",
+      "spoken": "An hour's fine. Is there somewhere I can wait? Or can I leave my bag?",
+      "audio": "audio/pack03-07-rooms-not-ready/l6.m4a",
+      "durationMs": 4839
+    },
+    {
+      "id": "l7",
+      "speaker": "omar",
+      "text": "We can hold your bags, yeah. I'll tag them. And there's a lobby, and a coffee place across the street that's actually good.",
+      "spoken": "We can hold your bags, yeah. I'll tag 'em. And there's a lobby, and a coffee place across the street that's actually good.",
+      "audio": "audio/pack03-07-rooms-not-ready/l7.m4a",
+      "durationMs": 7542
+    },
+    {
+      "id": "l8",
+      "speaker": "maya",
+      "text": "Oh. Okay, I'll probably do the coffee place. You'll text me, or I should just come back?",
+      "spoken": "Oh. Okay, I'll probably do the coffee place. You'll text me, or I should just come back?",
+      "audio": "audio/pack03-07-rooms-not-ready/l8.m4a",
+      "durationMs": 5903
+    },
+    {
+      "id": "l9",
+      "speaker": "omar",
+      "text": "I'll take your number and text you when it's ready. That's easier.",
+      "spoken": "I'll take your number and text you when it's ready. That's easier.",
+      "audio": "audio/pack03-07-rooms-not-ready/l9.m4a",
+      "durationMs": 3704
+    },
+    {
+      "id": "l10",
+      "speaker": "maya",
+      "text": "Perfect. Thank you.",
+      "spoken": "Perfect. Thank you.",
+      "audio": "audio/pack03-07-rooms-not-ready/l10.m4a",
+      "durationMs": 1893
+    },
+    {
+      "id": "l11",
+      "speaker": "omar",
+      "text": "Yeah, sorry about the wait. It's just one of those mornings.",
+      "spoken": "Yeah, sorry about the wait. It's just one of those mornings.",
+      "audio": "audio/pack03-07-rooms-not-ready/l11.m4a",
+      "durationMs": 4000
+    },
+    {
+      "id": "l12",
+      "speaker": "maya",
+      "text": "I've had those. It's really fine. Here's my ID, if you need it now.",
+      "spoken": "I've had those. It's really fine. Here's my ID, if you need it now.",
+      "audio": "audio/pack03-07-rooms-not-ready/l12.m4a",
+      "durationMs": 5658
+    },
+    {
+      "id": "l13",
+      "speaker": "omar",
+      "text": "Yeah, I'll take a photo of it so we can go faster later. You want both bags tagged?",
+      "spoken": "Yeah, I'll take a photo of it so we can go faster later. You want both bags tagged?",
+      "audio": "audio/pack03-07-rooms-not-ready/l13.m4a",
+      "durationMs": 5199
+    },
+    {
+      "id": "l14",
+      "speaker": "maya",
+      "text": "Both, please. I'll keep my backpack.",
+      "spoken": "Both, please. I'll keep my backpack.",
+      "audio": "audio/pack03-07-rooms-not-ready/l14.m4a",
+      "durationMs": 2663
+    },
+    {
+      "id": "l15",
+      "speaker": "omar",
+      "text": "You got it. Go get a coffee. I'll ping you.",
+      "spoken": "You got it. Go get a coffee. I'll ping you.",
+      "audio": "audio/pack03-07-rooms-not-ready/l15.m4a",
+      "durationMs": 3627
+    },
+    {
+      "id": "l16",
+      "speaker": "maya",
+      "text": "Thanks. I'll be across the street.",
+      "spoken": "Thanks. I'll be across the street.",
+      "audio": "audio/pack03-07-rooms-not-ready/l16.m4a",
+      "durationMs": 2609
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "为什么 Maya 还不能进房？",
+      "askEn": "Why can't Maya go to the room yet?",
+      "accept": [
+        "the room's not ready",
+        "she's early",
+        "housekeeping is behind",
+        "房间还没准备好",
+        "她来早了",
+        "客房清理还没完"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "这段时间她可以怎么安排？",
+      "askEn": "What can she do while she waits?",
+      "accept": [
+        "leave her bags",
+        "wait in the lobby",
+        "coffee place across the street",
+        "they'll text her",
+        "行李寄放",
+        "去马路对面喝咖啡",
+        "准备好了会发消息"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "大概还要等多久？Omar 为什么不把话说死？",
+      "askEn": "How long might it be, and why won't Omar promise a short time?",
+      "accept": [
+        "forty minutes maybe an hour",
+        "he doesn't want to promise forty",
+        "四十分钟到一小时",
+        "他不想打包票说四十分钟"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "行李怎么处理？她自己留着什么？",
+      "askEn": "What happens to the bags, and what does she keep?",
+      "accept": [
+        "he'll tag both bags",
+        "she keeps her backpack",
+        "两件行李寄存打标签",
+        "背包自己带着"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l3",
+      "span": "the room's not ready yet",
+      "hear": "the room's not ready yet",
+      "noteZh": "room's not ready 里's 和 not 都很快，yet 容易被丢掉；整句是‘还没准备好’。",
+      "standard": "the room is not ready yet"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l5",
+      "span": "I wanna say forty minutes",
+      "hear": "I wanna say forty minutes",
+      "noteZh": "I wanna say 表示‘我估一下’，不是‘我想说’的争论义；wanna say 要整块听。",
+      "standard": "I want to say forty minutes"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l7",
+      "span": "I'll tag them",
+      "hear": "I'll tag 'em",
+      "noteZh": "them 又变成 'em，I'll tag 'em 非常短，意思是给行李做寄存标记。",
+      "standard": "I will tag them"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "The room's not ready yet.",
+      "meaningZh": "房间还没准备好。",
+      "fromLineId": "l3",
+      "sayAfter": "Yeah, so, the room's not ready yet. I'm sorry.",
+      "audio": "audio/pack03-07-rooms-not-ready/c1.m4a",
+      "durationMs": 1395,
+      "afterAudio": "audio/pack03-07-rooms-not-ready/c1-after.m4a",
+      "afterDurationMs": 3704
+    },
+    {
+      "id": "c2",
+      "form": "Is there somewhere I can wait?",
+      "meaningZh": "有没有我可以等的地方？",
+      "fromLineId": "l6",
+      "sayAfter": "An hour's fine. Is there somewhere I can wait?",
+      "audio": "audio/pack03-07-rooms-not-ready/c2.m4a",
+      "durationMs": 1762,
+      "afterAudio": "audio/pack03-07-rooms-not-ready/c2-after.m4a",
+      "afterDurationMs": 3285
+    },
+    {
+      "id": "c3",
+      "form": "We can hold your bags.",
+      "meaningZh": "我们可以帮你看行李 / 寄存行李。",
+      "fromLineId": "l7",
+      "sayAfter": "We can hold your bags, yeah. I'll tag them.",
+      "audio": "audio/pack03-07-rooms-not-ready/c3.m4a",
+      "durationMs": 1369,
+      "afterAudio": "audio/pack03-07-rooms-not-ready/c3-after.m4a",
+      "afterDurationMs": 3137
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你到酒店早于入住时间，房间还没好。你要报预订名，问还要多久，问能不能放行李、去哪里等，以及他们会怎么通知你。",
+    "aiRole": "Omar, a stretched but decent front-desk clerk. He won't over-promise a 40-minute wait. He'll hold bags, take a number, and recommend the coffee place across the street.",
+    "variants": [
+      "The wait might be closer to two hours.",
+      "Maya doesn't want to leave the bags.",
+      "The room becomes ready while they're still talking."
+    ],
+    "mustUse": [
+      "I have a reservation under",
+      "The room's not ready yet",
+      "Is there somewhere I can wait"
+    ],
+    "starters": [
+      "I know I'm a little early.",
+      "The room's not ready yet.",
+      "Is there somewhere I can wait?"
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲早到入住：房间为什么还没好，要等多久，行李怎么办，Maya 去哪等、怎么得到通知。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell the early check-in: why the room wasn't ready, the wait, what happened to the bags, and how Maya would be notified. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/pack03-07-rooms-not-ready/full.m4a",
+  "audioFullDurationMs": 74465
+}

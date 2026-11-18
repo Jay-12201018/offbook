@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "introZh": "这不是打卡表。树上看的是：你现在能听懂什么样的英语、能把什么样的话说出来。解锁看能力，不看连续来了多少天。下面从诊断一直画到一年以后，好让新鲜感过去之后，仍然知道下一步是什么。",
+  "introEn": "This is not a streak chart. The tree shows what you can already follow, and what you can already say. Nodes unlock by ability, not by attendance. The later phases are sketched so the long path stays visible after the first month.",
+  "nodes": [
+    {
+      "id": "diag",
+      "titleZh": "先定位你现在能听、能说的位置",
+      "titleEn": "See where you are",
+      "phase": "0",
+      "pass": "You finish three short listens on familiar topics, at about 120, 150, and 180 words a minute, plus one 45-second talk after 30 seconds to prepare. There is no fail. The app now knows which speed you can already follow, and how long it takes you to start speaking.",
+      "passZh": "听完三段熟悉话题（大约每分钟 120、150、180 词），再准备 30 秒、说大约 45 秒。没有不及格。系统由此知道你现在能跟上哪一档语速，以及你开口前会停多久。",
+      "children": ["phase-A"]
+    },
+    {
+      "id": "phase-A",
+      "titleZh": "阶段 A：敢听完、敢出声",
+      "titleEn": "Phase A: Stay with it, and speak",
+      "phase": "A",
+      "weeks": "1–4",
+      "pass": "On familiar daily and travel talk around 120–140 words a minute, you can catch the gist without text. When it's your turn, a first sentence comes out without a long freeze, and you can use this week's chunks in a short conversation.",
+      "passZh": "在熟悉的闲聊和旅行话题上，大约每分钟 120–140 词、不看文本，也能抓住大意。轮到你时，第一句不用想很久就能出来，并且能在短对话里用出本周的语块。",
+      "children": ["A-daily-open", "A-travel-open", "A-reduce-basic"]
+    },
+    {
+      "id": "A-daily-open",
+      "titleZh": "日常闲聊：敢听完，也敢接话",
+      "titleEn": "Daily chat: follow it, and answer",
+      "phase": "A",
+      "packs": ["pack-01-who-pays", "pack-02-change-of-plans"],
+      "pass": "After a short conversation about who pays, or about a change of plans, you can say what happened and how each person felt, without reading the script first. In a role-play you can get out I got this, You sure?, I can throw in…, I'm on my way, or Wanna just do it tomorrow? without translating the whole sentence in your head.",
+      "passZh": "听完一段关于买单或改计划的短对话，不先看稿，也能说出发生了什么、两个人是什么态度。对练时能直接说出 I got this、You sure?、I can throw in…、I'm on my way 或 Wanna just do it tomorrow?，不必整句在脑子里先翻译。",
+      "children": []
+    },
+    {
+      "id": "A-travel-open",
+      "titleZh": "旅行开口：问路、上车、住店、点餐",
+      "titleEn": "Travel talk: rides, directions, hotel, food",
+      "phase": "A",
+      "packs": ["pack-03-getting-around", "pack-04-food-and-help"],
+      "pass": "You can handle a short travel moment out loud: tell a driver where to go or where to stop, ask a stranger if this is the right way or the right stop, check in, or order and fix a wrong plate. The other person would know what you need, even if your English is still simple.",
+      "passZh": "能把一个短的旅行场面说出来：告诉司机去哪或在哪停、问路人或自己是不是坐对了站、办理入住、点餐或把上错的菜说清楚。对方能明白你要什么，哪怕句子还不华丽。",
+      "children": []
+    },
+    {
+      "id": "A-reduce-basic",
+      "titleZh": "听出常用缩减：wanna、gonna、'em",
+      "titleEn": "Hear the basic reductions: wanna, gonna, 'em",
+      "phase": "A",
+      "pass": "When someone says wanna, gonna, kinda, gotta, 'em, didja, or dunno in a familiar line, you can hear which words those were, not just a blur. After the glue moment, you can catch the same spot again without text. You don't have to use every reduction when you speak, but you should recognize them.",
+      "passZh": "在熟悉的句子里听到 wanna、gonna、kinda、gotta、'em、didja、dunno 时，能听出那是哪些词，而不只是一团音。解开胶水后再听同一处，不看文本也能对上。自己说话不必每个都缩，但耳朵要认得。",
+      "children": []
+    },
+    {
+      "id": "phase-B",
+      "titleZh": "阶段 B：自然会话开始可解，话开始不像翻译",
+      "titleEn": "Phase B: Natural talk starts to parse, and you sound less translated",
+      "phase": "B",
+      "weeks": "2–3 months",
+      "pass": "On everyday talk around 140–160 words a minute, you can catch the gist steadily and more than half the details, still without text. You can finish a 60–90 second story. You can follow a 90-second original TV-style scene well enough to say what happened.",
+      "passZh": "在大约每分钟 140–160 词的日常谈话里，不看文本也能稳住大意，细节能听对一半以上。能把一段 60–90 秒的事讲完。一段 90 秒的原创剧场风对话，你能说出发生了什么。",
+      "children": ["B-chat-natural", "B-tv-short"],
+      "sketched": true
+    },
+    {
+      "id": "B-chat-natural",
+      "titleZh": "和朋友聊天、吐槽、做客，开始不像在翻译",
+      "titleEn": "Chat, vent, be a guest — with less translating",
+      "phase": "B",
+      "pass": "You can stay in a longer everyday conversation (complaining lightly, changing plans mid-chat, being a guest) and keep going for several minutes without dropping back into a full Chinese draft in your head. Pauses get shorter. Chunks come out as pieces, not word by word.",
+      "passZh": "能在更长的日常对话里待住（轻轻吐槽、说到一半改计划、去做客），连续几分钟不必整段先在脑子里写成中文。停顿变短。语块是整块出来的，不是一个词一个词拼的。",
+      "children": [],
+      "sketched": true
+    },
+    {
+      "id": "B-tv-short",
+      "titleZh": "短版剧场风：无字幕抓住大意",
+      "titleEn": "Short TV-register scenes, gist without subtitles",
+      "phase": "B",
+      "pass": "You can get through a 90-second original TV-register scene with no text and say the gist. Overlap, dry asides, and unfinished sentences no longer make the whole thing collapse. Month 1 already gives you two short previews of this in the food pack.",
+      "passZh": "能在无文本的情况下听完一段 90 秒的原创剧场风对话，并说出大意。抢话、干的旁白、话说到一半，不再让整段崩掉。第一个月的食物包里已经有两场短预告。",
+      "children": [],
+      "sketched": true
+    },
+    {
+      "id": "phase-C",
+      "titleZh": "阶段 C：播客切段、职场入门、更长对话",
+      "titleEn": "Phase C: Podcast cuts, early work talk, longer conversations",
+      "phase": "C",
+      "weeks": "4–6 months",
+      "pass": "On a familiar topic, you can follow a 3-minute podcast cut well enough to tell the gist and some of the details, without reading first. You can stay with an AI conversation for 5–6 minutes without switching back to a Chinese draft in the middle.",
+      "passZh": "在熟悉话题上，先不看文本，也能听完大约 3 分钟的播客切段，说出大意和一部分细节。能和 AI 连续说 5–6 分钟，中途不必切回中文腹稿。",
+      "children": ["C-podcast-cut", "C-work-short"],
+      "sketched": true
+    },
+    {
+      "id": "C-podcast-cut",
+      "titleZh": "播客切段：先听，再讲给你自己听",
+      "titleEn": "Podcast cuts: listen first, then tell it back",
+      "phase": "C",
+      "pass": "After a 90–180 second cut on a narrow theme (a trip that went sideways, a first day at work, why someone doesn't order delivery), you can tell it back in your own words. That retelling is the bridge toward thinking in English.",
+      "passZh": "听完一段 90–180 秒、主题很窄的切段（一次翻车的旅行、工作第一天、为什么不点外卖），能用自己的话讲回去。这种复述，就是通往‘用英语想’的桥。",
+      "children": [],
+      "sketched": true
+    },
+    {
+      "id": "C-work-short",
+      "titleZh": "职场短场面：迟到、请人解释、礼貌不同意",
+      "titleEn": "Short work scenes: late, ask, disagree politely",
+      "phase": "C",
+      "pass": "You can get through a short work moment in spoken English: you're late to a meeting, you ask a colleague to explain a term, you disagree politely, or you give a 45-second standup update. It should still sound like talk, not like a read-aloud email.",
+      "passZh": "能用口语处理一个短的工作场面：开会迟到、请同事解释一个词、礼貌地不同意、或用 45 秒做站会更新。听起来仍应是在说话，而不是在朗读邮件。",
+      "children": [],
+      "sketched": true
+    },
+    {
+      "id": "phase-D",
+      "titleZh": "阶段 D：真正靠近无字幕的节目",
+      "titleEn": "Phase D: Getting close to shows and podcasts without subtitles",
+      "phase": "D",
+      "weeks": "7–12 months",
+      "pass": "You can follow short material at a faster conversational clip well enough to catch the gist. A 10-minute episode in a familiar genre is understandable with limited replay. You can do a 2-minute self-introduction that isn't dry. Speaking up in daily and travel situations is no longer a big psychological event.",
+      "passZh": "较快的短材料，你也能稳住大意。一类你熟悉的节目听大约 10 分钟，有限回放就能跟上。能做 2 分钟不干瘪的自我介绍。日常和旅行里主动开口，不再是一件需要鼓很大劲的事。",
+      "children": ["D-media"],
+      "sketched": true
+    },
+    {
+      "id": "D-media",
+      "titleZh": "把切段连成一集或一期",
+      "titleEn": "Join the cuts into a full episode",
+      "phase": "D",
+      "pass": "The default is no subtitles. You can ask for text when you need it, then turn it off and listen again. Replay count should fall over time. Interview and self-intro practice still uses chunks and fluency work, not a memorized speech used once.",
+      "passZh": "默认不开字幕。需要时可以要文本，用完就关，再听一遍。回放次数应逐渐下降。面试和自我介绍仍然用语块和流利度来练，而不是背一篇讲稿只用一次。",
+      "children": ["year-2"],
+      "sketched": true
+    },
+    {
+      "id": "year-2",
+      "titleZh": "第二年：更多说话人，更多不可预测的话题",
+      "titleEn": "Year 2: More speakers, less predictable topics",
+      "phase": "beyond",
+      "pass": "Meetings and social chat run in parallel. You add more voices and topics you cannot fully predict. The product should also push for at least one real English conversation a week — a language exchange or real life — because progress stalls without actual interaction.",
+      "passZh": "会议和社交闲聊并行。说话人和话题都会更不可预测。产品也应推动每周至少一次真人英语对话（语言交换或真实生活），因为没有真实互动，成年学习者很容易停在平台期。",
+      "children": ["year-3"],
+      "sketched": true
+    },
+    {
+      "id": "year-3",
+      "titleZh": "第三年及以后：用在真实生活里，产品变成保持器",
+      "titleEn": "Year 3 and after: Use it in real life; the product becomes a maintainer",
+      "phase": "beyond",
+      "pass": "English gets used for shows you actually want, work you actually do, and people you actually talk to. The product turns into a maintainer and a clinic for the spots that still fall apart: very fast overlap, less familiar accents, specialist meetings. It is no longer a beginner pack loop.",
+      "passZh": "英语用在你真正想看的节目、真正要做的工作、真正要交的朋友上。产品变成保持器，外加一个难点诊所：仍然听崩的快速重叠、不太熟的口音、专业会议。不再是入门主题包循环。",
+      "children": [],
+      "sketched": true
+    }
+  ],
+  "edges": [
+    {"from": "diag", "to": "phase-A"},
+    {"from": "phase-A", "to": "A-daily-open"},
+    {"from": "phase-A", "to": "A-travel-open"},
+    {"from": "phase-A", "to": "A-reduce-basic"},
+    {"from": "phase-A", "to": "phase-B"},
+    {"from": "phase-B", "to": "B-chat-natural"},
+    {"from": "phase-B", "to": "B-tv-short"},
+    {"from": "phase-B", "to": "phase-C"},
+    {"from": "phase-C", "to": "C-podcast-cut"},
+    {"from": "phase-C", "to": "C-work-short"},
+    {"from": "phase-C", "to": "phase-D"},
+    {"from": "phase-D", "to": "D-media"},
+    {"from": "D-media", "to": "year-2"},
+    {"from": "year-2", "to": "year-3"}
+  ]
+}

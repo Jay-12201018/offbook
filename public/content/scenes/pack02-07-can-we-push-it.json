@@ -1,0 +1,306 @@
+{
+  "id": "pack02-07-can-we-push-it",
+  "packId": "pack-02-change-of-plans",
+  "dayInPack": 7,
+  "title": "Can we push it?",
+  "titleZh": "能不能往后推一点",
+  "setting": "A phone call about dinner with Jordan. Jordan is stuck at work, so Maya and Chris have to move the time.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "A-daily-open",
+  "targetWpm": 160,
+  "slowerWpm": 135,
+  "durationSec": 67,
+  "newItems": [
+    "push it"
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "Hey, can we push it a little? Jordan just texted, they're stuck at work.",
+      "spoken": "Hey, can we push it a little? Jordan just texted, they're stuck at work.",
+      "audio": "audio/pack02-07-can-we-push-it/l1.m4a",
+      "durationMs": 4441
+    },
+    {
+      "id": "l2",
+      "speaker": "chris",
+      "text": "How little is a little?",
+      "spoken": "How little is a little?",
+      "audio": "audio/pack02-07-can-we-push-it/l2.m4a",
+      "durationMs": 1219
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "Like, thirty minutes? Maybe forty? I don't know if we wait or just...",
+      "spoken": "Like, thirty minutes? Maybe forty? I dunno if we wait or just...",
+      "audio": "audio/pack02-07-can-we-push-it/l3.m4a",
+      "durationMs": 4717
+    },
+    {
+      "id": "l4",
+      "speaker": "chris",
+      "text": "We can wait. Or we wanna start and they meet us?",
+      "spoken": "We can wait. Or we wanna start and they meet us?",
+      "audio": "audio/pack02-07-can-we-push-it/l4.m4a",
+      "durationMs": 2949
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "I think they wanna come from the beginning. They said don't wait if it's annoying, but...",
+      "spoken": "I think they wanna come from the beginning. They said don't wait if it's annoying, but...",
+      "audio": "audio/pack02-07-can-we-push-it/l5.m4a",
+      "durationMs": 4766
+    },
+    {
+      "id": "l6",
+      "speaker": "chris",
+      "text": "It's not annoying. Let's just say seven.",
+      "spoken": "It's not annoying. Let's just say seven.",
+      "audio": "audio/pack02-07-can-we-push-it/l6.m4a",
+      "durationMs": 2969
+    },
+    {
+      "id": "l7",
+      "speaker": "maya",
+      "text": "Seven works for me. What time works for you, for real? Don't say seven if you were gonna be late anyway.",
+      "spoken": "Seven works for me. What time works for you, for real? Don't say seven if you were gonna be late anyway.",
+      "audio": "audio/pack02-07-can-we-push-it/l7.m4a",
+      "durationMs": 6312
+    },
+    {
+      "id": "l8",
+      "speaker": "chris",
+      "text": "Seven is actually fine. I can leave a little later, even. That's better.",
+      "spoken": "Seven is actually fine. I can leave a little later, even. That's better.",
+      "audio": "audio/pack02-07-can-we-push-it/l8.m4a",
+      "durationMs": 5295
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "Okay. I'll tell Jordan seven. If they can't do seven, we just do it tomorrow.",
+      "spoken": "Okay. I'll tell Jordan seven. If they can't do seven, we just do it tomorrow.",
+      "audio": "audio/pack02-07-can-we-push-it/l9.m4a",
+      "durationMs": 5840
+    },
+    {
+      "id": "l10",
+      "speaker": "chris",
+      "text": "Yeah. I'm easy. Just text me.",
+      "spoken": "Yeah. I'm easy. Just text me.",
+      "audio": "audio/pack02-07-can-we-push-it/l10.m4a",
+      "durationMs": 3122
+    },
+    {
+      "id": "l11",
+      "speaker": "maya",
+      "text": "I will. Thanks for not making this a thing.",
+      "spoken": "I will. Thanks for not making this a thing.",
+      "audio": "audio/pack02-07-can-we-push-it/l11.m4a",
+      "durationMs": 2896
+    },
+    {
+      "id": "l12",
+      "speaker": "chris",
+      "text": "It's plans. Plans move. I'll see you at seven.",
+      "spoken": "It's plans. Plans move. I'll see you at seven.",
+      "audio": "audio/pack02-07-can-we-push-it/l12.m4a",
+      "durationMs": 4150
+    },
+    {
+      "id": "l13",
+      "speaker": "maya",
+      "text": "Seven. Don't leave your house at seven.",
+      "spoken": "Seven. Don't leave your house at seven.",
+      "audio": "audio/pack02-07-can-we-push-it/l13.m4a",
+      "durationMs": 2629
+    },
+    {
+      "id": "l14",
+      "speaker": "chris",
+      "text": "I'm hanging up on you now.",
+      "spoken": "I'm hanging up on you now.",
+      "audio": "audio/pack02-07-can-we-push-it/l14.m4a",
+      "durationMs": 1549
+    },
+    {
+      "id": "l15",
+      "speaker": "maya",
+      "text": "That's fair. I'll send the new time in the group chat.",
+      "spoken": "That's fair. I'll send the new time in the group chat.",
+      "audio": "audio/pack02-07-can-we-push-it/l15.m4a",
+      "durationMs": 3435
+    },
+    {
+      "id": "l16",
+      "speaker": "chris",
+      "text": "Do that. And if it moves again, tomorrow is fine. Really.",
+      "spoken": "Do that. And if it moves again, tomorrow is fine. Really.",
+      "audio": "audio/pack02-07-can-we-push-it/l16.m4a",
+      "durationMs": 4658
+    },
+    {
+      "id": "l17",
+      "speaker": "maya",
+      "text": "Okay. I'll keep you posted.",
+      "spoken": "Okay. I'll keep you posted.",
+      "audio": "audio/pack02-07-can-we-push-it/l17.m4a",
+      "durationMs": 2271
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "为什么要改时间？",
+      "askEn": "Why do they need to change the time?",
+      "accept": [
+        "Jordan is stuck at work",
+        "Jordan texted",
+        "they need to push it",
+        "Jordan 还在加班",
+        "要往后推",
+        "改时间"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "他们最后暂定几点？如果还是不行怎么办？",
+      "askEn": "What time do they settle on, and what's the backup?",
+      "accept": [
+        "seven",
+        "do it tomorrow if Jordan can't",
+        "七点",
+        "不行就明天"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "Maya 一开始说要推多久？",
+      "askEn": "How much later did Maya first suggest?",
+      "accept": [
+        "thirty minutes",
+        "maybe forty",
+        "三十分钟",
+        "也许四十"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "Jordan 是想从头一起，还是中途再汇合？",
+      "askEn": "Does Jordan want to arrive at the start, or join later?",
+      "accept": [
+        "from the beginning",
+        "not join midway",
+        "从头一起",
+        "不想晚点再汇合"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l1",
+      "span": "can we push it a little",
+      "hear": "can we push it a little",
+      "noteZh": "can we 都很弱，push it a little 才是请求本身；little 不是‘很小’，这里是‘稍微往后一点’。",
+      "standard": "can we push it a little"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l6",
+      "span": "Let's just say seven",
+      "hear": "Let's just say seven",
+      "noteZh": "Let's just say 是做决定的口头禅，seven 才是时间；just say 不要听成 decide formally。",
+      "standard": "Let us just say seven"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l7",
+      "span": "What time works for you",
+      "hear": "What time works for you",
+      "noteZh": "works for you 里 for 极弱，像 works fer you，问的是‘你真正方便的时间’。",
+      "standard": "What time works for you"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "Can we push it a little?",
+      "meaningZh": "能不能往后推一点？",
+      "fromLineId": "l1",
+      "sayAfter": "Can we push it a little? Jordan's stuck at work.",
+      "audio": "audio/pack02-07-can-we-push-it/c1.m4a",
+      "durationMs": 1363,
+      "afterAudio": "audio/pack02-07-can-we-push-it/c1-after.m4a",
+      "afterDurationMs": 2884
+    },
+    {
+      "id": "c2",
+      "form": "Let's just say seven.",
+      "meaningZh": "那就定七点吧。",
+      "fromLineId": "l6",
+      "sayAfter": "It's not annoying. Let's just say seven.",
+      "audio": "audio/pack02-07-can-we-push-it/c2.m4a",
+      "durationMs": 1369,
+      "afterAudio": "audio/pack02-07-can-we-push-it/c2-after.m4a",
+      "afterDurationMs": 3019
+    },
+    {
+      "id": "c3",
+      "form": "What time works for you?",
+      "meaningZh": "你几点方便？",
+      "fromLineId": "l7",
+      "sayAfter": "Seven works for me. What time works for you, for real?",
+      "audio": "audio/pack02-07-can-we-push-it/c3.m4a",
+      "durationMs": 1411,
+      "afterAudio": "audio/pack02-07-can-we-push-it/c3-after.m4a",
+      "afterDurationMs": 4001
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你们约了晚饭，第三个朋友还在加班。你要提议把时间往后推，给出一个具体时间，并准备好如果还是不行就改到明天。",
+    "aiRole": "Chris, flexible and slightly teasing ('don't leave your house at seven'). He is fine waiting or moving to tomorrow. He wants an honest time, not a polite one.",
+    "variants": [
+      "Jordan can only do 8:00.",
+      "Chris actually can't do seven.",
+      "They decide to start without Jordan after all."
+    ],
+    "mustUse": [
+      "Can we push it a little",
+      "Let's just say seven",
+      "What time works for you"
+    ],
+    "starters": [
+      "Can we push it a little?",
+      "How little is a little?",
+      "Let's just say seven."
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲这次改时间：谁被卡住了，他们考虑过哪些方案，为什么定七点，如果还不行怎么办。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell the reschedule: who got stuck, what options they considered, why they said seven, and what happens if that still doesn't work. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/pack02-07-can-we-push-it/full.m4a",
+  "audioFullDurationMs": 68336
+}

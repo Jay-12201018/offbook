@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "language": "General American",
+  "phase": "A",
+  "notes": "Month 1 only. Daily chat and travel, with two original TV-register scenes in Pack 4 on the same food-and-help themes. Difficulty moves one main lever per step: rate or reduction density, not both at once, and not a pile of new vocabulary.",
+  "packs": [
+    {
+      "id": "pack-01-who-pays",
+      "order": 1,
+      "titleEn": "Who pays",
+      "titleZh": "谁来买单",
+      "weekTheme": "After a meal: splitting, treating, throwing in, card versus cash.",
+      "weekThemeZh": "吃完饭以后：AA、请客、凑一份、刷卡还是现金。",
+      "register": "daily",
+      "skillNodes": ["A-daily-open", "A-reduce-basic"],
+      "targetWpmStart": 130,
+      "targetWpmEnd": 155,
+      "signatureChunks": ["I got this", "You sure?", "I can throw in…"],
+      "sceneIds": [
+        "pack01-01-i-got-this",
+        "pack01-02-you-got-last-time",
+        "pack01-03-throw-in-for-the-cab",
+        "pack01-04-card-machine-is-down",
+        "pack01-05-forgot-my-wallet",
+        "pack01-06-next-ones-on-me",
+        "pack01-07-split-it-three-ways"
+      ],
+      "difficultyCurve": [
+        {"day": 1, "sceneId": "pack01-01-i-got-this", "targetWpm": 130, "lever": "baseline", "note": "Warm, clear daily talk. Light, common reductions (wanna, kinda, lemme, dunno). Introduce I got this / You sure? / throw in."},
+        {"day": 2, "sceneId": "pack01-02-you-got-last-time", "targetWpm": 135, "lever": "rate", "note": "Same money language, a little faster. Recycle I got this and You sure?"},
+        {"day": 3, "sceneId": "pack01-03-throw-in-for-the-cab", "targetWpm": 140, "lever": "rate", "note": "Still two friends. didja appears on a familiar question."},
+        {"day": 4, "sceneId": "pack01-04-card-machine-is-down", "targetWpm": 140, "lever": "reduction-density", "note": "Speed holds. Denser reductions (d'you, tell 'em, wanna just) and a human server."},
+        {"day": 5, "sceneId": "pack01-05-forgot-my-wallet", "targetWpm": 145, "lever": "rate", "note": "Same reduction level, slightly faster. New chunk: I'll get you back."},
+        {"day": 6, "sceneId": "pack01-06-next-ones-on-me", "targetWpm": 150, "lever": "rate", "note": "The promised 'next one' lands. Recycle covered you / tell 'em / wanna just."},
+        {"day": 7, "sceneId": "pack01-07-split-it-three-ways", "targetWpm": 155, "lever": "rate", "note": "Top of the pack. Jordan joins, but the language is the same: split, throw in, I got the drinks. The third voice is not the difficulty lever; the rate is."}
+      ]
+    },
+    {
+      "id": "pack-02-change-of-plans",
+      "order": 2,
+      "titleEn": "Change of plans",
+      "titleZh": "计划有变",
+      "weekTheme": "Running late, rain, moving the meeting place, I'm on my way, soft apologies, and want to just do it tomorrow.",
+      "weekThemeZh": "要晚到、下雨、改见面地点、我在路上了、软道歉、要不然明天再约。",
+      "register": "daily",
+      "skillNodes": ["A-daily-open", "A-reduce-basic"],
+      "targetWpmStart": 135,
+      "targetWpmEnd": 160,
+      "signatureChunks": ["I'm running late", "I'm on my way", "Wanna just do it tomorrow?", "Can we push it a little?"],
+      "sceneIds": [
+        "pack02-01-running-late",
+        "pack02-02-im-on-my-way",
+        "pack02-03-its-pouring",
+        "pack02-04-meet-somewhere-else",
+        "pack02-05-do-it-tomorrow",
+        "pack02-06-sorry-im-like-this",
+        "pack02-07-can-we-push-it"
+      ],
+      "difficultyCurve": [
+        {"day": 1, "sceneId": "pack02-01-running-late", "targetWpm": 135, "lever": "baseline", "note": "Phone call, two people, soft apology plus a real time estimate."},
+        {"day": 2, "sceneId": "pack02-02-im-on-my-way", "targetWpm": 140, "lever": "rate", "note": "Same call pattern, now actually on the road. I'm on my way / gimme like fifteen."},
+        {"day": 3, "sceneId": "pack02-03-its-pouring", "targetWpm": 145, "lever": "rate", "note": "Weather forces a change. Recycle you wanna just."},
+        {"day": 4, "sceneId": "pack02-04-meet-somewhere-else", "targetWpm": 145, "lever": "reduction-density", "note": "Speed holds. Denser reductions: wanna meet somewhere, what're you gonna want, gimme like seven."},
+        {"day": 5, "sceneId": "pack02-05-do-it-tomorrow", "targetWpm": 150, "lever": "rate", "note": "Signature soft cancel / move. Long function-word string: I don't want you to feel like you have to."},
+        {"day": 6, "sceneId": "pack02-06-sorry-im-like-this", "targetWpm": 155, "lever": "rate", "note": "Role reversal: Maya is late. Recycle you're fine / I got a table."},
+        {"day": 7, "sceneId": "pack02-07-can-we-push-it", "targetWpm": 160, "lever": "rate", "note": "Top of the pack. Jordan is discussed, not given a new speaking role, so the lever stays rate."}
+      ]
+    },
+    {
+      "id": "pack-03-getting-around",
+      "order": 3,
+      "titleEn": "Getting around",
+      "titleZh": "出行与落脚",
+      "weekTheme": "Travel: rides, directions, hotel check-in, asking a stranger, a transit delay, changing a drop-off.",
+      "weekThemeZh": "旅行出行：上车、问路、酒店入住、问陌生人、交通晚点、改下车点。",
+      "register": "travel",
+      "skillNodes": ["A-travel-open", "A-reduce-basic"],
+      "targetWpmStart": 135,
+      "targetWpmEnd": 160,
+      "signatureChunks": ["I'm out front", "Do you know which way…?", "I have a reservation under…", "The train's delayed", "Here's fine, actually"],
+      "sceneIds": [
+        "pack03-01-im-out-front",
+        "pack03-02-which-way-is-the-station",
+        "pack03-03-reservation-under",
+        "pack03-04-the-trains-delayed",
+        "pack03-05-you-can-drop-me",
+        "pack03-06-is-this-the-right-stop",
+        "pack03-07-rooms-not-ready"
+      ],
+      "difficultyCurve": [
+        {"day": 1, "sceneId": "pack03-01-im-out-front", "targetWpm": 135, "lever": "baseline", "note": "Rideshare pickup. Service talk that still sounds human."},
+        {"day": 2, "sceneId": "pack03-02-which-way-is-the-station", "targetWpm": 140, "lever": "rate", "note": "Asking a stranger. Landmark directions, not guidebook English."},
+        {"day": 3, "sceneId": "pack03-03-reservation-under", "targetWpm": 145, "lever": "rate", "note": "Hotel check-in. Recycle can I see / you're in…"},
+        {"day": 4, "sceneId": "pack03-04-the-trains-delayed", "targetWpm": 150, "lever": "rate", "note": "Platform talk with a fellow passenger. Recycle how long / I guess we just wait."},
+        {"day": 5, "sceneId": "pack03-05-you-can-drop-me", "targetWpm": 150, "lever": "reduction-density", "note": "Speed holds. drop me at the / here's fine actually / lemme out here."},
+        {"day": 6, "sceneId": "pack03-06-is-this-the-right-stop", "targetWpm": 155, "lever": "rate", "note": "Onboard ask. Recycle is this the right… / the next one."},
+        {"day": 7, "sceneId": "pack03-07-rooms-not-ready", "targetWpm": 160, "lever": "rate", "note": "Back at the hotel, early. Recycle reservation under, plus hold your bags."}
+      ]
+    },
+    {
+      "id": "pack-04-food-and-help",
+      "order": 4,
+      "titleEn": "Food and help",
+      "titleZh": "点餐与求助",
+      "weekTheme": "Travel food: ordering, a recommendation, a wrong order, allergies, a slow kitchen. Days 6–7 are original TV-register scenes on the same themes.",
+      "weekThemeZh": "旅行中的吃：点餐、问推荐、上错菜、过敏、后厨太慢。第 6–7 场是同一主题上的原创剧场风对话。",
+      "register": "travel",
+      "skillNodes": ["A-travel-open", "A-reduce-basic", "B-tv-short"],
+      "targetWpmStart": 140,
+      "targetWpmEnd": 165,
+      "signatureChunks": ["I'll do the burger", "What do you recommend?", "I think this is the wrong order", "I'm allergic to…", "The kitchen's a little backed up"],
+      "sceneIds": [
+        "pack04-01-ill-do-the-burger",
+        "pack04-02-what-do-you-recommend",
+        "pack04-03-wrong-order",
+        "pack04-04-im-allergic-to",
+        "pack04-05-kitchens-backed-up",
+        "pack04-06-we-could-just-share",
+        "pack04-07-this-is-not-what-i-ordered"
+      ],
+      "difficultyCurve": [
+        {"day": 1, "sceneId": "pack04-01-ill-do-the-burger", "targetWpm": 140, "lever": "baseline", "note": "Ordering with a human server. I'll do… / can I get that without…"},
+        {"day": 2, "sceneId": "pack04-02-what-do-you-recommend", "targetWpm": 145, "lever": "rate", "note": "Asking for a real recommendation, not a tourist-script one."},
+        {"day": 3, "sceneId": "pack04-03-wrong-order", "targetWpm": 150, "lever": "rate", "note": "Polite, clear correction. Recycle no onions from day 1."},
+        {"day": 4, "sceneId": "pack04-04-im-allergic-to", "targetWpm": 155, "lever": "rate", "note": "Allergy language that has to stay precise. New items kept to allergic / check."},
+        {"day": 5, "sceneId": "pack04-05-kitchens-backed-up", "targetWpm": 155, "lever": "reduction-density", "note": "Speed holds. Recycle How long are we talking? from Pack 2. Denser wanna / gonna / text 'em."},
+        {"day": 6, "sceneId": "pack04-06-we-could-just-share", "targetWpm": 160, "lever": "rate", "note": "TV-register on the waiting/sharing theme: overlap, dry humor, yeah no. Still original, no show plot."},
+        {"day": 7, "sceneId": "pack04-07-this-is-not-what-i-ordered", "targetWpm": 165, "lever": "rate", "note": "TV-register on the wrong-order theme, slightly messier attitude. Recycle I'll fix that / let me take care of that."}
+      ]
+    }
+  ],
+  "diagnostic": {
+    "id": "diag",
+    "titleEn": "See where you are",
+    "titleZh": "先看看你现在能抓住什么",
+    "sceneIds": [
+      "diag-listen-120",
+      "diag-listen-150",
+      "diag-listen-180",
+      "diag-speak-this-week"
+    ],
+    "listenTargetsWpm": [120, 150, 180],
+    "speaking": {
+      "sceneId": "diag-speak-this-week",
+      "prepSec": 30,
+      "speakSec": 45
+    }
+  }
+}

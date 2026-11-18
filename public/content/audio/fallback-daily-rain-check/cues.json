@@ -1,0 +1,103 @@
+{
+  "sceneId": "fallback-daily-rain-check",
+  "lines": {
+    "l1": {
+      "file": "audio/fallback-daily-rain-check/l1.m4a",
+      "durationMs": 4107,
+      "fullStartMs": 0,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l2": {
+      "file": "audio/fallback-daily-rain-check/l2.m4a",
+      "durationMs": 4157,
+      "fullStartMs": 4387,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l3": {
+      "file": "audio/fallback-daily-rain-check/l3.m4a",
+      "durationMs": 2568,
+      "fullStartMs": 8824,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l4": {
+      "file": "audio/fallback-daily-rain-check/l4.m4a",
+      "durationMs": 4104,
+      "fullStartMs": 11672,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l5": {
+      "file": "audio/fallback-daily-rain-check/l5.m4a",
+      "durationMs": 2654,
+      "fullStartMs": 16056,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l6": {
+      "file": "audio/fallback-daily-rain-check/l6.m4a",
+      "durationMs": 3382,
+      "fullStartMs": 18990,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l7": {
+      "file": "audio/fallback-daily-rain-check/l7.m4a",
+      "durationMs": 2360,
+      "fullStartMs": 22652,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l8": {
+      "file": "audio/fallback-daily-rain-check/l8.m4a",
+      "durationMs": 2600,
+      "fullStartMs": 25292,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l9": {
+      "file": "audio/fallback-daily-rain-check/l9.m4a",
+      "durationMs": 2568,
+      "fullStartMs": 28172,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l10": {
+      "file": "audio/fallback-daily-rain-check/l10.m4a",
+      "durationMs": 829,
+      "fullStartMs": 31020,
+      "voice": "joe",
+      "speaker": "chris"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/fallback-daily-rain-check/c1.m4a",
+      "durationMs": 1373,
+      "voice": "joe",
+      "afterFile": "audio/fallback-daily-rain-check/c1-after.m4a",
+      "afterDurationMs": 2613
+    },
+    "c2": {
+      "file": "audio/fallback-daily-rain-check/c2.m4a",
+      "durationMs": 1188,
+      "voice": "joe",
+      "afterFile": "audio/fallback-daily-rain-check/c2-after.m4a",
+      "afterDurationMs": 3500
+    },
+    "c3": {
+      "file": "audio/fallback-daily-rain-check/c3.m4a",
+      "durationMs": 1218,
+      "voice": "joe",
+      "afterFile": "audio/fallback-daily-rain-check/c3-after.m4a",
+      "afterDurationMs": 2516
+    }
+  },
+  "full": {
+    "file": "audio/fallback-daily-rain-check/full.m4a",
+    "durationMs": 32336,
+    "gapMs": 280
+  }
+}

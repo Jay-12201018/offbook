@@ -1,0 +1,244 @@
+{
+  "id": "fallback-daily-rain-check",
+  "packId": "pack-fallback-daily",
+  "dayInPack": 2,
+  "title": "Rain check",
+  "titleZh": "改天吧",
+  "setting": "A text-turned-quick-call between two friends. Maya is inviting Chris to dinner tomorrow.",
+  "situationZh": "两个朋友。Maya 约 Chris 明天吃饭，Chris 想婉拒，但不想让人觉得被冷落。",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "B-chat-natural",
+  "targetWpm": 140,
+  "slowerWpm": 115,
+  "durationSec": 55,
+  "newItems": [
+    "rain check"
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "Hey, a few of us are getting dinner tomorrow. You wanna come?",
+      "spoken": "Hey, a few of us are getting dinner tomorrow. You wanna come?",
+      "meaningZh": "嗨，我们几个人明天吃饭。你要来吗？",
+      "audio": "audio/fallback-daily-rain-check/l1.m4a",
+      "durationMs": 4107
+    },
+    {
+      "id": "l2",
+      "speaker": "chris",
+      "text": "Tomorrow... I don't think I can. I've got this thing I have to finish.",
+      "spoken": "Tomorrow... I don't think I can. I've got this thing I have to finish.",
+      "meaningZh": "明天……我恐怕不行。我有件事得先做完。",
+      "audio": "audio/fallback-daily-rain-check/l2.m4a",
+      "durationMs": 4157
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "We can do a later time, if that helps.",
+      "spoken": "We can do a later time, if that helps.",
+      "meaningZh": "我们可以再晚一点，如果这样对你方便的话。",
+      "audio": "audio/fallback-daily-rain-check/l3.m4a",
+      "durationMs": 2568
+    },
+    {
+      "id": "l4",
+      "speaker": "chris",
+      "text": "I appreciate that. I think I'm just gonna take a rain check, though.",
+      "spoken": "I appreciate that. I think I'm just gonna take a rain check, though.",
+      "meaningZh": "谢谢你这么说。不过我还是想改天吧。",
+      "audio": "audio/fallback-daily-rain-check/l4.m4a",
+      "durationMs": 4104
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "No worries. Next week, maybe?",
+      "spoken": "No worries. Next week, maybe?",
+      "meaningZh": "没关系。也许下周？",
+      "audio": "audio/fallback-daily-rain-check/l5.m4a",
+      "durationMs": 2654
+    },
+    {
+      "id": "l6",
+      "speaker": "chris",
+      "text": "Yeah, next week should be better. Thanks for asking.",
+      "spoken": "Yeah, next week should be better. Thanks for asking.",
+      "meaningZh": "嗯，下周应该可以。谢谢你邀我。",
+      "audio": "audio/fallback-daily-rain-check/l6.m4a",
+      "durationMs": 3382
+    },
+    {
+      "id": "l7",
+      "speaker": "maya",
+      "text": "Of course. I'll text you.",
+      "spoken": "Of course. I'll text you.",
+      "meaningZh": "当然。我再发消息给你。",
+      "audio": "audio/fallback-daily-rain-check/l7.m4a",
+      "durationMs": 2360
+    },
+    {
+      "id": "l8",
+      "speaker": "chris",
+      "text": "Sounds good. Have fun tomorrow.",
+      "spoken": "Sounds good. Have fun tomorrow.",
+      "meaningZh": "好。明天玩得开心。",
+      "audio": "audio/fallback-daily-rain-check/l8.m4a",
+      "durationMs": 2600
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "We will. Don't work too late, okay?",
+      "spoken": "We will. Don't work too late, okay?",
+      "meaningZh": "会的。别工作得太晚，好吗？",
+      "audio": "audio/fallback-daily-rain-check/l9.m4a",
+      "durationMs": 2568
+    },
+    {
+      "id": "l10",
+      "speaker": "chris",
+      "text": "I'll try.",
+      "spoken": "I'll try.",
+      "meaningZh": "我尽量。",
+      "audio": "audio/fallback-daily-rain-check/l10.m4a",
+      "durationMs": 829
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "Maya 在邀请什么？",
+      "askEn": "What is Maya inviting him to?",
+      "accept": [
+        "dinner",
+        "tomorrow",
+        "吃饭",
+        "明天",
+        "出来"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "Chris 怎么回答？",
+      "askEn": "How does Chris answer?",
+      "accept": [
+        "rain check",
+        "can't",
+        "next week",
+        "改天",
+        "去不了",
+        "下周",
+        "婉拒"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "Maya 提议改时间后，Chris 还是怎么说的？",
+      "askEn": "After Maya offers a later time, what does Chris say?",
+      "accept": [
+        "rain check",
+        "appreciate",
+        "改天",
+        "还是算了",
+        "thank"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l4",
+      "span": "I'm just gonna take a rain check",
+      "hear": "I'm just gonna take a rain check",
+      "noteZh": "gonna take a 连得很紧，rain check 是固定说法，不是在说天气。",
+      "standard": "I am just going to take a rain check"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l2",
+      "span": "I don't think I can",
+      "hear": "I don't think I can",
+      "noteZh": "don't 的 t 常常丢掉，think I can 会缩成 thinkI can，否定有时只靠 don't 里剩下的那一点鼻音。",
+      "standard": "I do not think I can"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "I don't think I can.",
+      "meaningZh": "我恐怕不行。",
+      "fromLineId": "l2",
+      "sayAfter": "Tomorrow? I don't think I can.",
+      "audio": "audio/fallback-daily-rain-check/c1.m4a",
+      "durationMs": 1373,
+      "afterAudio": "audio/fallback-daily-rain-check/c1-after.m4a",
+      "afterDurationMs": 2613
+    },
+    {
+      "id": "c2",
+      "form": "I appreciate that.",
+      "meaningZh": "谢谢你这么说 / 领情。",
+      "fromLineId": "l4",
+      "sayAfter": "I appreciate that. I think I'm gonna take a rain check.",
+      "audio": "audio/fallback-daily-rain-check/c2.m4a",
+      "durationMs": 1188,
+      "afterAudio": "audio/fallback-daily-rain-check/c2-after.m4a",
+      "afterDurationMs": 3500
+    },
+    {
+      "id": "c3",
+      "form": "I'll take a rain check.",
+      "meaningZh": "这次先算了，改天再约。",
+      "fromLineId": "l4",
+      "sayAfter": "I think I'm just gonna take a rain check, though.",
+      "audio": "audio/fallback-daily-rain-check/c3.m4a",
+      "durationMs": 1218,
+      "afterAudio": "audio/fallback-daily-rain-check/c3-after.m4a",
+      "afterDurationMs": 2516
+    }
+  ],
+  "roleplay": {
+    "setupZh": "朋友约你明天吃饭。你真的去不了，想婉拒，但希望听起来领情，并且留下下周的可能。",
+    "aiRole": "Maya, a warm friend who invited you. She may offer a later time, and she will not guilt you if you decline kindly.",
+    "variants": [
+      "She suggests lunch instead of dinner.",
+      "It's a birthday, not a casual dinner.",
+      "You already have plans with family."
+    ],
+    "mustUse": [
+      "I appreciate that",
+      "rain check"
+    ],
+    "starters": [
+      "Tomorrow... I don't think I can.",
+      "I appreciate that.",
+      "Yeah, next week should be better."
+    ]
+  },
+  "fluency": {
+    "promptZh": "用自己的话讲朋友怎么约你、你为什么没去、最后怎么说的。准备 15 秒，然后说 60 秒，再更短、更快地说两遍。",
+    "promptEn": "Tell the story of the invitation and how you took a rain check. Prep 15 seconds, then speak for 60, then 45, then 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/fallback-daily-rain-check/full.m4a",
+  "audioFullDurationMs": 32336
+}

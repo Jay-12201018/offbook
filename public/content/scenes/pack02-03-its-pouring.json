@@ -1,0 +1,307 @@
+{
+  "id": "pack02-03-its-pouring",
+  "packId": "pack-02-change-of-plans",
+  "dayInPack": 3,
+  "title": "It's pouring",
+  "titleZh": "雨下得很大",
+  "setting": "They were going to meet outside. It starts pouring, and they have to pick an indoor place on the phone while walking.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "A-daily-open",
+  "targetWpm": 145,
+  "slowerWpm": 120,
+  "durationSec": 68,
+  "newItems": [
+    "pouring"
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "Hey—can you hear me? It's pouring over here.",
+      "spoken": "Hey—can you hear me? It's pouring over here.",
+      "audio": "audio/pack02-03-its-pouring/l1.m4a",
+      "durationMs": 2815
+    },
+    {
+      "id": "l2",
+      "speaker": "chris",
+      "text": "Yeah, it just started on my side too. I don't even have a jacket.",
+      "spoken": "Yeah, it just started on my side too. I don't even have a jacket.",
+      "audio": "audio/pack02-03-its-pouring/l2.m4a",
+      "durationMs": 4303
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "Me neither. This is so stupid. You wanna just meet inside?",
+      "spoken": "Me neither. This is so stupid. You wanna just meet inside?",
+      "audio": "audio/pack02-03-its-pouring/l3.m4a",
+      "durationMs": 4555
+    },
+    {
+      "id": "l4",
+      "speaker": "chris",
+      "text": "Where, though? I'm like two blocks from the coffee place on Third.",
+      "spoken": "Where, though? I'm like two blocks from the coffee place on Third.",
+      "audio": "audio/pack02-03-its-pouring/l4.m4a",
+      "durationMs": 4058
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "The one next to the bookstore?",
+      "spoken": "The one next to the bookstore?",
+      "audio": "audio/pack02-03-its-pouring/l5.m4a",
+      "durationMs": 1668
+    },
+    {
+      "id": "l6",
+      "speaker": "chris",
+      "text": "Yeah. I can be there in five. I don't wanna stand out here.",
+      "spoken": "Yeah. I can be there in five. I don't wanna stand out here.",
+      "audio": "audio/pack02-03-its-pouring/l6.m4a",
+      "durationMs": 4551
+    },
+    {
+      "id": "l7",
+      "speaker": "maya",
+      "text": "Same. I'm closer to the other one, but... whatever, I'll walk to Third.",
+      "spoken": "Same. I'm closer to the other one, but... whatever, I'll walk to Third.",
+      "audio": "audio/pack02-03-its-pouring/l7.m4a",
+      "durationMs": 4746
+    },
+    {
+      "id": "l8",
+      "speaker": "chris",
+      "text": "You sure? I can come to you.",
+      "spoken": "You sure? I can come to you.",
+      "audio": "audio/pack02-03-its-pouring/l8.m4a",
+      "durationMs": 2236
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "No, you're already wet, I'm already wet. Let's just pick one. Third is fine.",
+      "spoken": "No, you're already wet, I'm already wet. Let's just pick one. Third is fine.",
+      "audio": "audio/pack02-03-its-pouring/l9.m4a",
+      "durationMs": 5427
+    },
+    {
+      "id": "l10",
+      "speaker": "chris",
+      "text": "Okay. I'll grab a table if I get there first.",
+      "spoken": "Okay. I'll grab a table if I get there first.",
+      "audio": "audio/pack02-03-its-pouring/l10.m4a",
+      "durationMs": 3156
+    },
+    {
+      "id": "l11",
+      "speaker": "maya",
+      "text": "If they have a table. It's gonna be packed, it's raining.",
+      "spoken": "If they have a table. It's gonna be packed, it's raining.",
+      "audio": "audio/pack02-03-its-pouring/l11.m4a",
+      "durationMs": 3299
+    },
+    {
+      "id": "l12",
+      "speaker": "chris",
+      "text": "Then I'll just... hover by the door like a normal person.",
+      "spoken": "Then I'll just... hover by the door like a normal person.",
+      "audio": "audio/pack02-03-its-pouring/l12.m4a",
+      "durationMs": 2736
+    },
+    {
+      "id": "l13",
+      "speaker": "maya",
+      "text": "Romantic. Okay, I'm walking. Don't wait outside.",
+      "spoken": "Romantic. Okay, I'm walking. Don't wait outside.",
+      "audio": "audio/pack02-03-its-pouring/l13.m4a",
+      "durationMs": 4223
+    },
+    {
+      "id": "l14",
+      "speaker": "chris",
+      "text": "I won't. See you in a bit.",
+      "spoken": "I won't. See you in a bit.",
+      "audio": "audio/pack02-03-its-pouring/l14.m4a",
+      "durationMs": 2182
+    },
+    {
+      "id": "l15",
+      "speaker": "maya",
+      "text": "See you. If I look like a drowned cat, don't say anything.",
+      "spoken": "See you. If I look like a drowned cat, don't say anything.",
+      "audio": "audio/pack02-03-its-pouring/l15.m4a",
+      "durationMs": 4182
+    },
+    {
+      "id": "l16",
+      "speaker": "chris",
+      "text": "I would never.",
+      "spoken": "I would never.",
+      "audio": "audio/pack02-03-its-pouring/l16.m4a",
+      "durationMs": 896
+    },
+    {
+      "id": "l17",
+      "speaker": "maya",
+      "text": "You would. Just get inside.",
+      "spoken": "You would. Just get inside.",
+      "audio": "audio/pack02-03-its-pouring/l17.m4a",
+      "durationMs": 2149
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "原计划出了什么变化？",
+      "askEn": "What changed about the plan?",
+      "accept": [
+        "it's pouring",
+        "it's raining",
+        "they want to meet inside",
+        "下大雨",
+        "改到室内见",
+        "不能在外面等"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "他们最后决定去哪？",
+      "askEn": "Where do they decide to meet?",
+      "accept": [
+        "the coffee place on Third",
+        "the one next to the bookstore",
+        "Third Street coffee",
+        "Third 街上的咖啡店",
+        "书店旁边那家"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "Chris 离那家店大概多远？",
+      "askEn": "How far is Chris from that coffee place?",
+      "accept": [
+        "two blocks",
+        "he can be there in five",
+        "两条街",
+        "五分钟到"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "Maya 让 Chris 不要做什么？",
+      "askEn": "What does Maya tell Chris not to do?",
+      "accept": [
+        "don't wait outside",
+        "get inside",
+        "不要在外面等",
+        "进到屋里"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l3",
+      "span": "You wanna just meet inside",
+      "hear": "You wanna just meet inside",
+      "noteZh": "熟悉的 you wanna just 出现在改计划里，meet inside 才是新信息。",
+      "standard": "You want to just meet inside"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l6",
+      "span": "I don't wanna stand out here",
+      "hear": "I don't wanna stand out here",
+      "noteZh": "don't wanna 已是两层缩减，stand out here 里 out 和 here 连得很紧。",
+      "standard": "I don't want to stand out here"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l11",
+      "span": "It's gonna be packed",
+      "hear": "It's gonna be packed",
+      "noteZh": "gonna be 弱而快，packed 是实词；it's gonna be 整段不要听成 it's going packed。",
+      "standard": "It's going to be packed"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "It's pouring.",
+      "meaningZh": "雨下得很大。",
+      "fromLineId": "l1",
+      "sayAfter": "It's pouring over here. You wanna just meet inside?",
+      "audio": "audio/pack02-03-its-pouring/c1.m4a",
+      "durationMs": 1085,
+      "afterAudio": "audio/pack02-03-its-pouring/c1-after.m4a",
+      "afterDurationMs": 3308
+    },
+    {
+      "id": "c2",
+      "form": "You wanna just meet inside?",
+      "meaningZh": "要不咱们就在里面见？",
+      "fromLineId": "l3",
+      "sayAfter": "This is so stupid. You wanna just meet inside?",
+      "audio": "audio/pack02-03-its-pouring/c2.m4a",
+      "durationMs": 1700,
+      "afterAudio": "audio/pack02-03-its-pouring/c2-after.m4a",
+      "afterDurationMs": 3542
+    },
+    {
+      "id": "c3",
+      "form": "I don't wanna stand out here.",
+      "meaningZh": "我不想在外面站着。",
+      "fromLineId": "l6",
+      "sayAfter": "I can be there in five. I don't wanna stand out here.",
+      "audio": "audio/pack02-03-its-pouring/c3.m4a",
+      "durationMs": 1783,
+      "afterAudio": "audio/pack02-03-its-pouring/c3-after.m4a",
+      "afterDurationMs": 3637
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你们本来要在外面碰面，突然下起大雨。两个人都没带外套。你要提议改到室内，并尽快敲定一家店，不要来回推让。",
+    "aiRole": "Chris, already close to a coffee place on Third, wet and easygoing. He can come to you, but he'd rather you just pick one place quickly.",
+    "variants": [
+      "The Third Street place looks closed from Chris's side.",
+      "Maya is much closer to the other cafe.",
+      "They can't hear each other well in the rain."
+    ],
+    "mustUse": [
+      "It's pouring",
+      "You wanna just meet inside",
+      "I don't wanna stand out here"
+    ],
+    "starters": [
+      "It's pouring over here.",
+      "You wanna just meet inside?",
+      "I can come to you."
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲这场雨怎么打乱计划：他们本来要在哪见，为什么改地方，最后选了哪家，谁先到。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell how the rain changed the plan: where they were meeting, why they moved, which place they picked, and who would arrive first. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l3"
+  ],
+  "audioFull": "audio/pack02-03-its-pouring/full.m4a",
+  "audioFullDurationMs": 62299
+}

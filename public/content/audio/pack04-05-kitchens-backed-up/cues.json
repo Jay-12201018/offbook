@@ -1,0 +1,145 @@
+{
+  "sceneId": "pack04-05-kitchens-backed-up",
+  "lines": {
+    "l1": {
+      "file": "audio/pack04-05-kitchens-backed-up/l1.m4a",
+      "durationMs": 4556,
+      "fullStartMs": 0,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l2": {
+      "file": "audio/pack04-05-kitchens-backed-up/l2.m4a",
+      "durationMs": 2489,
+      "fullStartMs": 4836,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l3": {
+      "file": "audio/pack04-05-kitchens-backed-up/l3.m4a",
+      "durationMs": 7435,
+      "fullStartMs": 7605,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l4": {
+      "file": "audio/pack04-05-kitchens-backed-up/l4.m4a",
+      "durationMs": 3438,
+      "fullStartMs": 15320,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l5": {
+      "file": "audio/pack04-05-kitchens-backed-up/l5.m4a",
+      "durationMs": 5892,
+      "fullStartMs": 19038,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l6": {
+      "file": "audio/pack04-05-kitchens-backed-up/l6.m4a",
+      "durationMs": 3984,
+      "fullStartMs": 25210,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l7": {
+      "file": "audio/pack04-05-kitchens-backed-up/l7.m4a",
+      "durationMs": 6381,
+      "fullStartMs": 29474,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l8": {
+      "file": "audio/pack04-05-kitchens-backed-up/l8.m4a",
+      "durationMs": 2605,
+      "fullStartMs": 36135,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l9": {
+      "file": "audio/pack04-05-kitchens-backed-up/l9.m4a",
+      "durationMs": 5748,
+      "fullStartMs": 39020,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l10": {
+      "file": "audio/pack04-05-kitchens-backed-up/l10.m4a",
+      "durationMs": 1933,
+      "fullStartMs": 45048,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l11": {
+      "file": "audio/pack04-05-kitchens-backed-up/l11.m4a",
+      "durationMs": 4448,
+      "fullStartMs": 47261,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l12": {
+      "file": "audio/pack04-05-kitchens-backed-up/l12.m4a",
+      "durationMs": 2497,
+      "fullStartMs": 51989,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l13": {
+      "file": "audio/pack04-05-kitchens-backed-up/l13.m4a",
+      "durationMs": 2297,
+      "fullStartMs": 54766,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l14": {
+      "file": "audio/pack04-05-kitchens-backed-up/l14.m4a",
+      "durationMs": 4462,
+      "fullStartMs": 57343,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l15": {
+      "file": "audio/pack04-05-kitchens-backed-up/l15.m4a",
+      "durationMs": 3728,
+      "fullStartMs": 62085,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l16": {
+      "file": "audio/pack04-05-kitchens-backed-up/l16.m4a",
+      "durationMs": 1757,
+      "fullStartMs": 66093,
+      "voice": "kristin",
+      "speaker": "maya"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack04-05-kitchens-backed-up/c1.m4a",
+      "durationMs": 1766,
+      "voice": "ljspeech",
+      "afterFile": "audio/pack04-05-kitchens-backed-up/c1-after.m4a",
+      "afterDurationMs": 3900
+    },
+    "c2": {
+      "file": "audio/pack04-05-kitchens-backed-up/c2.m4a",
+      "durationMs": 1825,
+      "voice": "kristin",
+      "afterFile": "audio/pack04-05-kitchens-backed-up/c2-after.m4a",
+      "afterDurationMs": 2583
+    },
+    "c3": {
+      "file": "audio/pack04-05-kitchens-backed-up/c3.m4a",
+      "durationMs": 1350,
+      "voice": "joe",
+      "afterFile": "audio/pack04-05-kitchens-backed-up/c3-after.m4a",
+      "afterDurationMs": 3441
+    }
+  },
+  "full": {
+    "file": "audio/pack04-05-kitchens-backed-up/full.m4a",
+    "durationMs": 68521,
+    "gapMs": 280
+  }
+}

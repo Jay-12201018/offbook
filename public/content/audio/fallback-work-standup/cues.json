@@ -1,0 +1,103 @@
+{
+  "sceneId": "fallback-work-standup",
+  "lines": {
+    "l1": {
+      "file": "audio/fallback-work-standup/l1.m4a",
+      "durationMs": 2271,
+      "fullStartMs": 0,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l2": {
+      "file": "audio/fallback-work-standup/l2.m4a",
+      "durationMs": 4768,
+      "fullStartMs": 2551,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l3": {
+      "file": "audio/fallback-work-standup/l3.m4a",
+      "durationMs": 1524,
+      "fullStartMs": 7599,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l4": {
+      "file": "audio/fallback-work-standup/l4.m4a",
+      "durationMs": 4119,
+      "fullStartMs": 9403,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l5": {
+      "file": "audio/fallback-work-standup/l5.m4a",
+      "durationMs": 1714,
+      "fullStartMs": 13802,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l6": {
+      "file": "audio/fallback-work-standup/l6.m4a",
+      "durationMs": 2657,
+      "fullStartMs": 15796,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l7": {
+      "file": "audio/fallback-work-standup/l7.m4a",
+      "durationMs": 3093,
+      "fullStartMs": 18733,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l8": {
+      "file": "audio/fallback-work-standup/l8.m4a",
+      "durationMs": 3239,
+      "fullStartMs": 22106,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l9": {
+      "file": "audio/fallback-work-standup/l9.m4a",
+      "durationMs": 2192,
+      "fullStartMs": 25625,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l10": {
+      "file": "audio/fallback-work-standup/l10.m4a",
+      "durationMs": 2036,
+      "fullStartMs": 28097,
+      "voice": "joe",
+      "speaker": "chris"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/fallback-work-standup/c1.m4a",
+      "durationMs": 1587,
+      "voice": "kristin",
+      "afterFile": "audio/fallback-work-standup/c1-after.m4a",
+      "afterDurationMs": 2582
+    },
+    "c2": {
+      "file": "audio/fallback-work-standup/c2.m4a",
+      "durationMs": 1774,
+      "voice": "kristin",
+      "afterFile": "audio/fallback-work-standup/c2-after.m4a",
+      "afterDurationMs": 3088
+    },
+    "c3": {
+      "file": "audio/fallback-work-standup/c3.m4a",
+      "durationMs": 1856,
+      "voice": "joe",
+      "afterFile": "audio/fallback-work-standup/c3-after.m4a",
+      "afterDurationMs": 1880
+    }
+  },
+  "full": {
+    "file": "audio/fallback-work-standup/full.m4a",
+    "durationMs": 30571,
+    "gapMs": 280
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "sceneId": "pack04-06-we-could-just-share",
+  "lines": {
+    "l1": {
+      "file": "audio/pack04-06-we-could-just-share/l1.m4a",
+      "durationMs": 2410,
+      "fullStartMs": 0,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l2": {
+      "file": "audio/pack04-06-we-could-just-share/l2.m4a",
+      "durationMs": 1921,
+      "fullStartMs": 2690,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l3": {
+      "file": "audio/pack04-06-we-could-just-share/l3.m4a",
+      "durationMs": 4615,
+      "fullStartMs": 4891,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l4": {
+      "file": "audio/pack04-06-we-could-just-share/l4.m4a",
+      "durationMs": 2267,
+      "fullStartMs": 9786,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l5": {
+      "file": "audio/pack04-06-we-could-just-share/l5.m4a",
+      "durationMs": 6773,
+      "fullStartMs": 12333,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l6": {
+      "file": "audio/pack04-06-we-could-just-share/l6.m4a",
+      "durationMs": 5399,
+      "fullStartMs": 19386,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l7": {
+      "file": "audio/pack04-06-we-could-just-share/l7.m4a",
+      "durationMs": 1469,
+      "fullStartMs": 25065,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l8": {
+      "file": "audio/pack04-06-we-could-just-share/l8.m4a",
+      "durationMs": 3008,
+      "fullStartMs": 26814,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l9": {
+      "file": "audio/pack04-06-we-could-just-share/l9.m4a",
+      "durationMs": 7144,
+      "fullStartMs": 30102,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l10": {
+      "file": "audio/pack04-06-we-could-just-share/l10.m4a",
+      "durationMs": 3508,
+      "fullStartMs": 37526,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l11": {
+      "file": "audio/pack04-06-we-could-just-share/l11.m4a",
+      "durationMs": 1077,
+      "fullStartMs": 41314,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l12": {
+      "file": "audio/pack04-06-we-could-just-share/l12.m4a",
+      "durationMs": 4205,
+      "fullStartMs": 42671,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l13": {
+      "file": "audio/pack04-06-we-could-just-share/l13.m4a",
+      "durationMs": 3296,
+      "fullStartMs": 47156,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l14": {
+      "file": "audio/pack04-06-we-could-just-share/l14.m4a",
+      "durationMs": 1859,
+      "fullStartMs": 50732,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l15": {
+      "file": "audio/pack04-06-we-could-just-share/l15.m4a",
+      "durationMs": 3095,
+      "fullStartMs": 52871,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l16": {
+      "file": "audio/pack04-06-we-could-just-share/l16.m4a",
+      "durationMs": 5398,
+      "fullStartMs": 56246,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l17": {
+      "file": "audio/pack04-06-we-could-just-share/l17.m4a",
+      "durationMs": 3082,
+      "fullStartMs": 61924,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l18": {
+      "file": "audio/pack04-06-we-could-just-share/l18.m4a",
+      "durationMs": 4416,
+      "fullStartMs": 65286,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l19": {
+      "file": "audio/pack04-06-we-could-just-share/l19.m4a",
+      "durationMs": 2957,
+      "fullStartMs": 69982,
+      "voice": "joe",
+      "speaker": "chris"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack04-06-we-could-just-share/c1.m4a",
+      "durationMs": 1364,
+      "voice": "joe",
+      "afterFile": "audio/pack04-06-we-could-just-share/c1-after.m4a",
+      "afterDurationMs": 3856
+    },
+    "c2": {
+      "file": "audio/pack04-06-we-could-just-share/c2.m4a",
+      "durationMs": 1617,
+      "voice": "joe",
+      "afterFile": "audio/pack04-06-we-could-just-share/c2-after.m4a",
+      "afterDurationMs": 2527
+    },
+    "c3": {
+      "file": "audio/pack04-06-we-could-just-share/c3.m4a",
+      "durationMs": 2069,
+      "voice": "kristin",
+      "afterFile": "audio/pack04-06-we-could-just-share/c3-after.m4a",
+      "afterDurationMs": 3622
+    }
+  },
+  "full": {
+    "file": "audio/pack04-06-we-could-just-share/full.m4a",
+    "durationMs": 73633,
+    "gapMs": 280
+  }
+}

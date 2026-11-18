@@ -1,0 +1,103 @@
+{
+  "sceneId": "fallback-travel-gate-change",
+  "lines": {
+    "l1": {
+      "file": "audio/fallback-travel-gate-change/l1.m4a",
+      "durationMs": 2247,
+      "fullStartMs": 0,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l2": {
+      "file": "audio/fallback-travel-gate-change/l2.m4a",
+      "durationMs": 3601,
+      "fullStartMs": 2527,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l3": {
+      "file": "audio/fallback-travel-gate-change/l3.m4a",
+      "durationMs": 2773,
+      "fullStartMs": 6408,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l4": {
+      "file": "audio/fallback-travel-gate-change/l4.m4a",
+      "durationMs": 2695,
+      "fullStartMs": 9461,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l5": {
+      "file": "audio/fallback-travel-gate-change/l5.m4a",
+      "durationMs": 3137,
+      "fullStartMs": 12436,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l6": {
+      "file": "audio/fallback-travel-gate-change/l6.m4a",
+      "durationMs": 2989,
+      "fullStartMs": 15853,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l7": {
+      "file": "audio/fallback-travel-gate-change/l7.m4a",
+      "durationMs": 1114,
+      "fullStartMs": 19122,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l8": {
+      "file": "audio/fallback-travel-gate-change/l8.m4a",
+      "durationMs": 3700,
+      "fullStartMs": 20516,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l9": {
+      "file": "audio/fallback-travel-gate-change/l9.m4a",
+      "durationMs": 1736,
+      "fullStartMs": 24496,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l10": {
+      "file": "audio/fallback-travel-gate-change/l10.m4a",
+      "durationMs": 976,
+      "fullStartMs": 26512,
+      "voice": "kristin",
+      "speaker": "maya"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/fallback-travel-gate-change/c1.m4a",
+      "durationMs": 1622,
+      "voice": "kristin",
+      "afterFile": "audio/fallback-travel-gate-change/c1-after.m4a",
+      "afterDurationMs": 2268
+    },
+    "c2": {
+      "file": "audio/fallback-travel-gate-change/c2.m4a",
+      "durationMs": 1575,
+      "voice": "joe",
+      "afterFile": "audio/fallback-travel-gate-change/c2-after.m4a",
+      "afterDurationMs": 3036
+    },
+    "c3": {
+      "file": "audio/fallback-travel-gate-change/c3.m4a",
+      "durationMs": 1803,
+      "voice": "kristin",
+      "afterFile": "audio/fallback-travel-gate-change/c3-after.m4a",
+      "afterDurationMs": 1712
+    }
+  },
+  "full": {
+    "file": "audio/fallback-travel-gate-change/full.m4a",
+    "durationMs": 28017,
+    "gapMs": 280
+  }
+}

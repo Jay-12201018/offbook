@@ -1,0 +1,312 @@
+{
+  "id": "pack01-01-i-got-this",
+  "packId": "pack-01-who-pays",
+  "dayInPack": 1,
+  "title": "I got this",
+  "titleZh": "这次我来",
+  "setting": "Two friends after a casual weeknight dinner. The check is sitting on the table between them.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "A-daily-open",
+  "targetWpm": 130,
+  "slowerWpm": 105,
+  "durationSec": 61,
+  "newItems": [
+    "throw in"
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "Okay, so, you wanna just split this?",
+      "spoken": "Okay, so, you wanna just split this?",
+      "audio": "audio/pack01-01-i-got-this/l1.m4a",
+      "durationMs": 2332
+    },
+    {
+      "id": "l2",
+      "speaker": "chris",
+      "text": "Nah. I got this.",
+      "spoken": "Nah. I got this.",
+      "audio": "audio/pack01-01-i-got-this/l2.m4a",
+      "durationMs": 1869
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "You sure? I can throw in, like... I don't know, half?",
+      "spoken": "You sure? I can throw in, like... I dunno, half?",
+      "audio": "audio/pack01-01-i-got-this/l3.m4a",
+      "durationMs": 3237
+    },
+    {
+      "id": "l4",
+      "speaker": "chris",
+      "text": "You're fine. Seriously. I got it.",
+      "spoken": "You're fine. Seriously. I got it.",
+      "audio": "audio/pack01-01-i-got-this/l4.m4a",
+      "durationMs": 3306
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "Chris. Come on. You got dinner last week.",
+      "spoken": "Chris. Come on. You got dinner last week.",
+      "audio": "audio/pack01-01-i-got-this/l5.m4a",
+      "durationMs": 3196
+    },
+    {
+      "id": "l6",
+      "speaker": "chris",
+      "text": "Yeah, but I asked you out tonight. Kind of. I mean, I picked the place.",
+      "spoken": "Yeah, but I asked you out tonight. Kinda. I mean, I picked the place.",
+      "audio": "audio/pack01-01-i-got-this/l6.m4a",
+      "durationMs": 5426
+    },
+    {
+      "id": "l7",
+      "speaker": "maya",
+      "text": "That's not—okay, that's not how this works.",
+      "spoken": "That's not—okay, that's not how this works.",
+      "audio": "audio/pack01-01-i-got-this/l7.m4a",
+      "durationMs": 2800
+    },
+    {
+      "id": "l8",
+      "speaker": "chris",
+      "text": "Why not?",
+      "spoken": "Why not?",
+      "audio": "audio/pack01-01-i-got-this/l8.m4a",
+      "durationMs": 732
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "Because then I feel weird. Just let me throw in something.",
+      "spoken": "Because then I feel weird. Just lemme throw in something.",
+      "audio": "audio/pack01-01-i-got-this/l9.m4a",
+      "durationMs": 4411
+    },
+    {
+      "id": "l10",
+      "speaker": "chris",
+      "text": "You wanna throw in for the cab later? That's fine.",
+      "spoken": "You wanna throw in for the cab later? That's fine.",
+      "audio": "audio/pack01-01-i-got-this/l10.m4a",
+      "durationMs": 3295
+    },
+    {
+      "id": "l11",
+      "speaker": "maya",
+      "text": "The cab? That's like, what, twelve bucks.",
+      "spoken": "The cab? That's like, what, twelve bucks.",
+      "audio": "audio/pack01-01-i-got-this/l11.m4a",
+      "durationMs": 2680
+    },
+    {
+      "id": "l12",
+      "speaker": "chris",
+      "text": "So throw in for the cab. I got dinner.",
+      "spoken": "So throw in for the cab. I got dinner.",
+      "audio": "audio/pack01-01-i-got-this/l12.m4a",
+      "durationMs": 2974
+    },
+    {
+      "id": "l13",
+      "speaker": "maya",
+      "text": "Fine. But I'm getting next time. I'm serious.",
+      "spoken": "Fine. But I'm getting next time. I'm serious.",
+      "audio": "audio/pack01-01-i-got-this/l13.m4a",
+      "durationMs": 3565
+    },
+    {
+      "id": "l14",
+      "speaker": "chris",
+      "text": "Yeah, yeah. You always say that.",
+      "spoken": "Yeah, yeah. You always say that.",
+      "audio": "audio/pack01-01-i-got-this/l14.m4a",
+      "durationMs": 2532
+    },
+    {
+      "id": "l15",
+      "speaker": "maya",
+      "text": "I mean it this time.",
+      "spoken": "I mean it this time.",
+      "audio": "audio/pack01-01-i-got-this/l15.m4a",
+      "durationMs": 1351
+    },
+    {
+      "id": "l16",
+      "speaker": "chris",
+      "text": "Okay. Next one's on you. You want the rest of the fries, or...?",
+      "spoken": "Okay. Next one's on you. You want the rest of the fries, or...?",
+      "audio": "audio/pack01-01-i-got-this/l16.m4a",
+      "durationMs": 4834
+    },
+    {
+      "id": "l17",
+      "speaker": "maya",
+      "text": "Oh my god. Yes. Give me those.",
+      "spoken": "Oh my god. Yes. Gimme those.",
+      "audio": "audio/pack01-01-i-got-this/l17.m4a",
+      "durationMs": 3031
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "他们在谈什么？",
+      "askEn": "What's going on?",
+      "accept": [
+        "the check",
+        "who pays",
+        "splitting the bill",
+        "买单",
+        "谁付钱",
+        "AA",
+        "分账"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "两个人是什么态度？",
+      "askEn": "How does each person feel about it?",
+      "accept": [
+        "Maya wants to split",
+        "Maya wants to throw in",
+        "Chris wants to pay",
+        "Chris wants to treat",
+        "友好推让",
+        "Chris 想请客",
+        "Maya 想分担"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "Chris 最后让 Maya 怎么做？",
+      "askEn": "What does Chris say Maya can do?",
+      "accept": [
+        "throw in for the cab",
+        "pay for the cab",
+        "cab later",
+        "付打车钱",
+        "出出租车上的钱",
+        "throw in"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "Maya 说下次怎么办？",
+      "askEn": "What does Maya say about next time?",
+      "accept": [
+        "she's getting next time",
+        "next one's on her",
+        "she'll pay next time",
+        "下次她请客",
+        "下次她来"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l1",
+      "span": "you wanna just",
+      "hear": "you wanna just",
+      "noteZh": "want to 在口语里常缩成 wanna，夹在 you 和 just 中间，三个词会听成一团。",
+      "standard": "you want to just"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l9",
+      "span": "let me throw in",
+      "hear": "lemme throw in",
+      "noteZh": "let me 常缩成 lemme，后面又立刻接 throw in，界限不容易切开。",
+      "standard": "let me throw in"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l10",
+      "span": "throw in for the cab",
+      "hear": "throw in for the cab",
+      "noteZh": "for 和 the 都会被弱读，throw in for the 听起来像一条下滑的音，中间的介词容易丢掉。",
+      "standard": "throw in for the cab"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "I got this.",
+      "meaningZh": "这次我来 / 我来处理。",
+      "fromLineId": "l2",
+      "sayAfter": "You sure? I can throw in for the cab.",
+      "audio": "audio/pack01-01-i-got-this/c1.m4a",
+      "durationMs": 973,
+      "afterAudio": "audio/pack01-01-i-got-this/c1-after.m4a",
+      "afterDurationMs": 2733
+    },
+    {
+      "id": "c2",
+      "form": "You sure?",
+      "meaningZh": "你确定？（温和确认，不是质问。）",
+      "fromLineId": "l3",
+      "sayAfter": "You sure? I can get the next one.",
+      "audio": "audio/pack01-01-i-got-this/c2.m4a",
+      "durationMs": 854,
+      "afterAudio": "audio/pack01-01-i-got-this/c2-after.m4a",
+      "afterDurationMs": 2377
+    },
+    {
+      "id": "c3",
+      "form": "I can throw in…",
+      "meaningZh": "我可以出一部分 / 我凑一点。",
+      "fromLineId": "l3",
+      "sayAfter": "I can throw in for the cab.",
+      "audio": "audio/pack01-01-i-got-this/c3.m4a",
+      "durationMs": 1099,
+      "afterAudio": "audio/pack01-01-i-got-this/c3-after.m4a",
+      "afterDurationMs": 1654
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你们刚吃完晚饭，账单放在桌上。对方想 AA，你想请客，但不要听起来像在出风头。",
+    "aiRole": "Maya, a friend who is used to splitting. Warm, not combative. She will accept if you sound genuine, and she may offer to throw in for the cab.",
+    "variants": [
+      "The card machine is down and they need cash.",
+      "Chris forgot his wallet.",
+      "Maya insists on paying this time."
+    ],
+    "mustUse": [
+      "I got this",
+      "You sure?"
+    ],
+    "starters": [
+      "I can get it.",
+      "You sure?",
+      "Wanna just split it?"
+    ]
+  },
+  "fluency": {
+    "promptZh": "用自己的话讲刚才晚饭后谁来买单、最后怎么商量的。准备 15 秒，然后说 60 秒，再更短、更快地说两遍。",
+    "promptEn": "Tell the story of who paid after dinner, and how they settled it. Prep 15 seconds, then speak for 60, then 45, then 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/pack01-01-i-got-this/full.m4a",
+  "audioFullDurationMs": 56726
+}

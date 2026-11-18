@@ -1,0 +1,152 @@
+{
+  "sceneId": "pack01-04-card-machine-is-down",
+  "lines": {
+    "l1": {
+      "file": "audio/pack01-04-card-machine-is-down/l1.m4a",
+      "durationMs": 5956,
+      "fullStartMs": 0,
+      "voice": "joe",
+      "speaker": "matt"
+    },
+    "l2": {
+      "file": "audio/pack01-04-card-machine-is-down/l2.m4a",
+      "durationMs": 3128,
+      "fullStartMs": 6236,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l3": {
+      "file": "audio/pack01-04-card-machine-is-down/l3.m4a",
+      "durationMs": 2563,
+      "fullStartMs": 9644,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l4": {
+      "file": "audio/pack01-04-card-machine-is-down/l4.m4a",
+      "durationMs": 6001,
+      "fullStartMs": 12487,
+      "voice": "joe",
+      "speaker": "matt"
+    },
+    "l5": {
+      "file": "audio/pack01-04-card-machine-is-down/l5.m4a",
+      "durationMs": 2761,
+      "fullStartMs": 18768,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l6": {
+      "file": "audio/pack01-04-card-machine-is-down/l6.m4a",
+      "durationMs": 2267,
+      "fullStartMs": 21809,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l7": {
+      "file": "audio/pack01-04-card-machine-is-down/l7.m4a",
+      "durationMs": 3045,
+      "fullStartMs": 24356,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l8": {
+      "file": "audio/pack01-04-card-machine-is-down/l8.m4a",
+      "durationMs": 4087,
+      "fullStartMs": 27681,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l9": {
+      "file": "audio/pack01-04-card-machine-is-down/l9.m4a",
+      "durationMs": 5061,
+      "fullStartMs": 32048,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l10": {
+      "file": "audio/pack01-04-card-machine-is-down/l10.m4a",
+      "durationMs": 740,
+      "fullStartMs": 37389,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l11": {
+      "file": "audio/pack01-04-card-machine-is-down/l11.m4a",
+      "durationMs": 4791,
+      "fullStartMs": 38409,
+      "voice": "joe",
+      "speaker": "matt"
+    },
+    "l12": {
+      "file": "audio/pack01-04-card-machine-is-down/l12.m4a",
+      "durationMs": 1847,
+      "fullStartMs": 43480,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l13": {
+      "file": "audio/pack01-04-card-machine-is-down/l13.m4a",
+      "durationMs": 4448,
+      "fullStartMs": 45607,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l14": {
+      "file": "audio/pack01-04-card-machine-is-down/l14.m4a",
+      "durationMs": 3882,
+      "fullStartMs": 50335,
+      "voice": "joe",
+      "speaker": "matt"
+    },
+    "l15": {
+      "file": "audio/pack01-04-card-machine-is-down/l15.m4a",
+      "durationMs": 2168,
+      "fullStartMs": 54497,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l16": {
+      "file": "audio/pack01-04-card-machine-is-down/l16.m4a",
+      "durationMs": 3971,
+      "fullStartMs": 56945,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l17": {
+      "file": "audio/pack01-04-card-machine-is-down/l17.m4a",
+      "durationMs": 4386,
+      "fullStartMs": 61196,
+      "voice": "joe",
+      "speaker": "chris"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack01-04-card-machine-is-down/c1.m4a",
+      "durationMs": 1496,
+      "voice": "joe",
+      "afterFile": "audio/pack01-04-card-machine-is-down/c1-after.m4a",
+      "afterDurationMs": 3435
+    },
+    "c2": {
+      "file": "audio/pack01-04-card-machine-is-down/c2.m4a",
+      "durationMs": 1292,
+      "voice": "joe",
+      "afterFile": "audio/pack01-04-card-machine-is-down/c2-after.m4a",
+      "afterDurationMs": 3144
+    },
+    "c3": {
+      "file": "audio/pack01-04-card-machine-is-down/c3.m4a",
+      "durationMs": 1423,
+      "voice": "joe",
+      "afterFile": "audio/pack01-04-card-machine-is-down/c3-after.m4a",
+      "afterDurationMs": 3174
+    }
+  },
+  "full": {
+    "file": "audio/pack01-04-card-machine-is-down/full.m4a",
+    "durationMs": 66200,
+    "gapMs": 280
+  }
+}

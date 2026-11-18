@@ -1,0 +1,152 @@
+{
+  "sceneId": "pack02-05-do-it-tomorrow",
+  "lines": {
+    "l1": {
+      "file": "audio/pack02-05-do-it-tomorrow/l1.m4a",
+      "durationMs": 3500,
+      "fullStartMs": 0,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l2": {
+      "file": "audio/pack02-05-do-it-tomorrow/l2.m4a",
+      "durationMs": 682,
+      "fullStartMs": 3780,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l3": {
+      "file": "audio/pack02-05-do-it-tomorrow/l3.m4a",
+      "durationMs": 7802,
+      "fullStartMs": 4742,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l4": {
+      "file": "audio/pack02-05-do-it-tomorrow/l4.m4a",
+      "durationMs": 3768,
+      "fullStartMs": 12824,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l5": {
+      "file": "audio/pack02-05-do-it-tomorrow/l5.m4a",
+      "durationMs": 6253,
+      "fullStartMs": 16872,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l6": {
+      "file": "audio/pack02-05-do-it-tomorrow/l6.m4a",
+      "durationMs": 6013,
+      "fullStartMs": 23405,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l7": {
+      "file": "audio/pack02-05-do-it-tomorrow/l7.m4a",
+      "durationMs": 2669,
+      "fullStartMs": 29698,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l8": {
+      "file": "audio/pack02-05-do-it-tomorrow/l8.m4a",
+      "durationMs": 4276,
+      "fullStartMs": 32647,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l9": {
+      "file": "audio/pack02-05-do-it-tomorrow/l9.m4a",
+      "durationMs": 3825,
+      "fullStartMs": 37203,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l10": {
+      "file": "audio/pack02-05-do-it-tomorrow/l10.m4a",
+      "durationMs": 6438,
+      "fullStartMs": 41308,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l11": {
+      "file": "audio/pack02-05-do-it-tomorrow/l11.m4a",
+      "durationMs": 3755,
+      "fullStartMs": 48026,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l12": {
+      "file": "audio/pack02-05-do-it-tomorrow/l12.m4a",
+      "durationMs": 2709,
+      "fullStartMs": 52061,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l13": {
+      "file": "audio/pack02-05-do-it-tomorrow/l13.m4a",
+      "durationMs": 3525,
+      "fullStartMs": 55050,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l14": {
+      "file": "audio/pack02-05-do-it-tomorrow/l14.m4a",
+      "durationMs": 2520,
+      "fullStartMs": 58855,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l15": {
+      "file": "audio/pack02-05-do-it-tomorrow/l15.m4a",
+      "durationMs": 3098,
+      "fullStartMs": 61655,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l16": {
+      "file": "audio/pack02-05-do-it-tomorrow/l16.m4a",
+      "durationMs": 3909,
+      "fullStartMs": 65033,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l17": {
+      "file": "audio/pack02-05-do-it-tomorrow/l17.m4a",
+      "durationMs": 2022,
+      "fullStartMs": 69222,
+      "voice": "kristin",
+      "speaker": "maya"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack02-05-do-it-tomorrow/c1.m4a",
+      "durationMs": 1583,
+      "voice": "kristin",
+      "afterFile": "audio/pack02-05-do-it-tomorrow/c1-after.m4a",
+      "afterDurationMs": 3551
+    },
+    "c2": {
+      "file": "audio/pack02-05-do-it-tomorrow/c2.m4a",
+      "durationMs": 2233,
+      "voice": "kristin",
+      "afterFile": "audio/pack02-05-do-it-tomorrow/c2-after.m4a",
+      "afterDurationMs": 3435
+    },
+    "c3": {
+      "file": "audio/pack02-05-do-it-tomorrow/c3.m4a",
+      "durationMs": 2067,
+      "voice": "joe",
+      "afterFile": "audio/pack02-05-do-it-tomorrow/c3-after.m4a",
+      "afterDurationMs": 2675
+    }
+  },
+  "full": {
+    "file": "audio/pack02-05-do-it-tomorrow/full.m4a",
+    "durationMs": 71958,
+    "gapMs": 280
+  }
+}

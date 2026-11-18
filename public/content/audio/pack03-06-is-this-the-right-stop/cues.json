@@ -1,0 +1,138 @@
+{
+  "sceneId": "pack03-06-is-this-the-right-stop",
+  "lines": {
+    "l1": {
+      "file": "audio/pack03-06-is-this-the-right-stop/l1.m4a",
+      "durationMs": 3435,
+      "fullStartMs": 0,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l2": {
+      "file": "audio/pack03-06-is-this-the-right-stop/l2.m4a",
+      "durationMs": 3167,
+      "fullStartMs": 3715,
+      "voice": "ljspeech",
+      "speaker": "keisha"
+    },
+    "l3": {
+      "file": "audio/pack03-06-is-this-the-right-stop/l3.m4a",
+      "durationMs": 2254,
+      "fullStartMs": 7162,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l4": {
+      "file": "audio/pack03-06-is-this-the-right-stop/l4.m4a",
+      "durationMs": 6036,
+      "fullStartMs": 9696,
+      "voice": "ljspeech",
+      "speaker": "keisha"
+    },
+    "l5": {
+      "file": "audio/pack03-06-is-this-the-right-stop/l5.m4a",
+      "durationMs": 3872,
+      "fullStartMs": 16012,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l6": {
+      "file": "audio/pack03-06-is-this-the-right-stop/l6.m4a",
+      "durationMs": 4678,
+      "fullStartMs": 20164,
+      "voice": "ljspeech",
+      "speaker": "keisha"
+    },
+    "l7": {
+      "file": "audio/pack03-06-is-this-the-right-stop/l7.m4a",
+      "durationMs": 3313,
+      "fullStartMs": 25122,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l8": {
+      "file": "audio/pack03-06-is-this-the-right-stop/l8.m4a",
+      "durationMs": 4844,
+      "fullStartMs": 28715,
+      "voice": "ljspeech",
+      "speaker": "keisha"
+    },
+    "l9": {
+      "file": "audio/pack03-06-is-this-the-right-stop/l9.m4a",
+      "durationMs": 4229,
+      "fullStartMs": 33839,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l10": {
+      "file": "audio/pack03-06-is-this-the-right-stop/l10.m4a",
+      "durationMs": 5102,
+      "fullStartMs": 38348,
+      "voice": "ljspeech",
+      "speaker": "keisha"
+    },
+    "l11": {
+      "file": "audio/pack03-06-is-this-the-right-stop/l11.m4a",
+      "durationMs": 5091,
+      "fullStartMs": 43730,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l12": {
+      "file": "audio/pack03-06-is-this-the-right-stop/l12.m4a",
+      "durationMs": 5502,
+      "fullStartMs": 49101,
+      "voice": "ljspeech",
+      "speaker": "keisha"
+    },
+    "l13": {
+      "file": "audio/pack03-06-is-this-the-right-stop/l13.m4a",
+      "durationMs": 3411,
+      "fullStartMs": 54883,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l14": {
+      "file": "audio/pack03-06-is-this-the-right-stop/l14.m4a",
+      "durationMs": 4384,
+      "fullStartMs": 58574,
+      "voice": "ljspeech",
+      "speaker": "keisha"
+    },
+    "l15": {
+      "file": "audio/pack03-06-is-this-the-right-stop/l15.m4a",
+      "durationMs": 4130,
+      "fullStartMs": 63238,
+      "voice": "kristin",
+      "speaker": "maya"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack03-06-is-this-the-right-stop/c1.m4a",
+      "durationMs": 2099,
+      "voice": "kristin",
+      "afterFile": "audio/pack03-06-is-this-the-right-stop/c1-after.m4a",
+      "afterDurationMs": 3450
+    },
+    "c2": {
+      "file": "audio/pack03-06-is-this-the-right-stop/c2.m4a",
+      "durationMs": 1933,
+      "voice": "ljspeech",
+      "afterFile": "audio/pack03-06-is-this-the-right-stop/c2-after.m4a",
+      "afterDurationMs": 3050
+    },
+    "c3": {
+      "file": "audio/pack03-06-is-this-the-right-stop/c3.m4a",
+      "durationMs": 1363,
+      "voice": "kristin",
+      "afterFile": "audio/pack03-06-is-this-the-right-stop/c3-after.m4a",
+      "afterDurationMs": 2230
+    }
+  },
+  "full": {
+    "file": "audio/pack03-06-is-this-the-right-stop/full.m4a",
+    "durationMs": 67962,
+    "gapMs": 280
+  }
+}

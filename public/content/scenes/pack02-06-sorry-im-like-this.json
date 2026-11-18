@@ -1,0 +1,299 @@
+{
+  "id": "pack02-06-sorry-im-like-this",
+  "packId": "pack-02-change-of-plans",
+  "dayInPack": 6,
+  "title": "Sorry I'm like this",
+  "titleZh": "真不好意思，我很少这样",
+  "setting": "The next day, at the cafe. Maya is the late one this time. She's on the phone as she walks up the block.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "A-daily-open",
+  "targetWpm": 155,
+  "slowerWpm": 130,
+  "durationSec": 66,
+  "newItems": [],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "I'm so sorry. I'm around the corner, I swear.",
+      "spoken": "I'm so sorry. I'm around the corner, I swear.",
+      "audio": "audio/pack02-06-sorry-im-like-this/l1.m4a",
+      "durationMs": 3572
+    },
+    {
+      "id": "l2",
+      "speaker": "chris",
+      "text": "You're fine. I got a table.",
+      "spoken": "You're fine. I got a table.",
+      "audio": "audio/pack02-06-sorry-im-like-this/l2.m4a",
+      "durationMs": 2239
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "I was supposed to be there twenty minutes ago. I'm not usually like this, I just—my last meeting ran over, and then I couldn't get a car, and then I started walking, which was stupid.",
+      "spoken": "I was supposed to be there twenty minutes ago. I'm not usually like this, I just—my last meeting ran over, and then I couldn't get a car, and then I started walking, which was stupid.",
+      "audio": "audio/pack02-06-sorry-im-like-this/l3.m4a",
+      "durationMs": 10890
+    },
+    {
+      "id": "l4",
+      "speaker": "chris",
+      "text": "Maya. It's okay. Seriously. I ordered you a water. I didn't get you food because I didn't know if you'd still be hungry.",
+      "spoken": "Maya. It's okay. Seriously. I ordered you a water. I didn't get you food 'cause I didn't know if you'd still be hungry.",
+      "audio": "audio/pack02-06-sorry-im-like-this/l4.m4a",
+      "durationMs": 8443
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "I'm hungry, I'm just embarrassed.",
+      "spoken": "I'm hungry, I'm just embarrassed.",
+      "audio": "audio/pack02-06-sorry-im-like-this/l5.m4a",
+      "durationMs": 2555
+    },
+    {
+      "id": "l6",
+      "speaker": "chris",
+      "text": "Don't be. I've been late to you, like, four times this month.",
+      "spoken": "Don't be. I've been late to you, like, four times this month.",
+      "audio": "audio/pack02-06-sorry-im-like-this/l6.m4a",
+      "durationMs": 4101
+    },
+    {
+      "id": "l7",
+      "speaker": "maya",
+      "text": "That doesn't make me feel better, but thank you.",
+      "spoken": "That doesn't make me feel better, but thank you.",
+      "audio": "audio/pack02-06-sorry-im-like-this/l7.m4a",
+      "durationMs": 2985
+    },
+    {
+      "id": "l8",
+      "speaker": "chris",
+      "text": "Come in when you get here. I'm by the window.",
+      "spoken": "Come in when you get here. I'm by the window.",
+      "audio": "audio/pack02-06-sorry-im-like-this/l8.m4a",
+      "durationMs": 3000
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "Two minutes. If I'm longer, I have disappeared.",
+      "spoken": "Two minutes. If I'm longer, I have disappeared.",
+      "audio": "audio/pack02-06-sorry-im-like-this/l9.m4a",
+      "durationMs": 3251
+    },
+    {
+      "id": "l10",
+      "speaker": "chris",
+      "text": "You're not gonna disappear. Just walk. Don't apologize again when you sit down, okay?",
+      "spoken": "You're not gonna disappear. Just walk. Don't apologize again when you sit down, okay?",
+      "audio": "audio/pack02-06-sorry-im-like-this/l10.m4a",
+      "durationMs": 5794
+    },
+    {
+      "id": "l11",
+      "speaker": "maya",
+      "text": "I might apologize one more time.",
+      "spoken": "I might apologize one more time.",
+      "audio": "audio/pack02-06-sorry-im-like-this/l11.m4a",
+      "durationMs": 2444
+    },
+    {
+      "id": "l12",
+      "speaker": "chris",
+      "text": "One more, then we're done.",
+      "spoken": "One more, then we're done.",
+      "audio": "audio/pack02-06-sorry-im-like-this/l12.m4a",
+      "durationMs": 1639
+    },
+    {
+      "id": "l13",
+      "speaker": "maya",
+      "text": "Deal. I'm really—okay. I'm almost there.",
+      "spoken": "Deal. I'm really—okay. I'm almost there.",
+      "audio": "audio/pack02-06-sorry-im-like-this/l13.m4a",
+      "durationMs": 3427
+    },
+    {
+      "id": "l14",
+      "speaker": "chris",
+      "text": "I see you, I think. Blue jacket?",
+      "spoken": "I see you, I think. Blue jacket?",
+      "audio": "audio/pack02-06-sorry-im-like-this/l14.m4a",
+      "durationMs": 2717
+    },
+    {
+      "id": "l15",
+      "speaker": "maya",
+      "text": "That's me. Don't wave like a maniac.",
+      "spoken": "That's me. Don't wave like a maniac.",
+      "audio": "audio/pack02-06-sorry-im-like-this/l15.m4a",
+      "durationMs": 2486
+    },
+    {
+      "id": "l16",
+      "speaker": "chris",
+      "text": "I'm waving normally. You're fine. Come in.",
+      "spoken": "I'm waving normally. You're fine. Come in.",
+      "audio": "audio/pack02-06-sorry-im-like-this/l16.m4a",
+      "durationMs": 3634
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "这次是谁晚了？大概晚多久？",
+      "askEn": "Who is late this time, and by about how much?",
+      "accept": [
+        "Maya is late",
+        "about twenty minutes",
+        "Maya 晚了",
+        "大概二十分钟"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "Chris 是什么态度？",
+      "askEn": "How does Chris respond?",
+      "accept": [
+        "you're fine",
+        "it's okay",
+        "he already got a table",
+        "he ordered water",
+        "没事",
+        "他已经占了座",
+        "他不在意"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "Maya 晚到的原因有哪些？",
+      "askEn": "What made Maya late?",
+      "accept": [
+        "meeting ran over",
+        "couldn't get a car",
+        "she started walking",
+        "会开超时",
+        "打不到车",
+        "她改走路"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "Chris 让她坐下以后不要做什么？",
+      "askEn": "What does Chris ask her not to do when she sits down?",
+      "accept": [
+        "don't apologize again",
+        "one more apology then done",
+        "不要再道歉",
+        "再道一次就够了"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l3",
+      "span": "I'm not usually like this",
+      "hear": "I'm not usually like this",
+      "noteZh": "not usually 两个词都偏弱，like this 才比较清楚；整句态度在中间这截被压缩的部分。",
+      "standard": "I am not usually like this"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l4",
+      "span": "I didn't get you food because I didn't know",
+      "hear": "I didn't get you food 'cause I didn't know",
+      "noteZh": "didn't get you 连读，because 又缩成 'cause，因果逻辑全靠这些弱的功能词。",
+      "standard": "I didn't get you food because I didn't know"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l10",
+      "span": "You're not going to disappear",
+      "hear": "You're not gonna disappear",
+      "noteZh": "You're not gonna 三连缩减，真正的动词 disappear 在句尾。",
+      "standard": "You are not going to disappear"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "I'm so sorry.",
+      "meaningZh": "真的很抱歉。（软的、真诚的道歉。）",
+      "fromLineId": "l1",
+      "sayAfter": "I'm so sorry. I'm around the corner.",
+      "audio": "audio/pack02-06-sorry-im-like-this/c1.m4a",
+      "durationMs": 1277,
+      "afterAudio": "audio/pack02-06-sorry-im-like-this/c1-after.m4a",
+      "afterDurationMs": 2559
+    },
+    {
+      "id": "c2",
+      "form": "I'm not usually like this.",
+      "meaningZh": "我平常不是这样的。",
+      "fromLineId": "l3",
+      "sayAfter": "I'm not usually like this. My meeting ran over.",
+      "audio": "audio/pack02-06-sorry-im-like-this/c2.m4a",
+      "durationMs": 1963,
+      "afterAudio": "audio/pack02-06-sorry-im-like-this/c2-after.m4a",
+      "afterDurationMs": 3433
+    },
+    {
+      "id": "c3",
+      "form": "You're fine, seriously.",
+      "meaningZh": "真的没事 / 你不用一直道歉。",
+      "fromLineId": "l2",
+      "sayAfter": "You're fine. Seriously. I got a table.",
+      "audio": "audio/pack02-06-sorry-im-like-this/c3.m4a",
+      "durationMs": 1676,
+      "afterAudio": "audio/pack02-06-sorry-im-like-this/c3-after.m4a",
+      "afterDurationMs": 3623
+    }
+  ],
+  "roleplay": {
+    "setupZh": "这次晚的人是你。你已经在拐角了，心里很过意不去。你要道歉，简短说明原因，但不要把整通电话变成检讨。对方其实已经占好了座。",
+    "aiRole": "Chris, already at a window table, easygoing and a little teasing. He ordered water, not food. He will gently stop you from apologizing on a loop.",
+    "variants": [
+      "Maya is more than twenty minutes late.",
+      "Chris did order her a sandwich.",
+      "They almost miss each other because of the jacket color."
+    ],
+    "mustUse": [
+      "I'm so sorry",
+      "I'm not usually like this",
+      "You're fine"
+    ],
+    "starters": [
+      "I'm so sorry. I'm around the corner.",
+      "You're fine. I got a table.",
+      "I'm not usually like this."
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲这次角色对调：谁晚了，为什么，Chris 已经做了什么，他又是怎么让 Maya 别一直道歉的。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell the role-reversal: who was late, why, what Chris had already done, and how he stopped the apology loop. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/pack02-06-sorry-im-like-this/full.m4a",
+  "audioFullDurationMs": 68056
+}

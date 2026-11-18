@@ -1,0 +1,303 @@
+{
+  "id": "pack02-04-meet-somewhere-else",
+  "packId": "pack-02-change-of-plans",
+  "dayInPack": 4,
+  "title": "Meet somewhere else",
+  "titleZh": "换个地方见",
+  "setting": "Minutes later. Chris reaches the first coffee place and finds a line out the door. Slightly denser reductions; speed holds.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "A-reduce-basic",
+  "targetWpm": 145,
+  "slowerWpm": 120,
+  "durationSec": 74,
+  "newItems": [],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "chris",
+      "text": "So, uh. The Third Street place is packed. There's a line out the door.",
+      "spoken": "So, uh. The Third Street place is packed. There's a line out the door.",
+      "audio": "audio/pack02-04-meet-somewhere-else/l1.m4a",
+      "durationMs": 5220
+    },
+    {
+      "id": "l2",
+      "speaker": "maya",
+      "text": "Of course there is.",
+      "spoken": "Of course there is.",
+      "audio": "audio/pack02-04-meet-somewhere-else/l2.m4a",
+      "durationMs": 1430
+    },
+    {
+      "id": "l3",
+      "speaker": "chris",
+      "text": "You wanna meet somewhere else? There's that other coffee place, the one with the yellow sign, like a block over.",
+      "spoken": "You wanna meet somewhere else? There's that other coffee place, the one with the yellow sign, like a block over.",
+      "audio": "audio/pack02-04-meet-somewhere-else/l3.m4a",
+      "durationMs": 6569
+    },
+    {
+      "id": "l4",
+      "speaker": "maya",
+      "text": "The loud one?",
+      "spoken": "The loud one?",
+      "audio": "audio/pack02-04-meet-somewhere-else/l4.m4a",
+      "durationMs": 1115
+    },
+    {
+      "id": "l5",
+      "speaker": "chris",
+      "text": "It's not that loud. Or we could do the bookstore, they have a little cafe in the back.",
+      "spoken": "It's not that loud. Or we could do the bookstore, they have a little cafe in the back.",
+      "audio": "audio/pack02-04-meet-somewhere-else/l5.m4a",
+      "durationMs": 5131
+    },
+    {
+      "id": "l6",
+      "speaker": "maya",
+      "text": "Ooh. Yeah. I'm closer to the bookstore, actually.",
+      "spoken": "Ooh. Yeah. I'm closer to the bookstore, actually.",
+      "audio": "audio/pack02-04-meet-somewhere-else/l6.m4a",
+      "durationMs": 3640
+    },
+    {
+      "id": "l7",
+      "speaker": "chris",
+      "text": "Okay, let's do that. I'll walk over. Give me like seven minutes.",
+      "spoken": "Okay, let's do that. I'll walk over. Gimme like seven minutes.",
+      "audio": "audio/pack02-04-meet-somewhere-else/l7.m4a",
+      "durationMs": 5022
+    },
+    {
+      "id": "l8",
+      "speaker": "maya",
+      "text": "I'll probably get there first. You want me to get in line?",
+      "spoken": "I'll probably get there first. You want me to get in line?",
+      "audio": "audio/pack02-04-meet-somewhere-else/l8.m4a",
+      "durationMs": 3528
+    },
+    {
+      "id": "l9",
+      "speaker": "chris",
+      "text": "Yeah, if there is one. If not, just grab a table and text me.",
+      "spoken": "Yeah, if there is one. If not, just grab a table and text me.",
+      "audio": "audio/pack02-04-meet-somewhere-else/l9.m4a",
+      "durationMs": 4611
+    },
+    {
+      "id": "l10",
+      "speaker": "maya",
+      "text": "What are you gonna want? In case I get to the counter.",
+      "spoken": "What're you gonna want? In case I get to the counter.",
+      "audio": "audio/pack02-04-meet-somewhere-else/l10.m4a",
+      "durationMs": 3043
+    },
+    {
+      "id": "l11",
+      "speaker": "chris",
+      "text": "Just a black coffee. I don't even care. I just wanna sit down.",
+      "spoken": "Just a black coffee. I don't even care. I just wanna sit down.",
+      "audio": "audio/pack02-04-meet-somewhere-else/l11.m4a",
+      "durationMs": 5058
+    },
+    {
+      "id": "l12",
+      "speaker": "maya",
+      "text": "Same. Okay, bookstore cafe. Don't go back to Third by accident.",
+      "spoken": "Same. Okay, bookstore cafe. Don't go back to Third by accident.",
+      "audio": "audio/pack02-04-meet-somewhere-else/l12.m4a",
+      "durationMs": 5250
+    },
+    {
+      "id": "l13",
+      "speaker": "chris",
+      "text": "I won't. I'm turning around now.",
+      "spoken": "I won't. I'm turning around now.",
+      "audio": "audio/pack02-04-meet-somewhere-else/l13.m4a",
+      "durationMs": 2492
+    },
+    {
+      "id": "l14",
+      "speaker": "maya",
+      "text": "Good. If it's packed too, I'll text you and we'll just... I don't know, keep walking.",
+      "spoken": "Good. If it's packed too, I'll text you and we'll just... I dunno, keep walking.",
+      "audio": "audio/pack02-04-meet-somewhere-else/l14.m4a",
+      "durationMs": 4144
+    },
+    {
+      "id": "l15",
+      "speaker": "chris",
+      "text": "Yeah. One problem at a time, though.",
+      "spoken": "Yeah. One problem at a time, though.",
+      "audio": "audio/pack02-04-meet-somewhere-else/l15.m4a",
+      "durationMs": 2844
+    },
+    {
+      "id": "l16",
+      "speaker": "maya",
+      "text": "Fair. See you in a bit.",
+      "spoken": "Fair. See you in a bit.",
+      "audio": "audio/pack02-04-meet-somewhere-else/l16.m4a",
+      "durationMs": 2100
+    },
+    {
+      "id": "l17",
+      "speaker": "chris",
+      "text": "See you. Black coffee. I'm easy.",
+      "spoken": "See you. Black coffee. I'm easy.",
+      "audio": "audio/pack02-04-meet-somewhere-else/l17.m4a",
+      "durationMs": 3329
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "第一家店为什么不行了？",
+      "askEn": "Why isn't the first place going to work?",
+      "accept": [
+        "it's packed",
+        "a line out the door",
+        "too crowded",
+        "人太多",
+        "排到门外",
+        "挤满了"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "他们改去哪里？",
+      "askEn": "Where do they go instead?",
+      "accept": [
+        "the bookstore cafe",
+        "cafe in the back of the bookstore",
+        "书店里的小咖啡座",
+        "书店咖啡馆"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "Chris 还提过另一个备选吗？",
+      "askEn": "What other place does Chris mention?",
+      "accept": [
+        "the one with the yellow sign",
+        "another coffee place a block over",
+        "黄招牌那家",
+        "再过去一条街的咖啡店"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "Chris 想喝什么？Maya 到了要做什么？",
+      "askEn": "What does Chris want, and what should Maya do when she arrives?",
+      "accept": [
+        "black coffee",
+        "get in line or grab a table and text",
+        "黑咖啡",
+        "排队或占桌然后发消息"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l3",
+      "span": "You wanna meet somewhere else",
+      "hear": "You wanna meet somewhere else",
+      "noteZh": "wanna meet somewhere 连成一串，else 才把‘换地方’说完，somewhere 不要听成 some where。",
+      "standard": "You want to meet somewhere else"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l10",
+      "span": "What are you going to want",
+      "hear": "What're you gonna want",
+      "noteZh": "What are you 缩成 what're you，gonna want 再叠一层，整句问的是他想点什么。",
+      "standard": "What are you going to want"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l7",
+      "span": "Give me like seven minutes",
+      "hear": "Gimme like seven minutes",
+      "noteZh": "又是 gimme like + 时间，和上一场的 give me like fifteen 是同一骨架。",
+      "standard": "Give me like seven minutes"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "You wanna meet somewhere else?",
+      "meaningZh": "要不要换个地方见？",
+      "fromLineId": "l3",
+      "sayAfter": "It's packed. You wanna meet somewhere else?",
+      "audio": "audio/pack02-04-meet-somewhere-else/c1.m4a",
+      "durationMs": 1601,
+      "afterAudio": "audio/pack02-04-meet-somewhere-else/c1-after.m4a",
+      "afterDurationMs": 2981
+    },
+    {
+      "id": "c2",
+      "form": "I'm closer to the bookstore.",
+      "meaningZh": "我离书店更近。",
+      "fromLineId": "l6",
+      "sayAfter": "Yeah. I'm closer to the bookstore, actually.",
+      "audio": "audio/pack02-04-meet-somewhere-else/c2.m4a",
+      "durationMs": 1762,
+      "afterAudio": "audio/pack02-04-meet-somewhere-else/c2-after.m4a",
+      "afterDurationMs": 3065
+    },
+    {
+      "id": "c3",
+      "form": "Just grab a table and text me.",
+      "meaningZh": "先占个座，然后给我发消息。",
+      "fromLineId": "l9",
+      "sayAfter": "If there's no line, just grab a table and text me.",
+      "audio": "audio/pack02-04-meet-somewhere-else/c3.m4a",
+      "durationMs": 1949,
+      "afterAudio": "audio/pack02-04-meet-somewhere-else/c3-after.m4a",
+      "afterDurationMs": 3067
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你们刚定的那家店排到了门外。你要提议换地方，给出一两个具体选项，并说清谁先到、先做什么。",
+    "aiRole": "Maya, a little wet and a little sarcastic, but cooperative. She's closer to the bookstore and will get in line or grab a table. She wants to know what to order.",
+    "variants": [
+      "The bookstore cafe is also busy.",
+      "Chris would rather try the yellow-sign place.",
+      "They decide to get drinks to go and walk."
+    ],
+    "mustUse": [
+      "You wanna meet somewhere else",
+      "Just grab a table and text me"
+    ],
+    "starters": [
+      "The place is packed.",
+      "You wanna meet somewhere else?",
+      "I'm closer to the bookstore."
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲他们为什么又换地方，备选有哪些，最后为什么选书店，各自到了要做什么。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell why the first cafe didn't work, what the options were, why they chose the bookstore, and what each person would do on arrival. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l3"
+  ],
+  "audioFull": "audio/pack02-04-meet-somewhere-else/full.m4a",
+  "audioFullDurationMs": 69729
+}

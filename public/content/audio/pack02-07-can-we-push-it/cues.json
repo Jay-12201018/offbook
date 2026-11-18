@@ -1,0 +1,152 @@
+{
+  "sceneId": "pack02-07-can-we-push-it",
+  "lines": {
+    "l1": {
+      "file": "audio/pack02-07-can-we-push-it/l1.m4a",
+      "durationMs": 4441,
+      "fullStartMs": 0,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l2": {
+      "file": "audio/pack02-07-can-we-push-it/l2.m4a",
+      "durationMs": 1219,
+      "fullStartMs": 4721,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l3": {
+      "file": "audio/pack02-07-can-we-push-it/l3.m4a",
+      "durationMs": 4717,
+      "fullStartMs": 6220,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l4": {
+      "file": "audio/pack02-07-can-we-push-it/l4.m4a",
+      "durationMs": 2949,
+      "fullStartMs": 11217,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l5": {
+      "file": "audio/pack02-07-can-we-push-it/l5.m4a",
+      "durationMs": 4766,
+      "fullStartMs": 14446,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l6": {
+      "file": "audio/pack02-07-can-we-push-it/l6.m4a",
+      "durationMs": 2969,
+      "fullStartMs": 19492,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l7": {
+      "file": "audio/pack02-07-can-we-push-it/l7.m4a",
+      "durationMs": 6312,
+      "fullStartMs": 22741,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l8": {
+      "file": "audio/pack02-07-can-we-push-it/l8.m4a",
+      "durationMs": 5295,
+      "fullStartMs": 29333,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l9": {
+      "file": "audio/pack02-07-can-we-push-it/l9.m4a",
+      "durationMs": 5840,
+      "fullStartMs": 34908,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l10": {
+      "file": "audio/pack02-07-can-we-push-it/l10.m4a",
+      "durationMs": 3122,
+      "fullStartMs": 41028,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l11": {
+      "file": "audio/pack02-07-can-we-push-it/l11.m4a",
+      "durationMs": 2896,
+      "fullStartMs": 44430,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l12": {
+      "file": "audio/pack02-07-can-we-push-it/l12.m4a",
+      "durationMs": 4150,
+      "fullStartMs": 47606,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l13": {
+      "file": "audio/pack02-07-can-we-push-it/l13.m4a",
+      "durationMs": 2629,
+      "fullStartMs": 52036,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l14": {
+      "file": "audio/pack02-07-can-we-push-it/l14.m4a",
+      "durationMs": 1549,
+      "fullStartMs": 54945,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l15": {
+      "file": "audio/pack02-07-can-we-push-it/l15.m4a",
+      "durationMs": 3435,
+      "fullStartMs": 56774,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l16": {
+      "file": "audio/pack02-07-can-we-push-it/l16.m4a",
+      "durationMs": 4658,
+      "fullStartMs": 60489,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l17": {
+      "file": "audio/pack02-07-can-we-push-it/l17.m4a",
+      "durationMs": 2271,
+      "fullStartMs": 65427,
+      "voice": "kristin",
+      "speaker": "maya"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack02-07-can-we-push-it/c1.m4a",
+      "durationMs": 1363,
+      "voice": "kristin",
+      "afterFile": "audio/pack02-07-can-we-push-it/c1-after.m4a",
+      "afterDurationMs": 2884
+    },
+    "c2": {
+      "file": "audio/pack02-07-can-we-push-it/c2.m4a",
+      "durationMs": 1369,
+      "voice": "joe",
+      "afterFile": "audio/pack02-07-can-we-push-it/c2-after.m4a",
+      "afterDurationMs": 3019
+    },
+    "c3": {
+      "file": "audio/pack02-07-can-we-push-it/c3.m4a",
+      "durationMs": 1411,
+      "voice": "kristin",
+      "afterFile": "audio/pack02-07-can-we-push-it/c3-after.m4a",
+      "afterDurationMs": 4001
+    }
+  },
+  "full": {
+    "file": "audio/pack02-07-can-we-push-it/full.m4a",
+    "durationMs": 68336,
+    "gapMs": 280
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "sceneId": "pack04-07-this-is-not-what-i-ordered",
+  "lines": {
+    "l1": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/l1.m4a",
+      "durationMs": 2456,
+      "fullStartMs": 0,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l2": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/l2.m4a",
+      "durationMs": 1267,
+      "fullStartMs": 2736,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l3": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/l3.m4a",
+      "durationMs": 10020,
+      "fullStartMs": 4283,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l4": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/l4.m4a",
+      "durationMs": 3023,
+      "fullStartMs": 14583,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l5": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/l5.m4a",
+      "durationMs": 7472,
+      "fullStartMs": 17886,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l6": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/l6.m4a",
+      "durationMs": 3247,
+      "fullStartMs": 25638,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l7": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/l7.m4a",
+      "durationMs": 2710,
+      "fullStartMs": 29165,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l8": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/l8.m4a",
+      "durationMs": 3377,
+      "fullStartMs": 32155,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l9": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/l9.m4a",
+      "durationMs": 3848,
+      "fullStartMs": 35812,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l10": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/l10.m4a",
+      "durationMs": 4777,
+      "fullStartMs": 39940,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l11": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/l11.m4a",
+      "durationMs": 3901,
+      "fullStartMs": 44997,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l12": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/l12.m4a",
+      "durationMs": 3905,
+      "fullStartMs": 49178,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l13": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/l13.m4a",
+      "durationMs": 2930,
+      "fullStartMs": 53363,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l14": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/l14.m4a",
+      "durationMs": 2859,
+      "fullStartMs": 56573,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l15": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/l15.m4a",
+      "durationMs": 3266,
+      "fullStartMs": 59712,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l16": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/l16.m4a",
+      "durationMs": 2054,
+      "fullStartMs": 63258,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l17": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/l17.m4a",
+      "durationMs": 3132,
+      "fullStartMs": 65592,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l18": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/l18.m4a",
+      "durationMs": 1637,
+      "fullStartMs": 69004,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l19": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/l19.m4a",
+      "durationMs": 4776,
+      "fullStartMs": 70921,
+      "voice": "joe",
+      "speaker": "chris"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/c1.m4a",
+      "durationMs": 1710,
+      "voice": "kristin",
+      "afterFile": "audio/pack04-07-this-is-not-what-i-ordered/c1-after.m4a",
+      "afterDurationMs": 2639
+    },
+    "c2": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/c2.m4a",
+      "durationMs": 3027,
+      "voice": "kristin",
+      "afterFile": "audio/pack04-07-this-is-not-what-i-ordered/c2-after.m4a",
+      "afterDurationMs": 3374
+    },
+    "c3": {
+      "file": "audio/pack04-07-this-is-not-what-i-ordered/c3.m4a",
+      "durationMs": 1913,
+      "voice": "ljspeech",
+      "afterFile": "audio/pack04-07-this-is-not-what-i-ordered/c3-after.m4a",
+      "afterDurationMs": 2825
+    }
+  },
+  "full": {
+    "file": "audio/pack04-07-this-is-not-what-i-ordered/full.m4a",
+    "durationMs": 76419,
+    "gapMs": 280
+  }
+}

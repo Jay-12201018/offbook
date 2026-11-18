@@ -1,0 +1,152 @@
+{
+  "sceneId": "pack01-06-next-ones-on-me",
+  "lines": {
+    "l1": {
+      "file": "audio/pack01-06-next-ones-on-me/l1.m4a",
+      "durationMs": 2750,
+      "fullStartMs": 0,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l2": {
+      "file": "audio/pack01-06-next-ones-on-me/l2.m4a",
+      "durationMs": 2052,
+      "fullStartMs": 3030,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l3": {
+      "file": "audio/pack01-06-next-ones-on-me/l3.m4a",
+      "durationMs": 2512,
+      "fullStartMs": 5362,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l4": {
+      "file": "audio/pack01-06-next-ones-on-me/l4.m4a",
+      "durationMs": 5244,
+      "fullStartMs": 8154,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l5": {
+      "file": "audio/pack01-06-next-ones-on-me/l5.m4a",
+      "durationMs": 2796,
+      "fullStartMs": 13678,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l6": {
+      "file": "audio/pack01-06-next-ones-on-me/l6.m4a",
+      "durationMs": 3973,
+      "fullStartMs": 16754,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l7": {
+      "file": "audio/pack01-06-next-ones-on-me/l7.m4a",
+      "durationMs": 2933,
+      "fullStartMs": 21007,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l8": {
+      "file": "audio/pack01-06-next-ones-on-me/l8.m4a",
+      "durationMs": 2473,
+      "fullStartMs": 24220,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l9": {
+      "file": "audio/pack01-06-next-ones-on-me/l9.m4a",
+      "durationMs": 6285,
+      "fullStartMs": 26973,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l10": {
+      "file": "audio/pack01-06-next-ones-on-me/l10.m4a",
+      "durationMs": 3397,
+      "fullStartMs": 33538,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l11": {
+      "file": "audio/pack01-06-next-ones-on-me/l11.m4a",
+      "durationMs": 5200,
+      "fullStartMs": 37215,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l12": {
+      "file": "audio/pack01-06-next-ones-on-me/l12.m4a",
+      "durationMs": 3722,
+      "fullStartMs": 42695,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l13": {
+      "file": "audio/pack01-06-next-ones-on-me/l13.m4a",
+      "durationMs": 5748,
+      "fullStartMs": 46697,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l14": {
+      "file": "audio/pack01-06-next-ones-on-me/l14.m4a",
+      "durationMs": 880,
+      "fullStartMs": 52725,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l15": {
+      "file": "audio/pack01-06-next-ones-on-me/l15.m4a",
+      "durationMs": 2656,
+      "fullStartMs": 53885,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l16": {
+      "file": "audio/pack01-06-next-ones-on-me/l16.m4a",
+      "durationMs": 2776,
+      "fullStartMs": 56821,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l17": {
+      "file": "audio/pack01-06-next-ones-on-me/l17.m4a",
+      "durationMs": 1860,
+      "fullStartMs": 59877,
+      "voice": "kristin",
+      "speaker": "maya"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack01-06-next-ones-on-me/c1.m4a",
+      "durationMs": 1398,
+      "voice": "kristin",
+      "afterFile": "audio/pack01-06-next-ones-on-me/c1-after.m4a",
+      "afterDurationMs": 2541
+    },
+    "c2": {
+      "file": "audio/pack01-06-next-ones-on-me/c2.m4a",
+      "durationMs": 1249,
+      "voice": "kristin",
+      "afterFile": "audio/pack01-06-next-ones-on-me/c2-after.m4a",
+      "afterDurationMs": 2510
+    },
+    "c3": {
+      "file": "audio/pack01-06-next-ones-on-me/c3.m4a",
+      "durationMs": 1106,
+      "voice": "kristin",
+      "afterFile": "audio/pack01-06-next-ones-on-me/c3-after.m4a",
+      "afterDurationMs": 3497
+    }
+  },
+  "full": {
+    "file": "audio/pack01-06-next-ones-on-me/full.m4a",
+    "durationMs": 62485,
+    "gapMs": 280
+  }
+}

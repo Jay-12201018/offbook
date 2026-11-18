@@ -1,0 +1,131 @@
+{
+  "sceneId": "pack03-02-which-way-is-the-station",
+  "lines": {
+    "l1": {
+      "file": "audio/pack03-02-which-way-is-the-station/l1.m4a",
+      "durationMs": 3612,
+      "fullStartMs": 0,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l2": {
+      "file": "audio/pack03-02-which-way-is-the-station/l2.m4a",
+      "durationMs": 4756,
+      "fullStartMs": 3892,
+      "voice": "kristin",
+      "speaker": "asha"
+    },
+    "l3": {
+      "file": "audio/pack03-02-which-way-is-the-station/l3.m4a",
+      "durationMs": 3300,
+      "fullStartMs": 8928,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l4": {
+      "file": "audio/pack03-02-which-way-is-the-station/l4.m4a",
+      "durationMs": 8967,
+      "fullStartMs": 12508,
+      "voice": "kristin",
+      "speaker": "asha"
+    },
+    "l5": {
+      "file": "audio/pack03-02-which-way-is-the-station/l5.m4a",
+      "durationMs": 3198,
+      "fullStartMs": 21755,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l6": {
+      "file": "audio/pack03-02-which-way-is-the-station/l6.m4a",
+      "durationMs": 6777,
+      "fullStartMs": 25233,
+      "voice": "kristin",
+      "speaker": "asha"
+    },
+    "l7": {
+      "file": "audio/pack03-02-which-way-is-the-station/l7.m4a",
+      "durationMs": 6147,
+      "fullStartMs": 32290,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l8": {
+      "file": "audio/pack03-02-which-way-is-the-station/l8.m4a",
+      "durationMs": 3879,
+      "fullStartMs": 38717,
+      "voice": "kristin",
+      "speaker": "asha"
+    },
+    "l9": {
+      "file": "audio/pack03-02-which-way-is-the-station/l9.m4a",
+      "durationMs": 2501,
+      "fullStartMs": 42876,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l10": {
+      "file": "audio/pack03-02-which-way-is-the-station/l10.m4a",
+      "durationMs": 3707,
+      "fullStartMs": 45657,
+      "voice": "kristin",
+      "speaker": "asha"
+    },
+    "l11": {
+      "file": "audio/pack03-02-which-way-is-the-station/l11.m4a",
+      "durationMs": 3051,
+      "fullStartMs": 49644,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l12": {
+      "file": "audio/pack03-02-which-way-is-the-station/l12.m4a",
+      "durationMs": 3207,
+      "fullStartMs": 52975,
+      "voice": "kristin",
+      "speaker": "asha"
+    },
+    "l13": {
+      "file": "audio/pack03-02-which-way-is-the-station/l13.m4a",
+      "durationMs": 2661,
+      "fullStartMs": 56462,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l14": {
+      "file": "audio/pack03-02-which-way-is-the-station/l14.m4a",
+      "durationMs": 3269,
+      "fullStartMs": 59403,
+      "voice": "kristin",
+      "speaker": "asha"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack03-02-which-way-is-the-station/c1.m4a",
+      "durationMs": 1960,
+      "voice": "kristin",
+      "afterFile": "audio/pack03-02-which-way-is-the-station/c1-after.m4a",
+      "afterDurationMs": 3393
+    },
+    "c2": {
+      "file": "audio/pack03-02-which-way-is-the-station/c2.m4a",
+      "durationMs": 2028,
+      "voice": "kristin",
+      "afterFile": "audio/pack03-02-which-way-is-the-station/c2-after.m4a",
+      "afterDurationMs": 4136
+    },
+    "c3": {
+      "file": "audio/pack03-02-which-way-is-the-station/c3.m4a",
+      "durationMs": 1349,
+      "voice": "kristin",
+      "afterFile": "audio/pack03-02-which-way-is-the-station/c3-after.m4a",
+      "afterDurationMs": 2323
+    }
+  },
+  "full": {
+    "file": "audio/pack03-02-which-way-is-the-station/full.m4a",
+    "durationMs": 63270,
+    "gapMs": 280
+  }
+}

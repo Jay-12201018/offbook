@@ -1,0 +1,305 @@
+{
+  "id": "pack04-03-wrong-order",
+  "packId": "pack-04-food-and-help",
+  "dayInPack": 3,
+  "title": "That's the wrong order",
+  "titleZh": "这不是我点的",
+  "setting": "Back at the casual place with Jess. Plates have just landed. One is clearly not theirs; Chris's burger has onions on it.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    },
+    {
+      "id": "jess",
+      "name": "Jess",
+      "gender": "female"
+    }
+  ],
+  "register": "travel",
+  "skillNode": "A-travel-open",
+  "targetWpm": 150,
+  "slowerWpm": 125,
+  "durationSec": 75,
+  "newItems": [],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "Oh. Sorry, I think this is the wrong order.",
+      "spoken": "Oh. Sorry, I think this is the wrong order.",
+      "audio": "audio/pack04-03-wrong-order/l1.m4a",
+      "durationMs": 3297
+    },
+    {
+      "id": "l2",
+      "speaker": "jess",
+      "text": "Yeah? What'd you get?",
+      "spoken": "Yeah? What'd you get?",
+      "audio": "audio/pack04-03-wrong-order/l2.m4a",
+      "durationMs": 1585
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "I asked for no onions. I think this is someone else's burger. It's got, like, everything on it, and also I did the grilled cheese.",
+      "spoken": "I asked for no onions. I think this is someone else's burger. It's got, like, everything on it, and also I did the grilled cheese.",
+      "audio": "audio/pack04-03-wrong-order/l3.m4a",
+      "durationMs": 9401
+    },
+    {
+      "id": "l4",
+      "speaker": "jess",
+      "text": "Oh my god. Okay. Yeah, that's not yours. I'm so sorry. I'll fix that.",
+      "spoken": "Oh my god. Okay. Yeah, that's not yours. I'm so sorry. I'll fix that.",
+      "audio": "audio/pack04-03-wrong-order/l4.m4a",
+      "durationMs": 6157
+    },
+    {
+      "id": "l5",
+      "speaker": "chris",
+      "text": "I think this one is mine, actually, but it has onions. Which is... yeah.",
+      "spoken": "I think this one is mine, actually, but it has onions. Which is... yeah.",
+      "audio": "audio/pack04-03-wrong-order/l5.m4a",
+      "durationMs": 4745
+    },
+    {
+      "id": "l6",
+      "speaker": "jess",
+      "text": "You said no onions. I wrote no onions. I'm really sorry. Let me just take both of these and I'll come right back.",
+      "spoken": "You said no onions. I wrote no onions. I'm really sorry. Lemme just take both of these and I'll come right back.",
+      "audio": "audio/pack04-03-wrong-order/l6.m4a",
+      "durationMs": 7835
+    },
+    {
+      "id": "l7",
+      "speaker": "maya",
+      "text": "It's okay. No rush, I just didn't want to start eating the wrong thing and then...",
+      "spoken": "It's okay. No rush, I just didn't want to start eating the wrong thing and then...",
+      "audio": "audio/pack04-03-wrong-order/l7.m4a",
+      "durationMs": 5604
+    },
+    {
+      "id": "l8",
+      "speaker": "jess",
+      "text": "No, you're right to say something. Give me two minutes. Do you want me to put a rush on it?",
+      "spoken": "No, you're right to say something. Gimme two minutes. D'you want me to put a rush on it?",
+      "audio": "audio/pack04-03-wrong-order/l8.m4a",
+      "durationMs": 5805
+    },
+    {
+      "id": "l9",
+      "speaker": "chris",
+      "text": "Only if it's easy. We're not dying.",
+      "spoken": "Only if it's easy. We're not dying.",
+      "audio": "audio/pack04-03-wrong-order/l9.m4a",
+      "durationMs": 2693
+    },
+    {
+      "id": "l10",
+      "speaker": "jess",
+      "text": "I'll put a rush on it anyway. Sorry again. This is on me.",
+      "spoken": "I'll put a rush on it anyway. Sorry again. This is on me.",
+      "audio": "audio/pack04-03-wrong-order/l10.m4a",
+      "durationMs": 4046
+    },
+    {
+      "id": "l11",
+      "speaker": "maya",
+      "text": "You're fine. It happens.",
+      "spoken": "You're fine. It happens.",
+      "audio": "audio/pack04-03-wrong-order/l11.m4a",
+      "durationMs": 2116
+    },
+    {
+      "id": "l12",
+      "speaker": "jess",
+      "text": "I appreciate that. I'll be right back.",
+      "spoken": "I appreciate that. I'll be right back.",
+      "audio": "audio/pack04-03-wrong-order/l12.m4a",
+      "durationMs": 3022
+    },
+    {
+      "id": "l13",
+      "speaker": "chris",
+      "text": "You did that really calmly.",
+      "spoken": "You did that really calmly.",
+      "audio": "audio/pack04-03-wrong-order/l13.m4a",
+      "durationMs": 1558
+    },
+    {
+      "id": "l14",
+      "speaker": "maya",
+      "text": "I was practicing in my head for a second. I didn't want to sound mad.",
+      "spoken": "I was practicing in my head for a second. I didn't want to sound mad.",
+      "audio": "audio/pack04-03-wrong-order/l14.m4a",
+      "durationMs": 4180
+    },
+    {
+      "id": "l15",
+      "speaker": "chris",
+      "text": "You didn't. You sounded like a person who asked for no onions.",
+      "spoken": "You didn't. You sounded like a person who asked for no onions.",
+      "audio": "audio/pack04-03-wrong-order/l15.m4a",
+      "durationMs": 3935
+    },
+    {
+      "id": "l16",
+      "speaker": "maya",
+      "text": "Which I did.",
+      "spoken": "Which I did.",
+      "audio": "audio/pack04-03-wrong-order/l16.m4a",
+      "durationMs": 1073
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "上菜时出了什么问题？",
+      "askEn": "What's wrong with the food that arrived?",
+      "accept": [
+        "wrong order",
+        "someone else's burger",
+        "onions on Chris's burger",
+        "上错菜",
+        "不是他们的汉堡",
+        "汉堡上有洋葱"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "两边的态度怎么样？",
+      "askEn": "How do they handle it?",
+      "accept": [
+        "Maya is calm and polite",
+        "Jess is sorry and will fix it",
+        "not a fight",
+        "Maya 很平静",
+        "Jess 道歉并去改",
+        "没有吵"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "Maya 原来点的是什么？",
+      "askEn": "What had Maya actually ordered?",
+      "accept": [
+        "grilled cheese",
+        "she asked for no onions on a burger that isn't hers",
+        "烤芝士",
+        "那份带洋葱的汉堡不是她的"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "Jess 打算怎么补救？要不要催后厨？",
+      "askEn": "How will Jess fix it, and will she rush it?",
+      "accept": [
+        "take both plates",
+        "come right back",
+        "put a rush on it",
+        "两盘都拿走",
+        "马上回来",
+        "帮他们催一下"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l1",
+      "span": "I think this is the wrong order",
+      "hear": "I think this is the wrong order",
+      "noteZh": "I think this is the 一串功能词，wrong order 才是要点；说的时候要整句听，不要只抓住 wrong。",
+      "standard": "I think this is the wrong order"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l3",
+      "span": "I asked for no onions",
+      "hear": "I asked for no onions",
+      "noteZh": "asked for no 里 for 弱读，no 才是否定；这是点餐改配料被忽略时最有用的原句。",
+      "standard": "I asked for no onions"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l12",
+      "span": "I'll be right back",
+      "hear": "I'll be right back",
+      "noteZh": "right back 连读，t 常变成闪音，意思是‘我马上回来’，不是右边。",
+      "standard": "I will be right back"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "I think this is the wrong order.",
+      "meaningZh": "我觉得这不是我点的。",
+      "fromLineId": "l1",
+      "sayAfter": "Sorry, I think this is the wrong order.",
+      "audio": "audio/pack04-03-wrong-order/c1.m4a",
+      "durationMs": 2066,
+      "afterAudio": "audio/pack04-03-wrong-order/c1-after.m4a",
+      "afterDurationMs": 2679
+    },
+    {
+      "id": "c2",
+      "form": "I asked for no onions.",
+      "meaningZh": "我当时说了不要洋葱。",
+      "fromLineId": "l3",
+      "sayAfter": "I asked for no onions. This has everything on it.",
+      "audio": "audio/pack04-03-wrong-order/c2.m4a",
+      "durationMs": 1897,
+      "afterAudio": "audio/pack04-03-wrong-order/c2-after.m4a",
+      "afterDurationMs": 3642
+    },
+    {
+      "id": "c3",
+      "form": "I'll fix that.",
+      "meaningZh": "我来帮你改 / 我来处理。",
+      "fromLineId": "l4",
+      "sayAfter": "Yeah, that's not yours. I'm so sorry. I'll fix that.",
+      "audio": "audio/pack04-03-wrong-order/c3.m4a",
+      "durationMs": 1242,
+      "afterAudio": "audio/pack04-03-wrong-order/c3-after.m4a",
+      "afterDurationMs": 4178
+    }
+  ],
+  "roleplay": {
+    "setupZh": "菜上来了，但明显不是你点的，或者你交代过不要的配料还在上面。你要说清楚问题，保持礼貌，不要听起来在发火，也不要道歉到不敢改。",
+    "aiRole": "Jess, embarrassed and efficient, plus Chris who notices onions on his burger too. Jess will take the plates, offer a rush, and own the mistake. She is not defensive.",
+    "variants": [
+      "Only Maya's plate is wrong.",
+      "They've already taken a bite.",
+      "The kitchen says the correct item will take 15 minutes."
+    ],
+    "mustUse": [
+      "I think this is the wrong order",
+      "I asked for no onions",
+      "I'll fix that"
+    ],
+    "starters": [
+      "Sorry, I think this is the wrong order.",
+      "I asked for no onions.",
+      "I'll fix that."
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲上错菜：两盘分别有什么问题，Maya 怎么开口，Jess 打算怎么补，为什么 Maya 刚才在脑子里先练了一遍。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell the wrong-order moment: what was wrong with each plate, how Maya said it, how Jess offered to fix it, and why Maya had practiced the line in her head. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l3"
+  ],
+  "audioFull": "audio/pack04-03-wrong-order/full.m4a",
+  "audioFullDurationMs": 71911
+}

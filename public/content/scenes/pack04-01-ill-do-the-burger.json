@@ -1,0 +1,301 @@
+{
+  "id": "pack04-01-ill-do-the-burger",
+  "packId": "pack-04-food-and-help",
+  "dayInPack": 1,
+  "title": "I'll do the burger",
+  "titleZh": "我就来这个汉堡",
+  "setting": "Maya and Chris are in a casual sit-down place, already at a table. Their server, Jess, comes by with a notepad, not a script.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    },
+    {
+      "id": "jess",
+      "name": "Jess",
+      "gender": "female"
+    }
+  ],
+  "register": "travel",
+  "skillNode": "A-travel-open",
+  "targetWpm": 140,
+  "slowerWpm": 115,
+  "durationSec": 67,
+  "newItems": [],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "jess",
+      "text": "You guys know what you want, or you need a minute?",
+      "spoken": "You guys know what you want, or you need a minute?",
+      "audio": "audio/pack04-01-ill-do-the-burger/l1.m4a",
+      "durationMs": 2993
+    },
+    {
+      "id": "l2",
+      "speaker": "maya",
+      "text": "I think I'm good. Chris, you ready?",
+      "spoken": "I think I'm good. Chris, you ready?",
+      "audio": "audio/pack04-01-ill-do-the-burger/l2.m4a",
+      "durationMs": 2523
+    },
+    {
+      "id": "l3",
+      "speaker": "chris",
+      "text": "Yeah. I'll do the burger. Can I get that without onions?",
+      "spoken": "Yeah. I'll do the burger. Can I get that without onions?",
+      "audio": "audio/pack04-01-ill-do-the-burger/l3.m4a",
+      "durationMs": 4145
+    },
+    {
+      "id": "l4",
+      "speaker": "jess",
+      "text": "Without onions, yeah, no problem. You want the fries, or you wanna swap them for a salad or something?",
+      "spoken": "Without onions, yeah, no problem. You want the fries, or you wanna swap 'em for a salad or something?",
+      "audio": "audio/pack04-01-ill-do-the-burger/l4.m4a",
+      "durationMs": 6842
+    },
+    {
+      "id": "l5",
+      "speaker": "chris",
+      "text": "Fries are good. I'm not gonna do a salad and pretend.",
+      "spoken": "Fries are good. I'm not gonna do a salad and pretend.",
+      "audio": "audio/pack04-01-ill-do-the-burger/l5.m4a",
+      "durationMs": 3650
+    },
+    {
+      "id": "l6",
+      "speaker": "jess",
+      "text": "Fair. And for you?",
+      "spoken": "Fair. And for you?",
+      "audio": "audio/pack04-01-ill-do-the-burger/l6.m4a",
+      "durationMs": 1545
+    },
+    {
+      "id": "l7",
+      "speaker": "maya",
+      "text": "I'll do the grilled cheese. Is that, like, actually grilled cheese, or is it fancy?",
+      "spoken": "I'll do the grilled cheese. Is that, like, actually grilled cheese, or is it fancy?",
+      "audio": "audio/pack04-01-ill-do-the-burger/l7.m4a",
+      "durationMs": 5949
+    },
+    {
+      "id": "l8",
+      "speaker": "jess",
+      "text": "It's pretty much grilled cheese. A little fancy, but it's grilled cheese.",
+      "spoken": "It's pretty much grilled cheese. A little fancy, but it's grilled cheese.",
+      "audio": "audio/pack04-01-ill-do-the-burger/l8.m4a",
+      "durationMs": 5277
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "Perfect. And a water, that's it.",
+      "spoken": "Perfect. And a water, that's it.",
+      "audio": "audio/pack04-01-ill-do-the-burger/l9.m4a",
+      "durationMs": 2503
+    },
+    {
+      "id": "l10",
+      "speaker": "jess",
+      "text": "You want anything to drink? For you.",
+      "spoken": "You want anything to drink? For you.",
+      "audio": "audio/pack04-01-ill-do-the-burger/l10.m4a",
+      "durationMs": 2262
+    },
+    {
+      "id": "l11",
+      "speaker": "chris",
+      "text": "Just a Coke is fine.",
+      "spoken": "Just a Coke is fine.",
+      "audio": "audio/pack04-01-ill-do-the-burger/l11.m4a",
+      "durationMs": 1440
+    },
+    {
+      "id": "l12",
+      "speaker": "jess",
+      "text": "Okay, so burger, no onions, fries. Grilled cheese, water, and a Coke. For here, right?",
+      "spoken": "Okay, so burger, no onions, fries. Grilled cheese, water, and a Coke. For here, right?",
+      "audio": "audio/pack04-01-ill-do-the-burger/l12.m4a",
+      "durationMs": 6675
+    },
+    {
+      "id": "l13",
+      "speaker": "maya",
+      "text": "For here, yeah.",
+      "spoken": "For here, yeah.",
+      "audio": "audio/pack04-01-ill-do-the-burger/l13.m4a",
+      "durationMs": 1223
+    },
+    {
+      "id": "l14",
+      "speaker": "jess",
+      "text": "Cool. I'll go put that in. If you need ketchup or whatever, it's on the table, and if it's not, just wave, I'm around.",
+      "spoken": "Cool. I'll go put that in. If you need ketchup or whatever, it's on the table, and if it's not, just wave, I'm around.",
+      "audio": "audio/pack04-01-ill-do-the-burger/l14.m4a",
+      "durationMs": 7524
+    },
+    {
+      "id": "l15",
+      "speaker": "chris",
+      "text": "Thanks.",
+      "spoken": "Thanks.",
+      "audio": "audio/pack04-01-ill-do-the-burger/l15.m4a",
+      "durationMs": 629
+    },
+    {
+      "id": "l16",
+      "speaker": "jess",
+      "text": "Yep. Shouldn't be too long.",
+      "spoken": "Yep. Shouldn't be too long.",
+      "audio": "audio/pack04-01-ill-do-the-burger/l16.m4a",
+      "durationMs": 1914
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "这两人分别点了什么？",
+      "askEn": "What does each person order?",
+      "accept": [
+        "Chris gets a burger",
+        "no onions",
+        "fries",
+        "Maya gets grilled cheese and water",
+        "Chris 点汉堡不要洋葱",
+        "Maya 点烤芝士和水解"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "这是在店里吃还是带走？",
+      "askEn": "Is this for here or to go?",
+      "accept": [
+        "for here",
+        "they're eating in",
+        "在店里吃",
+        "不带走"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "Chris 为什么不换沙拉？",
+      "askEn": "Why doesn't Chris swap the fries for a salad?",
+      "accept": [
+        "he doesn't want to pretend",
+        "he wants fries",
+        "他不想装点沙拉",
+        "他要薯条"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "Maya 担心烤芝士会怎样？Jess 怎么说？",
+      "askEn": "What was Maya unsure about with the grilled cheese?",
+      "accept": [
+        "whether it's fancy",
+        "it's pretty much grilled cheese",
+        "会不会很花哨",
+        "其实就是烤芝士"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l3",
+      "span": "I'll do the burger",
+      "hear": "I'll do the burger",
+      "noteZh": "I'll do 在点餐里就是‘我要这个’，不是‘我去做汉堡’；do the 很短。",
+      "standard": "I will do the burger"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l3",
+      "span": "Can I get that without onions",
+      "hear": "Can I get that without onions",
+      "noteZh": "Can I get that 是改配料的常用骨架，that 指刚说的那一道，without 才是关键。",
+      "standard": "Can I get that without onions"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l4",
+      "span": "you wanna swap them",
+      "hear": "you wanna swap 'em",
+      "noteZh": "them 又变成 'em，swap 'em for 连得很紧，问的是要不要把薯条换成别的。",
+      "standard": "you want to swap them"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "I'll do the burger.",
+      "meaningZh": "我就来这个汉堡。 / 我要汉堡。",
+      "fromLineId": "l3",
+      "sayAfter": "Yeah. I'll do the burger. Can I get that without onions?",
+      "audio": "audio/pack04-01-ill-do-the-burger/c1.m4a",
+      "durationMs": 1061,
+      "afterAudio": "audio/pack04-01-ill-do-the-burger/c1-after.m4a",
+      "afterDurationMs": 4165
+    },
+    {
+      "id": "c2",
+      "form": "Can I get that without onions?",
+      "meaningZh": "那个可以不要洋葱吗？",
+      "fromLineId": "l3",
+      "sayAfter": "I'll do the burger. Can I get that without onions?",
+      "audio": "audio/pack04-01-ill-do-the-burger/c2.m4a",
+      "durationMs": 1658,
+      "afterAudio": "audio/pack04-01-ill-do-the-burger/c2-after.m4a",
+      "afterDurationMs": 3182
+    },
+    {
+      "id": "c3",
+      "form": "You need a minute?",
+      "meaningZh": "还要再看一会儿吗？",
+      "fromLineId": "l1",
+      "sayAfter": "You guys know what you want, or you need a minute?",
+      "audio": "audio/pack04-01-ill-do-the-burger/c3.m4a",
+      "durationMs": 1140,
+      "afterAudio": "audio/pack04-01-ill-do-the-burger/c3-after.m4a",
+      "afterDurationMs": 2960
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你和朋友在一家很随便的餐馆点餐。你要点主食，提出一个小改动（比如不要洋葱），并回答是在店里吃还是带走。",
+    "aiRole": "Jess, a casual mid-shift server, plus Chris if needed. Jess will repeat the order back, offer a swap for fries, and not talk like a training manual.",
+    "variants": [
+      "Maya also wants no onions.",
+      "They decide to share fries.",
+      "The grilled cheese is actually sold out."
+    ],
+    "mustUse": [
+      "I'll do the burger",
+      "Can I get that without",
+      "For here"
+    ],
+    "starters": [
+      "You guys know what you want, or you need a minute?",
+      "I'll do the burger.",
+      "Can I get that without onions?"
+    ]
+  },
+  "fluency": {
+    "promptZh": "把他们点的东西讲一遍：各要点什么、改了什么、喝什么、在店里吃还是带走。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Retell the order: what each person got, any changes, drinks, and whether it was for here. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l3"
+  ],
+  "audioFull": "audio/pack04-01-ill-do-the-burger/full.m4a",
+  "audioFullDurationMs": 62019
+}

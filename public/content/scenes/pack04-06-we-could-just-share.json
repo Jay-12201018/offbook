@@ -1,0 +1,323 @@
+{
+  "id": "pack04-06-we-could-just-share",
+  "packId": "pack-04-food-and-help",
+  "dayInPack": 6,
+  "title": "We could just share",
+  "titleZh": "要不然就拼一份",
+  "setting": "Same restaurant, still waiting. Maya and Chris are getting a little punchy from hunger. Faster, drier, more overlap and reductions — TV-register talk on the same food theme, fully original.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    }
+  ],
+  "register": "tv",
+  "skillNode": "A-travel-open",
+  "targetWpm": 160,
+  "slowerWpm": 135,
+  "durationSec": 79,
+  "newItems": [],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "chris",
+      "text": "I don't even think I'm that hungry anymore.",
+      "spoken": "I don't even think I'm that hungry anymore.",
+      "audio": "audio/pack04-06-we-could-just-share/l1.m4a",
+      "durationMs": 2410
+    },
+    {
+      "id": "l2",
+      "speaker": "maya",
+      "text": "You're so lying right now.",
+      "spoken": "You're so lying right now.",
+      "audio": "audio/pack04-06-we-could-just-share/l2.m4a",
+      "durationMs": 1921
+    },
+    {
+      "id": "l3",
+      "speaker": "chris",
+      "text": "I'm not lying, I just—okay, I could eat, but I don't wanna do a whole thing.",
+      "spoken": "I'm not lying, I just—okay, I could eat, but I don't wanna do a whole thing.",
+      "audio": "audio/pack04-06-we-could-just-share/l3.m4a",
+      "durationMs": 4615
+    },
+    {
+      "id": "l4",
+      "speaker": "maya",
+      "text": "A whole thing. It's food.",
+      "spoken": "A whole thing. It's food.",
+      "audio": "audio/pack04-06-we-could-just-share/l4.m4a",
+      "durationMs": 2267
+    },
+    {
+      "id": "l5",
+      "speaker": "chris",
+      "text": "You know what I mean. We could just share something. Like, one big plate, we both pick at it, we leave.",
+      "spoken": "You know what I mean. We could just share something. Like, one big plate, we both pick at it, we leave.",
+      "audio": "audio/pack04-06-we-could-just-share/l5.m4a",
+      "durationMs": 6773
+    },
+    {
+      "id": "l6",
+      "speaker": "maya",
+      "text": "You say that, and then you eat two thirds of it, and you look at me like I stole from you.",
+      "spoken": "You say that, and then you eat two thirds of it, and you look at me like I stole from you.",
+      "audio": "audio/pack04-06-we-could-just-share/l6.m4a",
+      "durationMs": 5399
+    },
+    {
+      "id": "l7",
+      "speaker": "chris",
+      "text": "That happened one time.",
+      "spoken": "That happened one time.",
+      "audio": "audio/pack04-06-we-could-just-share/l7.m4a",
+      "durationMs": 1469
+    },
+    {
+      "id": "l8",
+      "speaker": "maya",
+      "text": "It happened at least two times, and you know it.",
+      "spoken": "It happened at least two times, and you know it.",
+      "audio": "audio/pack04-06-we-could-just-share/l8.m4a",
+      "durationMs": 3008
+    },
+    {
+      "id": "l9",
+      "speaker": "chris",
+      "text": "Fine. We share, I won't be weird about it. You wanna do the nachos? Or is that a terrible idea.",
+      "spoken": "Fine. We share, I won't be weird about it. You wanna do the nachos? Or is that a terrible idea.",
+      "audio": "audio/pack04-06-we-could-just-share/l9.m4a",
+      "durationMs": 7144
+    },
+    {
+      "id": "l10",
+      "speaker": "maya",
+      "text": "That's a terrible idea and also the only idea I have.",
+      "spoken": "That's a terrible idea and also the only idea I have.",
+      "audio": "audio/pack04-06-we-could-just-share/l10.m4a",
+      "durationMs": 3508
+    },
+    {
+      "id": "l11",
+      "speaker": "chris",
+      "text": "So... nachos.",
+      "spoken": "So... nachos.",
+      "audio": "audio/pack04-06-we-could-just-share/l11.m4a",
+      "durationMs": 1077
+    },
+    {
+      "id": "l12",
+      "speaker": "maya",
+      "text": "Nachos. And if you go for the last one, I'm gonna say something.",
+      "spoken": "Nachos. And if you go for the last one, I'm gonna say something.",
+      "audio": "audio/pack04-06-we-could-just-share/l12.m4a",
+      "durationMs": 4205
+    },
+    {
+      "id": "l13",
+      "speaker": "chris",
+      "text": "I'll leave you the last one. I'm a generous person.",
+      "spoken": "I'll leave you the last one. I'm a generous person.",
+      "audio": "audio/pack04-06-we-could-just-share/l13.m4a",
+      "durationMs": 3296
+    },
+    {
+      "id": "l14",
+      "speaker": "maya",
+      "text": "You're a person, I'll give you that.",
+      "spoken": "You're a person, I'll give you that.",
+      "audio": "audio/pack04-06-we-could-just-share/l14.m4a",
+      "durationMs": 1859
+    },
+    {
+      "id": "l15",
+      "speaker": "chris",
+      "text": "Are you actually not hungry, or are you just being annoying?",
+      "spoken": "Are you actually not hungry, or are you just being annoying?",
+      "audio": "audio/pack04-06-we-could-just-share/l15.m4a",
+      "durationMs": 3095
+    },
+    {
+      "id": "l16",
+      "speaker": "maya",
+      "text": "Yeah, no, I'm hungry. I was trying to be the easy one. It didn't work.",
+      "spoken": "Yeah, no, I'm hungry. I was trying to be the easy one. It didn't work.",
+      "audio": "audio/pack04-06-we-could-just-share/l16.m4a",
+      "durationMs": 5398
+    },
+    {
+      "id": "l17",
+      "speaker": "chris",
+      "text": "It never works. Just say you want nachos.",
+      "spoken": "It never works. Just say you want nachos.",
+      "audio": "audio/pack04-06-we-could-just-share/l17.m4a",
+      "durationMs": 3082
+    },
+    {
+      "id": "l18",
+      "speaker": "maya",
+      "text": "I want nachos. Go order before I talk you out of being hungry again.",
+      "spoken": "I want nachos. Go order before I talk you out of being hungry again.",
+      "audio": "audio/pack04-06-we-could-just-share/l18.m4a",
+      "durationMs": 4416
+    },
+    {
+      "id": "l19",
+      "speaker": "chris",
+      "text": "You weren't talking me out of—okay. Going.",
+      "spoken": "You weren't talking me out of—okay. Going.",
+      "audio": "audio/pack04-06-we-could-just-share/l19.m4a",
+      "durationMs": 2957
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "他们在讨论怎么吃？",
+      "askEn": "What are they trying to decide?",
+      "accept": [
+        "whether to share something",
+        "nachos",
+        "they're hungry and waiting",
+        "要不要拼一份",
+        "玉米片",
+        "在等餐又有点饿"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "两个人实际饿不饿？语气是怎样的？",
+      "askEn": "Are they actually hungry, and what's the tone?",
+      "accept": [
+        "yes they're hungry",
+        "teasing",
+        "dry humor",
+        "not a real fight",
+        "其实都饿",
+        "互相调侃",
+        "不是真吵架"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "Maya 为什么不太相信‘拼一份’？",
+      "askEn": "Why is Maya suspicious of sharing?",
+      "accept": [
+        "Chris eats two thirds",
+        "he's been weird about the last one before",
+        "他会吃掉三分之二",
+        "为最后一块计较过"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "他们最后决定点什么？谁去点？",
+      "askEn": "What do they decide to order, and who goes?",
+      "accept": [
+        "nachos",
+        "Chris goes to order",
+        "玉米片/nachos",
+        "Chris 去点"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l3",
+      "span": "I don't wanna do a whole thing",
+      "hear": "I don't wanna do a whole thing",
+      "noteZh": "a whole thing 在口语里指‘搞得很隆重、点一堆’，wanna do a 缩在一起。",
+      "standard": "I don't want to do a whole thing"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l5",
+      "span": "We could just share something",
+      "hear": "We could just share something",
+      "noteZh": "could just share 三个词都很轻，这是建议而不是义务；just 不要听丢。",
+      "standard": "We could just share something"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l16",
+      "span": "Yeah, no, I'm hungry",
+      "hear": "Yeah, no, I'm hungry",
+      "noteZh": "yeah no 不是前后矛盾：yeah 先接住对方，no 再把意思转过来，真正的信息是 I'm hungry。",
+      "standard": "Yeah, no, I am hungry"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "We could just share something.",
+      "meaningZh": "要不然我们就拼一份吧。",
+      "fromLineId": "l5",
+      "sayAfter": "We could just share something. One big plate, we both pick at it.",
+      "audio": "audio/pack04-06-we-could-just-share/c1.m4a",
+      "durationMs": 1364,
+      "afterAudio": "audio/pack04-06-we-could-just-share/c1-after.m4a",
+      "afterDurationMs": 3856
+    },
+    {
+      "id": "c2",
+      "form": "I'm not even that hungry.",
+      "meaningZh": "我其实也没那么饿。",
+      "fromLineId": "l1",
+      "sayAfter": "I don't even think I'm that hungry anymore.",
+      "audio": "audio/pack04-06-we-could-just-share/c2.m4a",
+      "durationMs": 1617,
+      "afterAudio": "audio/pack04-06-we-could-just-share/c2-after.m4a",
+      "afterDurationMs": 2527
+    },
+    {
+      "id": "c3",
+      "form": "You're so lying right now.",
+      "meaningZh": "你现在完全是在说谎。（亲近的调侃，不是严肃指责。）",
+      "fromLineId": "l2",
+      "sayAfter": "You're so lying right now. I can tell you're hungry.",
+      "audio": "audio/pack04-06-we-could-just-share/c3.m4a",
+      "durationMs": 2069,
+      "afterAudio": "audio/pack04-06-we-could-just-share/c3-after.m4a",
+      "afterDurationMs": 3622
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你们等餐等得有点烦，两个人都饿，但谁也不想再点一整桌。用轻松、带点刺的口气商量拼一份，把‘最后一块归谁’说清楚。",
+    "aiRole": "Chris, dry and a little defensive about past sharing incidents. He will pretend not to be hungry, then give in. Keep the teasing, don't turn it into a lecture or a sitcom fight.",
+    "variants": [
+      "Maya is the one who usually eats more.",
+      "They share and also keep one small plate each.",
+      "The nachos are already sold out."
+    ],
+    "mustUse": [
+      "We could just share something",
+      "You're so lying right now",
+      "Yeah, no"
+    ],
+    "starters": [
+      "I don't even think I'm that hungry anymore.",
+      "We could just share something.",
+      "You're so lying right now."
+    ]
+  },
+  "fluency": {
+    "promptZh": "用自己的话讲这段有点贫的对话：谁先说不饿，为什么要拼一份，为什么 Maya 不放心，最后点了什么。准备 15 秒，然后 60、45、30 秒。可以说得比原对话更直，但要留下那种互相抬杠的味道。",
+    "promptEn": "Retell this dry, teasing exchange: who claimed not to be hungry, why they wanted to share, why Maya didn't quite trust it, and what they ordered. Prep 15 seconds, then 60, 45, 30. You can be more direct than the original, but keep the attitude."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/pack04-06-we-could-just-share/full.m4a",
+  "audioFullDurationMs": 73633
+}

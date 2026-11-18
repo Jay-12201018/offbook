@@ -1,0 +1,283 @@
+{
+  "id": "pack03-02-which-way-is-the-station",
+  "packId": "pack-03-getting-around",
+  "dayInPack": 2,
+  "title": "Which way is the station?",
+  "titleZh": "车站往哪边走",
+  "setting": "Maya is on a slightly confusing street with her bag, and stops a stranger, Asha, who is walking by with groceries.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "asha",
+      "name": "Asha",
+      "gender": "female"
+    }
+  ],
+  "register": "travel",
+  "skillNode": "A-travel-open",
+  "targetWpm": 140,
+  "slowerWpm": 115,
+  "durationSec": 68,
+  "newItems": [],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "Sorry—excuse me. Do you know which way the station is?",
+      "spoken": "Sorry—excuse me. D'you know which way the station is?",
+      "audio": "audio/pack03-02-which-way-is-the-station/l1.m4a",
+      "durationMs": 3612
+    },
+    {
+      "id": "l2",
+      "speaker": "asha",
+      "text": "The train station? Yeah. You're kind of going the wrong way, actually.",
+      "spoken": "The train station? Yeah. You're kinda going the wrong way, actually.",
+      "audio": "audio/pack03-02-which-way-is-the-station/l2.m4a",
+      "durationMs": 4756
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "I knew it. I felt like I was walking forever.",
+      "spoken": "I knew it. I felt like I was walking forever.",
+      "audio": "audio/pack03-02-which-way-is-the-station/l3.m4a",
+      "durationMs": 3300
+    },
+    {
+      "id": "l4",
+      "speaker": "asha",
+      "text": "It's okay. So, turn around, go up two blocks, then left at the light. You'll see a pharmacy, and then it's right behind that.",
+      "spoken": "It's okay. So, turn around, go up two blocks, then left at the light. You'll see a pharmacy, and then it's right behind that.",
+      "audio": "audio/pack03-02-which-way-is-the-station/l4.m4a",
+      "durationMs": 8967
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "Two blocks, then left. Is it far from here?",
+      "spoken": "Two blocks, then left. Is it far from here?",
+      "audio": "audio/pack03-02-which-way-is-the-station/l5.m4a",
+      "durationMs": 3198
+    },
+    {
+      "id": "l6",
+      "speaker": "asha",
+      "text": "No, like... five minutes, if you walk kind of quick. You can't miss it once you hit the pharmacy. There's a big sign.",
+      "spoken": "No, like... five minutes, if you walk kinda quick. You can't miss it once you hit the pharmacy. There's a big sign.",
+      "audio": "audio/pack03-02-which-way-is-the-station/l6.m4a",
+      "durationMs": 6777
+    },
+    {
+      "id": "l7",
+      "speaker": "maya",
+      "text": "Okay. Two blocks, left, pharmacy. Thank you, I was totally turned around.",
+      "spoken": "Okay. Two blocks, left, pharmacy. Thank you, I was totally turned around.",
+      "audio": "audio/pack03-02-which-way-is-the-station/l7.m4a",
+      "durationMs": 6147
+    },
+    {
+      "id": "l8",
+      "speaker": "asha",
+      "text": "Yeah, this street tricks people. The numbers get weird.",
+      "spoken": "Yeah, this street tricks people. The numbers get weird.",
+      "audio": "audio/pack03-02-which-way-is-the-station/l8.m4a",
+      "durationMs": 3879
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "That explains it. Thanks again.",
+      "spoken": "That explains it. Thanks again.",
+      "audio": "audio/pack03-02-which-way-is-the-station/l9.m4a",
+      "durationMs": 2501
+    },
+    {
+      "id": "l10",
+      "speaker": "asha",
+      "text": "You're good. If you hit the river, you went too far, by the way.",
+      "spoken": "You're good. If you hit the river, you went too far, by the way.",
+      "audio": "audio/pack03-02-which-way-is-the-station/l10.m4a",
+      "durationMs": 3707
+    },
+    {
+      "id": "l11",
+      "speaker": "maya",
+      "text": "Oh. Okay, that's a helpful 'don't do this.'",
+      "spoken": "Oh. Okay, that's a helpful 'don't do this.'",
+      "audio": "audio/pack03-02-which-way-is-the-station/l11.m4a",
+      "durationMs": 3051
+    },
+    {
+      "id": "l12",
+      "speaker": "asha",
+      "text": "I did it last month, so. Yeah. Good luck.",
+      "spoken": "I did it last month, so. Yeah. Good luck.",
+      "audio": "audio/pack03-02-which-way-is-the-station/l12.m4a",
+      "durationMs": 3207
+    },
+    {
+      "id": "l13",
+      "speaker": "maya",
+      "text": "I'll try not to find the river. Thanks.",
+      "spoken": "I'll try not to find the river. Thanks.",
+      "audio": "audio/pack03-02-which-way-is-the-station/l13.m4a",
+      "durationMs": 2661
+    },
+    {
+      "id": "l14",
+      "speaker": "asha",
+      "text": "You won't. Just turn around. You're close.",
+      "spoken": "You won't. Just turn around. You're close.",
+      "audio": "audio/pack03-02-which-way-is-the-station/l14.m4a",
+      "durationMs": 3269
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "Maya 在问什么？她走对了吗？",
+      "askEn": "What is Maya asking, and is she going the right way?",
+      "accept": [
+        "the way to the station",
+        "she's going the wrong way",
+        "问路去车站",
+        "她走反了",
+        "方向错了"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "路人的态度怎么样？",
+      "askEn": "How does the stranger handle it?",
+      "accept": [
+        "helpful",
+        "gives clear directions",
+        "not annoyed",
+        "热心",
+        "说得很清楚",
+        "不不耐烦"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "正确的走法是什么？",
+      "askEn": "What is the right way?",
+      "accept": [
+        "turn around",
+        "two blocks then left at the light",
+        "pharmacy, station behind it",
+        "掉头",
+        "走两条街然后在红绿灯左转",
+        "药店后面就是"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "如果走到哪里就说明走过头了？大概要走多久？",
+      "askEn": "What means you've gone too far, and how long should it take?",
+      "accept": [
+        "the river",
+        "about five minutes",
+        "走到河边就过头了",
+        "大概五分钟"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l1",
+      "span": "Do you know which way the station is",
+      "hear": "D'you know which way the station is",
+      "noteZh": "Do you 缩成 d'you，which way the 里 the 极弱，这是问路的核心骨架。",
+      "standard": "Do you know which way the station is"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l2",
+      "span": "You're kind of going the wrong way",
+      "hear": "You're kinda going the wrong way",
+      "noteZh": "kinda 夹在 You're 和 going 中间，wrong way 才是坏消息，前面不要听丢。",
+      "standard": "You are kind of going the wrong way"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l6",
+      "span": "You can't miss it",
+      "hear": "You can't miss it",
+      "noteZh": "can't miss it 连得很紧，t 和 m 交界处容易糊；意思是‘到了你一定看得到’。",
+      "standard": "You cannot miss it"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "Do you know which way the station is?",
+      "meaningZh": "请问车站往哪边走？",
+      "fromLineId": "l1",
+      "sayAfter": "Sorry—excuse me. Do you know which way the station is?",
+      "audio": "audio/pack03-02-which-way-is-the-station/c1.m4a",
+      "durationMs": 1960,
+      "afterAudio": "audio/pack03-02-which-way-is-the-station/c1-after.m4a",
+      "afterDurationMs": 3393
+    },
+    {
+      "id": "c2",
+      "form": "You're kinda going the wrong way.",
+      "meaningZh": "你这方向有点走反了。",
+      "fromLineId": "l2",
+      "sayAfter": "The train station? You're kinda going the wrong way, actually.",
+      "audio": "audio/pack03-02-which-way-is-the-station/c2.m4a",
+      "durationMs": 2028,
+      "afterAudio": "audio/pack03-02-which-way-is-the-station/c2-after.m4a",
+      "afterDurationMs": 4136
+    },
+    {
+      "id": "c3",
+      "form": "You can't miss it.",
+      "meaningZh": "到了你一定看得到 / 很好找。",
+      "fromLineId": "l6",
+      "sayAfter": "You can't miss it once you hit the pharmacy.",
+      "audio": "audio/pack03-02-which-way-is-the-station/c3.m4a",
+      "durationMs": 1349,
+      "afterAudio": "audio/pack03-02-which-way-is-the-station/c3-after.m4a",
+      "afterDurationMs": 2323
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你在一条容易走错的街上，想去火车站。你拦住一个路人问路。先打招呼，问方向，并确认远不远、有没有走过头的标志。",
+    "aiRole": "Asha, a local carrying groceries. She's hurried but kind, a little amused, not a tour-guide. She gives landmarks (pharmacy, the light, don't hit the river).",
+    "variants": [
+      "Asha is not sure and points Maya to someone else.",
+      "Maya is going to the bus station, not the train.",
+      "It's starting to rain while they talk."
+    ],
+    "mustUse": [
+      "Do you know which way",
+      "Is it far from here",
+      "You can't miss it"
+    ],
+    "starters": [
+      "Sorry—excuse me. Do you know which way the station is?",
+      "Am I going the right way?",
+      "Is it far from here?"
+    ]
+  },
+  "fluency": {
+    "promptZh": "把路人的指示用自己的话讲出来：Maya 错在哪，该怎么走，根据什么标志认路，怎样算走过头。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Retell the directions in your own words: how Maya was wrong, the route, the landmark, and what 'too far' looks like. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/pack03-02-which-way-is-the-station/full.m4a",
+  "audioFullDurationMs": 63270
+}

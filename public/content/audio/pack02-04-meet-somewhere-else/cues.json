@@ -1,0 +1,152 @@
+{
+  "sceneId": "pack02-04-meet-somewhere-else",
+  "lines": {
+    "l1": {
+      "file": "audio/pack02-04-meet-somewhere-else/l1.m4a",
+      "durationMs": 5220,
+      "fullStartMs": 0,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l2": {
+      "file": "audio/pack02-04-meet-somewhere-else/l2.m4a",
+      "durationMs": 1430,
+      "fullStartMs": 5500,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l3": {
+      "file": "audio/pack02-04-meet-somewhere-else/l3.m4a",
+      "durationMs": 6569,
+      "fullStartMs": 7210,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l4": {
+      "file": "audio/pack02-04-meet-somewhere-else/l4.m4a",
+      "durationMs": 1115,
+      "fullStartMs": 14059,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l5": {
+      "file": "audio/pack02-04-meet-somewhere-else/l5.m4a",
+      "durationMs": 5131,
+      "fullStartMs": 15454,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l6": {
+      "file": "audio/pack02-04-meet-somewhere-else/l6.m4a",
+      "durationMs": 3640,
+      "fullStartMs": 20865,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l7": {
+      "file": "audio/pack02-04-meet-somewhere-else/l7.m4a",
+      "durationMs": 5022,
+      "fullStartMs": 24785,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l8": {
+      "file": "audio/pack02-04-meet-somewhere-else/l8.m4a",
+      "durationMs": 3528,
+      "fullStartMs": 30087,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l9": {
+      "file": "audio/pack02-04-meet-somewhere-else/l9.m4a",
+      "durationMs": 4611,
+      "fullStartMs": 33895,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l10": {
+      "file": "audio/pack02-04-meet-somewhere-else/l10.m4a",
+      "durationMs": 3043,
+      "fullStartMs": 38786,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l11": {
+      "file": "audio/pack02-04-meet-somewhere-else/l11.m4a",
+      "durationMs": 5058,
+      "fullStartMs": 42109,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l12": {
+      "file": "audio/pack02-04-meet-somewhere-else/l12.m4a",
+      "durationMs": 5250,
+      "fullStartMs": 47447,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l13": {
+      "file": "audio/pack02-04-meet-somewhere-else/l13.m4a",
+      "durationMs": 2492,
+      "fullStartMs": 52977,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l14": {
+      "file": "audio/pack02-04-meet-somewhere-else/l14.m4a",
+      "durationMs": 4144,
+      "fullStartMs": 55749,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l15": {
+      "file": "audio/pack02-04-meet-somewhere-else/l15.m4a",
+      "durationMs": 2844,
+      "fullStartMs": 60173,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l16": {
+      "file": "audio/pack02-04-meet-somewhere-else/l16.m4a",
+      "durationMs": 2100,
+      "fullStartMs": 63297,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l17": {
+      "file": "audio/pack02-04-meet-somewhere-else/l17.m4a",
+      "durationMs": 3329,
+      "fullStartMs": 65677,
+      "voice": "joe",
+      "speaker": "chris"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack02-04-meet-somewhere-else/c1.m4a",
+      "durationMs": 1601,
+      "voice": "joe",
+      "afterFile": "audio/pack02-04-meet-somewhere-else/c1-after.m4a",
+      "afterDurationMs": 2981
+    },
+    "c2": {
+      "file": "audio/pack02-04-meet-somewhere-else/c2.m4a",
+      "durationMs": 1762,
+      "voice": "kristin",
+      "afterFile": "audio/pack02-04-meet-somewhere-else/c2-after.m4a",
+      "afterDurationMs": 3065
+    },
+    "c3": {
+      "file": "audio/pack02-04-meet-somewhere-else/c3.m4a",
+      "durationMs": 1949,
+      "voice": "joe",
+      "afterFile": "audio/pack02-04-meet-somewhere-else/c3-after.m4a",
+      "afterDurationMs": 3067
+    }
+  },
+  "full": {
+    "file": "audio/pack02-04-meet-somewhere-else/full.m4a",
+    "durationMs": 69729,
+    "gapMs": 280
+  }
+}

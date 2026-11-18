@@ -1,0 +1,307 @@
+{
+  "id": "pack01-02-you-got-last-time",
+  "packId": "pack-01-who-pays",
+  "dayInPack": 2,
+  "title": "You got last time",
+  "titleZh": "上次已经是你请的",
+  "setting": "A casual lunch a few days later. Maya reaches for the check before Chris can.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "A-daily-open",
+  "targetWpm": 135,
+  "slowerWpm": 110,
+  "durationSec": 64,
+  "newItems": [],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "Don't even. I got this.",
+      "spoken": "Don't even. I got this.",
+      "audio": "audio/pack01-02-you-got-last-time/l1.m4a",
+      "durationMs": 1951
+    },
+    {
+      "id": "l2",
+      "speaker": "chris",
+      "text": "You sure?",
+      "spoken": "You sure?",
+      "audio": "audio/pack01-02-you-got-last-time/l2.m4a",
+      "durationMs": 667
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "Yes. You got last time. And the time before, kind of.",
+      "spoken": "Yes. You got last time. And the time before, kinda.",
+      "audio": "audio/pack01-02-you-got-last-time/l3.m4a",
+      "durationMs": 4227
+    },
+    {
+      "id": "l4",
+      "speaker": "chris",
+      "text": "I didn't—wait, did I?",
+      "spoken": "I didn't—wait, did I?",
+      "audio": "audio/pack01-02-you-got-last-time/l4.m4a",
+      "durationMs": 1562
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "Yes. You did. The noodles place? And then you got the cab, too, remember?",
+      "spoken": "Yes. You did. The noodles place? And then you got the cab, too, remember?",
+      "audio": "audio/pack01-02-you-got-last-time/l5.m4a",
+      "durationMs": 5229
+    },
+    {
+      "id": "l6",
+      "speaker": "chris",
+      "text": "Oh. Right. Okay, but this is like, a twelve-dollar lunch.",
+      "spoken": "Oh. Right. Okay, but this is like, a twelve-dollar lunch.",
+      "audio": "audio/pack01-02-you-got-last-time/l6.m4a",
+      "durationMs": 5157
+    },
+    {
+      "id": "l7",
+      "speaker": "maya",
+      "text": "I don't care. I said next one's on me. I'm serious.",
+      "spoken": "I don't care. I said next one's on me. I'm serious.",
+      "audio": "audio/pack01-02-you-got-last-time/l7.m4a",
+      "durationMs": 4204
+    },
+    {
+      "id": "l8",
+      "speaker": "chris",
+      "text": "You're gonna make this a whole thing.",
+      "spoken": "You're gonna make this a whole thing.",
+      "audio": "audio/pack01-02-you-got-last-time/l8.m4a",
+      "durationMs": 1647
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "It's not a whole thing. Just... don't make it weird. Let me get it.",
+      "spoken": "It's not a whole thing. Just... don't make it weird. Lemme get it.",
+      "audio": "audio/pack01-02-you-got-last-time/l9.m4a",
+      "durationMs": 4128
+    },
+    {
+      "id": "l10",
+      "speaker": "chris",
+      "text": "I'm not making it weird. You're making it a little weird.",
+      "spoken": "I'm not making it weird. You're making it a little weird.",
+      "audio": "audio/pack01-02-you-got-last-time/l10.m4a",
+      "durationMs": 3358
+    },
+    {
+      "id": "l11",
+      "speaker": "maya",
+      "text": "Chris.",
+      "spoken": "Chris.",
+      "audio": "audio/pack01-02-you-got-last-time/l11.m4a",
+      "durationMs": 803
+    },
+    {
+      "id": "l12",
+      "speaker": "chris",
+      "text": "Okay, okay. You got it. Thank you.",
+      "spoken": "Okay, okay. You got it. Thank you.",
+      "audio": "audio/pack01-02-you-got-last-time/l12.m4a",
+      "durationMs": 3434
+    },
+    {
+      "id": "l13",
+      "speaker": "maya",
+      "text": "Thank you. See? That wasn't hard.",
+      "spoken": "Thank you. See? That wasn't hard.",
+      "audio": "audio/pack01-02-you-got-last-time/l13.m4a",
+      "durationMs": 3011
+    },
+    {
+      "id": "l14",
+      "speaker": "chris",
+      "text": "Mm. You want me to throw in for a coffee after, or is that also a thing?",
+      "spoken": "Mm. You want me to throw in for a coffee after, or is that also a thing?",
+      "audio": "audio/pack01-02-you-got-last-time/l14.m4a",
+      "durationMs": 4375
+    },
+    {
+      "id": "l15",
+      "speaker": "maya",
+      "text": "Oh my god. You can get the coffee.",
+      "spoken": "Oh my god. You can get the coffee.",
+      "audio": "audio/pack01-02-you-got-last-time/l15.m4a",
+      "durationMs": 2318
+    },
+    {
+      "id": "l16",
+      "speaker": "chris",
+      "text": "I was kidding. Kind of.",
+      "spoken": "I was kidding. Kinda.",
+      "audio": "audio/pack01-02-you-got-last-time/l16.m4a",
+      "durationMs": 2037
+    },
+    {
+      "id": "l17",
+      "speaker": "maya",
+      "text": "No, get the coffee. I used all my cash energy on this.",
+      "spoken": "No, get the coffee. I used all my cash energy on this.",
+      "audio": "audio/pack01-02-you-got-last-time/l17.m4a",
+      "durationMs": 4102
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "他们在争什么？",
+      "askEn": "What are they arguing about, lightly?",
+      "accept": [
+        "who pays",
+        "the check",
+        "Maya wants to pay",
+        "买单",
+        "谁付钱",
+        "Maya 要请客"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "Maya 为什么坚持这次她来？",
+      "askEn": "Why does Maya insist on paying?",
+      "accept": [
+        "Chris got last time",
+        "he paid last time",
+        "and the cab",
+        "上次 Chris 请了",
+        "上次他付了",
+        "他还付了打车"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "最后咖啡谁来付？",
+      "askEn": "Who can get the coffee?",
+      "accept": [
+        "Chris",
+        "he can get the coffee",
+        "Chris 请咖啡",
+        "他付咖啡"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "Chris 一开始觉得这顿饭贵不贵？",
+      "askEn": "What does Chris say about the price?",
+      "accept": [
+        "twelve-dollar lunch",
+        "it's cheap",
+        "it's only twelve dollars",
+        "才十二美元",
+        "不贵",
+        "很便宜"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l8",
+      "span": "You're gonna make this",
+      "hear": "You're gonna make this",
+      "noteZh": "going to 缩成 gonna，You're gonna make 五个节拍会并成一条，going 几乎听不见。",
+      "standard": "You're going to make this"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l9",
+      "span": "don't make it weird",
+      "hear": "don't make it weird",
+      "noteZh": "don't 里的 t 常常被吃掉，make it 又连在一起，不要听成 don't may kit。",
+      "standard": "don't make it weird"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l14",
+      "span": "throw in for a coffee",
+      "hear": "throw in for a coffee",
+      "noteZh": "又是 throw in for，for a 弱读，前面刚练过的语块换了个宾语。",
+      "standard": "throw in for a coffee"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "You got last time.",
+      "meaningZh": "上次已经是你请的。",
+      "fromLineId": "l3",
+      "sayAfter": "You got last time. I got this.",
+      "audio": "audio/pack01-02-you-got-last-time/c1.m4a",
+      "durationMs": 1188,
+      "afterAudio": "audio/pack01-02-you-got-last-time/c1-after.m4a",
+      "afterDurationMs": 2254
+    },
+    {
+      "id": "c2",
+      "form": "Don't make it weird.",
+      "meaningZh": "别搞得很别扭 / 别弄得太认真。",
+      "fromLineId": "l9",
+      "sayAfter": "Just let me get it. Don't make it weird.",
+      "audio": "audio/pack01-02-you-got-last-time/c2.m4a",
+      "durationMs": 1210,
+      "afterAudio": "audio/pack01-02-you-got-last-time/c2-after.m4a",
+      "afterDurationMs": 2503
+    },
+    {
+      "id": "c3",
+      "form": "I said next one's on me.",
+      "meaningZh": "我说过了，下一次我请客。",
+      "fromLineId": "l7",
+      "sayAfter": "I said next one's on me. I'm serious.",
+      "audio": "audio/pack01-02-you-got-last-time/c3.m4a",
+      "durationMs": 1714,
+      "afterAudio": "audio/pack01-02-you-got-last-time/c3-after.m4a",
+      "afterDurationMs": 2919
+    }
+  ],
+  "roleplay": {
+    "setupZh": "这是你们的下一顿饭。上次是对方请的，你想兑现承诺把这顿买了。对方还是随手去拿账单。",
+    "aiRole": "Chris, easygoing. He will reach for the check out of habit, joke a little, and give in if you sound firm but warm. He may offer to throw in for coffee.",
+    "variants": [
+      "Chris genuinely forgot he paid last time.",
+      "Maya only has a card and the place prefers cash.",
+      "They decide Chris can get coffee after."
+    ],
+    "mustUse": [
+      "You got last time",
+      "Don't make it weird"
+    ],
+    "starters": [
+      "Don't even. I got this.",
+      "You got last time.",
+      "You sure?"
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲这次午饭是怎么买单的：谁上次请了，谁这次坚持，咖啡又是怎么说的。准备 15 秒，然后说 60、45、30 秒。",
+    "promptEn": "Tell how they settled lunch: who paid last time, who insisted today, and what they did about coffee. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/pack01-02-you-got-last-time/full.m4a",
+  "audioFullDurationMs": 57376
+}
