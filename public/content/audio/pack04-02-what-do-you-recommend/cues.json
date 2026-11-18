@@ -1,0 +1,145 @@
+{
+  "sceneId": "pack04-02-what-do-you-recommend",
+  "lines": {
+    "l1": {
+      "file": "audio/pack04-02-what-do-you-recommend/l1.m4a",
+      "durationMs": 2455,
+      "fullStartMs": 0,
+      "voice": "joe",
+      "speaker": "andre"
+    },
+    "l2": {
+      "file": "audio/pack04-02-what-do-you-recommend/l2.m4a",
+      "durationMs": 5103,
+      "fullStartMs": 2735,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l3": {
+      "file": "audio/pack04-02-what-do-you-recommend/l3.m4a",
+      "durationMs": 5356,
+      "fullStartMs": 8118,
+      "voice": "joe",
+      "speaker": "andre"
+    },
+    "l4": {
+      "file": "audio/pack04-02-what-do-you-recommend/l4.m4a",
+      "durationMs": 2620,
+      "fullStartMs": 13754,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l5": {
+      "file": "audio/pack04-02-what-do-you-recommend/l5.m4a",
+      "durationMs": 6308,
+      "fullStartMs": 16654,
+      "voice": "joe",
+      "speaker": "andre"
+    },
+    "l6": {
+      "file": "audio/pack04-02-what-do-you-recommend/l6.m4a",
+      "durationMs": 2231,
+      "fullStartMs": 23242,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l7": {
+      "file": "audio/pack04-02-what-do-you-recommend/l7.m4a",
+      "durationMs": 5673,
+      "fullStartMs": 25753,
+      "voice": "joe",
+      "speaker": "andre"
+    },
+    "l8": {
+      "file": "audio/pack04-02-what-do-you-recommend/l8.m4a",
+      "durationMs": 4294,
+      "fullStartMs": 31706,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l9": {
+      "file": "audio/pack04-02-what-do-you-recommend/l9.m4a",
+      "durationMs": 3708,
+      "fullStartMs": 36280,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l10": {
+      "file": "audio/pack04-02-what-do-you-recommend/l10.m4a",
+      "durationMs": 5896,
+      "fullStartMs": 40268,
+      "voice": "joe",
+      "speaker": "andre"
+    },
+    "l11": {
+      "file": "audio/pack04-02-what-do-you-recommend/l11.m4a",
+      "durationMs": 2240,
+      "fullStartMs": 46444,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l12": {
+      "file": "audio/pack04-02-what-do-you-recommend/l12.m4a",
+      "durationMs": 4096,
+      "fullStartMs": 48964,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l13": {
+      "file": "audio/pack04-02-what-do-you-recommend/l13.m4a",
+      "durationMs": 4451,
+      "fullStartMs": 53340,
+      "voice": "joe",
+      "speaker": "andre"
+    },
+    "l14": {
+      "file": "audio/pack04-02-what-do-you-recommend/l14.m4a",
+      "durationMs": 2440,
+      "fullStartMs": 58071,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l15": {
+      "file": "audio/pack04-02-what-do-you-recommend/l15.m4a",
+      "durationMs": 8101,
+      "fullStartMs": 60791,
+      "voice": "joe",
+      "speaker": "andre"
+    },
+    "l16": {
+      "file": "audio/pack04-02-what-do-you-recommend/l16.m4a",
+      "durationMs": 839,
+      "fullStartMs": 69172,
+      "voice": "joe",
+      "speaker": "chris"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack04-02-what-do-you-recommend/c1.m4a",
+      "durationMs": 1206,
+      "voice": "kristin",
+      "afterFile": "audio/pack04-02-what-do-you-recommend/c1-after.m4a",
+      "afterDurationMs": 3511
+    },
+    "c2": {
+      "file": "audio/pack04-02-what-do-you-recommend/c2.m4a",
+      "durationMs": 1356,
+      "voice": "joe",
+      "afterFile": "audio/pack04-02-what-do-you-recommend/c2-after.m4a",
+      "afterDurationMs": 2746
+    },
+    "c3": {
+      "file": "audio/pack04-02-what-do-you-recommend/c3.m4a",
+      "durationMs": 1442,
+      "voice": "joe",
+      "afterFile": "audio/pack04-02-what-do-you-recommend/c3-after.m4a",
+      "afterDurationMs": 3453
+    }
+  },
+  "full": {
+    "file": "audio/pack04-02-what-do-you-recommend/full.m4a",
+    "durationMs": 70657,
+    "gapMs": 280
+  }
+}

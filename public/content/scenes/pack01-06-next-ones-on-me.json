@@ -1,0 +1,306 @@
+{
+  "id": "pack01-06-next-ones-on-me",
+  "packId": "pack-01-who-pays",
+  "dayInPack": 6,
+  "title": "Next one's on me",
+  "titleZh": "这次我请客",
+  "setting": "A few days later, at a coffee counter. This is the 'next one' Maya promised after covering Chris.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "A-daily-open",
+  "targetWpm": 150,
+  "slowerWpm": 125,
+  "durationSec": 64,
+  "newItems": [],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "Don't touch that. Next one's on me.",
+      "spoken": "Don't touch that. Next one's on me.",
+      "audio": "audio/pack01-06-next-ones-on-me/l1.m4a",
+      "durationMs": 2750
+    },
+    {
+      "id": "l2",
+      "speaker": "chris",
+      "text": "I didn't even—I was just looking at it.",
+      "spoken": "I didn't even—I was just looking at it.",
+      "audio": "audio/pack01-06-next-ones-on-me/l2.m4a",
+      "durationMs": 2052
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "I saw your hand. I'm serious.",
+      "spoken": "I saw your hand. I'm serious.",
+      "audio": "audio/pack01-06-next-ones-on-me/l3.m4a",
+      "durationMs": 2512
+    },
+    {
+      "id": "l4",
+      "speaker": "chris",
+      "text": "Okay. Thank you. You want to get a table, or just do this at the counter?",
+      "spoken": "Okay. Thank you. You wanna get a table, or just do this at the counter?",
+      "audio": "audio/pack01-06-next-ones-on-me/l4.m4a",
+      "durationMs": 5244
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "Counter's fine. What are you getting?",
+      "spoken": "Counter's fine. What are you getting?",
+      "audio": "audio/pack01-06-next-ones-on-me/l5.m4a",
+      "durationMs": 2796
+    },
+    {
+      "id": "l6",
+      "speaker": "chris",
+      "text": "I was going to do a coffee and, I don't know, maybe that egg sandwich.",
+      "spoken": "I was gonna do a coffee and, I dunno, maybe that egg sandwich.",
+      "audio": "audio/pack01-06-next-ones-on-me/l6.m4a",
+      "durationMs": 3973
+    },
+    {
+      "id": "l7",
+      "speaker": "maya",
+      "text": "Get the sandwich. I told you I was getting this.",
+      "spoken": "Get the sandwich. I told you I was getting this.",
+      "audio": "audio/pack01-06-next-ones-on-me/l7.m4a",
+      "durationMs": 2933
+    },
+    {
+      "id": "l8",
+      "speaker": "chris",
+      "text": "You always say that, and then I still end up—",
+      "spoken": "You always say that, and then I still end up—",
+      "audio": "audio/pack01-06-next-ones-on-me/l8.m4a",
+      "durationMs": 2473
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "Not today. You forgot your wallet, I covered you, this is the next one. That's the deal.",
+      "spoken": "Not today. You forgot your wallet, I covered you, this is the next one. That's the deal.",
+      "audio": "audio/pack01-06-next-ones-on-me/l9.m4a",
+      "durationMs": 6285
+    },
+    {
+      "id": "l10",
+      "speaker": "chris",
+      "text": "Yeah. That's the deal. I appreciate it.",
+      "spoken": "Yeah. That's the deal. I appreciate it.",
+      "audio": "audio/pack01-06-next-ones-on-me/l10.m4a",
+      "durationMs": 3397
+    },
+    {
+      "id": "l11",
+      "speaker": "maya",
+      "text": "You're welcome. You wanna just order for both of us? I'll go grab napkins.",
+      "spoken": "You're welcome. You wanna just order for both of us? I'll go grab napkins.",
+      "audio": "audio/pack01-06-next-ones-on-me/l11.m4a",
+      "durationMs": 5200
+    },
+    {
+      "id": "l12",
+      "speaker": "chris",
+      "text": "Yeah. You want the usual? The oat whatever?",
+      "spoken": "Yeah. You want the usual? The oat whatever?",
+      "audio": "audio/pack01-06-next-ones-on-me/l12.m4a",
+      "durationMs": 3722
+    },
+    {
+      "id": "l13",
+      "speaker": "maya",
+      "text": "The oat whatever, yes. And if they ask, I'm paying. Tell them before you even start.",
+      "spoken": "The oat whatever, yes. And if they ask, I'm paying. Tell 'em before you even start.",
+      "audio": "audio/pack01-06-next-ones-on-me/l13.m4a",
+      "durationMs": 5748
+    },
+    {
+      "id": "l14",
+      "speaker": "chris",
+      "text": "Yes, ma'am.",
+      "spoken": "Yes, ma'am.",
+      "audio": "audio/pack01-06-next-ones-on-me/l14.m4a",
+      "durationMs": 880
+    },
+    {
+      "id": "l15",
+      "speaker": "maya",
+      "text": "Don't 'yes ma'am' me. Just let me pay.",
+      "spoken": "Don't 'yes ma'am' me. Just lemme pay.",
+      "audio": "audio/pack01-06-next-ones-on-me/l15.m4a",
+      "durationMs": 2656
+    },
+    {
+      "id": "l16",
+      "speaker": "chris",
+      "text": "I will. I won't even look at the machine.",
+      "spoken": "I will. I won't even look at the machine.",
+      "audio": "audio/pack01-06-next-ones-on-me/l16.m4a",
+      "durationMs": 2776
+    },
+    {
+      "id": "l17",
+      "speaker": "maya",
+      "text": "Good. That's all I wanted.",
+      "spoken": "Good. That's all I wanted.",
+      "audio": "audio/pack01-06-next-ones-on-me/l17.m4a",
+      "durationMs": 1860
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "这趟咖啡是谁请客？为什么？",
+      "askEn": "Who is paying, and why?",
+      "accept": [
+        "Maya is paying",
+        "next one's on Maya",
+        "because she covered him last time",
+        "Maya 请客",
+        "这是说好的下一次",
+        "上次她先付了"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "他们是坐下来点，还是在柜台点？",
+      "askEn": "Are they sitting down or ordering at the counter?",
+      "accept": [
+        "at the counter",
+        "counter's fine",
+        "在柜台",
+        "不坐桌"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "Chris 想点什么？",
+      "askEn": "What is Chris thinking of getting?",
+      "accept": [
+        "coffee and an egg sandwich",
+        "egg sandwich",
+        "coffee",
+        "咖啡和鸡蛋三明治",
+        "三明治"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "Maya 交代他怎么跟店员说？",
+      "askEn": "What should Chris tell the cashier?",
+      "accept": [
+        "Maya is paying",
+        "tell them before he starts",
+        "she's paying",
+        "告诉他们是 Maya 付",
+        "先说她来付"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l6",
+      "span": "I was going to do a coffee",
+      "hear": "I was gonna do a coffee",
+      "noteZh": "was going to 缩成 was gonna，do a 又弱，整段像 I was gonna do uh coffee。",
+      "standard": "I was going to do a coffee"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l11",
+      "span": "You wanna just order for both of us",
+      "hear": "You wanna just order for both of us",
+      "noteZh": "熟悉的 wanna just 后面接了更长的宾语，for both of us 里 of 会几乎消失。",
+      "standard": "You want to just order for both of us"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l13",
+      "span": "Tell them before you even start",
+      "hear": "Tell 'em before you even start",
+      "noteZh": "又是 tell 'em，before you 中间 you 很弱，不要只抓住 tell 和 start。",
+      "standard": "Tell them before you even start"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "Next one's on me.",
+      "meaningZh": "这次我请客。",
+      "fromLineId": "l1",
+      "sayAfter": "Don't touch that. Next one's on me.",
+      "audio": "audio/pack01-06-next-ones-on-me/c1.m4a",
+      "durationMs": 1398,
+      "afterAudio": "audio/pack01-06-next-ones-on-me/c1-after.m4a",
+      "afterDurationMs": 2541
+    },
+    {
+      "id": "c2",
+      "form": "I'm serious.",
+      "meaningZh": "我是认真的。",
+      "fromLineId": "l3",
+      "sayAfter": "I saw your hand. I'm serious.",
+      "audio": "audio/pack01-06-next-ones-on-me/c2.m4a",
+      "durationMs": 1249,
+      "afterAudio": "audio/pack01-06-next-ones-on-me/c2-after.m4a",
+      "afterDurationMs": 2510
+    },
+    {
+      "id": "c3",
+      "form": "That's the deal.",
+      "meaningZh": "就这么说好了 / 这是我们的约定。",
+      "fromLineId": "l9",
+      "sayAfter": "I covered you, this is the next one. That's the deal.",
+      "audio": "audio/pack01-06-next-ones-on-me/c3.m4a",
+      "durationMs": 1106,
+      "afterAudio": "audio/pack01-06-next-ones-on-me/c3-after.m4a",
+      "afterDurationMs": 3497
+    }
+  ],
+  "roleplay": {
+    "setupZh": "这是你答应过的‘下一次’。你们在咖啡店柜台前，对方又习惯性地要去拿钱或看机器。你要把这次请客落实。",
+    "aiRole": "Chris, easygoing, slightly sheepish. He will joke, say 'yes ma'am,' and try to cooperate. He still has the habit of reaching for his card.",
+    "variants": [
+      "The cashier asks them who is paying.",
+      "Chris tries to add a pastry and gets shy about it.",
+      "Maya has to take a call and asks Chris to order for both."
+    ],
+    "mustUse": [
+      "Next one's on me",
+      "I'm serious",
+      "That's the deal"
+    ],
+    "starters": [
+      "Don't touch that. Next one's on me.",
+      "I'm serious.",
+      "You wanna just order for both of us?"
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲这趟咖啡：为什么轮到 Maya 请，他们在柜台怎么分工，Maya 交代了什么。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell the coffee-counter story: why it's Maya's turn, how they split the ordering, and what she told Chris to say. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l3"
+  ],
+  "audioFull": "audio/pack01-06-next-ones-on-me/full.m4a",
+  "audioFullDurationMs": 62485
+}

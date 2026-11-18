@@ -1,0 +1,264 @@
+{
+  "id": "diag-speak-this-week",
+  "packId": "diag",
+  "dayInPack": 4,
+  "title": "Something I did this week",
+  "titleZh": "这周做过的一件事",
+  "setting": "A quiet room, just Chris talking to a friend who asked how his week was. This is a model of the speaking diagnostic: 30 seconds to prepare, then about 45 seconds of ordinary talk. Not a speech.",
+  "speakers": [
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "diag",
+  "targetWpm": 140,
+  "slowerWpm": 115,
+  "durationSec": 61,
+  "newItems": [],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "chris",
+      "text": "Okay, so, this week was pretty normal, I guess.",
+      "spoken": "Okay, so, this week was pretty normal, I guess.",
+      "audio": "audio/diag-speak-this-week/l1.m4a",
+      "durationMs": 3389
+    },
+    {
+      "id": "l2",
+      "speaker": "chris",
+      "text": "I worked a lot, which is not that interesting.",
+      "spoken": "I worked a lot, which is not that interesting.",
+      "audio": "audio/diag-speak-this-week/l2.m4a",
+      "durationMs": 2542
+    },
+    {
+      "id": "l3",
+      "speaker": "chris",
+      "text": "But, um, on Wednesday I actually cooked, which I don't do that much.",
+      "spoken": "But, um, on Wednesday I actually cooked, which I don't do that much.",
+      "audio": "audio/diag-speak-this-week/l3.m4a",
+      "durationMs": 4124
+    },
+    {
+      "id": "l4",
+      "speaker": "chris",
+      "text": "I made pasta, like, a really simple pasta, and I called Maya and I was like, you wanna come over, I made too much.",
+      "spoken": "I made pasta, like, a really simple pasta, and I called Maya and I was like, you wanna come over, I made too much.",
+      "audio": "audio/diag-speak-this-week/l4.m4a",
+      "durationMs": 7011
+    },
+    {
+      "id": "l5",
+      "speaker": "chris",
+      "text": "And she came over, and we just sat there and talked for a long time, and it was... it was nice.",
+      "spoken": "And she came over, and we just sat there and talked for a long time, and it was... it was nice.",
+      "audio": "audio/diag-speak-this-week/l5.m4a",
+      "durationMs": 4987
+    },
+    {
+      "id": "l6",
+      "speaker": "chris",
+      "text": "I needed a night that wasn't just me and my laptop.",
+      "spoken": "I needed a night that wasn't just me and my laptop.",
+      "audio": "audio/diag-speak-this-week/l6.m4a",
+      "durationMs": 2628
+    },
+    {
+      "id": "l7",
+      "speaker": "chris",
+      "text": "Friday I was gonna go out, but I was tired, so we kinda canceled, or we moved it, I don't remember.",
+      "spoken": "Friday I was gonna go out, but I was tired, so we kinda canceled, or we moved it, I dunno.",
+      "audio": "audio/diag-speak-this-week/l7.m4a",
+      "durationMs": 5701
+    },
+    {
+      "id": "l8",
+      "speaker": "chris",
+      "text": "Anyway. That's been my week. Not exciting, but not bad.",
+      "spoken": "Anyway. That's been my week. Not exciting, but not bad.",
+      "audio": "audio/diag-speak-this-week/l8.m4a",
+      "durationMs": 4550
+    },
+    {
+      "id": "l9",
+      "speaker": "chris",
+      "text": "If I had to pick one thing, it was the pasta night. That's the thing I'm glad I did.",
+      "spoken": "If I had to pick one thing, it was the pasta night. That's the thing I'm glad I did.",
+      "audio": "audio/diag-speak-this-week/l9.m4a",
+      "durationMs": 5313
+    },
+    {
+      "id": "l10",
+      "speaker": "chris",
+      "text": "Even if the pasta was just okay.",
+      "spoken": "Even if the pasta was just okay.",
+      "audio": "audio/diag-speak-this-week/l10.m4a",
+      "durationMs": 2125
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "Chris 在讲什么？",
+      "askEn": "What is Chris talking about?",
+      "accept": [
+        "his week",
+        "he cooked pasta",
+        "Maya came over",
+        "他的一周",
+        "他做了意大利面",
+        "Maya 来家里了"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "他觉得这周怎么样？哪件事让他比较高兴？",
+      "askEn": "How does he feel about the week, and what is he glad he did?",
+      "accept": [
+        "pretty normal",
+        "not exciting but not bad",
+        "the pasta night",
+        "挺平常",
+        "不刺激但还不坏",
+        "做面那晚"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "他是哪天做饭的？为什么叫 Maya？",
+      "askEn": "Which day did he cook, and why did he call Maya?",
+      "accept": [
+        "Wednesday",
+        "he made too much",
+        "周三",
+        "做多了"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "周五原来的计划怎么样了？",
+      "askEn": "What happened to Friday's plan?",
+      "accept": [
+        "he was tired",
+        "they canceled or moved it",
+        "he doesn't remember exactly",
+        "他累了",
+        "取消了或改期了",
+        "他记不清"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l4",
+      "span": "I was like, you wanna come over",
+      "hear": "I was like, you wanna come over",
+      "noteZh": "I was like 用来转述自己当时的话，不是‘我喜欢’。后面的 wanna come over 要整块听。",
+      "standard": "I was like, you want to come over"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l7",
+      "span": "we kinda canceled, or we moved it",
+      "hear": "we kinda canceled, or we moved it",
+      "noteZh": "kinda 夹在中间，or 表示他自己也记不清是取消还是改期，口语里这种含糊很常见。",
+      "standard": "we kind of canceled, or we moved it"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l6",
+      "span": "that wasn't just me and my laptop",
+      "hear": "that wasn't just me and my laptop",
+      "noteZh": "wasn't just 里的 t 很弱，just 是‘仅仅’。整句是‘我需要一个不只是对着电脑的晚上’。",
+      "standard": "that was not just me and my laptop"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "This week was pretty normal.",
+      "meaningZh": "这周其实挺平常的。",
+      "fromLineId": "l1",
+      "sayAfter": "Okay, so, this week was pretty normal, I guess.",
+      "audio": "audio/diag-speak-this-week/c1.m4a",
+      "durationMs": 1556,
+      "afterAudio": "audio/diag-speak-this-week/c1-after.m4a",
+      "afterDurationMs": 3387
+    },
+    {
+      "id": "c2",
+      "form": "I was like, you wanna come over?",
+      "meaningZh": "我就说，你要不要过来？",
+      "fromLineId": "l4",
+      "sayAfter": "I called Maya and I was like, you wanna come over, I made too much.",
+      "audio": "audio/diag-speak-this-week/c2.m4a",
+      "durationMs": 2184,
+      "afterAudio": "audio/diag-speak-this-week/c2-after.m4a",
+      "afterDurationMs": 4243
+    },
+    {
+      "id": "c3",
+      "form": "We kinda canceled, or we moved it.",
+      "meaningZh": "我们好像取消了，或者改期了。",
+      "fromLineId": "l7",
+      "sayAfter": "I was tired, so we kinda canceled, or we moved it, I don't remember.",
+      "audio": "audio/diag-speak-this-week/c3.m4a",
+      "durationMs": 2276,
+      "afterAudio": "audio/diag-speak-this-week/c3-after.m4a",
+      "afterDurationMs": 4562
+    }
+  ],
+  "roleplay": {
+    "setupZh": "一个刚认识的人随口问：‘最近怎么样 / 这周都干什么了？’用平常的口气讲一件小事就行，不必精彩，也不要背稿。卡住时可以说：Hang on, what's the word… I mean…",
+    "aiRole": "A friendly acquaintance who asked how your week was. Listen more than you interrogate. If the learner freezes, offer two simple starters, wait, and do not correct grammar mid-sentence.",
+    "variants": [
+      "The learner talks about a meal out.",
+      "The learner talks about a trip to a store or a short walk.",
+      "The learner only has a work day to describe, and that's fine."
+    ],
+    "mustUse": [],
+    "starters": [
+      "Okay, so, this week was pretty normal.",
+      "The one thing I did was…",
+      "Hang on, what's the word… I mean…"
+    ]
+  },
+  "fluency": {
+    "promptZh": "准备 30 秒，然后用大约 45 秒讲一件这周做过的事，哪怕很小。不要正式，不要追求精彩。如果脑子空白，先说 This week was pretty normal，再补一个细节。说完以后，如果愿意，可以用同一件事再做一遍 60、45、30 秒。",
+    "promptEn": "Take 30 seconds to prepare, then speak for about 45 seconds about one thing you did this week, even a small one. Don't make a speech. If you go blank, start with 'This week was pretty normal' and add one detail. After that, you can optionally do the same story in 60, 45, then 30 seconds.",
+    "prepSec": 30,
+    "speakSec": 45,
+    "task": "recent-week",
+    "fallbackStarters": [
+      "Okay, so, this week was pretty normal.",
+      "The one thing I did was…",
+      "Hang on, what's the word… I mean…"
+    ]
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "diagnostic": {
+    "type": "speaking",
+    "measures": [
+      "time-to-first-word",
+      "speech-rate",
+      "pauses",
+      "chunk-use"
+    ],
+    "selfReport": [
+      "When fast talk gets hard, what happens for you?",
+      "When you go to speak, what are you more afraid of?"
+    ]
+  },
+  "audioFull": "audio/diag-speak-this-week/full.m4a",
+  "audioFullDurationMs": 45292
+}

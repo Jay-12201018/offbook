@@ -1,0 +1,301 @@
+{
+  "id": "diag-listen-150",
+  "packId": "diag",
+  "dayInPack": 2,
+  "title": "Friday tacos",
+  "titleZh": "周五吃 taco",
+  "setting": "Maya and Chris are making a Friday-night plan. Same familiar world as the slower diagnostic, but at a natural conversational clip with common reductions.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "diag",
+  "targetWpm": 150,
+  "slowerWpm": 125,
+  "durationSec": 72,
+  "newItems": [],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "You wanna do something Friday?",
+      "spoken": "You wanna do something Friday?",
+      "audio": "audio/diag-listen-150/l1.m4a",
+      "durationMs": 1766
+    },
+    {
+      "id": "l2",
+      "speaker": "chris",
+      "text": "Yeah, I do. I was gonna say the same thing. You have a place in mind?",
+      "spoken": "Yeah, I do. I was gonna say the same thing. You have a place in mind?",
+      "audio": "audio/diag-listen-150/l2.m4a",
+      "durationMs": 5244
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "Not really. I don't wanna do anything fancy. I just wanna sit and talk and eat something.",
+      "spoken": "Not really. I don't wanna do anything fancy. I just wanna sit and talk and eat something.",
+      "audio": "audio/diag-listen-150/l3.m4a",
+      "durationMs": 5919
+    },
+    {
+      "id": "l4",
+      "speaker": "chris",
+      "text": "We could do that taco place. Or the noodle place, if you want something warm.",
+      "spoken": "We could do that taco place. Or the noodle place, if you want something warm.",
+      "audio": "audio/diag-listen-150/l4.m4a",
+      "durationMs": 4714
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "Tacos sound good. You wanna just go after work?",
+      "spoken": "Tacos sound good. You wanna just go after work?",
+      "audio": "audio/diag-listen-150/l5.m4a",
+      "durationMs": 3165
+    },
+    {
+      "id": "l6",
+      "speaker": "chris",
+      "text": "I can do after work, but I might be a little late. Like, I gotta finish something. Give me 'til seven.",
+      "spoken": "I can do after work, but I might be a little late. Like, I gotta finish something. Gimme 'til seven.",
+      "audio": "audio/diag-listen-150/l6.m4a",
+      "durationMs": 6815
+    },
+    {
+      "id": "l7",
+      "speaker": "maya",
+      "text": "Seven is fine. You wanna meet there, or you wanna come get me?",
+      "spoken": "Seven is fine. You wanna meet there, or you wanna come get me?",
+      "audio": "audio/diag-listen-150/l7.m4a",
+      "durationMs": 3877
+    },
+    {
+      "id": "l8",
+      "speaker": "chris",
+      "text": "I'll meet you there. It's closer to you anyway.",
+      "spoken": "I'll meet you there. It's closer to you anyway.",
+      "audio": "audio/diag-listen-150/l8.m4a",
+      "durationMs": 3177
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "Okay. If it's packed, just text me and we'll figure it out.",
+      "spoken": "Okay. If it's packed, just text me and we'll figure it out.",
+      "audio": "audio/diag-listen-150/l9.m4a",
+      "durationMs": 3854
+    },
+    {
+      "id": "l10",
+      "speaker": "chris",
+      "text": "Yeah. I'm pretty sure we can get a table. It's not that kind of place.",
+      "spoken": "Yeah. I'm pretty sure we can get a table. It's not that kind of place.",
+      "audio": "audio/diag-listen-150/l10.m4a",
+      "durationMs": 4864
+    },
+    {
+      "id": "l11",
+      "speaker": "maya",
+      "text": "Good. I don't have the energy to wait an hour.",
+      "spoken": "Good. I don't have the energy to wait an hour.",
+      "audio": "audio/diag-listen-150/l11.m4a",
+      "durationMs": 3035
+    },
+    {
+      "id": "l12",
+      "speaker": "chris",
+      "text": "Same. Friday, seven, tacos. Done.",
+      "spoken": "Same. Friday, seven, tacos. Done.",
+      "audio": "audio/diag-listen-150/l12.m4a",
+      "durationMs": 3895
+    },
+    {
+      "id": "l13",
+      "speaker": "maya",
+      "text": "Done. Don't leave work at seven.",
+      "spoken": "Done. Don't leave work at seven.",
+      "audio": "audio/diag-listen-150/l13.m4a",
+      "durationMs": 2343
+    },
+    {
+      "id": "l14",
+      "speaker": "chris",
+      "text": "I'm never gonna live that down, am I.",
+      "spoken": "I'm never gonna live that down, am I.",
+      "audio": "audio/diag-listen-150/l14.m4a",
+      "durationMs": 2372
+    },
+    {
+      "id": "l15",
+      "speaker": "maya",
+      "text": "No. I'll get a table if I get there first.",
+      "spoken": "No. I'll get a table if I get there first.",
+      "audio": "audio/diag-listen-150/l15.m4a",
+      "durationMs": 2870
+    },
+    {
+      "id": "l16",
+      "speaker": "chris",
+      "text": "Please do. I'll text you when I'm on my way.",
+      "spoken": "Please do. I'll text you when I'm on my way.",
+      "audio": "audio/diag-listen-150/l16.m4a",
+      "durationMs": 2942
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "他们周五打算做什么？",
+      "askEn": "What are they doing on Friday?",
+      "accept": [
+        "tacos",
+        "dinner after work",
+        "meet at the taco place",
+        "吃 taco",
+        "下班后吃饭",
+        "在 taco 店碰面"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "这是一场很正式的约会吗？他们想要怎样的晚上？",
+      "askEn": "Is this a fancy night out? What do they want?",
+      "accept": [
+        "not fancy",
+        "just sit, talk, and eat",
+        "casual",
+        "不正式",
+        "坐着聊天吃饭",
+        "轻松"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "他们约在几点？怎么见面？",
+      "askEn": "What time do they set, and how will they meet?",
+      "accept": [
+        "seven",
+        "meet there",
+        "Chris might be a little late",
+        "七点",
+        "在店里会合",
+        "Chris 可能会稍晚"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "如果店里人多怎么办？Chris 出发时会怎样？",
+      "askEn": "What if the place is packed, and what will Chris do when he leaves?",
+      "accept": [
+        "text and figure it out",
+        "he'll text when he's on his way",
+        "Maya will get a table",
+        "发消息再想办法",
+        "他出发时发消息",
+        "Maya 先占桌"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l1",
+      "span": "You wanna do something Friday",
+      "hear": "You wanna do something Friday",
+      "noteZh": "和 120 那段里的 want to 对照：这里已经缩成 wanna，夹在 You 和 do 中间。",
+      "standard": "You want to do something Friday"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l6",
+      "span": "I gotta finish something",
+      "hear": "I gotta finish something",
+      "noteZh": "have got to / have to 在口语里常说成 gotta。这是中等语速里很常见的缩减。",
+      "standard": "I have got to finish something"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l16",
+      "span": "when I'm on my way",
+      "hear": "when I'm on my way",
+      "noteZh": "on my way 三个词很快，on my 都弱。后面正式练习里会反复出现。",
+      "standard": "when I am on my way"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "You wanna do something Friday?",
+      "meaningZh": "周五要不要出来一下？",
+      "fromLineId": "l1",
+      "sayAfter": "You wanna do something Friday?",
+      "audio": "audio/diag-listen-150/c1.m4a",
+      "durationMs": 1593,
+      "afterAudio": "audio/diag-listen-150/c1-after.m4a",
+      "afterDurationMs": 1657
+    },
+    {
+      "id": "c2",
+      "form": "You wanna just go after work?",
+      "meaningZh": "要不然就下班直接去？",
+      "fromLineId": "l5",
+      "sayAfter": "Tacos sound good. You wanna just go after work?",
+      "audio": "audio/diag-listen-150/c2.m4a",
+      "durationMs": 1612,
+      "afterAudio": "audio/diag-listen-150/c2-after.m4a",
+      "afterDurationMs": 3131
+    },
+    {
+      "id": "c3",
+      "form": "I'll text you when I'm on my way.",
+      "meaningZh": "我出发了再给你发消息。",
+      "fromLineId": "l16",
+      "sayAfter": "Please do. I'll text you when I'm on my way.",
+      "audio": "audio/diag-listen-150/c3.m4a",
+      "durationMs": 1776,
+      "afterAudio": "audio/diag-listen-150/c3-after.m4a",
+      "afterDurationMs": 2946
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你想约朋友周五随便吃一顿，不要太正式。商量地点、时间和怎么会合，并说好如果人多或会晚到就发消息。",
+    "aiRole": "Chris, easygoing. He may need until seven because of work. He prefers to meet there. He will joke if you remind him not to leave work at seven.",
+    "variants": [
+      "They pick the noodle place instead.",
+      "Chris can't do seven.",
+      "The taco place might be packed."
+    ],
+    "mustUse": [
+      "You wanna do something Friday",
+      "You wanna just go after work"
+    ],
+    "starters": [
+      "You wanna do something Friday?",
+      "I don't wanna do anything fancy.",
+      "Seven is fine."
+    ]
+  },
+  "fluency": {
+    "promptZh": "把周五的计划讲清楚：去哪、几点、谁先到、晚到或人多时怎么联系。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell the Friday plan: where, what time, who arrives first, and how they'll handle a late arrival or a packed room. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/diag-listen-150/full.m4a",
+  "audioFullDurationMs": 65688
+}

@@ -1,0 +1,145 @@
+{
+  "sceneId": "pack03-01-im-out-front",
+  "lines": {
+    "l1": {
+      "file": "audio/pack03-01-im-out-front/l1.m4a",
+      "durationMs": 2227,
+      "fullStartMs": 0,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l2": {
+      "file": "audio/pack03-01-im-out-front/l2.m4a",
+      "durationMs": 2918,
+      "fullStartMs": 2507,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l3": {
+      "file": "audio/pack03-01-im-out-front/l3.m4a",
+      "durationMs": 3665,
+      "fullStartMs": 5705,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l4": {
+      "file": "audio/pack03-01-im-out-front/l4.m4a",
+      "durationMs": 1068,
+      "fullStartMs": 9650,
+      "voice": "joe",
+      "speaker": "luis"
+    },
+    "l5": {
+      "file": "audio/pack03-01-im-out-front/l5.m4a",
+      "durationMs": 6466,
+      "fullStartMs": 10998,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l6": {
+      "file": "audio/pack03-01-im-out-front/l6.m4a",
+      "durationMs": 4841,
+      "fullStartMs": 17744,
+      "voice": "joe",
+      "speaker": "luis"
+    },
+    "l7": {
+      "file": "audio/pack03-01-im-out-front/l7.m4a",
+      "durationMs": 3415,
+      "fullStartMs": 22865,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l8": {
+      "file": "audio/pack03-01-im-out-front/l8.m4a",
+      "durationMs": 6735,
+      "fullStartMs": 26560,
+      "voice": "joe",
+      "speaker": "luis"
+    },
+    "l9": {
+      "file": "audio/pack03-01-im-out-front/l9.m4a",
+      "durationMs": 1865,
+      "fullStartMs": 33575,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l10": {
+      "file": "audio/pack03-01-im-out-front/l10.m4a",
+      "durationMs": 3953,
+      "fullStartMs": 35720,
+      "voice": "joe",
+      "speaker": "luis"
+    },
+    "l11": {
+      "file": "audio/pack03-01-im-out-front/l11.m4a",
+      "durationMs": 1799,
+      "fullStartMs": 39953,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l12": {
+      "file": "audio/pack03-01-im-out-front/l12.m4a",
+      "durationMs": 4075,
+      "fullStartMs": 42032,
+      "voice": "joe",
+      "speaker": "luis"
+    },
+    "l13": {
+      "file": "audio/pack03-01-im-out-front/l13.m4a",
+      "durationMs": 2778,
+      "fullStartMs": 46387,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l14": {
+      "file": "audio/pack03-01-im-out-front/l14.m4a",
+      "durationMs": 3443,
+      "fullStartMs": 49445,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l15": {
+      "file": "audio/pack03-01-im-out-front/l15.m4a",
+      "durationMs": 3386,
+      "fullStartMs": 53168,
+      "voice": "joe",
+      "speaker": "luis"
+    },
+    "l16": {
+      "file": "audio/pack03-01-im-out-front/l16.m4a",
+      "durationMs": 1371,
+      "fullStartMs": 56834,
+      "voice": "kristin",
+      "speaker": "maya"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack03-01-im-out-front/c1.m4a",
+      "durationMs": 1263,
+      "voice": "kristin",
+      "afterFile": "audio/pack03-01-im-out-front/c1-after.m4a",
+      "afterDurationMs": 3538
+    },
+    "c2": {
+      "file": "audio/pack03-01-im-out-front/c2.m4a",
+      "durationMs": 1239,
+      "voice": "kristin",
+      "afterFile": "audio/pack03-01-im-out-front/c2-after.m4a",
+      "afterDurationMs": 2420
+    },
+    "c3": {
+      "file": "audio/pack03-01-im-out-front/c3.m4a",
+      "durationMs": 2122,
+      "voice": "joe",
+      "afterFile": "audio/pack03-01-im-out-front/c3-after.m4a",
+      "afterDurationMs": 3403
+    }
+  },
+  "full": {
+    "file": "audio/pack03-01-im-out-front/full.m4a",
+    "durationMs": 58815,
+    "gapMs": 280
+  }
+}

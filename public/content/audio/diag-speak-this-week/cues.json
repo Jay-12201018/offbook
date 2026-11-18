@@ -1,0 +1,103 @@
+{
+  "sceneId": "diag-speak-this-week",
+  "lines": {
+    "l1": {
+      "file": "audio/diag-speak-this-week/l1.m4a",
+      "durationMs": 3389,
+      "fullStartMs": 0,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l2": {
+      "file": "audio/diag-speak-this-week/l2.m4a",
+      "durationMs": 2542,
+      "fullStartMs": 3669,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l3": {
+      "file": "audio/diag-speak-this-week/l3.m4a",
+      "durationMs": 4124,
+      "fullStartMs": 6491,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l4": {
+      "file": "audio/diag-speak-this-week/l4.m4a",
+      "durationMs": 7011,
+      "fullStartMs": 10895,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l5": {
+      "file": "audio/diag-speak-this-week/l5.m4a",
+      "durationMs": 4987,
+      "fullStartMs": 18186,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l6": {
+      "file": "audio/diag-speak-this-week/l6.m4a",
+      "durationMs": 2628,
+      "fullStartMs": 23453,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l7": {
+      "file": "audio/diag-speak-this-week/l7.m4a",
+      "durationMs": 5701,
+      "fullStartMs": 26361,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l8": {
+      "file": "audio/diag-speak-this-week/l8.m4a",
+      "durationMs": 4550,
+      "fullStartMs": 32342,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l9": {
+      "file": "audio/diag-speak-this-week/l9.m4a",
+      "durationMs": 5313,
+      "fullStartMs": 37172,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l10": {
+      "file": "audio/diag-speak-this-week/l10.m4a",
+      "durationMs": 2125,
+      "fullStartMs": 42765,
+      "voice": "joe",
+      "speaker": "chris"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/diag-speak-this-week/c1.m4a",
+      "durationMs": 1556,
+      "voice": "joe",
+      "afterFile": "audio/diag-speak-this-week/c1-after.m4a",
+      "afterDurationMs": 3387
+    },
+    "c2": {
+      "file": "audio/diag-speak-this-week/c2.m4a",
+      "durationMs": 2184,
+      "voice": "joe",
+      "afterFile": "audio/diag-speak-this-week/c2-after.m4a",
+      "afterDurationMs": 4243
+    },
+    "c3": {
+      "file": "audio/diag-speak-this-week/c3.m4a",
+      "durationMs": 2276,
+      "voice": "joe",
+      "afterFile": "audio/diag-speak-this-week/c3-after.m4a",
+      "afterDurationMs": 4562
+    }
+  },
+  "full": {
+    "file": "audio/diag-speak-this-week/full.m4a",
+    "durationMs": 45292,
+    "gapMs": 280
+  }
+}

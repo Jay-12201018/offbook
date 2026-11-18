@@ -1,0 +1,352 @@
+{
+  "version": 1,
+  "titleEn": "Month 1 sequence",
+  "titleZh": "第一个月的路径",
+  "sessionCount": 30,
+  "sessionRange": [
+    0,
+    29
+  ],
+  "weekPattern": [
+    {
+      "slot": 1,
+      "mode": "roleplay",
+      "purpose": "New (or next) scene: blind listen, glue, three chunks, AI role-play."
+    },
+    {
+      "slot": 2,
+      "mode": "fluency",
+      "purpose": "Same theme a little faster, then short 4/3/2."
+    },
+    {
+      "slot": 3,
+      "mode": "tv-shadow",
+      "purpose": "Shadow a short dialogue already understood. In Packs 1–3 this is still daily/travel register; Pack 4 uses the original TV-register scenes."
+    },
+    {
+      "slot": 4,
+      "mode": "easy-listen",
+      "purpose": "Narrow listen with another voice, then a three-sentence reaction. Lower load, same life."
+    },
+    {
+      "slot": 5,
+      "mode": "dictogloss",
+      "purpose": "Rebuild 20–40 seconds, then say the rebuilt version out loud."
+    },
+    {
+      "slot": 6,
+      "mode": "roleplay",
+      "purpose": "Second role-play day in the pack, a new twist on the same theme."
+    },
+    {
+      "slot": 7,
+      "mode": "fluency",
+      "purpose": "Close the pack with 4/3/2."
+    }
+  ],
+  "gapRule": "The app, not this file, decides the comeback warmup. If a learner has been away, play warmupFrom (or the previous scene in the pack) for about 20 seconds before the day's scene. These warmupFrom fields mark useful anchors: start of each pack, dictogloss days, and the contrast session.",
+  "sessions": [
+    {
+      "session": 0,
+      "mode": "diagnostic",
+      "titleEn": "See where you are",
+      "titleZh": "先看看你现在能抓住什么",
+      "sceneIds": [
+        "diag-listen-120",
+        "diag-listen-150",
+        "diag-listen-180",
+        "diag-speak-this-week"
+      ],
+      "note": "Three familiar-topic listens at about 120, 150, and 180 wpm (gist + detail), then 30 seconds to prepare and about 45 seconds of talk about something from this week. There is no fail. The app uses this to place the learner on the rate ladder and to seed the first feedback line."
+    },
+    {
+      "session": 1,
+      "mode": "roleplay",
+      "sceneId": "pack01-01-i-got-this",
+      "packId": "pack-01-who-pays",
+      "titleEn": "Today's scene: I got this",
+      "titleZh": "今日一场戏：这次我来",
+      "note": "New scene, blind listen, glue, three chunks, then role-play."
+    },
+    {
+      "session": 2,
+      "mode": "fluency",
+      "sceneId": "pack01-02-you-got-last-time",
+      "packId": "pack-01-who-pays",
+      "titleEn": "Same money talk, a little faster",
+      "titleZh": "还是买单，稍快一点",
+      "note": "Slightly faster version of the same life. Short 4/3/2 on who paid.",
+      "warmupFrom": "pack01-01-i-got-this"
+    },
+    {
+      "session": 3,
+      "mode": "tv-shadow",
+      "sceneId": "pack01-03-throw-in-for-the-cab",
+      "packId": "pack-01-who-pays",
+      "titleEn": "Shadow the cab throw-in",
+      "titleZh": "跟读：打车钱我出一点",
+      "note": "No TV-register scene in this pack; shadow this daily dialogue anyway. Then a short variant role-play if there is time.",
+      "warmupFrom": "pack01-02-you-got-last-time"
+    },
+    {
+      "session": 4,
+      "mode": "easy-listen",
+      "sceneId": "pack01-04-card-machine-is-down",
+      "packId": "pack-01-who-pays",
+      "titleEn": "Another voice, same theme",
+      "titleZh": "换个声音，还是买单",
+      "note": "Easy narrow listen: a server joins, same money language, another voice. Three-sentence reaction at the end.",
+      "warmupFrom": "pack01-01-i-got-this"
+    },
+    {
+      "session": 5,
+      "mode": "dictogloss",
+      "sceneId": "pack01-05-forgot-my-wallet",
+      "packId": "pack-01-who-pays",
+      "titleEn": "Rebuild the wallet scene",
+      "titleZh": "重建：忘带钱包",
+      "note": "Dictogloss lite on a 20–40 second stretch (forgot my wallet / I'll get you back), then say the rebuilt version out loud.",
+      "warmupFrom": "pack01-03-throw-in-for-the-cab"
+    },
+    {
+      "session": 6,
+      "mode": "roleplay",
+      "sceneId": "pack01-06-next-ones-on-me",
+      "packId": "pack-01-who-pays",
+      "titleEn": "Play the next one",
+      "titleZh": "对练：这次我请客",
+      "note": "Second role-play day: make the promised 'next one' actually happen.",
+      "warmupFrom": "pack01-05-forgot-my-wallet"
+    },
+    {
+      "session": 7,
+      "mode": "fluency",
+      "sceneId": "pack01-07-split-it-three-ways",
+      "packId": "pack-01-who-pays",
+      "titleEn": "Tell the three-way split",
+      "titleZh": "限时说：三个人怎么分",
+      "note": "Close the pack with 4/3/2 on the three-way split.",
+      "warmupFrom": "pack01-06-next-ones-on-me"
+    },
+    {
+      "session": 8,
+      "mode": "roleplay",
+      "sceneId": "pack02-01-running-late",
+      "packId": "pack-02-change-of-plans",
+      "titleEn": "Today's scene: I'm running late",
+      "titleZh": "今日一场戏：我要晚到了",
+      "note": "New pack, same two friends. Soft apology plus a real time.",
+      "warmupFrom": "pack01-07-split-it-three-ways"
+    },
+    {
+      "session": 9,
+      "mode": "fluency",
+      "sceneId": "pack02-02-im-on-my-way",
+      "packId": "pack-02-change-of-plans",
+      "titleEn": "I'm on my way",
+      "titleZh": "流利日：我在路上了",
+      "note": "4/3/2 on being on the way and asking someone to get a table.",
+      "warmupFrom": "pack02-01-running-late"
+    },
+    {
+      "session": 10,
+      "mode": "tv-shadow",
+      "sceneId": "pack02-03-its-pouring",
+      "packId": "pack-02-change-of-plans",
+      "titleEn": "Shadow the rain change",
+      "titleZh": "跟读：雨里改地方",
+      "note": "Shadow the rain dialogue, then a short variant if there is time.",
+      "warmupFrom": "pack02-02-im-on-my-way"
+    },
+    {
+      "session": 11,
+      "mode": "easy-listen",
+      "sceneId": "pack02-04-meet-somewhere-else",
+      "packId": "pack-02-change-of-plans",
+      "titleEn": "Easy listen: meet somewhere else",
+      "titleZh": "轻松听：换个地方见",
+      "note": "Easy narrow listen: same rain day, the first cafe is packed. Three-sentence reaction.",
+      "warmupFrom": "pack02-03-its-pouring"
+    },
+    {
+      "session": 12,
+      "mode": "dictogloss",
+      "sceneId": "pack02-05-do-it-tomorrow",
+      "packId": "pack-02-change-of-plans",
+      "titleEn": "Rebuild: do it tomorrow",
+      "titleZh": "重建：要不然明天再约",
+      "note": "Dictogloss on the long function-word stretch: I don't want you to feel like you have to / wanna just do it tomorrow.",
+      "warmupFrom": "pack02-04-meet-somewhere-else"
+    },
+    {
+      "session": 13,
+      "mode": "roleplay",
+      "sceneId": "pack02-06-sorry-im-like-this",
+      "packId": "pack-02-change-of-plans",
+      "titleEn": "Role-play: sorry I'm like this",
+      "titleZh": "对练：这次晚的是我",
+      "note": "Role reversal of day 1. Recycle you're fine.",
+      "warmupFrom": "pack02-01-running-late"
+    },
+    {
+      "session": 14,
+      "mode": "fluency",
+      "sceneId": "pack02-07-can-we-push-it",
+      "packId": "pack-02-change-of-plans",
+      "titleEn": "Tell the reschedule",
+      "titleZh": "限时说：往后推一点",
+      "note": "4/3/2 on pushing the time and naming a backup.",
+      "warmupFrom": "pack02-05-do-it-tomorrow"
+    },
+    {
+      "session": 15,
+      "mode": "fluency",
+      "sceneId": "pack02-05-do-it-tomorrow",
+      "alsoListen": "diag-listen-150",
+      "titleEn": "Two-week contrast",
+      "titleZh": "两周对照",
+      "warmupFrom": "pack02-02-im-on-my-way",
+      "note": "Replace the usual main activity with the biweekly contrast: re-listen to the same 150 wpm diagnostic from session 0 (gist + one detail, no text first), then a 60-45-30 on a recent change of plans, using pack02-05 as the prompt. Compare, in plain language, to the first-day listen and the first speaking sample. This is not a test score."
+    },
+    {
+      "session": 16,
+      "mode": "roleplay",
+      "sceneId": "pack03-01-im-out-front",
+      "packId": "pack-03-getting-around",
+      "titleEn": "Today's scene: I'm out front",
+      "titleZh": "今日一场戏：我在门口了",
+      "note": "Travel pack begins. Human driver, not a scripted clerk.",
+      "warmupFrom": "pack02-07-can-we-push-it"
+    },
+    {
+      "session": 17,
+      "mode": "fluency",
+      "sceneId": "pack03-02-which-way-is-the-station",
+      "packId": "pack-03-getting-around",
+      "titleEn": "Tell the directions",
+      "titleZh": "流利日：车站怎么走",
+      "note": "4/3/2 retelling the stranger's directions from memory.",
+      "warmupFrom": "pack03-01-im-out-front"
+    },
+    {
+      "session": 18,
+      "mode": "tv-shadow",
+      "sceneId": "pack03-03-reservation-under",
+      "packId": "pack-03-getting-around",
+      "titleEn": "Shadow the check-in",
+      "titleZh": "跟读：办理入住",
+      "note": "Shadow the hotel check-in, then a short variant (wrong number of nights, extra key).",
+      "warmupFrom": "pack03-02-which-way-is-the-station"
+    },
+    {
+      "session": 19,
+      "mode": "easy-listen",
+      "sceneId": "pack03-04-the-trains-delayed",
+      "packId": "pack-03-getting-around",
+      "titleEn": "Easy listen: the train's delayed",
+      "titleZh": "轻松听：火车晚点了",
+      "note": "Easy narrow listen: another stranger, same getting-around world.",
+      "warmupFrom": "pack03-01-im-out-front"
+    },
+    {
+      "session": 20,
+      "mode": "dictogloss",
+      "sceneId": "pack03-05-you-can-drop-me",
+      "packId": "pack-03-getting-around",
+      "titleEn": "Rebuild the drop-off",
+      "titleZh": "重建：就在这儿下",
+      "note": "Dictogloss on can you drop me at the corner / here's fine, actually / let me out here.",
+      "warmupFrom": "pack03-03-reservation-under"
+    },
+    {
+      "session": 21,
+      "mode": "roleplay",
+      "sceneId": "pack03-06-is-this-the-right-stop",
+      "packId": "pack-03-getting-around",
+      "titleEn": "Role-play: is this the right stop?",
+      "titleZh": "对练：这站对不对",
+      "note": "Role-play asking if this is the right stop.",
+      "warmupFrom": "pack03-04-the-trains-delayed"
+    },
+    {
+      "session": 22,
+      "mode": "fluency",
+      "sceneId": "pack03-07-rooms-not-ready",
+      "packId": "pack-03-getting-around",
+      "titleEn": "Tell the early check-in",
+      "titleZh": "限时说：房间还没好",
+      "note": "4/3/2 on the room not being ready.",
+      "warmupFrom": "pack03-03-reservation-under"
+    },
+    {
+      "session": 23,
+      "mode": "roleplay",
+      "sceneId": "pack04-01-ill-do-the-burger",
+      "packId": "pack-04-food-and-help",
+      "titleEn": "Today's scene: I'll do the burger",
+      "titleZh": "今日一场戏：我就来这个汉堡",
+      "note": "Food pack begins. Ordering with a human server.",
+      "warmupFrom": "pack03-07-rooms-not-ready"
+    },
+    {
+      "session": 24,
+      "mode": "fluency",
+      "sceneId": "pack04-02-what-do-you-recommend",
+      "packId": "pack-04-food-and-help",
+      "titleEn": "Tell the recommendation",
+      "titleZh": "流利日：你建议点什么",
+      "note": "4/3/2 on what the server recommended and what got changed.",
+      "warmupFrom": "pack04-01-ill-do-the-burger"
+    },
+    {
+      "session": 25,
+      "mode": "roleplay",
+      "sceneId": "pack04-03-wrong-order",
+      "packId": "pack-04-food-and-help",
+      "titleEn": "Role-play the wrong order",
+      "titleZh": "对练：这不是我点的",
+      "note": "Daily-register wrong order, role-play first, so the later TV version has something to lean on.",
+      "warmupFrom": "pack04-01-ill-do-the-burger"
+    },
+    {
+      "session": 26,
+      "mode": "easy-listen",
+      "sceneId": "pack04-04-im-allergic-to",
+      "packId": "pack-04-food-and-help",
+      "titleEn": "Easy listen: I'm allergic to peanuts",
+      "titleZh": "轻松听：我对花生过敏",
+      "note": "Easy listen, but the allergy content has to stay precise. Three-sentence reaction, no jokes about the allergy itself.",
+      "warmupFrom": "pack04-02-what-do-you-recommend"
+    },
+    {
+      "session": 27,
+      "mode": "dictogloss",
+      "sceneId": "pack04-05-kitchens-backed-up",
+      "packId": "pack-04-food-and-help",
+      "titleEn": "Rebuild: the kitchen's backed up",
+      "titleZh": "重建：后厨有点积压",
+      "note": "Dictogloss on the kitchen's a little backed up / how long are we talking / you wanna wait, or.",
+      "warmupFrom": "pack04-03-wrong-order"
+    },
+    {
+      "session": 28,
+      "mode": "tv-shadow",
+      "sceneId": "pack04-06-we-could-just-share",
+      "packId": "pack-04-food-and-help",
+      "titleEn": "TV shadow: we could just share",
+      "titleZh": "剧场风跟读：要不然就拼一份",
+      "note": "First real TV-register scene in Month 1. Blind listen, glue, then shadow. Variant role-play if there is time.",
+      "warmupFrom": "pack04-05-kitchens-backed-up"
+    },
+    {
+      "session": 29,
+      "mode": "tv-shadow",
+      "sceneId": "pack04-07-this-is-not-what-i-ordered",
+      "packId": "pack-04-food-and-help",
+      "titleEn": "TV shadow: this is not what I ordered",
+      "titleZh": "剧场风跟读：这不是我点的那个",
+      "note": "Second TV-register scene, same food-help theme, slightly faster. Shadow, then a short messy variant.",
+      "warmupFrom": "pack04-03-wrong-order"
+    }
+  ]
+}

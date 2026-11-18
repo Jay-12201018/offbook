@@ -1,0 +1,145 @@
+{
+  "sceneId": "pack04-03-wrong-order",
+  "lines": {
+    "l1": {
+      "file": "audio/pack04-03-wrong-order/l1.m4a",
+      "durationMs": 3297,
+      "fullStartMs": 0,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l2": {
+      "file": "audio/pack04-03-wrong-order/l2.m4a",
+      "durationMs": 1585,
+      "fullStartMs": 3577,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l3": {
+      "file": "audio/pack04-03-wrong-order/l3.m4a",
+      "durationMs": 9401,
+      "fullStartMs": 5442,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l4": {
+      "file": "audio/pack04-03-wrong-order/l4.m4a",
+      "durationMs": 6157,
+      "fullStartMs": 15123,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l5": {
+      "file": "audio/pack04-03-wrong-order/l5.m4a",
+      "durationMs": 4745,
+      "fullStartMs": 21560,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l6": {
+      "file": "audio/pack04-03-wrong-order/l6.m4a",
+      "durationMs": 7835,
+      "fullStartMs": 26585,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l7": {
+      "file": "audio/pack04-03-wrong-order/l7.m4a",
+      "durationMs": 5604,
+      "fullStartMs": 34700,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l8": {
+      "file": "audio/pack04-03-wrong-order/l8.m4a",
+      "durationMs": 5805,
+      "fullStartMs": 40584,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l9": {
+      "file": "audio/pack04-03-wrong-order/l9.m4a",
+      "durationMs": 2693,
+      "fullStartMs": 46669,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l10": {
+      "file": "audio/pack04-03-wrong-order/l10.m4a",
+      "durationMs": 4046,
+      "fullStartMs": 49642,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l11": {
+      "file": "audio/pack04-03-wrong-order/l11.m4a",
+      "durationMs": 2116,
+      "fullStartMs": 53968,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l12": {
+      "file": "audio/pack04-03-wrong-order/l12.m4a",
+      "durationMs": 3022,
+      "fullStartMs": 56364,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l13": {
+      "file": "audio/pack04-03-wrong-order/l13.m4a",
+      "durationMs": 1558,
+      "fullStartMs": 59666,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l14": {
+      "file": "audio/pack04-03-wrong-order/l14.m4a",
+      "durationMs": 4180,
+      "fullStartMs": 61504,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l15": {
+      "file": "audio/pack04-03-wrong-order/l15.m4a",
+      "durationMs": 3935,
+      "fullStartMs": 65964,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l16": {
+      "file": "audio/pack04-03-wrong-order/l16.m4a",
+      "durationMs": 1073,
+      "fullStartMs": 70179,
+      "voice": "kristin",
+      "speaker": "maya"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack04-03-wrong-order/c1.m4a",
+      "durationMs": 2066,
+      "voice": "kristin",
+      "afterFile": "audio/pack04-03-wrong-order/c1-after.m4a",
+      "afterDurationMs": 2679
+    },
+    "c2": {
+      "file": "audio/pack04-03-wrong-order/c2.m4a",
+      "durationMs": 1897,
+      "voice": "kristin",
+      "afterFile": "audio/pack04-03-wrong-order/c2-after.m4a",
+      "afterDurationMs": 3642
+    },
+    "c3": {
+      "file": "audio/pack04-03-wrong-order/c3.m4a",
+      "durationMs": 1242,
+      "voice": "ljspeech",
+      "afterFile": "audio/pack04-03-wrong-order/c3-after.m4a",
+      "afterDurationMs": 4178
+    }
+  },
+  "full": {
+    "file": "audio/pack04-03-wrong-order/full.m4a",
+    "durationMs": 71911,
+    "gapMs": 280
+  }
+}

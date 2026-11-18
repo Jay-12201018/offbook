@@ -1,0 +1,243 @@
+{
+  "id": "fallback-travel-gate-change",
+  "packId": "pack-fallback-travel",
+  "dayInPack": 1,
+  "title": "It moved",
+  "titleZh": "登机口换了",
+  "setting": "Two travelers at an airport gate. A change has just been announced.",
+  "situationZh": "机场登机口。刚广播说航班换了门。两个旅客在确认。",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    }
+  ],
+  "register": "travel",
+  "skillNode": "A-travel-open",
+  "targetWpm": 140,
+  "slowerWpm": 115,
+  "durationSec": 58,
+  "newItems": [
+    "on time"
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "chris",
+      "text": "Wait, is this still going to Boston?",
+      "spoken": "Wait, is this still going to Boston?",
+      "meaningZh": "等一下，这班还是去波士顿的吗？",
+      "audio": "audio/fallback-travel-gate-change/l1.m4a",
+      "durationMs": 2247
+    },
+    {
+      "id": "l2",
+      "speaker": "maya",
+      "text": "I don't think so. They just said it moved to gate C40.",
+      "spoken": "I don't think so. They just said it moved to gate C40.",
+      "meaningZh": "应该不是。他们刚说换到 C40 登机口了。",
+      "audio": "audio/fallback-travel-gate-change/l2.m4a",
+      "durationMs": 3601
+    },
+    {
+      "id": "l3",
+      "speaker": "chris",
+      "text": "C40? That's all the way down.",
+      "spoken": "C40? That's all the way down.",
+      "meaningZh": "C40？那要走好远。",
+      "audio": "audio/fallback-travel-gate-change/l3.m4a",
+      "durationMs": 2773
+    },
+    {
+      "id": "l4",
+      "speaker": "maya",
+      "text": "Yeah. And we board in like twenty minutes.",
+      "spoken": "Yeah. And we board in like twenty minutes.",
+      "meaningZh": "对。而且大概二十分钟后就开始登机。",
+      "audio": "audio/fallback-travel-gate-change/l4.m4a",
+      "durationMs": 2695
+    },
+    {
+      "id": "l5",
+      "speaker": "chris",
+      "text": "Of course we do. You wanna just start walking?",
+      "spoken": "Of course we do. You wanna just start walking?",
+      "meaningZh": "当然是这样。要不要现在就走？",
+      "audio": "audio/fallback-travel-gate-change/l5.m4a",
+      "durationMs": 3137
+    },
+    {
+      "id": "l6",
+      "speaker": "maya",
+      "text": "We should. I'll check the board one more time.",
+      "spoken": "We should. I'll check the board one more time.",
+      "meaningZh": "该走了。我再看一眼屏幕。",
+      "audio": "audio/fallback-travel-gate-change/l6.m4a",
+      "durationMs": 2989
+    },
+    {
+      "id": "l7",
+      "speaker": "chris",
+      "text": "What does it say?",
+      "spoken": "What does it say?",
+      "meaningZh": "上面写什么？",
+      "audio": "audio/fallback-travel-gate-change/l7.m4a",
+      "durationMs": 1114
+    },
+    {
+      "id": "l8",
+      "speaker": "maya",
+      "text": "C40, on time. We should be good if we go now.",
+      "spoken": "C40, on time. We should be good if we go now.",
+      "meaningZh": "C40，准点。现在走应该来得及。",
+      "audio": "audio/fallback-travel-gate-change/l8.m4a",
+      "durationMs": 3700
+    },
+    {
+      "id": "l9",
+      "speaker": "chris",
+      "text": "Alright. After you.",
+      "spoken": "Alright. After you.",
+      "meaningZh": "好。你先。",
+      "audio": "audio/fallback-travel-gate-change/l9.m4a",
+      "durationMs": 1736
+    },
+    {
+      "id": "l10",
+      "speaker": "maya",
+      "text": "Let's go.",
+      "spoken": "Let's go.",
+      "meaningZh": "走吧。",
+      "audio": "audio/fallback-travel-gate-change/l10.m4a",
+      "durationMs": 976
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "发生了什么？",
+      "askEn": "What's going on?",
+      "accept": [
+        "gate",
+        "moved",
+        "C40",
+        "登机口",
+        "换了",
+        "change"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "他们决定怎么做？",
+      "askEn": "What do they decide to do?",
+      "accept": [
+        "walk",
+        "go now",
+        "start walking",
+        "现在走",
+        "过去"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "航班还准点吗？",
+      "askEn": "Is the flight still on time?",
+      "accept": [
+        "on time",
+        "准点",
+        "yes",
+        "还准点",
+        "should be good"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l5",
+      "span": "you wanna just start walking",
+      "hear": "you wanna just start walking",
+      "noteZh": "wanna just start 连在一起，just 的 t 几乎丢掉，中间像一长串滑音。",
+      "standard": "you want to just start walking"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l8",
+      "span": "we should be good if we go now",
+      "hear": "we should be good if we go now",
+      "noteZh": "should be good 是口语里「应该没问题」，be 很弱，if we go now 会收得很紧。",
+      "standard": "we should be good if we go now"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "They just said it moved.",
+      "meaningZh": "他们刚说换地方了。",
+      "fromLineId": "l2",
+      "sayAfter": "They just said it moved to gate C40.",
+      "audio": "audio/fallback-travel-gate-change/c1.m4a",
+      "durationMs": 1622,
+      "afterAudio": "audio/fallback-travel-gate-change/c1-after.m4a",
+      "afterDurationMs": 2268
+    },
+    {
+      "id": "c2",
+      "form": "You wanna just start walking?",
+      "meaningZh": "要不要现在就走？",
+      "fromLineId": "l5",
+      "sayAfter": "You wanna just start walking? We board soon.",
+      "audio": "audio/fallback-travel-gate-change/c2.m4a",
+      "durationMs": 1575,
+      "afterAudio": "audio/fallback-travel-gate-change/c2-after.m4a",
+      "afterDurationMs": 3036
+    },
+    {
+      "id": "c3",
+      "form": "We should be good if we go now.",
+      "meaningZh": "现在走应该来得及。",
+      "fromLineId": "l8",
+      "sayAfter": "We should be good if we go now.",
+      "audio": "audio/fallback-travel-gate-change/c3.m4a",
+      "durationMs": 1803,
+      "afterAudio": "audio/fallback-travel-gate-change/c3-after.m4a",
+      "afterDurationMs": 1712
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你在机场，刚听到航班换了登机口。你想确认是不是还去原定城市，并决定要不要现在走过去。",
+    "aiRole": "Maya, a fellow traveler who heard the announcement. Helpful, a little hurried, not panicked.",
+    "variants": [
+      "The new gate is not on the board yet.",
+      "Boarding has already started.",
+      "It's a different city, not Boston."
+    ],
+    "mustUse": [
+      "it moved",
+      "We should be good"
+    ],
+    "starters": [
+      "Wait, is this still going to Boston?",
+      "You wanna just start walking?",
+      "What does it say?"
+    ]
+  },
+  "fluency": {
+    "promptZh": "用自己的话讲刚才登机口换了、你们怎么确认、后来怎么决定的。准备 15 秒，然后说 60 秒，再更短、更快地说两遍。",
+    "promptEn": "Tell the story of the gate change and what you decided to do. Prep 15 seconds, then speak for 60, then 45, then 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/fallback-travel-gate-change/full.m4a",
+  "audioFullDurationMs": 28017
+}

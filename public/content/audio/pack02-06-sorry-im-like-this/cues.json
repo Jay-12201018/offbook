@@ -1,0 +1,145 @@
+{
+  "sceneId": "pack02-06-sorry-im-like-this",
+  "lines": {
+    "l1": {
+      "file": "audio/pack02-06-sorry-im-like-this/l1.m4a",
+      "durationMs": 3572,
+      "fullStartMs": 0,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l2": {
+      "file": "audio/pack02-06-sorry-im-like-this/l2.m4a",
+      "durationMs": 2239,
+      "fullStartMs": 3852,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l3": {
+      "file": "audio/pack02-06-sorry-im-like-this/l3.m4a",
+      "durationMs": 10890,
+      "fullStartMs": 6371,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l4": {
+      "file": "audio/pack02-06-sorry-im-like-this/l4.m4a",
+      "durationMs": 8443,
+      "fullStartMs": 17541,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l5": {
+      "file": "audio/pack02-06-sorry-im-like-this/l5.m4a",
+      "durationMs": 2555,
+      "fullStartMs": 26264,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l6": {
+      "file": "audio/pack02-06-sorry-im-like-this/l6.m4a",
+      "durationMs": 4101,
+      "fullStartMs": 29099,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l7": {
+      "file": "audio/pack02-06-sorry-im-like-this/l7.m4a",
+      "durationMs": 2985,
+      "fullStartMs": 33480,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l8": {
+      "file": "audio/pack02-06-sorry-im-like-this/l8.m4a",
+      "durationMs": 3000,
+      "fullStartMs": 36745,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l9": {
+      "file": "audio/pack02-06-sorry-im-like-this/l9.m4a",
+      "durationMs": 3251,
+      "fullStartMs": 40025,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l10": {
+      "file": "audio/pack02-06-sorry-im-like-this/l10.m4a",
+      "durationMs": 5794,
+      "fullStartMs": 43556,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l11": {
+      "file": "audio/pack02-06-sorry-im-like-this/l11.m4a",
+      "durationMs": 2444,
+      "fullStartMs": 49630,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l12": {
+      "file": "audio/pack02-06-sorry-im-like-this/l12.m4a",
+      "durationMs": 1639,
+      "fullStartMs": 52354,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l13": {
+      "file": "audio/pack02-06-sorry-im-like-this/l13.m4a",
+      "durationMs": 3427,
+      "fullStartMs": 54273,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l14": {
+      "file": "audio/pack02-06-sorry-im-like-this/l14.m4a",
+      "durationMs": 2717,
+      "fullStartMs": 57980,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l15": {
+      "file": "audio/pack02-06-sorry-im-like-this/l15.m4a",
+      "durationMs": 2486,
+      "fullStartMs": 60977,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l16": {
+      "file": "audio/pack02-06-sorry-im-like-this/l16.m4a",
+      "durationMs": 3634,
+      "fullStartMs": 63743,
+      "voice": "joe",
+      "speaker": "chris"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack02-06-sorry-im-like-this/c1.m4a",
+      "durationMs": 1277,
+      "voice": "kristin",
+      "afterFile": "audio/pack02-06-sorry-im-like-this/c1-after.m4a",
+      "afterDurationMs": 2559
+    },
+    "c2": {
+      "file": "audio/pack02-06-sorry-im-like-this/c2.m4a",
+      "durationMs": 1963,
+      "voice": "kristin",
+      "afterFile": "audio/pack02-06-sorry-im-like-this/c2-after.m4a",
+      "afterDurationMs": 3433
+    },
+    "c3": {
+      "file": "audio/pack02-06-sorry-im-like-this/c3.m4a",
+      "durationMs": 1676,
+      "voice": "joe",
+      "afterFile": "audio/pack02-06-sorry-im-like-this/c3-after.m4a",
+      "afterDurationMs": 3623
+    }
+  },
+  "full": {
+    "file": "audio/pack02-06-sorry-im-like-this/full.m4a",
+    "durationMs": 68056,
+    "gapMs": 280
+  }
+}

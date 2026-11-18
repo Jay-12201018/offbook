@@ -1,0 +1,103 @@
+{
+  "sceneId": "fallback-daily-just-a-drip",
+  "lines": {
+    "l1": {
+      "file": "audio/fallback-daily-just-a-drip/l1.m4a",
+      "durationMs": 2097,
+      "fullStartMs": 0,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l2": {
+      "file": "audio/fallback-daily-just-a-drip/l2.m4a",
+      "durationMs": 3005,
+      "fullStartMs": 2377,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l3": {
+      "file": "audio/fallback-daily-just-a-drip/l3.m4a",
+      "durationMs": 2914,
+      "fullStartMs": 5662,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l4": {
+      "file": "audio/fallback-daily-just-a-drip/l4.m4a",
+      "durationMs": 2462,
+      "fullStartMs": 8856,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l5": {
+      "file": "audio/fallback-daily-just-a-drip/l5.m4a",
+      "durationMs": 2129,
+      "fullStartMs": 11598,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l6": {
+      "file": "audio/fallback-daily-just-a-drip/l6.m4a",
+      "durationMs": 811,
+      "fullStartMs": 14007,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l7": {
+      "file": "audio/fallback-daily-just-a-drip/l7.m4a",
+      "durationMs": 2015,
+      "fullStartMs": 15098,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l8": {
+      "file": "audio/fallback-daily-just-a-drip/l8.m4a",
+      "durationMs": 854,
+      "fullStartMs": 17393,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l9": {
+      "file": "audio/fallback-daily-just-a-drip/l9.m4a",
+      "durationMs": 2413,
+      "fullStartMs": 18527,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l10": {
+      "file": "audio/fallback-daily-just-a-drip/l10.m4a",
+      "durationMs": 1840,
+      "fullStartMs": 21220,
+      "voice": "kristin",
+      "speaker": "maya"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/fallback-daily-just-a-drip/c1.m4a",
+      "durationMs": 2393,
+      "voice": "kristin",
+      "afterFile": "audio/fallback-daily-just-a-drip/c1-after.m4a",
+      "afterDurationMs": 2790
+    },
+    "c2": {
+      "file": "audio/fallback-daily-just-a-drip/c2.m4a",
+      "durationMs": 1457,
+      "voice": "kristin",
+      "afterFile": "audio/fallback-daily-just-a-drip/c2-after.m4a",
+      "afterDurationMs": 2497
+    },
+    "c3": {
+      "file": "audio/fallback-daily-just-a-drip/c3.m4a",
+      "durationMs": 913,
+      "voice": "kristin",
+      "afterFile": "audio/fallback-daily-just-a-drip/c3-after.m4a",
+      "afterDurationMs": 1778
+    }
+  },
+  "full": {
+    "file": "audio/fallback-daily-just-a-drip/full.m4a",
+    "durationMs": 23559,
+    "gapMs": 280
+  }
+}

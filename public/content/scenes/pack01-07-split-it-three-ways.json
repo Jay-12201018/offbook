@@ -1,0 +1,315 @@
+{
+  "id": "pack01-07-split-it-three-ways",
+  "packId": "pack-01-who-pays",
+  "dayInPack": 7,
+  "title": "Split it three ways",
+  "titleZh": "三个人 AA",
+  "setting": "After dinner with a third friend, Jordan. The check is on the table and all three are still sitting there. A little faster, same money language.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan",
+      "gender": "neutral"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "A-daily-open",
+  "targetWpm": 155,
+  "slowerWpm": 130,
+  "durationSec": 74,
+  "newItems": [
+    "three ways"
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "jordan",
+      "text": "Okay, what's the move. Wanna just split it three ways?",
+      "spoken": "Okay, what's the move. Wanna just split it three ways?",
+      "audio": "audio/pack01-07-split-it-three-ways/l1.m4a",
+      "durationMs": 3974
+    },
+    {
+      "id": "l2",
+      "speaker": "maya",
+      "text": "That's easy. I'm good with that.",
+      "spoken": "That's easy. I'm good with that.",
+      "audio": "audio/pack01-07-split-it-three-ways/l2.m4a",
+      "durationMs": 2250
+    },
+    {
+      "id": "l3",
+      "speaker": "chris",
+      "text": "Yeah, except I got the drinks. So maybe you two split the food, and I... I can just keep the drinks?",
+      "spoken": "Yeah, except I got the drinks. So maybe you two split the food, and I... I can just keep the drinks?",
+      "audio": "audio/pack01-07-split-it-three-ways/l3.m4a",
+      "durationMs": 6256
+    },
+    {
+      "id": "l4",
+      "speaker": "jordan",
+      "text": "Or I can throw in a little extra and we don't do a whole spreadsheet.",
+      "spoken": "Or I can throw in a little extra and we don't do a whole spreadsheet.",
+      "audio": "audio/pack01-07-split-it-three-ways/l4.m4a",
+      "durationMs": 4094
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "Please no spreadsheet.",
+      "spoken": "Please no spreadsheet.",
+      "audio": "audio/pack01-07-split-it-three-ways/l5.m4a",
+      "durationMs": 1603
+    },
+    {
+      "id": "l6",
+      "speaker": "chris",
+      "text": "I'm not doing a spreadsheet. I'm just saying the drinks were like forty.",
+      "spoken": "I'm not doing a spreadsheet. I'm just saying the drinks were like forty.",
+      "audio": "audio/pack01-07-split-it-three-ways/l6.m4a",
+      "durationMs": 4051
+    },
+    {
+      "id": "l7",
+      "speaker": "jordan",
+      "text": "Forty? Did we drink forty dollars of drinks?",
+      "spoken": "Forty? Did we drink forty dollars of drinks?",
+      "audio": "audio/pack01-07-split-it-three-ways/l7.m4a",
+      "durationMs": 3375
+    },
+    {
+      "id": "l8",
+      "speaker": "chris",
+      "text": "You had two. Maya had one. I had, uh. More than that.",
+      "spoken": "You had two. Maya had one. I had, uh. More than that.",
+      "audio": "audio/pack01-07-split-it-three-ways/l8.m4a",
+      "durationMs": 5214
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "So you got the drinks, we split the rest? That's fine.",
+      "spoken": "So you got the drinks, we split the rest? That's fine.",
+      "audio": "audio/pack01-07-split-it-three-ways/l9.m4a",
+      "durationMs": 3353
+    },
+    {
+      "id": "l10",
+      "speaker": "jordan",
+      "text": "I can throw in for the drinks too. I don't want you just eating that.",
+      "spoken": "I can throw in for the drinks too. I don't want you just eating that.",
+      "audio": "audio/pack01-07-split-it-three-ways/l10.m4a",
+      "durationMs": 4515
+    },
+    {
+      "id": "l11",
+      "speaker": "chris",
+      "text": "It's really fine. I got the drinks. You sure you wanna throw in?",
+      "spoken": "It's really fine. I got the drinks. You sure you wanna throw in?",
+      "audio": "audio/pack01-07-split-it-three-ways/l11.m4a",
+      "durationMs": 4808
+    },
+    {
+      "id": "l12",
+      "speaker": "jordan",
+      "text": "I can throw in ten bucks and we call it done. I'm not gonna fight you in a restaurant.",
+      "spoken": "I can throw in ten bucks and we call it done. I'm not gonna fight you in a restaurant.",
+      "audio": "audio/pack01-07-split-it-three-ways/l12.m4a",
+      "durationMs": 5472
+    },
+    {
+      "id": "l13",
+      "speaker": "maya",
+      "text": "That's very grown-up of you.",
+      "spoken": "That's very grown-up of you.",
+      "audio": "audio/pack01-07-split-it-three-ways/l13.m4a",
+      "durationMs": 1713
+    },
+    {
+      "id": "l14",
+      "speaker": "jordan",
+      "text": "I'm tired. That's different.",
+      "spoken": "I'm tired. That's different.",
+      "audio": "audio/pack01-07-split-it-three-ways/l14.m4a",
+      "durationMs": 2116
+    },
+    {
+      "id": "l15",
+      "speaker": "chris",
+      "text": "Okay. Ten's fine. I'll send you... wait, no, you send me ten, I already put my card down.",
+      "spoken": "Okay. Ten's fine. I'll send you... wait, no, you send me ten, I already put my card down.",
+      "audio": "audio/pack01-07-split-it-three-ways/l15.m4a",
+      "durationMs": 6677
+    },
+    {
+      "id": "l16",
+      "speaker": "jordan",
+      "text": "Yep. Doing it now. Maya, you wanna just send him your third of the food?",
+      "spoken": "Yep. Doing it now. Maya, you wanna just send him your third of the food?",
+      "audio": "audio/pack01-07-split-it-three-ways/l16.m4a",
+      "durationMs": 4952
+    },
+    {
+      "id": "l17",
+      "speaker": "maya",
+      "text": "Already on it.",
+      "spoken": "Already on it.",
+      "audio": "audio/pack01-07-split-it-three-ways/l17.m4a",
+      "durationMs": 1251
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "三个人在商量什么？",
+      "askEn": "What are the three of them figuring out?",
+      "accept": [
+        "how to split the bill",
+        "who pays for drinks vs food",
+        "AA",
+        "怎么分账",
+        "酒水和饭怎么算",
+        "买单"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "最后大概是怎么分的？",
+      "askEn": "How do they roughly settle it?",
+      "accept": [
+        "Chris got the drinks",
+        "Jordan throws in ten",
+        "Maya sends her third of the food",
+        "Chris 付了酒水",
+        "Jordan 出十块",
+        "Maya 付自己那份饭钱"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "酒水大概多少钱？谁喝得比较多？",
+      "askEn": "About how much were the drinks, and who had more?",
+      "accept": [
+        "about forty",
+        "Chris had more",
+        "Maya had one, Jordan had two",
+        "大概四十",
+        "Chris 喝得最多"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "Jordan 不想做什么？",
+      "askEn": "What does Jordan not want to do?",
+      "accept": [
+        "a spreadsheet",
+        "fight in a restaurant",
+        "do math in a complicated way",
+        "做表格精算",
+        "在餐馆里争执"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l1",
+      "span": "Wanna just split it three ways",
+      "hear": "Wanna just split it three ways",
+      "noteZh": "句首 Wanna just 没有 you，split it 连读，three ways 才是新信息，前面一团容易被滑掉。",
+      "standard": "Want to just split it three ways"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l4",
+      "span": "I can throw in a little extra",
+      "hear": "I can throw in a little extra",
+      "noteZh": "can 弱读，throw in a little 四个词挤在一起，extra 才比较清楚。",
+      "standard": "I can throw in a little extra"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l16",
+      "span": "send him your third of the food",
+      "hear": "send him your third of the food",
+      "noteZh": "send him 常像 send 'im，your third of the 里 of the 极弱，不要只听到 send 和 food。",
+      "standard": "send him your third of the food"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "Wanna just split it three ways?",
+      "meaningZh": "要不就三个人平均分？",
+      "fromLineId": "l1",
+      "sayAfter": "What's the move. Wanna just split it three ways?",
+      "audio": "audio/pack01-07-split-it-three-ways/c1.m4a",
+      "durationMs": 2381,
+      "afterAudio": "audio/pack01-07-split-it-three-ways/c1-after.m4a",
+      "afterDurationMs": 3423
+    },
+    {
+      "id": "c2",
+      "form": "I can throw in ten bucks.",
+      "meaningZh": "我可以再出十块钱。",
+      "fromLineId": "l12",
+      "sayAfter": "I can throw in ten bucks and we call it done.",
+      "audio": "audio/pack01-07-split-it-three-ways/c2.m4a",
+      "durationMs": 2000,
+      "afterAudio": "audio/pack01-07-split-it-three-ways/c2-after.m4a",
+      "afterDurationMs": 3190
+    },
+    {
+      "id": "c3",
+      "form": "I got the drinks.",
+      "meaningZh": "酒水我来了 / 酒水我已经付了。",
+      "fromLineId": "l3",
+      "sayAfter": "I got the drinks. You two can split the food.",
+      "audio": "audio/pack01-07-split-it-three-ways/c3.m4a",
+      "durationMs": 1226,
+      "afterAudio": "audio/pack01-07-split-it-three-ways/c3-after.m4a",
+      "afterDurationMs": 3352
+    }
+  ],
+  "roleplay": {
+    "setupZh": "三个人吃完晚饭要对账。你可能已经付了酒水，或者你想简单 AA，不想当场算得很细。把话说清楚，但不要变成会议。",
+    "aiRole": "Play Jordan and Maya as needed. Jordan is practical and a little tired; Maya wants it simple. Someone already put a card down.",
+    "variants": [
+      "Everyone wants to split three ways evenly.",
+      "Chris forgot he already put his card down.",
+      "Jordan has no cash and has to send the money."
+    ],
+    "mustUse": [
+      "split it three ways",
+      "I can throw in",
+      "I got the drinks"
+    ],
+    "starters": [
+      "Wanna just split it three ways?",
+      "I got the drinks.",
+      "I can throw in ten bucks."
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲三个人怎么买单：谁提出 AA，酒水怎么算，最后谁转账给谁。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell how the three of them settled the check: the three-way split, the drinks, and who sent money to whom. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/pack01-07-split-it-three-ways/full.m4a",
+  "audioFullDurationMs": 70797
+}

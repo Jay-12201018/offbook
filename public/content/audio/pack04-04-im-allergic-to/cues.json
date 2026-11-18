@@ -1,0 +1,131 @@
+{
+  "sceneId": "pack04-04-im-allergic-to",
+  "lines": {
+    "l1": {
+      "file": "audio/pack04-04-im-allergic-to/l1.m4a",
+      "durationMs": 6818,
+      "fullStartMs": 0,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l2": {
+      "file": "audio/pack04-04-im-allergic-to/l2.m4a",
+      "durationMs": 6402,
+      "fullStartMs": 7098,
+      "voice": "ljspeech",
+      "speaker": "sam"
+    },
+    "l3": {
+      "file": "audio/pack04-04-im-allergic-to/l3.m4a",
+      "durationMs": 7254,
+      "fullStartMs": 13780,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l4": {
+      "file": "audio/pack04-04-im-allergic-to/l4.m4a",
+      "durationMs": 8638,
+      "fullStartMs": 21314,
+      "voice": "ljspeech",
+      "speaker": "sam"
+    },
+    "l5": {
+      "file": "audio/pack04-04-im-allergic-to/l5.m4a",
+      "durationMs": 6378,
+      "fullStartMs": 30232,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l6": {
+      "file": "audio/pack04-04-im-allergic-to/l6.m4a",
+      "durationMs": 2050,
+      "fullStartMs": 36890,
+      "voice": "ljspeech",
+      "speaker": "sam"
+    },
+    "l7": {
+      "file": "audio/pack04-04-im-allergic-to/l7.m4a",
+      "durationMs": 13104,
+      "fullStartMs": 39220,
+      "voice": "ljspeech",
+      "speaker": "sam"
+    },
+    "l8": {
+      "file": "audio/pack04-04-im-allergic-to/l8.m4a",
+      "durationMs": 3196,
+      "fullStartMs": 52604,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l9": {
+      "file": "audio/pack04-04-im-allergic-to/l9.m4a",
+      "durationMs": 5264,
+      "fullStartMs": 56080,
+      "voice": "ljspeech",
+      "speaker": "sam"
+    },
+    "l10": {
+      "file": "audio/pack04-04-im-allergic-to/l10.m4a",
+      "durationMs": 2373,
+      "fullStartMs": 61624,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l11": {
+      "file": "audio/pack04-04-im-allergic-to/l11.m4a",
+      "durationMs": 4913,
+      "fullStartMs": 64277,
+      "voice": "ljspeech",
+      "speaker": "sam"
+    },
+    "l12": {
+      "file": "audio/pack04-04-im-allergic-to/l12.m4a",
+      "durationMs": 3022,
+      "fullStartMs": 69470,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l13": {
+      "file": "audio/pack04-04-im-allergic-to/l13.m4a",
+      "durationMs": 7162,
+      "fullStartMs": 72772,
+      "voice": "ljspeech",
+      "speaker": "sam"
+    },
+    "l14": {
+      "file": "audio/pack04-04-im-allergic-to/l14.m4a",
+      "durationMs": 2665,
+      "fullStartMs": 80214,
+      "voice": "kristin",
+      "speaker": "maya"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack04-04-im-allergic-to/c1.m4a",
+      "durationMs": 1658,
+      "voice": "kristin",
+      "afterFile": "audio/pack04-04-im-allergic-to/c1-after.m4a",
+      "afterDurationMs": 4730
+    },
+    "c2": {
+      "file": "audio/pack04-04-im-allergic-to/c2.m4a",
+      "durationMs": 1655,
+      "voice": "kristin",
+      "afterFile": "audio/pack04-04-im-allergic-to/c2-after.m4a",
+      "afterDurationMs": 2232
+    },
+    "c3": {
+      "file": "audio/pack04-04-im-allergic-to/c3.m4a",
+      "durationMs": 1249,
+      "voice": "ljspeech",
+      "afterFile": "audio/pack04-04-im-allergic-to/c3-after.m4a",
+      "afterDurationMs": 2997
+    }
+  },
+  "full": {
+    "file": "audio/pack04-04-im-allergic-to/full.m4a",
+    "durationMs": 83564,
+    "gapMs": 280
+  }
+}

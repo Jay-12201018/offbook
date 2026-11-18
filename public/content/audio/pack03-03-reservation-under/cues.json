@@ -1,0 +1,138 @@
+{
+  "sceneId": "pack03-03-reservation-under",
+  "lines": {
+    "l1": {
+      "file": "audio/pack03-03-reservation-under/l1.m4a",
+      "durationMs": 1184,
+      "fullStartMs": 0,
+      "voice": "ljspeech",
+      "speaker": "anita"
+    },
+    "l2": {
+      "file": "audio/pack03-03-reservation-under/l2.m4a",
+      "durationMs": 3927,
+      "fullStartMs": 1464,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l3": {
+      "file": "audio/pack03-03-reservation-under/l3.m4a",
+      "durationMs": 4665,
+      "fullStartMs": 5671,
+      "voice": "ljspeech",
+      "speaker": "anita"
+    },
+    "l4": {
+      "file": "audio/pack03-03-reservation-under/l4.m4a",
+      "durationMs": 2816,
+      "fullStartMs": 10616,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l5": {
+      "file": "audio/pack03-03-reservation-under/l5.m4a",
+      "durationMs": 6696,
+      "fullStartMs": 13712,
+      "voice": "ljspeech",
+      "speaker": "anita"
+    },
+    "l6": {
+      "file": "audio/pack03-03-reservation-under/l6.m4a",
+      "durationMs": 3641,
+      "fullStartMs": 20688,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l7": {
+      "file": "audio/pack03-03-reservation-under/l7.m4a",
+      "durationMs": 7153,
+      "fullStartMs": 24609,
+      "voice": "ljspeech",
+      "speaker": "anita"
+    },
+    "l8": {
+      "file": "audio/pack03-03-reservation-under/l8.m4a",
+      "durationMs": 4015,
+      "fullStartMs": 32042,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l9": {
+      "file": "audio/pack03-03-reservation-under/l9.m4a",
+      "durationMs": 5125,
+      "fullStartMs": 36337,
+      "voice": "ljspeech",
+      "speaker": "anita"
+    },
+    "l10": {
+      "file": "audio/pack03-03-reservation-under/l10.m4a",
+      "durationMs": 3653,
+      "fullStartMs": 41742,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l11": {
+      "file": "audio/pack03-03-reservation-under/l11.m4a",
+      "durationMs": 9372,
+      "fullStartMs": 45675,
+      "voice": "ljspeech",
+      "speaker": "anita"
+    },
+    "l12": {
+      "file": "audio/pack03-03-reservation-under/l12.m4a",
+      "durationMs": 1717,
+      "fullStartMs": 55327,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l13": {
+      "file": "audio/pack03-03-reservation-under/l13.m4a",
+      "durationMs": 4341,
+      "fullStartMs": 57324,
+      "voice": "ljspeech",
+      "speaker": "anita"
+    },
+    "l14": {
+      "file": "audio/pack03-03-reservation-under/l14.m4a",
+      "durationMs": 3054,
+      "fullStartMs": 61945,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l15": {
+      "file": "audio/pack03-03-reservation-under/l15.m4a",
+      "durationMs": 3088,
+      "fullStartMs": 65279,
+      "voice": "ljspeech",
+      "speaker": "anita"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack03-03-reservation-under/c1.m4a",
+      "durationMs": 2034,
+      "voice": "kristin",
+      "afterFile": "audio/pack03-03-reservation-under/c1-after.m4a",
+      "afterDurationMs": 3760
+    },
+    "c2": {
+      "file": "audio/pack03-03-reservation-under/c2.m4a",
+      "durationMs": 1381,
+      "voice": "ljspeech",
+      "afterFile": "audio/pack03-03-reservation-under/c2-after.m4a",
+      "afterDurationMs": 2674
+    },
+    "c3": {
+      "file": "audio/pack03-03-reservation-under/c3.m4a",
+      "durationMs": 1914,
+      "voice": "ljspeech",
+      "afterFile": "audio/pack03-03-reservation-under/c3-after.m4a",
+      "afterDurationMs": 4730
+    }
+  },
+  "full": {
+    "file": "audio/pack03-03-reservation-under/full.m4a",
+    "durationMs": 68984,
+    "gapMs": 280
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "sceneId": "pack04-01-ill-do-the-burger",
+  "lines": {
+    "l1": {
+      "file": "audio/pack04-01-ill-do-the-burger/l1.m4a",
+      "durationMs": 2993,
+      "fullStartMs": 0,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l2": {
+      "file": "audio/pack04-01-ill-do-the-burger/l2.m4a",
+      "durationMs": 2523,
+      "fullStartMs": 3273,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l3": {
+      "file": "audio/pack04-01-ill-do-the-burger/l3.m4a",
+      "durationMs": 4145,
+      "fullStartMs": 6076,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l4": {
+      "file": "audio/pack04-01-ill-do-the-burger/l4.m4a",
+      "durationMs": 6842,
+      "fullStartMs": 10501,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l5": {
+      "file": "audio/pack04-01-ill-do-the-burger/l5.m4a",
+      "durationMs": 3650,
+      "fullStartMs": 17623,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l6": {
+      "file": "audio/pack04-01-ill-do-the-burger/l6.m4a",
+      "durationMs": 1545,
+      "fullStartMs": 21553,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l7": {
+      "file": "audio/pack04-01-ill-do-the-burger/l7.m4a",
+      "durationMs": 5949,
+      "fullStartMs": 23378,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l8": {
+      "file": "audio/pack04-01-ill-do-the-burger/l8.m4a",
+      "durationMs": 5277,
+      "fullStartMs": 29607,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l9": {
+      "file": "audio/pack04-01-ill-do-the-burger/l9.m4a",
+      "durationMs": 2503,
+      "fullStartMs": 35164,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l10": {
+      "file": "audio/pack04-01-ill-do-the-burger/l10.m4a",
+      "durationMs": 2262,
+      "fullStartMs": 37947,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l11": {
+      "file": "audio/pack04-01-ill-do-the-burger/l11.m4a",
+      "durationMs": 1440,
+      "fullStartMs": 40489,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l12": {
+      "file": "audio/pack04-01-ill-do-the-burger/l12.m4a",
+      "durationMs": 6675,
+      "fullStartMs": 42209,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l13": {
+      "file": "audio/pack04-01-ill-do-the-burger/l13.m4a",
+      "durationMs": 1223,
+      "fullStartMs": 49164,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l14": {
+      "file": "audio/pack04-01-ill-do-the-burger/l14.m4a",
+      "durationMs": 7524,
+      "fullStartMs": 50667,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    },
+    "l15": {
+      "file": "audio/pack04-01-ill-do-the-burger/l15.m4a",
+      "durationMs": 629,
+      "fullStartMs": 58471,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l16": {
+      "file": "audio/pack04-01-ill-do-the-burger/l16.m4a",
+      "durationMs": 1914,
+      "fullStartMs": 59380,
+      "voice": "ljspeech",
+      "speaker": "jess"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack04-01-ill-do-the-burger/c1.m4a",
+      "durationMs": 1061,
+      "voice": "joe",
+      "afterFile": "audio/pack04-01-ill-do-the-burger/c1-after.m4a",
+      "afterDurationMs": 4165
+    },
+    "c2": {
+      "file": "audio/pack04-01-ill-do-the-burger/c2.m4a",
+      "durationMs": 1658,
+      "voice": "joe",
+      "afterFile": "audio/pack04-01-ill-do-the-burger/c2-after.m4a",
+      "afterDurationMs": 3182
+    },
+    "c3": {
+      "file": "audio/pack04-01-ill-do-the-burger/c3.m4a",
+      "durationMs": 1140,
+      "voice": "ljspeech",
+      "afterFile": "audio/pack04-01-ill-do-the-burger/c3-after.m4a",
+      "afterDurationMs": 2960
+    }
+  },
+  "full": {
+    "file": "audio/pack04-01-ill-do-the-burger/full.m4a",
+    "durationMs": 62019,
+    "gapMs": 280
+  }
+}

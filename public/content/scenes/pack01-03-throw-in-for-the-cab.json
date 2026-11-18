@@ -1,0 +1,306 @@
+{
+  "id": "pack01-03-throw-in-for-the-cab",
+  "packId": "pack-01-who-pays",
+  "dayInPack": 3,
+  "title": "Throw in for the cab",
+  "titleZh": "打车钱我来出一点",
+  "setting": "Outside the restaurant at night, waiting for a cab they already called. Chris paid inside without saying much.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "A-daily-open",
+  "targetWpm": 140,
+  "slowerWpm": 115,
+  "durationSec": 58,
+  "newItems": [],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "chris",
+      "text": "Okay, cab's like four minutes out.",
+      "spoken": "Okay, cab's like four minutes out.",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/l1.m4a",
+      "durationMs": 2138
+    },
+    {
+      "id": "l2",
+      "speaker": "maya",
+      "text": "Cool. Did you already pay? I didn't even see the check.",
+      "spoken": "Cool. Didja already pay? I didn't even see the check.",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/l2.m4a",
+      "durationMs": 4012
+    },
+    {
+      "id": "l3",
+      "speaker": "chris",
+      "text": "Yeah, I got it inside.",
+      "spoken": "Yeah, I got it inside.",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/l3.m4a",
+      "durationMs": 1877
+    },
+    {
+      "id": "l4",
+      "speaker": "maya",
+      "text": "Chris. We talked about this.",
+      "spoken": "Chris. We talked about this.",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/l4.m4a",
+      "durationMs": 2343
+    },
+    {
+      "id": "l5",
+      "speaker": "chris",
+      "text": "I know, I know. You can throw in for the cab.",
+      "spoken": "I know, I know. You can throw in for the cab.",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/l5.m4a",
+      "durationMs": 3338
+    },
+    {
+      "id": "l6",
+      "speaker": "maya",
+      "text": "That's not the same and you know it.",
+      "spoken": "That's not the same and you know it.",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/l6.m4a",
+      "durationMs": 1713
+    },
+    {
+      "id": "l7",
+      "speaker": "chris",
+      "text": "It's a cab. It's something. I don't want to stand here and do math.",
+      "spoken": "It's a cab. It's something. I don't wanna stand here and do math.",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/l7.m4a",
+      "durationMs": 4831
+    },
+    {
+      "id": "l8",
+      "speaker": "maya",
+      "text": "I'm not doing math. I just... I can throw in for the cab, and then I get breakfast tomorrow.",
+      "spoken": "I'm not doing math. I just... I can throw in for the cab, and then I get breakfast tomorrow.",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/l8.m4a",
+      "durationMs": 5450
+    },
+    {
+      "id": "l9",
+      "speaker": "chris",
+      "text": "Breakfast?",
+      "spoken": "Breakfast?",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/l9.m4a",
+      "durationMs": 815
+    },
+    {
+      "id": "l10",
+      "speaker": "maya",
+      "text": "Yes. I'm gonna find the most expensive eggs in this neighborhood.",
+      "spoken": "Yes. I'm gonna find the most expensive eggs in this neighborhood.",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/l10.m4a",
+      "durationMs": 3727
+    },
+    {
+      "id": "l11",
+      "speaker": "chris",
+      "text": "Wow.",
+      "spoken": "Wow.",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/l11.m4a",
+      "durationMs": 479
+    },
+    {
+      "id": "l12",
+      "speaker": "maya",
+      "text": "You started it.",
+      "spoken": "You started it.",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/l12.m4a",
+      "durationMs": 1196
+    },
+    {
+      "id": "l13",
+      "speaker": "chris",
+      "text": "Fine. You get breakfast. You wanna just wait inside? It's kind of windy.",
+      "spoken": "Fine. You get breakfast. You wanna just wait inside? It's kinda windy.",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/l13.m4a",
+      "durationMs": 5950
+    },
+    {
+      "id": "l14",
+      "speaker": "maya",
+      "text": "Yeah. Yeah, let's wait inside. Did you get a receipt or anything?",
+      "spoken": "Yeah. Yeah, let's wait inside. Didja get a receipt or anything?",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/l14.m4a",
+      "durationMs": 4762
+    },
+    {
+      "id": "l15",
+      "speaker": "chris",
+      "text": "Uh, I think it's on my card. We're good.",
+      "spoken": "Uh, I think it's on my card. We're good.",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/l15.m4a",
+      "durationMs": 2986
+    },
+    {
+      "id": "l16",
+      "speaker": "maya",
+      "text": "Okay. I'm still getting breakfast.",
+      "spoken": "Okay. I'm still getting breakfast.",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/l16.m4a",
+      "durationMs": 2690
+    },
+    {
+      "id": "l17",
+      "speaker": "chris",
+      "text": "I believe you. For now.",
+      "spoken": "I believe you. For now.",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/l17.m4a",
+      "durationMs": 2045
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "晚饭是谁付的？他们现在在等什么？",
+      "askEn": "Who paid for dinner, and what are they waiting for?",
+      "accept": [
+        "Chris paid",
+        "Chris got it inside",
+        "waiting for a cab",
+        "Chris 已经付了",
+        "在等出租车",
+        "打车"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "Maya 对此是什么态度？",
+      "askEn": "How does Maya feel about it?",
+      "accept": [
+        "she wanted to split",
+        "she's not happy he paid alone",
+        "she'll throw in for the cab",
+        "她有点意见",
+        "她要出打车钱",
+        "她说明天请早餐"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "Maya 说自己可以出什么钱？",
+      "askEn": "What does Maya offer to throw in for?",
+      "accept": [
+        "the cab",
+        "throw in for the cab",
+        "打车钱",
+        "出租车"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "她说明天要做什么？",
+      "askEn": "What does she say she'll get tomorrow?",
+      "accept": [
+        "breakfast",
+        "expensive eggs",
+        "早餐",
+        "鸡蛋",
+        "她请早餐"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l2",
+      "span": "Did you already pay",
+      "hear": "Didja already pay",
+      "noteZh": "Did you 常并成 didja，后面 already pay 又连起来，问句开头容易听成一个含糊的词。",
+      "standard": "Did you already pay"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l5",
+      "span": "throw in for the cab",
+      "hear": "throw in for the cab",
+      "noteZh": "同一语块再出现：for the 弱读，重点听 throw in 后面那个被压缩的 for the。",
+      "standard": "throw in for the cab"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l13",
+      "span": "You wanna just wait inside",
+      "hear": "You wanna just wait inside",
+      "noteZh": "又是 you wanna just，这次后面接的是 wait inside，训练同一团音出现在新句子里。",
+      "standard": "You want to just wait inside"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "I can throw in for the cab.",
+      "meaningZh": "打车钱我可以出一份。",
+      "fromLineId": "l8",
+      "sayAfter": "You got dinner. I can throw in for the cab.",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/c1.m4a",
+      "durationMs": 1581,
+      "afterAudio": "audio/pack01-03-throw-in-for-the-cab/c1-after.m4a",
+      "afterDurationMs": 2644
+    },
+    {
+      "id": "c2",
+      "form": "Did you already pay?",
+      "meaningZh": "你已经付过了吗？",
+      "fromLineId": "l2",
+      "sayAfter": "Did you already pay? I didn't even see the check.",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/c2.m4a",
+      "durationMs": 1329,
+      "afterAudio": "audio/pack01-03-throw-in-for-the-cab/c2-after.m4a",
+      "afterDurationMs": 3123
+    },
+    {
+      "id": "c3",
+      "form": "You wanna just wait inside?",
+      "meaningZh": "要不咱们就在里面等？",
+      "fromLineId": "l13",
+      "sayAfter": "You wanna just wait inside? It's kinda windy.",
+      "audio": "audio/pack01-03-throw-in-for-the-cab/c3.m4a",
+      "durationMs": 1621,
+      "afterAudio": "audio/pack01-03-throw-in-for-the-cab/c3-after.m4a",
+      "afterDurationMs": 3327
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你们在餐馆外面等车。你发现对方已经在里面把账结了。你想出打车钱，并且说好下一顿你来。",
+    "aiRole": "Chris, easygoing, a little defensive but not mean. He already paid and would rather not do math on the sidewalk. He'll accept a throw-in for the cab.",
+    "variants": [
+      "The cab is delayed and they go back inside.",
+      "Maya only has cash for the cab, not for breakfast later.",
+      "Chris forgot to get a receipt."
+    ],
+    "mustUse": [
+      "I can throw in for the cab",
+      "Did you already pay?"
+    ],
+    "starters": [
+      "Did you already pay?",
+      "You can throw in for the cab.",
+      "You wanna just wait inside?"
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲他们离开餐馆时怎么处理钱的：谁付了晚饭，打车钱怎么分，明天早餐怎么说的。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell how they handled money while waiting for the cab: who paid for dinner, the throw-in, and breakfast tomorrow. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/pack01-03-throw-in-for-the-cab/full.m4a",
+  "audioFullDurationMs": 55565
+}

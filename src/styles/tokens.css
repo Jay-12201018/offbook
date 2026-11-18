@@ -1,0 +1,70 @@
+:root,
+[data-theme="light"] {
+  --paper: #f3eee4;
+  --ink: #1c1712;
+  --secondary: #6b6258;
+  --hairline: #d9d0c4;
+  --rust: #c45c3e;
+  --sage: #4f7a62;
+  --amber: #a9783c;
+  --ground: #f3eee4;
+  --text: #1c1712;
+  --muted: #6b6258;
+  --line: #d9d0c4;
+  --lift: #fffaf3;
+  --inset: #ece6da;
+  --rust-soft: rgba(196, 92, 62, 0.14);
+  --sage-soft: rgba(79, 122, 98, 0.14);
+  --amber-soft: rgba(169, 120, 60, 0.16);
+  --shadow: 0 10px 30px rgba(28, 23, 18, 0.06);
+  --theme-color: #f3eee4;
+}
+
+[data-theme="dark"] {
+  --paper: #1c1712;
+  --ink: #ede6d9;
+  --secondary: #a79e93;
+  --hairline: #2c261f;
+  --rust: #d46b4c;
+  --sage: #6b9a80;
+  --amber: #c49a5a;
+  --ground: #14110e;
+  --text: #ede6d9;
+  --muted: #a79e93;
+  --line: #2c261f;
+  --lift: #1c1712;
+  --inset: #0e0c0a;
+  --rust-soft: rgba(212, 107, 76, 0.18);
+  --sage-soft: rgba(107, 154, 128, 0.18);
+  --amber-soft: rgba(196, 154, 90, 0.18);
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --theme-color: #14110e;
+}
+
+:root {
+  --font-ui: system-ui, "SF Pro Text", "Source Sans 3", "PingFang SC",
+    "Noto Sans SC", "Hiragino Sans GB", sans-serif;
+  --font-serif: "Source Serif 4", ui-serif, "New York", "Noto Serif",
+    "Songti SC", "Noto Serif CJK SC", serif;
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --dur: 220ms;
+  --dur-fast: 180ms;
+  --dur-slow: 280ms;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+  --dock-height: 92px;
+  --tab-height: 56px;
+  --header-height: 52px;
+  --thumb: 64px;
+  --mic: 72px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur: 0.01ms;
+    --dur-fast: 0.01ms;
+    --dur-slow: 0.01ms;
+  }
+}

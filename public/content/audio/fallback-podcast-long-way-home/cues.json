@@ -1,0 +1,96 @@
+{
+  "sceneId": "fallback-podcast-long-way-home",
+  "lines": {
+    "l1": {
+      "file": "audio/fallback-podcast-long-way-home/l1.m4a",
+      "durationMs": 4007,
+      "fullStartMs": 0,
+      "voice": "ljspeech",
+      "speaker": "jordan"
+    },
+    "l2": {
+      "file": "audio/fallback-podcast-long-way-home/l2.m4a",
+      "durationMs": 3301,
+      "fullStartMs": 4287,
+      "voice": "ljspeech",
+      "speaker": "jordan"
+    },
+    "l3": {
+      "file": "audio/fallback-podcast-long-way-home/l3.m4a",
+      "durationMs": 7210,
+      "fullStartMs": 7868,
+      "voice": "ljspeech",
+      "speaker": "jordan"
+    },
+    "l4": {
+      "file": "audio/fallback-podcast-long-way-home/l4.m4a",
+      "durationMs": 1612,
+      "fullStartMs": 15358,
+      "voice": "ljspeech",
+      "speaker": "jordan"
+    },
+    "l5": {
+      "file": "audio/fallback-podcast-long-way-home/l5.m4a",
+      "durationMs": 6815,
+      "fullStartMs": 17250,
+      "voice": "ljspeech",
+      "speaker": "jordan"
+    },
+    "l6": {
+      "file": "audio/fallback-podcast-long-way-home/l6.m4a",
+      "durationMs": 2240,
+      "fullStartMs": 24345,
+      "voice": "ljspeech",
+      "speaker": "jordan"
+    },
+    "l7": {
+      "file": "audio/fallback-podcast-long-way-home/l7.m4a",
+      "durationMs": 2878,
+      "fullStartMs": 26865,
+      "voice": "ljspeech",
+      "speaker": "jordan"
+    },
+    "l8": {
+      "file": "audio/fallback-podcast-long-way-home/l8.m4a",
+      "durationMs": 2029,
+      "fullStartMs": 30023,
+      "voice": "ljspeech",
+      "speaker": "jordan"
+    },
+    "l9": {
+      "file": "audio/fallback-podcast-long-way-home/l9.m4a",
+      "durationMs": 3871,
+      "fullStartMs": 32332,
+      "voice": "ljspeech",
+      "speaker": "jordan"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/fallback-podcast-long-way-home/c1.m4a",
+      "durationMs": 2063,
+      "voice": "ljspeech",
+      "afterFile": "audio/fallback-podcast-long-way-home/c1-after.m4a",
+      "afterDurationMs": 3143
+    },
+    "c2": {
+      "file": "audio/fallback-podcast-long-way-home/c2.m4a",
+      "durationMs": 1356,
+      "voice": "ljspeech",
+      "afterFile": "audio/fallback-podcast-long-way-home/c2-after.m4a",
+      "afterDurationMs": 1795
+    },
+    "c3": {
+      "file": "audio/fallback-podcast-long-way-home/c3.m4a",
+      "durationMs": 1993,
+      "voice": "ljspeech",
+      "afterFile": "audio/fallback-podcast-long-way-home/c3-after.m4a",
+      "afterDurationMs": 3035
+    }
+  },
+  "full": {
+    "file": "audio/fallback-podcast-long-way-home/full.m4a",
+    "durationMs": 36700,
+    "gapMs": 280
+  }
+}

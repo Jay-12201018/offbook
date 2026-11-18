@@ -1,0 +1,311 @@
+{
+  "id": "diag-listen-180",
+  "packId": "diag",
+  "dayInPack": 3,
+  "title": "Still on for tonight?",
+  "titleZh": "今晚还是原计划吗",
+  "setting": "A quick three-way call. Maya, Chris, and Jordan are locking tonight's plan: where to meet, who gets a table, and how they'll get home. Familiar daily chat at a fast, reduced clip.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan",
+      "gender": "neutral"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "diag",
+  "targetWpm": 180,
+  "slowerWpm": 150,
+  "durationSec": 79,
+  "newItems": [],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "jordan",
+      "text": "You guys still on for tonight, or are we moving it?",
+      "spoken": "You guys still on for tonight, or are we moving it?",
+      "audio": "audio/diag-listen-180/l1.m4a",
+      "durationMs": 3139
+    },
+    {
+      "id": "l2",
+      "speaker": "maya",
+      "text": "I'm still on, I just gotta leave work a little late. Like, I dunno, maybe seven-fifteen, seven-thirty?",
+      "spoken": "I'm still on, I just gotta leave work a little late. Like, I dunno, maybe seven-fifteen, seven-thirty?",
+      "audio": "audio/diag-listen-180/l2.m4a",
+      "durationMs": 6264
+    },
+    {
+      "id": "l3",
+      "speaker": "chris",
+      "text": "That's fine, I can go grab a table. You wanna just meet there?",
+      "spoken": "That's fine, I can go grab a table. You wanna just meet there?",
+      "audio": "audio/diag-listen-180/l3.m4a",
+      "durationMs": 4157
+    },
+    {
+      "id": "l4",
+      "speaker": "jordan",
+      "text": "I can meet there too, but I was gonna say, do we wanna do the place on Grant, or is that gonna be packed?",
+      "spoken": "I can meet there too, but I was gonna say, do we wanna do the place on Grant, or is that gonna be packed?",
+      "audio": "audio/diag-listen-180/l4.m4a",
+      "durationMs": 6750
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "Grant's gonna be packed. We could do the other one, the quieter one, I don't remember the name, the one with the yellow sign.",
+      "spoken": "Grant's gonna be packed. We could do the other one, the quieter one, I don't remember the name, the one with the yellow sign.",
+      "audio": "audio/diag-listen-180/l5.m4a",
+      "durationMs": 7423
+    },
+    {
+      "id": "l6",
+      "speaker": "chris",
+      "text": "Yeah, I know the one. That's better. I'll text you the pin. You wanna just throw in for a cab after, or are we all taking the train?",
+      "spoken": "Yeah, I know the one. That's better. I'll text you the pin. You wanna just throw in for a cab after, or are we all taking the train?",
+      "audio": "audio/diag-listen-180/l6.m4a",
+      "durationMs": 8629
+    },
+    {
+      "id": "l7",
+      "speaker": "jordan",
+      "text": "I can throw in for a cab if it's not crazy. I don't wanna do three trains at night.",
+      "spoken": "I can throw in for a cab if it's not crazy. I don't wanna do three trains at night.",
+      "audio": "audio/diag-listen-180/l7.m4a",
+      "durationMs": 5562
+    },
+    {
+      "id": "l8",
+      "speaker": "maya",
+      "text": "Same. Okay, so, yellow-sign place, Chris gets a table, I get there around seven-thirty, we get a cab after, we throw in. Did I miss anything?",
+      "spoken": "Same. Okay, so, yellow-sign place, Chris gets a table, I get there around seven-thirty, we get a cab after, we throw in. Did I miss anything?",
+      "audio": "audio/diag-listen-180/l8.m4a",
+      "durationMs": 8807
+    },
+    {
+      "id": "l9",
+      "speaker": "chris",
+      "text": "What we're eating. But we can figure that out there. Don't overthink it.",
+      "spoken": "What we're eating. But we can figure that out there. Don't overthink it.",
+      "audio": "audio/diag-listen-180/l9.m4a",
+      "durationMs": 4488
+    },
+    {
+      "id": "l10",
+      "speaker": "jordan",
+      "text": "I'm gonna overthink it a little. I always do.",
+      "spoken": "I'm gonna overthink it a little. I always do.",
+      "audio": "audio/diag-listen-180/l10.m4a",
+      "durationMs": 3135
+    },
+    {
+      "id": "l11",
+      "speaker": "maya",
+      "text": "I know you do. Just come.",
+      "spoken": "I know you do. Just come.",
+      "audio": "audio/diag-listen-180/l11.m4a",
+      "durationMs": 2153
+    },
+    {
+      "id": "l12",
+      "speaker": "jordan",
+      "text": "I'm coming. I'm already putting my shoes on, kinda.",
+      "spoken": "I'm coming. I'm already putting my shoes on, kinda.",
+      "audio": "audio/diag-listen-180/l12.m4a",
+      "durationMs": 3543
+    },
+    {
+      "id": "l13",
+      "speaker": "chris",
+      "text": "It's three o'clock.",
+      "spoken": "It's three o'clock.",
+      "audio": "audio/diag-listen-180/l13.m4a",
+      "durationMs": 985
+    },
+    {
+      "id": "l14",
+      "speaker": "jordan",
+      "text": "I said kinda.",
+      "spoken": "I said kinda.",
+      "audio": "audio/diag-listen-180/l14.m4a",
+      "durationMs": 1210
+    },
+    {
+      "id": "l15",
+      "speaker": "maya",
+      "text": "Okay, I'm muting, I gotta go back in. Text me if anything changes.",
+      "spoken": "Okay, I'm muting, I gotta go back in. Text me if anything changes.",
+      "audio": "audio/diag-listen-180/l15.m4a",
+      "durationMs": 4581
+    },
+    {
+      "id": "l16",
+      "speaker": "chris",
+      "text": "We will. See you tonight.",
+      "spoken": "We will. See you tonight.",
+      "audio": "audio/diag-listen-180/l16.m4a",
+      "durationMs": 2146
+    },
+    {
+      "id": "l17",
+      "speaker": "jordan",
+      "text": "See you. Yellow sign. Don't go to Grant by accident.",
+      "spoken": "See you. Yellow sign. Don't go to Grant by accident.",
+      "audio": "audio/diag-listen-180/l17.m4a",
+      "durationMs": 3963
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "今晚还去吗？他们最后定在哪见？",
+      "askEn": "Are they still on for tonight, and where do they meet?",
+      "accept": [
+        "yes, still on",
+        "the quieter place with the yellow sign",
+        "not Grant",
+        "还去",
+        "黄招牌那家更安静的店",
+        "不去 Grant 那家"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "谁先到？结束后怎么回家？",
+      "askEn": "Who arrives first, and how will they get home?",
+      "accept": [
+        "Chris grabs a table",
+        "Maya around 7:30",
+        "they'll throw in for a cab",
+        "Chris 先占桌",
+        "Maya 大约七点半到",
+        "回家一起打车AA"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "为什么不选 Grant 那家？",
+      "askEn": "Why not the place on Grant?",
+      "accept": [
+        "it's going to be packed",
+        "too crowded",
+        "会很挤",
+        "人太多"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "Jordan 为什么不想坐火车？Maya 离开电话前交代了什么？",
+      "askEn": "Why doesn't Jordan want the train, and what does Maya say before she hangs up?",
+      "accept": [
+        "doesn't want three trains at night",
+        "text if anything changes",
+        "晚上不想倒三趟车",
+        "有变故就发消息"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l2",
+      "span": "I just gotta leave work a little late",
+      "hear": "I just gotta leave work a little late",
+      "noteZh": "gotta leave work 缩得很紧，a little late 才是关键信息。180 的语速下，整句会一晃而过。",
+      "standard": "I just have got to leave work a little late"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l6",
+      "span": "You wanna just throw in for a cab after",
+      "hear": "You wanna just throw in for a cab after",
+      "noteZh": "wanna just throw in for a 几乎全是弱的功能词和语块，cab after 才落到实处。这是后面第一包会反复练的声音。",
+      "standard": "You want to just throw in for a cab after"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l4",
+      "span": "do we wanna do the place on Grant, or is that gonna be packed",
+      "hear": "do we wanna do the place on Grant, or is that gonna be packed",
+      "noteZh": "一句里叠了 wanna 和 gonna，or is that 又很快。快语里先抓地点 Grant 和 packed，再回听中间的连接。",
+      "standard": "do we want to do the place on Grant, or is that going to be packed"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "You guys still on for tonight?",
+      "meaningZh": "你们今晚还是原计划吗？",
+      "fromLineId": "l1",
+      "sayAfter": "You guys still on for tonight, or are we moving it?",
+      "audio": "audio/diag-listen-180/c1.m4a",
+      "durationMs": 1914,
+      "afterAudio": "audio/diag-listen-180/c1-after.m4a",
+      "afterDurationMs": 3291
+    },
+    {
+      "id": "c2",
+      "form": "You wanna just meet there?",
+      "meaningZh": "要不然就直接在那儿会合？",
+      "fromLineId": "l3",
+      "sayAfter": "I can go grab a table. You wanna just meet there?",
+      "audio": "audio/diag-listen-180/c2.m4a",
+      "durationMs": 1317,
+      "afterAudio": "audio/diag-listen-180/c2-after.m4a",
+      "afterDurationMs": 3273
+    },
+    {
+      "id": "c3",
+      "form": "I can throw in for a cab.",
+      "meaningZh": "打车钱我可以出一份。",
+      "fromLineId": "l7",
+      "sayAfter": "I can throw in for a cab if it's not crazy.",
+      "audio": "audio/diag-listen-180/c3.m4a",
+      "durationMs": 2257,
+      "afterAudio": "audio/diag-listen-180/c3-after.m4a",
+      "afterDurationMs": 3011
+    }
+  ],
+  "roleplay": {
+    "setupZh": "三个人要敲定今晚：还去不去、去哪家、谁先占桌、几点到、结束后怎么回家。语速可以快，但要把这几件事说清楚。",
+    "aiRole": "Play Chris and Jordan as needed. Chris can grab a table. Jordan worries Grant will be packed and doesn't want three trains at night. Keep it quick and overlapping, but don't run over the learner.",
+    "variants": [
+      "They decide to move it after all.",
+      "The yellow-sign place is closed Mondays.",
+      "Someone prefers the train anyway."
+    ],
+    "mustUse": [
+      "still on for tonight",
+      "You wanna just meet there",
+      "throw in for a cab"
+    ],
+    "starters": [
+      "You guys still on for tonight?",
+      "You wanna just meet there?",
+      "I can throw in for a cab."
+    ]
+  },
+  "fluency": {
+    "promptZh": "用自己的话把今晚的计划讲完：还去、去哪、谁先到、Maya 几点到、回家怎么分打车钱。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Retell tonight's plan: they're still on, which place, who arrives first, Maya's time, and how they'll split a cab home. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/diag-listen-180/full.m4a",
+  "audioFullDurationMs": 82082
+}

@@ -1,0 +1,292 @@
+{
+  "id": "pack03-06-is-this-the-right-stop",
+  "packId": "pack-03-getting-around",
+  "dayInPack": 6,
+  "title": "Is this the right stop?",
+  "titleZh": "这站对不对",
+  "setting": "Maya is on a light-rail car with a backpack, watching the stops go by. She asks a passenger, Keisha, as the train starts to slow.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "keisha",
+      "name": "Keisha",
+      "gender": "female"
+    }
+  ],
+  "register": "travel",
+  "skillNode": "A-travel-open",
+  "targetWpm": 155,
+  "slowerWpm": 130,
+  "durationSec": 69,
+  "newItems": [],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "Sorry, is this the right stop for the museum?",
+      "spoken": "Sorry, is this the right stop for the museum?",
+      "audio": "audio/pack03-06-is-this-the-right-stop/l1.m4a",
+      "durationMs": 3435
+    },
+    {
+      "id": "l2",
+      "speaker": "keisha",
+      "text": "The art museum? I think you want the next one.",
+      "spoken": "The art museum? I think you want the next one.",
+      "audio": "audio/pack03-06-is-this-the-right-stop/l2.m4a",
+      "durationMs": 3167
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "The next one. Not this one.",
+      "spoken": "The next one. Not this one.",
+      "audio": "audio/pack03-06-is-this-the-right-stop/l3.m4a",
+      "durationMs": 2254
+    },
+    {
+      "id": "l4",
+      "speaker": "keisha",
+      "text": "Yeah, this is like... this is the park. You want the one after, it says 'Civic' or something on the sign.",
+      "spoken": "Yeah, this is like... this is the park. You want the one after, it says 'Civic' or something on the sign.",
+      "audio": "audio/pack03-06-is-this-the-right-stop/l4.m4a",
+      "durationMs": 6036
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "Civic. Okay. Thank you. I was about to get off.",
+      "spoken": "Civic. Okay. Thank you. I was about to get off.",
+      "audio": "audio/pack03-06-is-this-the-right-stop/l5.m4a",
+      "durationMs": 3872
+    },
+    {
+      "id": "l6",
+      "speaker": "keisha",
+      "text": "I almost did that yesterday, different line. The names are not helpful.",
+      "spoken": "I almost did that yesterday, different line. The names are not helpful.",
+      "audio": "audio/pack03-06-is-this-the-right-stop/l6.m4a",
+      "durationMs": 4678
+    },
+    {
+      "id": "l7",
+      "speaker": "maya",
+      "text": "They're really not. So I just stay on, one more?",
+      "spoken": "They're really not. So I just stay on, one more?",
+      "audio": "audio/pack03-06-is-this-the-right-stop/l7.m4a",
+      "durationMs": 3313
+    },
+    {
+      "id": "l8",
+      "speaker": "keisha",
+      "text": "One more. You'll see a big glass building on the left. That's how I know.",
+      "spoken": "One more. You'll see a big glass building on the left. That's how I know.",
+      "audio": "audio/pack03-06-is-this-the-right-stop/l8.m4a",
+      "durationMs": 4844
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "Big glass building. Got it. Thanks, I appreciate it.",
+      "spoken": "Big glass building. Got it. Thanks, I appreciate it.",
+      "audio": "audio/pack03-06-is-this-the-right-stop/l9.m4a",
+      "durationMs": 4229
+    },
+    {
+      "id": "l10",
+      "speaker": "keisha",
+      "text": "You're good. It's coming up quick, so, you know, start moving when it slows down.",
+      "spoken": "You're good. It's coming up quick, so, you know, start moving when it slows down.",
+      "audio": "audio/pack03-06-is-this-the-right-stop/l10.m4a",
+      "durationMs": 5102
+    },
+    {
+      "id": "l11",
+      "speaker": "maya",
+      "text": "I will. Is the door on this side, or the other side? I never guess right.",
+      "spoken": "I will. Is the door on this side, or the other side? I never guess right.",
+      "audio": "audio/pack03-06-is-this-the-right-stop/l11.m4a",
+      "durationMs": 5091
+    },
+    {
+      "id": "l12",
+      "speaker": "keisha",
+      "text": "This side, I think. Yeah. I'll get off here, actually, so... you just stay put.",
+      "spoken": "This side, I think. Yeah. I'll get off here, actually, so... you just stay put.",
+      "audio": "audio/pack03-06-is-this-the-right-stop/l12.m4a",
+      "durationMs": 5502
+    },
+    {
+      "id": "l13",
+      "speaker": "maya",
+      "text": "Stay put. I can do that. Thanks again.",
+      "spoken": "Stay put. I can do that. Thanks again.",
+      "audio": "audio/pack03-06-is-this-the-right-stop/l13.m4a",
+      "durationMs": 3411
+    },
+    {
+      "id": "l14",
+      "speaker": "keisha",
+      "text": "Yep. Museum's worth it, by the way. If that's where you're going.",
+      "spoken": "Yep. Museum's worth it, by the way. If that's where you're going.",
+      "audio": "audio/pack03-06-is-this-the-right-stop/l14.m4a",
+      "durationMs": 4384
+    },
+    {
+      "id": "l15",
+      "speaker": "maya",
+      "text": "That's the plan. Okay. I'll wait for the glass building.",
+      "spoken": "That's the plan. Okay. I'll wait for the glass building.",
+      "audio": "audio/pack03-06-is-this-the-right-stop/l15.m4a",
+      "durationMs": 4130
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "Maya 想在这站下吗？对不对？",
+      "askEn": "Does Maya want to get off here, and should she?",
+      "accept": [
+        "she was going to",
+        "it's the wrong stop",
+        "she wants the next one",
+        "她本来要下",
+        "这站不对",
+        "应该下一站"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "正确的站怎么认？",
+      "askEn": "How will she know the right stop?",
+      "accept": [
+        "Civic",
+        "big glass building on the left",
+        "one more stop",
+        "站名是 Civic",
+        "左边有玻璃大楼",
+        "再坐一站"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "这一站大概是什么地方？",
+      "askEn": "What is this current stop?",
+      "accept": [
+        "the park",
+        "not the museum",
+        "公园那一站",
+        "不是博物馆"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "门在哪一侧？Keisha 自己在这站下吗？",
+      "askEn": "Which side is the door on, and is Keisha getting off here?",
+      "accept": [
+        "this side",
+        "Keisha gets off here",
+        "Maya should stay put",
+        "这边下",
+        "Keisha 这站下",
+        "Maya 留下"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l1",
+      "span": "is this the right stop for the museum",
+      "hear": "is this the right stop for the museum",
+      "noteZh": "is this the right 四个小词连成一串，for the 又弱，听者容易只抓住 museum 而丢掉‘是不是这站’。",
+      "standard": "is this the right stop for the museum"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l2",
+      "span": "I think you want the next one",
+      "hear": "I think you want the next one",
+      "noteZh": "you want the 弱读连读，next one 才是关键；不要听成 I think you want this one。",
+      "standard": "I think you want the next one"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l5",
+      "span": "I was about to get off",
+      "hear": "I was about to get off",
+      "noteZh": "was about to 常听成 was abouta，表示‘差点就下了’；to 几乎消失。",
+      "standard": "I was about to get off"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "Is this the right stop for the museum?",
+      "meaningZh": "去博物馆是不是在这站下？",
+      "fromLineId": "l1",
+      "sayAfter": "Sorry, is this the right stop for the museum?",
+      "audio": "audio/pack03-06-is-this-the-right-stop/c1.m4a",
+      "durationMs": 2099,
+      "afterAudio": "audio/pack03-06-is-this-the-right-stop/c1-after.m4a",
+      "afterDurationMs": 3450
+    },
+    {
+      "id": "c2",
+      "form": "I think you want the next one.",
+      "meaningZh": "我觉得你应该坐下一站。",
+      "fromLineId": "l2",
+      "sayAfter": "The art museum? I think you want the next one.",
+      "audio": "audio/pack03-06-is-this-the-right-stop/c2.m4a",
+      "durationMs": 1933,
+      "afterAudio": "audio/pack03-06-is-this-the-right-stop/c2-after.m4a",
+      "afterDurationMs": 3050
+    },
+    {
+      "id": "c3",
+      "form": "I was about to get off.",
+      "meaningZh": "我刚才差点就下车了。",
+      "fromLineId": "l5",
+      "sayAfter": "Thank you. I was about to get off.",
+      "audio": "audio/pack03-06-is-this-the-right-stop/c3.m4a",
+      "durationMs": 1363,
+      "afterAudio": "audio/pack03-06-is-this-the-right-stop/c3-after.m4a",
+      "afterDurationMs": 2230
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你坐在城市轻轨或地铁上，车开始减速，你不确定这是不是博物馆那一站。向旁边的人确认，并问下一站怎么认、门在哪一侧。",
+    "aiRole": "Keisha, a regular rider, friendly and a little wry about the useless stop names. She's getting off at the park. She'll give you a landmark (the glass building) and tell you to stay put.",
+    "variants": [
+      "It actually is the right stop after all.",
+      "Keisha is not sure either and they check a map.",
+      "The next stop comes very fast."
+    ],
+    "mustUse": [
+      "Is this the right stop",
+      "I think you want the next one",
+      "I was about to get off"
+    ],
+    "starters": [
+      "Sorry, is this the right stop for the museum?",
+      "Do I want this one or the next one?",
+      "I was about to get off."
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲车上这段问路：Maya 差点在哪下，正确的站叫什么、看什么标志，Keisha 让她做什么。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell the onboard ask: which stop Maya almost took, the name and landmark for the right one, and what Keisha told her to do. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/pack03-06-is-this-the-right-stop/full.m4a",
+  "audioFullDurationMs": 67962
+}

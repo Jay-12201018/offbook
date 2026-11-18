@@ -1,0 +1,145 @@
+{
+  "sceneId": "pack03-07-rooms-not-ready",
+  "lines": {
+    "l1": {
+      "file": "audio/pack03-07-rooms-not-ready/l1.m4a",
+      "durationMs": 1929,
+      "fullStartMs": 0,
+      "voice": "joe",
+      "speaker": "omar"
+    },
+    "l2": {
+      "file": "audio/pack03-07-rooms-not-ready/l2.m4a",
+      "durationMs": 4078,
+      "fullStartMs": 2209,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l3": {
+      "file": "audio/pack03-07-rooms-not-ready/l3.m4a",
+      "durationMs": 7780,
+      "fullStartMs": 6567,
+      "voice": "joe",
+      "speaker": "omar"
+    },
+    "l4": {
+      "file": "audio/pack03-07-rooms-not-ready/l4.m4a",
+      "durationMs": 2685,
+      "fullStartMs": 14627,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l5": {
+      "file": "audio/pack03-07-rooms-not-ready/l5.m4a",
+      "durationMs": 5490,
+      "fullStartMs": 17592,
+      "voice": "joe",
+      "speaker": "omar"
+    },
+    "l6": {
+      "file": "audio/pack03-07-rooms-not-ready/l6.m4a",
+      "durationMs": 4839,
+      "fullStartMs": 23362,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l7": {
+      "file": "audio/pack03-07-rooms-not-ready/l7.m4a",
+      "durationMs": 7542,
+      "fullStartMs": 28481,
+      "voice": "joe",
+      "speaker": "omar"
+    },
+    "l8": {
+      "file": "audio/pack03-07-rooms-not-ready/l8.m4a",
+      "durationMs": 5903,
+      "fullStartMs": 36303,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l9": {
+      "file": "audio/pack03-07-rooms-not-ready/l9.m4a",
+      "durationMs": 3704,
+      "fullStartMs": 42486,
+      "voice": "joe",
+      "speaker": "omar"
+    },
+    "l10": {
+      "file": "audio/pack03-07-rooms-not-ready/l10.m4a",
+      "durationMs": 1893,
+      "fullStartMs": 46470,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l11": {
+      "file": "audio/pack03-07-rooms-not-ready/l11.m4a",
+      "durationMs": 4000,
+      "fullStartMs": 48643,
+      "voice": "joe",
+      "speaker": "omar"
+    },
+    "l12": {
+      "file": "audio/pack03-07-rooms-not-ready/l12.m4a",
+      "durationMs": 5658,
+      "fullStartMs": 52923,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l13": {
+      "file": "audio/pack03-07-rooms-not-ready/l13.m4a",
+      "durationMs": 5199,
+      "fullStartMs": 58861,
+      "voice": "joe",
+      "speaker": "omar"
+    },
+    "l14": {
+      "file": "audio/pack03-07-rooms-not-ready/l14.m4a",
+      "durationMs": 2663,
+      "fullStartMs": 64340,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l15": {
+      "file": "audio/pack03-07-rooms-not-ready/l15.m4a",
+      "durationMs": 3627,
+      "fullStartMs": 67283,
+      "voice": "joe",
+      "speaker": "omar"
+    },
+    "l16": {
+      "file": "audio/pack03-07-rooms-not-ready/l16.m4a",
+      "durationMs": 2609,
+      "fullStartMs": 71190,
+      "voice": "kristin",
+      "speaker": "maya"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack03-07-rooms-not-ready/c1.m4a",
+      "durationMs": 1395,
+      "voice": "joe",
+      "afterFile": "audio/pack03-07-rooms-not-ready/c1-after.m4a",
+      "afterDurationMs": 3704
+    },
+    "c2": {
+      "file": "audio/pack03-07-rooms-not-ready/c2.m4a",
+      "durationMs": 1762,
+      "voice": "kristin",
+      "afterFile": "audio/pack03-07-rooms-not-ready/c2-after.m4a",
+      "afterDurationMs": 3285
+    },
+    "c3": {
+      "file": "audio/pack03-07-rooms-not-ready/c3.m4a",
+      "durationMs": 1369,
+      "voice": "joe",
+      "afterFile": "audio/pack03-07-rooms-not-ready/c3-after.m4a",
+      "afterDurationMs": 3137
+    }
+  },
+  "full": {
+    "file": "audio/pack03-07-rooms-not-ready/full.m4a",
+    "durationMs": 74465,
+    "gapMs": 280
+  }
+}

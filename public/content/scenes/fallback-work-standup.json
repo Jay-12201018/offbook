@@ -1,0 +1,243 @@
+{
+  "id": "fallback-work-standup",
+  "packId": "pack-fallback-work",
+  "dayInPack": 1,
+  "title": "Quick standup",
+  "titleZh": "晨会两分钟",
+  "setting": "A short morning standup on a video call. Maya is leading; Chris is reporting.",
+  "situationZh": "早上的短站会，视频通话。Maya 主持，Chris 汇报进度。",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    }
+  ],
+  "register": "work",
+  "skillNode": "C-work-short",
+  "targetWpm": 145,
+  "slowerWpm": 120,
+  "durationSec": 60,
+  "newItems": [
+    "flag it"
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "Okay, Chris, you wanna go first?",
+      "spoken": "Okay, Chris, you wanna go first?",
+      "meaningZh": "好，Chris，你要先说吗？",
+      "audio": "audio/fallback-work-standup/l1.m4a",
+      "durationMs": 2271
+    },
+    {
+      "id": "l2",
+      "speaker": "chris",
+      "text": "Sure. I'm mostly through the review notes. I should be done today.",
+      "spoken": "Sure. I'm mostly through the review notes. I should be done today.",
+      "meaningZh": "好。评审意见我差不多看完了。今天应该能做完。",
+      "audio": "audio/fallback-work-standup/l2.m4a",
+      "durationMs": 4768
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "Anything blocking you?",
+      "spoken": "Anything blocking you?",
+      "meaningZh": "有什么卡住你的吗？",
+      "audio": "audio/fallback-work-standup/l3.m4a",
+      "durationMs": 1524
+    },
+    {
+      "id": "l4",
+      "speaker": "chris",
+      "text": "Not really. I might need a second pair of eyes on the copy, though.",
+      "spoken": "Not really. I might need a second pair of eyes on the copy, though.",
+      "meaningZh": "倒没有。不过文案那块我想再找人看一眼。",
+      "audio": "audio/fallback-work-standup/l4.m4a",
+      "durationMs": 4119
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "I can take a look after this.",
+      "spoken": "I can take a look after this.",
+      "meaningZh": "开完会我可以看一下。",
+      "audio": "audio/fallback-work-standup/l5.m4a",
+      "durationMs": 1714
+    },
+    {
+      "id": "l6",
+      "speaker": "chris",
+      "text": "That'd be great. I'll Slack it over.",
+      "spoken": "That'd be great. I'll Slack it over.",
+      "meaningZh": "那太好了。我一会儿发到 Slack 上。",
+      "audio": "audio/fallback-work-standup/l6.m4a",
+      "durationMs": 2657
+    },
+    {
+      "id": "l7",
+      "speaker": "maya",
+      "text": "Sounds good. Are we still okay for Thursday?",
+      "spoken": "Sounds good. Are we still okay for Thursday?",
+      "meaningZh": "好。周四还来得及吗？",
+      "audio": "audio/fallback-work-standup/l7.m4a",
+      "durationMs": 3093
+    },
+    {
+      "id": "l8",
+      "speaker": "chris",
+      "text": "I think so. If it slips, I'll flag it.",
+      "spoken": "I think so. If it slips, I'll flag it.",
+      "meaningZh": "应该可以。如果要延，我会说一声。",
+      "audio": "audio/fallback-work-standup/l8.m4a",
+      "durationMs": 3239
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "Okay. Thanks, Chris.",
+      "spoken": "Okay. Thanks, Chris.",
+      "meaningZh": "好。谢谢，Chris。",
+      "audio": "audio/fallback-work-standup/l9.m4a",
+      "durationMs": 2192
+    },
+    {
+      "id": "l10",
+      "speaker": "chris",
+      "text": "Yep. That's it from me.",
+      "spoken": "Yep. That's it from me.",
+      "meaningZh": "嗯。我这边就这些。",
+      "audio": "audio/fallback-work-standup/l10.m4a",
+      "durationMs": 2036
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "Chris 今天在忙什么？",
+      "askEn": "What is Chris working on?",
+      "accept": [
+        "review",
+        "notes",
+        "评审",
+        "意见",
+        "done today",
+        "今天做完"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "他需要别人帮什么？",
+      "askEn": "What kind of help does he want?",
+      "accept": [
+        "second pair of eyes",
+        "look at the copy",
+        "看文案",
+        "看一眼",
+        "copy"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "如果周四来不及，Chris 会怎么做？",
+      "askEn": "What will Chris do if Thursday slips?",
+      "accept": [
+        "flag it",
+        "he'll flag",
+        "说一声",
+        "提出来",
+        "flag"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l4",
+      "span": "a second pair of eyes on the copy",
+      "hear": "a second pair of eyes on the copy",
+      "noteZh": "pair of eyes 是习惯说法，of 很弱；on the copy 会连成一串，copy 在这里指文案，不是「复制」。",
+      "standard": "a second pair of eyes on the copy"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l8",
+      "span": "If it slips, I'll flag it",
+      "hear": "If it slips, I'll flag it",
+      "noteZh": "I'll flag it 里 I'll 被压缩得很短，flag it 的 t 几乎听不见，整体像 I'll flag ih。",
+      "standard": "If it slips, I will flag it"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "Anything blocking you?",
+      "meaningZh": "有什么卡住你的吗？",
+      "fromLineId": "l3",
+      "sayAfter": "Anything blocking you, or are you good?",
+      "audio": "audio/fallback-work-standup/c1.m4a",
+      "durationMs": 1587,
+      "afterAudio": "audio/fallback-work-standup/c1-after.m4a",
+      "afterDurationMs": 2582
+    },
+    {
+      "id": "c2",
+      "form": "I can take a look after this.",
+      "meaningZh": "开完这个我可以看一下。",
+      "fromLineId": "l5",
+      "sayAfter": "I can take a look after this, no problem.",
+      "audio": "audio/fallback-work-standup/c2.m4a",
+      "durationMs": 1774,
+      "afterAudio": "audio/fallback-work-standup/c2-after.m4a",
+      "afterDurationMs": 3088
+    },
+    {
+      "id": "c3",
+      "form": "If it slips, I'll flag it.",
+      "meaningZh": "如果要延，我会说一声。",
+      "fromLineId": "l8",
+      "sayAfter": "If it slips, I'll flag it.",
+      "audio": "audio/fallback-work-standup/c3.m4a",
+      "durationMs": 1856,
+      "afterAudio": "audio/fallback-work-standup/c3-after.m4a",
+      "afterDurationMs": 1880
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你在晨会上汇报。你差不多要做完了，只想请人看一眼文案，并保证如果周四来不及会提前说。",
+    "aiRole": "Maya, a calm lead running standup. She asks short questions and offers to help if you need it.",
+    "variants": [
+      "Maya is short on time and wants a 20-second update.",
+      "The Thursday date has already moved.",
+      "Chris is actually blocked on access."
+    ],
+    "mustUse": [
+      "I can take a look",
+      "I'll flag it"
+    ],
+    "starters": [
+      "Sure, I can go first.",
+      "Not really, but I might need a second pair of eyes.",
+      "I think so. If it slips, I'll flag it."
+    ]
+  },
+  "fluency": {
+    "promptZh": "用自己的话讲刚才这场短会上你汇报了什么、谁答应帮忙。准备 15 秒，然后说 60 秒，再更短、更快地说两遍。",
+    "promptEn": "Tell the story of the standup: what you reported, and who offered to help. Prep 15 seconds, then speak for 60, then 45, then 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/fallback-work-standup/full.m4a",
+  "audioFullDurationMs": 30571
+}

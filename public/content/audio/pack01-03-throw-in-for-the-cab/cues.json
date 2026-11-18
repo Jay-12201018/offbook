@@ -1,0 +1,152 @@
+{
+  "sceneId": "pack01-03-throw-in-for-the-cab",
+  "lines": {
+    "l1": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/l1.m4a",
+      "durationMs": 2138,
+      "fullStartMs": 0,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l2": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/l2.m4a",
+      "durationMs": 4012,
+      "fullStartMs": 2418,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l3": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/l3.m4a",
+      "durationMs": 1877,
+      "fullStartMs": 6710,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l4": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/l4.m4a",
+      "durationMs": 2343,
+      "fullStartMs": 8867,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l5": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/l5.m4a",
+      "durationMs": 3338,
+      "fullStartMs": 11490,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l6": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/l6.m4a",
+      "durationMs": 1713,
+      "fullStartMs": 15108,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l7": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/l7.m4a",
+      "durationMs": 4831,
+      "fullStartMs": 17101,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l8": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/l8.m4a",
+      "durationMs": 5450,
+      "fullStartMs": 22212,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l9": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/l9.m4a",
+      "durationMs": 815,
+      "fullStartMs": 27942,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l10": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/l10.m4a",
+      "durationMs": 3727,
+      "fullStartMs": 29037,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l11": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/l11.m4a",
+      "durationMs": 479,
+      "fullStartMs": 33044,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l12": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/l12.m4a",
+      "durationMs": 1196,
+      "fullStartMs": 33803,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l13": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/l13.m4a",
+      "durationMs": 5950,
+      "fullStartMs": 35279,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l14": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/l14.m4a",
+      "durationMs": 4762,
+      "fullStartMs": 41509,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l15": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/l15.m4a",
+      "durationMs": 2986,
+      "fullStartMs": 46551,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l16": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/l16.m4a",
+      "durationMs": 2690,
+      "fullStartMs": 49817,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l17": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/l17.m4a",
+      "durationMs": 2045,
+      "fullStartMs": 52787,
+      "voice": "joe",
+      "speaker": "chris"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/c1.m4a",
+      "durationMs": 1581,
+      "voice": "kristin",
+      "afterFile": "audio/pack01-03-throw-in-for-the-cab/c1-after.m4a",
+      "afterDurationMs": 2644
+    },
+    "c2": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/c2.m4a",
+      "durationMs": 1329,
+      "voice": "kristin",
+      "afterFile": "audio/pack01-03-throw-in-for-the-cab/c2-after.m4a",
+      "afterDurationMs": 3123
+    },
+    "c3": {
+      "file": "audio/pack01-03-throw-in-for-the-cab/c3.m4a",
+      "durationMs": 1621,
+      "voice": "joe",
+      "afterFile": "audio/pack01-03-throw-in-for-the-cab/c3-after.m4a",
+      "afterDurationMs": 3327
+    }
+  },
+  "full": {
+    "file": "audio/pack01-03-throw-in-for-the-cab/full.m4a",
+    "durationMs": 55565,
+    "gapMs": 280
+  }
+}

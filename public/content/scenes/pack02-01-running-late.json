@@ -1,0 +1,310 @@
+{
+  "id": "pack02-01-running-late",
+  "packId": "pack-02-change-of-plans",
+  "dayInPack": 1,
+  "title": "I'm running late",
+  "titleZh": "我要晚到了",
+  "setting": "A phone call. Maya is already at a cafe. Chris is still at home, just heading out.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "A-daily-open",
+  "targetWpm": 135,
+  "slowerWpm": 110,
+  "durationSec": 68,
+  "newItems": [
+    "running late"
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "Hey, where are you?",
+      "spoken": "Hey, where are you?",
+      "audio": "audio/pack02-01-running-late/l1.m4a",
+      "durationMs": 1702
+    },
+    {
+      "id": "l2",
+      "speaker": "chris",
+      "text": "Yeah, hi, I'm running late. I'm sorry.",
+      "spoken": "Yeah, hi, I'm running late. I'm sorry.",
+      "audio": "audio/pack02-01-running-late/l2.m4a",
+      "durationMs": 3426
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "How late are we talking?",
+      "spoken": "How late are we talking?",
+      "audio": "audio/pack02-01-running-late/l3.m4a",
+      "durationMs": 1745
+    },
+    {
+      "id": "l4",
+      "speaker": "chris",
+      "text": "Like... fifteen? Twenty if the light's bad. I just left the house.",
+      "spoken": "Like... fifteen? Twenty if the light's bad. I just left the house.",
+      "audio": "audio/pack02-01-running-late/l4.m4a",
+      "durationMs": 4577
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "You just left.",
+      "spoken": "You just left.",
+      "audio": "audio/pack02-01-running-late/l5.m4a",
+      "durationMs": 1200
+    },
+    {
+      "id": "l6",
+      "speaker": "chris",
+      "text": "I know. I lost track of time. I was going to leave at six and then I didn't.",
+      "spoken": "I know. I lost track of time. I was gonna leave at six and then I didn't.",
+      "audio": "audio/pack02-01-running-late/l6.m4a",
+      "durationMs": 5032
+    },
+    {
+      "id": "l7",
+      "speaker": "maya",
+      "text": "Okay. I'll just... I can wait. It's not a big deal.",
+      "spoken": "Okay. I'll just... I can wait. It's not a big deal.",
+      "audio": "audio/pack02-01-running-late/l7.m4a",
+      "durationMs": 4151
+    },
+    {
+      "id": "l8",
+      "speaker": "chris",
+      "text": "You sure? I don't want you sitting there by yourself like an idiot.",
+      "spoken": "You sure? I don't want you sitting there by yourself like an idiot.",
+      "audio": "audio/pack02-01-running-late/l8.m4a",
+      "durationMs": 3809
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "I'm in a cafe. I'm not in a parking lot. I'll be fine.",
+      "spoken": "I'm in a cafe. I'm not in a parking lot. I'll be fine.",
+      "audio": "audio/pack02-01-running-late/l9.m4a",
+      "durationMs": 4180
+    },
+    {
+      "id": "l10",
+      "speaker": "chris",
+      "text": "I'll be there in like fifteen, I think. I'll text you if it's worse.",
+      "spoken": "I'll be there in like fifteen, I think. I'll text you if it's worse.",
+      "audio": "audio/pack02-01-running-late/l10.m4a",
+      "durationMs": 4312
+    },
+    {
+      "id": "l11",
+      "speaker": "maya",
+      "text": "Okay. Don't speed, just... get here when you get here.",
+      "spoken": "Okay. Don't speed, just... get here when you get here.",
+      "audio": "audio/pack02-01-running-late/l11.m4a",
+      "durationMs": 3709
+    },
+    {
+      "id": "l12",
+      "speaker": "chris",
+      "text": "Yeah. I'm really sorry.",
+      "spoken": "Yeah. I'm really sorry.",
+      "audio": "audio/pack02-01-running-late/l12.m4a",
+      "durationMs": 2130
+    },
+    {
+      "id": "l13",
+      "speaker": "maya",
+      "text": "Chris. It's fine. Just come.",
+      "spoken": "Chris. It's fine. Just come.",
+      "audio": "audio/pack02-01-running-late/l13.m4a",
+      "durationMs": 2830
+    },
+    {
+      "id": "l14",
+      "speaker": "chris",
+      "text": "Okay. I'm coming. I'm already walking to the car.",
+      "spoken": "Okay. I'm coming. I'm already walking to the car.",
+      "audio": "audio/pack02-01-running-late/l14.m4a",
+      "durationMs": 4107
+    },
+    {
+      "id": "l15",
+      "speaker": "maya",
+      "text": "Good. I'll get a table near the window so you can see me.",
+      "spoken": "Good. I'll get a table near the window so you can see me.",
+      "audio": "audio/pack02-01-running-late/l15.m4a",
+      "durationMs": 3716
+    },
+    {
+      "id": "l16",
+      "speaker": "chris",
+      "text": "That's perfect. Thank you. I'm moving, I promise.",
+      "spoken": "That's perfect. Thank you. I'm moving, I promise.",
+      "audio": "audio/pack02-01-running-late/l16.m4a",
+      "durationMs": 4099
+    },
+    {
+      "id": "l17",
+      "speaker": "maya",
+      "text": "I believe you. For now.",
+      "spoken": "I believe you. For now.",
+      "audio": "audio/pack02-01-running-late/l17.m4a",
+      "durationMs": 1934
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "Chris 现在是什么情况？",
+      "askEn": "What's going on with Chris?",
+      "accept": [
+        "he's running late",
+        "he just left the house",
+        "he's late",
+        "他要晚到",
+        "他刚出门",
+        "迟到"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "Maya 是什么态度？",
+      "askEn": "How does Maya take it?",
+      "accept": [
+        "she can wait",
+        "it's fine",
+        "she's at a cafe",
+        "她可以等",
+        "没大事",
+        "她在咖啡店"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "Chris 大概还要多久？",
+      "askEn": "How late does Chris think he'll be?",
+      "accept": [
+        "fifteen minutes",
+        "fifteen or twenty",
+        "twenty if traffic is bad",
+        "大概十五分钟",
+        "十五到二十",
+        "红灯多就二十"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "Maya 说她会怎么做，好让 Chris 找到她？",
+      "askEn": "What will Maya do so Chris can find her?",
+      "accept": [
+        "get a table near the window",
+        "sit by the window",
+        "靠窗坐",
+        "坐窗边"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l2",
+      "span": "I'm running late",
+      "hear": "I'm running late",
+      "noteZh": "I'm 很弱，running late 连在一起，不要只听到 late 而丢掉进行中的 I'm running。",
+      "standard": "I am running late"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l6",
+      "span": "I was going to leave at six",
+      "hear": "I was gonna leave at six",
+      "noteZh": "was going to 缩成 was gonna，leave at 中间的 at 也会变弱。",
+      "standard": "I was going to leave at six"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l10",
+      "span": "I'll be there in like fifteen",
+      "hear": "I'll be there in like fifteen",
+      "noteZh": "I'll be there in like 一串功能词加 like，真正的时间数到最后才出现。",
+      "standard": "I will be there in like fifteen"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "I'm running late.",
+      "meaningZh": "我要晚到了。",
+      "fromLineId": "l2",
+      "sayAfter": "Yeah, hi, I'm running late. I'm sorry.",
+      "audio": "audio/pack02-01-running-late/c1.m4a",
+      "durationMs": 1046,
+      "afterAudio": "audio/pack02-01-running-late/c1-after.m4a",
+      "afterDurationMs": 3412
+    },
+    {
+      "id": "c2",
+      "form": "How late are we talking?",
+      "meaningZh": "大概晚多久？（把‘晚’问清楚。）",
+      "fromLineId": "l3",
+      "sayAfter": "How late are we talking? Like fifteen?",
+      "audio": "audio/pack02-01-running-late/c2.m4a",
+      "durationMs": 1586,
+      "afterAudio": "audio/pack02-01-running-late/c2-after.m4a",
+      "afterDurationMs": 2960
+    },
+    {
+      "id": "c3",
+      "form": "I'll be there in like fifteen.",
+      "meaningZh": "我大概十五分钟到。",
+      "fromLineId": "l10",
+      "sayAfter": "I'll be there in like fifteen. I'll text you if it's worse.",
+      "audio": "audio/pack02-01-running-late/c3.m4a",
+      "durationMs": 1509,
+      "afterAudio": "audio/pack02-01-running-late/c3-after.m4a",
+      "afterDurationMs": 3666
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你跟朋友约好了，但你出门晚了。对方已经到了。你要道歉，说清楚大概还要多久，但不要听起来像在编理由。",
+    "aiRole": "Maya, already at a cafe, warm and a little dry. She can wait. She will not accept 'I'm on my way' if you are still at home; she wants a real time.",
+    "variants": [
+      "Chris is even later than fifteen minutes.",
+      "Maya offers to order him a drink.",
+      "Traffic gets worse and he has to text an update."
+    ],
+    "mustUse": [
+      "I'm running late",
+      "How late are we talking?",
+      "I'll be there in like fifteen"
+    ],
+    "starters": [
+      "I'm running late. I'm sorry.",
+      "How late are we talking?",
+      "I can wait. It's not a big deal."
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲这次迟到：Chris 为什么晚了，他说还要多久，Maya 在哪儿等。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell the running-late story: why Chris is late, how long he said, and where Maya is waiting. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/pack02-01-running-late/full.m4a",
+  "audioFullDurationMs": 61788
+}

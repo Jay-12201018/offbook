@@ -1,0 +1,231 @@
+{
+  "id": "fallback-podcast-long-way-home",
+  "packId": "pack-fallback-listen",
+  "dayInPack": 1,
+  "title": "The long way home",
+  "titleZh": "走回去的那段路",
+  "setting": "A short personal monologue, the kind you might hear at the start of a neighborhood podcast.",
+  "situationZh": "一段像播客开头的独白：有人错过换乘，决定走路回家。",
+  "speakers": [
+    {
+      "id": "jordan",
+      "name": "Jordan",
+      "gender": "female"
+    }
+  ],
+  "register": "podcast",
+  "skillNode": "C-podcast-cut",
+  "targetWpm": 150,
+  "slowerWpm": 125,
+  "durationSec": 72,
+  "newItems": [
+    "I was gonna"
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "jordan",
+      "text": "So I missed my transfer by, I don't know, maybe forty seconds.",
+      "spoken": "So I missed my transfer by, I dunno, maybe forty seconds.",
+      "meaningZh": "我错过换乘大概就差四十秒，我也说不准。",
+      "audio": "audio/fallback-podcast-long-way-home/l1.m4a",
+      "durationMs": 4007
+    },
+    {
+      "id": "l2",
+      "speaker": "jordan",
+      "text": "I saw the train doors close, and I just stood there.",
+      "spoken": "I saw the train doors close, and I just stood there.",
+      "meaningZh": "我看着车门关上，人就站在那儿。",
+      "audio": "audio/fallback-podcast-long-way-home/l2.m4a",
+      "durationMs": 3301
+    },
+    {
+      "id": "l3",
+      "speaker": "jordan",
+      "text": "And I was gonna wait for the next one, but it was one of those nights where the app says twelve minutes and you don't really believe it.",
+      "spoken": "And I was gonna wait for the next one, but it was one of those nights where the app says twelve minutes and you don't really believe it.",
+      "meaningZh": "我本来要等下一班，可那种晚上，应用显示十二分钟，你其实不怎么信。",
+      "audio": "audio/fallback-podcast-long-way-home/l3.m4a",
+      "durationMs": 7210
+    },
+    {
+      "id": "l4",
+      "speaker": "jordan",
+      "text": "So I started walking.",
+      "spoken": "So I started walking.",
+      "meaningZh": "于是我就走了起来。",
+      "audio": "audio/fallback-podcast-long-way-home/l4.m4a",
+      "durationMs": 1612
+    },
+    {
+      "id": "l5",
+      "speaker": "jordan",
+      "text": "It's not even that far — maybe a mile and a half — but it was cold, and I had these headphones in.",
+      "spoken": "It's not even that far — maybe a mile and a half — but it was cold, and I had these headphones in.",
+      "meaningZh": "其实不算远，大概一英里半，可是很冷，我戴着耳机。",
+      "audio": "audio/fallback-podcast-long-way-home/l5.m4a",
+      "durationMs": 6815
+    },
+    {
+      "id": "l6",
+      "speaker": "jordan",
+      "text": "And I actually... I kind of liked it.",
+      "spoken": "And I actually... I kinda liked it.",
+      "meaningZh": "而且说真的……我有点喜欢这样。",
+      "audio": "audio/fallback-podcast-long-way-home/l6.m4a",
+      "durationMs": 2240
+    },
+    {
+      "id": "l7",
+      "speaker": "jordan",
+      "text": "Nobody needed anything from me for twenty minutes.",
+      "spoken": "Nobody needed anything from me for twenty minutes.",
+      "meaningZh": "有二十分钟，没有人需要我做什么。",
+      "audio": "audio/fallback-podcast-long-way-home/l7.m4a",
+      "durationMs": 2878
+    },
+    {
+      "id": "l8",
+      "speaker": "jordan",
+      "text": "I know that sounds small.",
+      "spoken": "I know that sounds small.",
+      "meaningZh": "我知道这听起来不算什么。",
+      "audio": "audio/fallback-podcast-long-way-home/l8.m4a",
+      "durationMs": 2029
+    },
+    {
+      "id": "l9",
+      "speaker": "jordan",
+      "text": "But I got home and I thought, I should miss my train more often.",
+      "spoken": "But I got home and I thought, I should miss my train more often.",
+      "meaningZh": "可我到家以后想，我应该多错过几次车。",
+      "audio": "audio/fallback-podcast-long-way-home/l9.m4a",
+      "durationMs": 3871
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "这个人遇到了什么事？",
+      "askEn": "What happened to this person?",
+      "accept": [
+        "missed",
+        "transfer",
+        "train",
+        "错过",
+        "换乘",
+        "火车",
+        "地铁"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "后来她做了什么，感觉如何？",
+      "askEn": "What did she do after, and how did she feel?",
+      "accept": [
+        "walked",
+        "walking",
+        "liked it",
+        "走路",
+        "走回去",
+        "喜欢",
+        "还挺喜欢"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "应用上显示下一班要多久？",
+      "askEn": "How long did the app say the next one would take?",
+      "accept": [
+        "twelve minutes",
+        "12 minutes",
+        "十二分钟",
+        "12 分钟"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l3",
+      "span": "I was gonna wait",
+      "hear": "I was gonna wait",
+      "noteZh": "going to 在口语里是 gonna，前面的 was 又很短，整段常被听成 I wasgonna wait。",
+      "standard": "I was going to wait"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l6",
+      "span": "I kind of liked it",
+      "hear": "I kinda liked it",
+      "noteZh": "kind of 缩成 kinda，d 几乎没有，liked it 的 t 也常常丢掉。",
+      "standard": "I kind of liked it"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "I was gonna wait for the next one.",
+      "meaningZh": "我本来要等下一班。",
+      "fromLineId": "l3",
+      "sayAfter": "I was gonna wait, but I started walking instead.",
+      "audio": "audio/fallback-podcast-long-way-home/c1.m4a",
+      "durationMs": 2063,
+      "afterAudio": "audio/fallback-podcast-long-way-home/c1-after.m4a",
+      "afterDurationMs": 3143
+    },
+    {
+      "id": "c2",
+      "form": "I kind of liked it.",
+      "meaningZh": "我有点喜欢这样。",
+      "fromLineId": "l6",
+      "sayAfter": "I actually kind of liked it.",
+      "audio": "audio/fallback-podcast-long-way-home/c2.m4a",
+      "durationMs": 1356,
+      "afterAudio": "audio/fallback-podcast-long-way-home/c2-after.m4a",
+      "afterDurationMs": 1795
+    },
+    {
+      "id": "c3",
+      "form": "I know that sounds small.",
+      "meaningZh": "我知道这听起来不算什么。",
+      "fromLineId": "l8",
+      "sayAfter": "I know that sounds small, but it wasn't.",
+      "audio": "audio/fallback-podcast-long-way-home/c3.m4a",
+      "durationMs": 1993,
+      "afterAudio": "audio/fallback-podcast-long-way-home/c3-after.m4a",
+      "afterDurationMs": 3035
+    }
+  ],
+  "roleplay": {
+    "setupZh": "朋友问你昨晚怎么回去的。你错过了换乘，选择走路，而且意外地觉得这段路还不错。",
+    "aiRole": "Maya, a friend who asked how you got home. She listens, maybe teases you gently, and may say she would have waited.",
+    "variants": [
+      "It started raining halfway.",
+      "You actually waited and it was 25 minutes.",
+      "You ran into someone you knew."
+    ],
+    "mustUse": [
+      "I was gonna",
+      "I kind of liked it"
+    ],
+    "starters": [
+      "So I missed my transfer.",
+      "I was gonna wait, but I started walking.",
+      "I actually kind of liked it."
+    ]
+  },
+  "fluency": {
+    "promptZh": "用自己的话讲昨晚错过换乘、走路回家的事，以及你事后怎么想。准备 15 秒，然后说 60 秒，再更短、更快地说两遍。",
+    "promptEn": "Tell the story of missing your transfer and walking home, and how you felt about it. Prep 15 seconds, then speak for 60, then 45, then 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/fallback-podcast-long-way-home/full.m4a",
+  "audioFullDurationMs": 36700
+}

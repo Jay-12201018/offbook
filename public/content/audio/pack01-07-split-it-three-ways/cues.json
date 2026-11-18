@@ -1,0 +1,152 @@
+{
+  "sceneId": "pack01-07-split-it-three-ways",
+  "lines": {
+    "l1": {
+      "file": "audio/pack01-07-split-it-three-ways/l1.m4a",
+      "durationMs": 3974,
+      "fullStartMs": 0,
+      "voice": "ljspeech",
+      "speaker": "jordan"
+    },
+    "l2": {
+      "file": "audio/pack01-07-split-it-three-ways/l2.m4a",
+      "durationMs": 2250,
+      "fullStartMs": 4254,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l3": {
+      "file": "audio/pack01-07-split-it-three-ways/l3.m4a",
+      "durationMs": 6256,
+      "fullStartMs": 6784,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l4": {
+      "file": "audio/pack01-07-split-it-three-ways/l4.m4a",
+      "durationMs": 4094,
+      "fullStartMs": 13320,
+      "voice": "ljspeech",
+      "speaker": "jordan"
+    },
+    "l5": {
+      "file": "audio/pack01-07-split-it-three-ways/l5.m4a",
+      "durationMs": 1603,
+      "fullStartMs": 17694,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l6": {
+      "file": "audio/pack01-07-split-it-three-ways/l6.m4a",
+      "durationMs": 4051,
+      "fullStartMs": 19577,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l7": {
+      "file": "audio/pack01-07-split-it-three-ways/l7.m4a",
+      "durationMs": 3375,
+      "fullStartMs": 23908,
+      "voice": "ljspeech",
+      "speaker": "jordan"
+    },
+    "l8": {
+      "file": "audio/pack01-07-split-it-three-ways/l8.m4a",
+      "durationMs": 5214,
+      "fullStartMs": 27563,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l9": {
+      "file": "audio/pack01-07-split-it-three-ways/l9.m4a",
+      "durationMs": 3353,
+      "fullStartMs": 33057,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l10": {
+      "file": "audio/pack01-07-split-it-three-ways/l10.m4a",
+      "durationMs": 4515,
+      "fullStartMs": 36690,
+      "voice": "ljspeech",
+      "speaker": "jordan"
+    },
+    "l11": {
+      "file": "audio/pack01-07-split-it-three-ways/l11.m4a",
+      "durationMs": 4808,
+      "fullStartMs": 41485,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l12": {
+      "file": "audio/pack01-07-split-it-three-ways/l12.m4a",
+      "durationMs": 5472,
+      "fullStartMs": 46573,
+      "voice": "ljspeech",
+      "speaker": "jordan"
+    },
+    "l13": {
+      "file": "audio/pack01-07-split-it-three-ways/l13.m4a",
+      "durationMs": 1713,
+      "fullStartMs": 52325,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l14": {
+      "file": "audio/pack01-07-split-it-three-ways/l14.m4a",
+      "durationMs": 2116,
+      "fullStartMs": 54318,
+      "voice": "ljspeech",
+      "speaker": "jordan"
+    },
+    "l15": {
+      "file": "audio/pack01-07-split-it-three-ways/l15.m4a",
+      "durationMs": 6677,
+      "fullStartMs": 56714,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l16": {
+      "file": "audio/pack01-07-split-it-three-ways/l16.m4a",
+      "durationMs": 4952,
+      "fullStartMs": 63671,
+      "voice": "ljspeech",
+      "speaker": "jordan"
+    },
+    "l17": {
+      "file": "audio/pack01-07-split-it-three-ways/l17.m4a",
+      "durationMs": 1251,
+      "fullStartMs": 68903,
+      "voice": "kristin",
+      "speaker": "maya"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack01-07-split-it-three-ways/c1.m4a",
+      "durationMs": 2381,
+      "voice": "ljspeech",
+      "afterFile": "audio/pack01-07-split-it-three-ways/c1-after.m4a",
+      "afterDurationMs": 3423
+    },
+    "c2": {
+      "file": "audio/pack01-07-split-it-three-ways/c2.m4a",
+      "durationMs": 2000,
+      "voice": "ljspeech",
+      "afterFile": "audio/pack01-07-split-it-three-ways/c2-after.m4a",
+      "afterDurationMs": 3190
+    },
+    "c3": {
+      "file": "audio/pack01-07-split-it-three-ways/c3.m4a",
+      "durationMs": 1226,
+      "voice": "joe",
+      "afterFile": "audio/pack01-07-split-it-three-ways/c3-after.m4a",
+      "afterDurationMs": 3352
+    }
+  },
+  "full": {
+    "file": "audio/pack01-07-split-it-three-ways/full.m4a",
+    "durationMs": 70797,
+    "gapMs": 280
+  }
+}

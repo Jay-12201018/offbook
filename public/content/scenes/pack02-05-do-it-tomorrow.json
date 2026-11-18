@@ -1,0 +1,309 @@
+{
+  "id": "pack02-05-do-it-tomorrow",
+  "packId": "pack-02-change-of-plans",
+  "dayInPack": 5,
+  "title": "Do it tomorrow",
+  "titleZh": "要不然明天再约",
+  "setting": "Early evening, a phone call. Maya is still at work. They had plans to meet tonight.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "A-daily-open",
+  "targetWpm": 150,
+  "slowerWpm": 125,
+  "durationSec": 69,
+  "newItems": [],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "Hey. So... I feel bad even saying this.",
+      "spoken": "Hey. So... I feel bad even saying this.",
+      "audio": "audio/pack02-05-do-it-tomorrow/l1.m4a",
+      "durationMs": 3500
+    },
+    {
+      "id": "l2",
+      "speaker": "chris",
+      "text": "What's up?",
+      "spoken": "What's up?",
+      "audio": "audio/pack02-05-do-it-tomorrow/l2.m4a",
+      "durationMs": 682
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "Do you wanna just do it tomorrow? I'm still at work, and it's already... I don't know, it's late, and you're all the way across town.",
+      "spoken": "D'you wanna just do it tomorrow? I'm still at work, and it's already... I dunno, it's late, and you're all the way across town.",
+      "audio": "audio/pack02-05-do-it-tomorrow/l3.m4a",
+      "durationMs": 7802
+    },
+    {
+      "id": "l4",
+      "speaker": "chris",
+      "text": "I mean. I can still come. I was just leaving.",
+      "spoken": "I mean. I can still come. I was just leaving.",
+      "audio": "audio/pack02-05-do-it-tomorrow/l4.m4a",
+      "durationMs": 3768
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "You were? I don't want you to feel like you have to. It's rain, it's late, I'm kind of fried.",
+      "spoken": "You were? I don't want you to feel like you have to. It's rain, it's late, I'm kinda fried.",
+      "audio": "audio/pack02-05-do-it-tomorrow/l5.m4a",
+      "durationMs": 6253
+    },
+    {
+      "id": "l6",
+      "speaker": "chris",
+      "text": "Yeah, no, tomorrow's probably better. I was kind of hoping you'd say that, if I'm honest.",
+      "spoken": "Yeah, no, tomorrow's probably better. I was kinda hoping you'd say that, if I'm honest.",
+      "audio": "audio/pack02-05-do-it-tomorrow/l6.m4a",
+      "durationMs": 6013
+    },
+    {
+      "id": "l7",
+      "speaker": "maya",
+      "text": "Oh my god. Then why were you leaving?",
+      "spoken": "Oh my god. Then why were you leaving?",
+      "audio": "audio/pack02-05-do-it-tomorrow/l7.m4a",
+      "durationMs": 2669
+    },
+    {
+      "id": "l8",
+      "speaker": "chris",
+      "text": "Because I said I would. I didn't wanna be the person who cancels.",
+      "spoken": "'Cause I said I would. I didn't wanna be the person who cancels.",
+      "audio": "audio/pack02-05-do-it-tomorrow/l8.m4a",
+      "durationMs": 4276
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "We're not canceling. We're moving it. That's different.",
+      "spoken": "We're not canceling. We're moving it. That's different.",
+      "audio": "audio/pack02-05-do-it-tomorrow/l9.m4a",
+      "durationMs": 3825
+    },
+    {
+      "id": "l10",
+      "speaker": "chris",
+      "text": "It is. Okay. Tomorrow. Same place? Or we wanna pick in the morning?",
+      "spoken": "It is. Okay. Tomorrow. Same place? Or we wanna pick in the morning?",
+      "audio": "audio/pack02-05-do-it-tomorrow/l10.m4a",
+      "durationMs": 6438
+    },
+    {
+      "id": "l11",
+      "speaker": "maya",
+      "text": "Let's pick in the morning. I don't even know how I'm gonna feel.",
+      "spoken": "Let's pick in the morning. I don't even know how I'm gonna feel.",
+      "audio": "audio/pack02-05-do-it-tomorrow/l11.m4a",
+      "durationMs": 3755
+    },
+    {
+      "id": "l12",
+      "speaker": "chris",
+      "text": "Fair. Get home safe, okay?",
+      "spoken": "Fair. Get home safe, okay?",
+      "audio": "audio/pack02-05-do-it-tomorrow/l12.m4a",
+      "durationMs": 2709
+    },
+    {
+      "id": "l13",
+      "speaker": "maya",
+      "text": "You too. Sorry I called so last minute.",
+      "spoken": "You too. Sorry I called so last minute.",
+      "audio": "audio/pack02-05-do-it-tomorrow/l13.m4a",
+      "durationMs": 3525
+    },
+    {
+      "id": "l14",
+      "speaker": "chris",
+      "text": "Don't be. This is the right call.",
+      "spoken": "Don't be. This is the right call.",
+      "audio": "audio/pack02-05-do-it-tomorrow/l14.m4a",
+      "durationMs": 2520
+    },
+    {
+      "id": "l15",
+      "speaker": "maya",
+      "text": "Okay. I'll text you tomorrow around ten.",
+      "spoken": "Okay. I'll text you tomorrow around ten.",
+      "audio": "audio/pack02-05-do-it-tomorrow/l15.m4a",
+      "durationMs": 3098
+    },
+    {
+      "id": "l16",
+      "speaker": "chris",
+      "text": "Perfect. Go finish whatever you're finishing, then go home.",
+      "spoken": "Perfect. Go finish whatever you're finishing, then go home.",
+      "audio": "audio/pack02-05-do-it-tomorrow/l16.m4a",
+      "durationMs": 3909
+    },
+    {
+      "id": "l17",
+      "speaker": "maya",
+      "text": "That's the plan. Night.",
+      "spoken": "That's the plan. Night.",
+      "audio": "audio/pack02-05-do-it-tomorrow/l17.m4a",
+      "durationMs": 2022
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "Maya 想改成什么？",
+      "askEn": "What does Maya want to do about tonight?",
+      "accept": [
+        "do it tomorrow",
+        "move the plan",
+        "not meet tonight",
+        "改到明天",
+        "今晚不去了",
+        "推迟"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "Chris 其实是怎么想的？",
+      "askEn": "How does Chris actually feel about it?",
+      "accept": [
+        "he was hoping she'd say that",
+        "tomorrow is better",
+        "he didn't want to be the one who cancels",
+        "他也觉得明天更好",
+        "他只是不好意思取消",
+        "同意改期"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "Maya 为什么想改期？",
+      "askEn": "Why does Maya want to move it?",
+      "accept": [
+        "still at work",
+        "it's late",
+        "it's raining",
+        "she's fried",
+        "还在加班",
+        "很晚了",
+        "下雨",
+        "她累了"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "明天的地点和时间怎么定？",
+      "askEn": "How will they set tomorrow's plan?",
+      "accept": [
+        "pick in the morning",
+        "she'll text around ten",
+        "早上再定",
+        "大约十点发消息"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l3",
+      "span": "Do you wanna just do it tomorrow",
+      "hear": "D'you wanna just do it tomorrow",
+      "noteZh": "Do you wanna just 压缩得很厉害，这是本包的核心句，先抓住 wanna just do it，再听到 tomorrow。",
+      "standard": "Do you want to just do it tomorrow"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l5",
+      "span": "I don't want you to feel like you have to",
+      "hear": "I don't want you to feel like you have to",
+      "noteZh": "一长串功能词：don't want you to feel like you have to。实词很少，这正是整句意思容易散掉的地方。",
+      "standard": "I don't want you to feel like you have to"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l6",
+      "span": "I was kind of hoping you'd say that",
+      "hear": "I was kinda hoping you'd say that",
+      "noteZh": "kinda 夹在 was 和 hoping 中间，you'd say that 又有缩约，态度信息全在这团弱音里。",
+      "standard": "I was kind of hoping you would say that"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "Wanna just do it tomorrow?",
+      "meaningZh": "要不然明天再约？",
+      "fromLineId": "l3",
+      "sayAfter": "I feel bad saying this. Wanna just do it tomorrow?",
+      "audio": "audio/pack02-05-do-it-tomorrow/c1.m4a",
+      "durationMs": 1583,
+      "afterAudio": "audio/pack02-05-do-it-tomorrow/c1-after.m4a",
+      "afterDurationMs": 3551
+    },
+    {
+      "id": "c2",
+      "form": "I don't want you to feel like you have to.",
+      "meaningZh": "我不想让你觉得你非来不可。",
+      "fromLineId": "l5",
+      "sayAfter": "I can still come, but I don't want you to feel like you have to.",
+      "audio": "audio/pack02-05-do-it-tomorrow/c2.m4a",
+      "durationMs": 2233,
+      "afterAudio": "audio/pack02-05-do-it-tomorrow/c2-after.m4a",
+      "afterDurationMs": 3435
+    },
+    {
+      "id": "c3",
+      "form": "Yeah, no, tomorrow's better.",
+      "meaningZh": "嗯，其实吧，明天更好。（yeah no 是先应一下，再把话说转。）",
+      "fromLineId": "l6",
+      "sayAfter": "Yeah, no, tomorrow's probably better.",
+      "audio": "audio/pack02-05-do-it-tomorrow/c3.m4a",
+      "durationMs": 2067,
+      "afterAudio": "audio/pack02-05-do-it-tomorrow/c3-after.m4a",
+      "afterDurationMs": 2675
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你们今晚有约，但你还在加班，外面在下雨，你有点耗尽了。你想改到明天，又不想让对方觉得被放鸽子，或觉得他非出门不可。",
+    "aiRole": "Chris, already getting ready to leave, secretly a little relieved if you move it. He didn't want to be the one who cancels. Soft, not guilt-trippy.",
+    "variants": [
+      "Chris would actually still prefer to meet tonight.",
+      "They keep tomorrow's place the same.",
+      "Maya is also the one who has to commute across town."
+    ],
+    "mustUse": [
+      "Wanna just do it tomorrow",
+      "I don't want you to feel like you have to"
+    ],
+    "starters": [
+      "I feel bad even saying this.",
+      "Wanna just do it tomorrow?",
+      "I can still come."
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲他们为什么没今晚见：Maya 怎么开口，Chris 真实想法是什么，他们怎么区别‘取消’和‘改期’。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell why they didn't meet tonight: how Maya asked, how Chris really felt, and how they framed it as moving the plan, not canceling. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l3"
+  ],
+  "audioFull": "audio/pack02-05-do-it-tomorrow/full.m4a",
+  "audioFullDurationMs": 71958
+}

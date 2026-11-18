@@ -1,0 +1,305 @@
+{
+  "id": "pack04-02-what-do-you-recommend",
+  "packId": "pack-04-food-and-help",
+  "dayInPack": 2,
+  "title": "What do you recommend?",
+  "titleZh": "你建议点什么",
+  "setting": "A different casual restaurant, early evening. Maya and Chris are still looking at the menu. Their server, Andre, stops by.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    },
+    {
+      "id": "andre",
+      "name": "Andre",
+      "gender": "male"
+    }
+  ],
+  "register": "travel",
+  "skillNode": "A-travel-open",
+  "targetWpm": 145,
+  "slowerWpm": 120,
+  "durationSec": 76,
+  "newItems": [
+    "recommend"
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "andre",
+      "text": "Hey, you two good, or you still looking?",
+      "spoken": "Hey, you two good, or you still looking?",
+      "audio": "audio/pack04-02-what-do-you-recommend/l1.m4a",
+      "durationMs": 2455
+    },
+    {
+      "id": "l2",
+      "speaker": "maya",
+      "text": "Still looking, a little. What do you recommend? We're not from here.",
+      "spoken": "Still looking, a little. What d'you recommend? We're not from here.",
+      "audio": "audio/pack04-02-what-do-you-recommend/l2.m4a",
+      "durationMs": 5103
+    },
+    {
+      "id": "l3",
+      "speaker": "andre",
+      "text": "It depends. What are you in the mood for? Something heavy, or lighter, or...",
+      "spoken": "It depends. What're you in the mood for? Something heavy, or lighter, or...",
+      "audio": "audio/pack04-02-what-do-you-recommend/l3.m4a",
+      "durationMs": 5356
+    },
+    {
+      "id": "l4",
+      "speaker": "chris",
+      "text": "I can do heavy. I skipped lunch.",
+      "spoken": "I can do heavy. I skipped lunch.",
+      "audio": "audio/pack04-02-what-do-you-recommend/l4.m4a",
+      "durationMs": 2620
+    },
+    {
+      "id": "l5",
+      "speaker": "andre",
+      "text": "Then I'd go with the roast chicken. I'm not just saying that. It's actually the thing people come back for.",
+      "spoken": "Then I'd go with the roast chicken. I'm not just saying that. It's actually the thing people come back for.",
+      "audio": "audio/pack04-02-what-do-you-recommend/l5.m4a",
+      "durationMs": 6308
+    },
+    {
+      "id": "l6",
+      "speaker": "maya",
+      "text": "And if I don't want something that big?",
+      "spoken": "And if I don't want something that big?",
+      "audio": "audio/pack04-02-what-do-you-recommend/l6.m4a",
+      "durationMs": 2231
+    },
+    {
+      "id": "l7",
+      "speaker": "andre",
+      "text": "I'd do the soup and the half sandwich. It sounds boring when I say it out loud, but it's good.",
+      "spoken": "I'd do the soup and the half sandwich. It sounds boring when I say it out loud, but it's good.",
+      "audio": "audio/pack04-02-what-do-you-recommend/l7.m4a",
+      "durationMs": 5673
+    },
+    {
+      "id": "l8",
+      "speaker": "maya",
+      "text": "Soup and a half sandwich. Okay. I might do that.",
+      "spoken": "Soup and a half sandwich. Okay. I might do that.",
+      "audio": "audio/pack04-02-what-do-you-recommend/l8.m4a",
+      "durationMs": 4294
+    },
+    {
+      "id": "l9",
+      "speaker": "chris",
+      "text": "I'm gonna trust you on the chicken. Is it spicy, or...?",
+      "spoken": "I'm gonna trust you on the chicken. Is it spicy, or...?",
+      "audio": "audio/pack04-02-what-do-you-recommend/l9.m4a",
+      "durationMs": 3708
+    },
+    {
+      "id": "l10",
+      "speaker": "andre",
+      "text": "It's not spicy. It's just... flavorful, I guess. If you want hot sauce I can bring it.",
+      "spoken": "It's not spicy. It's just... flavorful, I guess. If you want hot sauce I can bring it.",
+      "audio": "audio/pack04-02-what-do-you-recommend/l10.m4a",
+      "durationMs": 5896
+    },
+    {
+      "id": "l11",
+      "speaker": "chris",
+      "text": "Yeah, bring it. Why not.",
+      "spoken": "Yeah, bring it. Why not.",
+      "audio": "audio/pack04-02-what-do-you-recommend/l11.m4a",
+      "durationMs": 2240
+    },
+    {
+      "id": "l12",
+      "speaker": "maya",
+      "text": "Can I do the soup without cream? I don't do well with a lot of dairy.",
+      "spoken": "Can I do the soup without cream? I don't do well with a lot of dairy.",
+      "audio": "audio/pack04-02-what-do-you-recommend/l12.m4a",
+      "durationMs": 4096
+    },
+    {
+      "id": "l13",
+      "speaker": "andre",
+      "text": "Yeah, the tomato one's fine. I'll put a note. You got it.",
+      "spoken": "Yeah, the tomato one's fine. I'll put a note. You got it.",
+      "audio": "audio/pack04-02-what-do-you-recommend/l13.m4a",
+      "durationMs": 4451
+    },
+    {
+      "id": "l14",
+      "speaker": "maya",
+      "text": "Thank you. That's really helpful.",
+      "spoken": "Thank you. That's really helpful.",
+      "audio": "audio/pack04-02-what-do-you-recommend/l14.m4a",
+      "durationMs": 2440
+    },
+    {
+      "id": "l15",
+      "speaker": "andre",
+      "text": "Of course. I'll get that in. Chicken, soup and half sandwich, tomato, no cream. Hot sauce on the side.",
+      "spoken": "Of course. I'll get that in. Chicken, soup and half sandwich, tomato, no cream. Hot sauce on the side.",
+      "audio": "audio/pack04-02-what-do-you-recommend/l15.m4a",
+      "durationMs": 8101
+    },
+    {
+      "id": "l16",
+      "speaker": "chris",
+      "text": "That's us.",
+      "spoken": "That's us.",
+      "audio": "audio/pack04-02-what-do-you-recommend/l16.m4a",
+      "durationMs": 839
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "他们为什么问服务员？",
+      "askEn": "Why are they asking the server?",
+      "accept": [
+        "they want a recommendation",
+        "they're not from here",
+        "still looking",
+        "在问推荐",
+        "他们不是本地人",
+        "还没想好"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "最后大概点了什么方向的菜？",
+      "askEn": "What kind of dishes do they end up leaning toward?",
+      "accept": [
+        "roast chicken for Chris",
+        "soup and half sandwich for Maya",
+        "Chris 烤鸡",
+        "Maya 汤和半份三明治"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "烤鸡辣不辣？Chris 还要了什么？",
+      "askEn": "Is the chicken spicy, and what else does Chris want?",
+      "accept": [
+        "not spicy",
+        "hot sauce on the side",
+        "不辣",
+        "另上辣酱"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "Maya 对汤有什么要求？",
+      "askEn": "What does Maya need changed about the soup?",
+      "accept": [
+        "without cream",
+        "not a lot of dairy",
+        "tomato soup is fine",
+        "不要奶油",
+        "不太能吃乳制品",
+        "番茄汤可以"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l2",
+      "span": "What do you recommend",
+      "hear": "What d'you recommend",
+      "noteZh": "do you 缩成 d'you，和 recommend 连在一起，这是问建议的核心句。",
+      "standard": "What do you recommend"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l3",
+      "span": "What are you in the mood for",
+      "hear": "What're you in the mood for",
+      "noteZh": "What are you 缩成 what're you，in the mood for 是固定语块，for 落在句尾很弱。",
+      "standard": "What are you in the mood for"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l5",
+      "span": "I'd go with the roast chicken",
+      "hear": "I'd go with the roast chicken",
+      "noteZh": "I'd go with 表示‘那我建议要这个’，go with the 三个词很快。",
+      "standard": "I would go with the roast chicken"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "What do you recommend?",
+      "meaningZh": "你建议点什么？",
+      "fromLineId": "l2",
+      "sayAfter": "Still looking, a little. What do you recommend?",
+      "audio": "audio/pack04-02-what-do-you-recommend/c1.m4a",
+      "durationMs": 1206,
+      "afterAudio": "audio/pack04-02-what-do-you-recommend/c1-after.m4a",
+      "afterDurationMs": 3511
+    },
+    {
+      "id": "c2",
+      "form": "What are you in the mood for?",
+      "meaningZh": "你现在想吃哪一类的？",
+      "fromLineId": "l3",
+      "sayAfter": "It depends. What are you in the mood for?",
+      "audio": "audio/pack04-02-what-do-you-recommend/c2.m4a",
+      "durationMs": 1356,
+      "afterAudio": "audio/pack04-02-what-do-you-recommend/c2-after.m4a",
+      "afterDurationMs": 2746
+    },
+    {
+      "id": "c3",
+      "form": "I'd go with the roast chicken.",
+      "meaningZh": "那我建议来烤鸡。",
+      "fromLineId": "l5",
+      "sayAfter": "Then I'd go with the roast chicken. People come back for it.",
+      "audio": "audio/pack04-02-what-do-you-recommend/c3.m4a",
+      "durationMs": 1442,
+      "afterAudio": "audio/pack04-02-what-do-you-recommend/c3-after.m4a",
+      "afterDurationMs": 3453
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你在一家不太熟的店里看菜单，想请服务员给个真实建议。先说自己想吃偏重还是偏清淡，再根据建议点，并提一个小要求（比如不要奶油）。",
+    "aiRole": "Andre, a straightforward server who actually has opinions. He asks what you're in the mood for before recommending, and he won't oversell. He will put a note on the ticket if needed.",
+    "variants": [
+      "Maya wants something heavy too.",
+      "The roast chicken is gone.",
+      "Chris also needs a dairy-light option."
+    ],
+    "mustUse": [
+      "What do you recommend",
+      "What are you in the mood for",
+      "I'd go with"
+    ],
+    "starters": [
+      "What do you recommend?",
+      "What are you in the mood for?",
+      "I'd go with the roast chicken."
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲这次问推荐：服务员先问了什么，给 Chris 和 Maya 各建议了什么，后来又改了哪些细节。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell the recommendation conversation: what the server asked first, what he suggested for each of them, and what details got changed. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/pack04-02-what-do-you-recommend/full.m4a",
+  "audioFullDurationMs": 70657
+}

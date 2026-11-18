@@ -1,0 +1,145 @@
+{
+  "sceneId": "pack03-05-you-can-drop-me",
+  "lines": {
+    "l1": {
+      "file": "audio/pack03-05-you-can-drop-me/l1.m4a",
+      "durationMs": 4401,
+      "fullStartMs": 0,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l2": {
+      "file": "audio/pack03-05-you-can-drop-me/l2.m4a",
+      "durationMs": 1575,
+      "fullStartMs": 4681,
+      "voice": "kristin",
+      "speaker": "nina"
+    },
+    "l3": {
+      "file": "audio/pack03-05-you-can-drop-me/l3.m4a",
+      "durationMs": 6784,
+      "fullStartMs": 6536,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l4": {
+      "file": "audio/pack03-05-you-can-drop-me/l4.m4a",
+      "durationMs": 3934,
+      "fullStartMs": 13600,
+      "voice": "kristin",
+      "speaker": "nina"
+    },
+    "l5": {
+      "file": "audio/pack03-05-you-can-drop-me/l5.m4a",
+      "durationMs": 3929,
+      "fullStartMs": 17814,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l6": {
+      "file": "audio/pack03-05-you-can-drop-me/l6.m4a",
+      "durationMs": 2577,
+      "fullStartMs": 22023,
+      "voice": "kristin",
+      "speaker": "nina"
+    },
+    "l7": {
+      "file": "audio/pack03-05-you-can-drop-me/l7.m4a",
+      "durationMs": 4675,
+      "fullStartMs": 24880,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l8": {
+      "file": "audio/pack03-05-you-can-drop-me/l8.m4a",
+      "durationMs": 3150,
+      "fullStartMs": 29835,
+      "voice": "kristin",
+      "speaker": "nina"
+    },
+    "l9": {
+      "file": "audio/pack03-05-you-can-drop-me/l9.m4a",
+      "durationMs": 2138,
+      "fullStartMs": 33265,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l10": {
+      "file": "audio/pack03-05-you-can-drop-me/l10.m4a",
+      "durationMs": 4004,
+      "fullStartMs": 35683,
+      "voice": "kristin",
+      "speaker": "nina"
+    },
+    "l11": {
+      "file": "audio/pack03-05-you-can-drop-me/l11.m4a",
+      "durationMs": 2777,
+      "fullStartMs": 39967,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l12": {
+      "file": "audio/pack03-05-you-can-drop-me/l12.m4a",
+      "durationMs": 3424,
+      "fullStartMs": 43024,
+      "voice": "kristin",
+      "speaker": "nina"
+    },
+    "l13": {
+      "file": "audio/pack03-05-you-can-drop-me/l13.m4a",
+      "durationMs": 4298,
+      "fullStartMs": 46728,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l14": {
+      "file": "audio/pack03-05-you-can-drop-me/l14.m4a",
+      "durationMs": 3842,
+      "fullStartMs": 51306,
+      "voice": "kristin",
+      "speaker": "nina"
+    },
+    "l15": {
+      "file": "audio/pack03-05-you-can-drop-me/l15.m4a",
+      "durationMs": 4949,
+      "fullStartMs": 55428,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l16": {
+      "file": "audio/pack03-05-you-can-drop-me/l16.m4a",
+      "durationMs": 1690,
+      "fullStartMs": 60657,
+      "voice": "kristin",
+      "speaker": "nina"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack03-05-you-can-drop-me/c1.m4a",
+      "durationMs": 1484,
+      "voice": "kristin",
+      "afterFile": "audio/pack03-05-you-can-drop-me/c1-after.m4a",
+      "afterDurationMs": 3787
+    },
+    "c2": {
+      "file": "audio/pack03-05-you-can-drop-me/c2.m4a",
+      "durationMs": 1962,
+      "voice": "kristin",
+      "afterFile": "audio/pack03-05-you-can-drop-me/c2-after.m4a",
+      "afterDurationMs": 2745
+    },
+    "c3": {
+      "file": "audio/pack03-05-you-can-drop-me/c3.m4a",
+      "durationMs": 1585,
+      "voice": "kristin",
+      "afterFile": "audio/pack03-05-you-can-drop-me/c3-after.m4a",
+      "afterDurationMs": 2480
+    }
+  },
+  "full": {
+    "file": "audio/pack03-05-you-can-drop-me/full.m4a",
+    "durationMs": 62948,
+    "gapMs": 280
+  }
+}

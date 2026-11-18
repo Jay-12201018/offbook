@@ -1,0 +1,152 @@
+{
+  "sceneId": "pack01-05-forgot-my-wallet",
+  "lines": {
+    "l1": {
+      "file": "audio/pack01-05-forgot-my-wallet/l1.m4a",
+      "durationMs": 750,
+      "fullStartMs": 0,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l2": {
+      "file": "audio/pack01-05-forgot-my-wallet/l2.m4a",
+      "durationMs": 705,
+      "fullStartMs": 1030,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l3": {
+      "file": "audio/pack01-05-forgot-my-wallet/l3.m4a",
+      "durationMs": 7796,
+      "fullStartMs": 2015,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l4": {
+      "file": "audio/pack01-05-forgot-my-wallet/l4.m4a",
+      "durationMs": 1297,
+      "fullStartMs": 10091,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l5": {
+      "file": "audio/pack01-05-forgot-my-wallet/l5.m4a",
+      "durationMs": 5797,
+      "fullStartMs": 11668,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l6": {
+      "file": "audio/pack01-05-forgot-my-wallet/l6.m4a",
+      "durationMs": 3200,
+      "fullStartMs": 17745,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l7": {
+      "file": "audio/pack01-05-forgot-my-wallet/l7.m4a",
+      "durationMs": 2371,
+      "fullStartMs": 21225,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l8": {
+      "file": "audio/pack01-05-forgot-my-wallet/l8.m4a",
+      "durationMs": 5422,
+      "fullStartMs": 23876,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l9": {
+      "file": "audio/pack01-05-forgot-my-wallet/l9.m4a",
+      "durationMs": 3799,
+      "fullStartMs": 29578,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l10": {
+      "file": "audio/pack01-05-forgot-my-wallet/l10.m4a",
+      "durationMs": 3593,
+      "fullStartMs": 33657,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l11": {
+      "file": "audio/pack01-05-forgot-my-wallet/l11.m4a",
+      "durationMs": 6312,
+      "fullStartMs": 37530,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l12": {
+      "file": "audio/pack01-05-forgot-my-wallet/l12.m4a",
+      "durationMs": 4357,
+      "fullStartMs": 44122,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l13": {
+      "file": "audio/pack01-05-forgot-my-wallet/l13.m4a",
+      "durationMs": 2738,
+      "fullStartMs": 48759,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l14": {
+      "file": "audio/pack01-05-forgot-my-wallet/l14.m4a",
+      "durationMs": 3485,
+      "fullStartMs": 51777,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l15": {
+      "file": "audio/pack01-05-forgot-my-wallet/l15.m4a",
+      "durationMs": 2450,
+      "fullStartMs": 55542,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l16": {
+      "file": "audio/pack01-05-forgot-my-wallet/l16.m4a",
+      "durationMs": 1189,
+      "fullStartMs": 58272,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l17": {
+      "file": "audio/pack01-05-forgot-my-wallet/l17.m4a",
+      "durationMs": 2871,
+      "fullStartMs": 59741,
+      "voice": "joe",
+      "speaker": "chris"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack01-05-forgot-my-wallet/c1.m4a",
+      "durationMs": 1217,
+      "voice": "joe",
+      "afterFile": "audio/pack01-05-forgot-my-wallet/c1-after.m4a",
+      "afterDurationMs": 2765
+    },
+    "c2": {
+      "file": "audio/pack01-05-forgot-my-wallet/c2.m4a",
+      "durationMs": 1197,
+      "voice": "kristin",
+      "afterFile": "audio/pack01-05-forgot-my-wallet/c2-after.m4a",
+      "afterDurationMs": 2265
+    },
+    "c3": {
+      "file": "audio/pack01-05-forgot-my-wallet/c3.m4a",
+      "durationMs": 866,
+      "voice": "joe",
+      "afterFile": "audio/pack01-05-forgot-my-wallet/c3-after.m4a",
+      "afterDurationMs": 3528
+    }
+  },
+  "full": {
+    "file": "audio/pack01-05-forgot-my-wallet/full.m4a",
+    "durationMs": 63181,
+    "gapMs": 280
+  }
+}

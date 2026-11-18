@@ -1,0 +1,306 @@
+{
+  "id": "pack03-01-im-out-front",
+  "packId": "pack-03-getting-around",
+  "dayInPack": 1,
+  "title": "I'm out front",
+  "titleZh": "我在门口了",
+  "setting": "Maya and Chris are waiting on the curb for a rideshare to the train station. The driver, Luis, pulls up.",
+  "speakers": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    },
+    {
+      "id": "luis",
+      "name": "Luis",
+      "gender": "male"
+    }
+  ],
+  "register": "travel",
+  "skillNode": "A-travel-open",
+  "targetWpm": 135,
+  "slowerWpm": 110,
+  "durationSec": 64,
+  "newItems": [
+    "out front"
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "maya",
+      "text": "Is that us? The gray one?",
+      "spoken": "Is that us? The gray one?",
+      "audio": "audio/pack03-01-im-out-front/l1.m4a",
+      "durationMs": 2227
+    },
+    {
+      "id": "l2",
+      "speaker": "chris",
+      "text": "I think that's us. He's slowing down.",
+      "spoken": "I think that's us. He's slowing down.",
+      "audio": "audio/pack03-01-im-out-front/l2.m4a",
+      "durationMs": 2918
+    },
+    {
+      "id": "l3",
+      "speaker": "maya",
+      "text": "Okay. I'm out front. I already told the app.",
+      "spoken": "Okay. I'm out front. I already told the app.",
+      "audio": "audio/pack03-01-im-out-front/l3.m4a",
+      "durationMs": 3665
+    },
+    {
+      "id": "l4",
+      "speaker": "luis",
+      "text": "Hey, you Maya?",
+      "spoken": "Hey, you Maya?",
+      "audio": "audio/pack03-01-im-out-front/l4.m4a",
+      "durationMs": 1068
+    },
+    {
+      "id": "l5",
+      "speaker": "maya",
+      "text": "Yeah, that's me. This is Chris, he's coming too. Is that okay? I put two people.",
+      "spoken": "Yeah, that's me. This is Chris, he's coming too. Is that okay? I put two people.",
+      "audio": "audio/pack03-01-im-out-front/l5.m4a",
+      "durationMs": 6466
+    },
+    {
+      "id": "l6",
+      "speaker": "luis",
+      "text": "Yeah, you're good. Hop in. You going to the train station, right?",
+      "spoken": "Yeah, you're good. Hop in. You going to the train station, right?",
+      "audio": "audio/pack03-01-im-out-front/l6.m4a",
+      "durationMs": 4841
+    },
+    {
+      "id": "l7",
+      "speaker": "chris",
+      "text": "Yeah. The main one, not the little stop on Fifth.",
+      "spoken": "Yeah. The main one, not the little stop on Fifth.",
+      "audio": "audio/pack03-01-im-out-front/l7.m4a",
+      "durationMs": 3415
+    },
+    {
+      "id": "l8",
+      "speaker": "luis",
+      "text": "Main station. Got it. Traffic's not awful right now, shouldn't be more than, like, twelve minutes.",
+      "spoken": "Main station. Got it. Traffic's not awful right now, shouldn't be more than, like, twelve minutes.",
+      "audio": "audio/pack03-01-im-out-front/l8.m4a",
+      "durationMs": 6735
+    },
+    {
+      "id": "l9",
+      "speaker": "maya",
+      "text": "Perfect. Thank you.",
+      "spoken": "Perfect. Thank you.",
+      "audio": "audio/pack03-01-im-out-front/l9.m4a",
+      "durationMs": 1865
+    },
+    {
+      "id": "l10",
+      "speaker": "luis",
+      "text": "You can throw your bag back here, or keep it, whatever's easier.",
+      "spoken": "You can throw your bag back here, or keep it, whatever's easier.",
+      "audio": "audio/pack03-01-im-out-front/l10.m4a",
+      "durationMs": 3953
+    },
+    {
+      "id": "l11",
+      "speaker": "chris",
+      "text": "I'll keep it. Thanks.",
+      "spoken": "I'll keep it. Thanks.",
+      "audio": "audio/pack03-01-im-out-front/l11.m4a",
+      "durationMs": 1799
+    },
+    {
+      "id": "l12",
+      "speaker": "luis",
+      "text": "No problem. Let me know if you want it quieter, I can turn this down.",
+      "spoken": "No problem. Lemme know if you want it quieter, I can turn this down.",
+      "audio": "audio/pack03-01-im-out-front/l12.m4a",
+      "durationMs": 4075
+    },
+    {
+      "id": "l13",
+      "speaker": "maya",
+      "text": "It's fine, it's fine. This is good.",
+      "spoken": "It's fine, it's fine. This is good.",
+      "audio": "audio/pack03-01-im-out-front/l13.m4a",
+      "durationMs": 2778
+    },
+    {
+      "id": "l14",
+      "speaker": "chris",
+      "text": "If it gets ugly on the freeway, side streets are okay with us.",
+      "spoken": "If it gets ugly on the freeway, side streets are okay with us.",
+      "audio": "audio/pack03-01-im-out-front/l14.m4a",
+      "durationMs": 3443
+    },
+    {
+      "id": "l15",
+      "speaker": "luis",
+      "text": "Yeah, I'll watch it. I'll let you know if I switch.",
+      "spoken": "Yeah, I'll watch it. I'll let you know if I switch.",
+      "audio": "audio/pack03-01-im-out-front/l15.m4a",
+      "durationMs": 3386
+    },
+    {
+      "id": "l16",
+      "speaker": "maya",
+      "text": "Appreciate it.",
+      "spoken": "Appreciate it.",
+      "audio": "audio/pack03-01-im-out-front/l16.m4a",
+      "durationMs": 1371
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "他们要去哪里？怎么去？",
+      "askEn": "Where are they going, and how?",
+      "accept": [
+        "train station",
+        "main station",
+        "rideshare",
+        "a car / Uber-style ride",
+        "火车站",
+        "总站",
+        "网约车"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "车上还有谁？司机确认了什么？",
+      "askEn": "Who else is in the car, and what did the driver confirm?",
+      "accept": [
+        "Chris is coming too",
+        "two people",
+        "main station not Fifth",
+        "Chris 也一起",
+        "两个人",
+        "去主站不是 Fifth 那个小站"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "司机说大概要多久？",
+      "askEn": "How long does the driver think it will take?",
+      "accept": [
+        "about twelve minutes",
+        "not more than twelve",
+        "大约十二分钟",
+        "不超过十二分钟"
+      ]
+    },
+    {
+      "id": "d2",
+      "askZh": "Chris 特别强调要去哪个站？",
+      "askEn": "Which station does Chris make sure they go to?",
+      "accept": [
+        "the main one",
+        "not the little stop on Fifth",
+        "主站",
+        "不是 Fifth 那个小站"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l2",
+      "span": "I think that's us",
+      "hear": "I think that's us",
+      "noteZh": "that's 已经是缩约，I think that's us 说得很快，用来确认‘是不是我们的车’。",
+      "standard": "I think that is us"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l6",
+      "span": "You going to the train station",
+      "hear": "You going to the train station",
+      "noteZh": "口语里 Are 常被丢掉，You going to the 里 to the 弱读，听起来像 you goin' to the。",
+      "standard": "Are you going to the train station"
+    },
+    {
+      "id": "glue3",
+      "lineId": "l8",
+      "span": "shouldn't be more than like twelve minutes",
+      "hear": "shouldn't be more than, like, twelve minutes",
+      "noteZh": "shouldn't be more than 全是功能词，like 又插入其中，真正的数字到最后才出现。",
+      "standard": "should not be more than like twelve minutes"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "I'm out front.",
+      "meaningZh": "我在门口 / 我在楼外面。",
+      "fromLineId": "l3",
+      "sayAfter": "Okay. I'm out front. I already told the app.",
+      "audio": "audio/pack03-01-im-out-front/c1.m4a",
+      "durationMs": 1263,
+      "afterAudio": "audio/pack03-01-im-out-front/c1-after.m4a",
+      "afterDurationMs": 3538
+    },
+    {
+      "id": "c2",
+      "form": "Yeah, that's me.",
+      "meaningZh": "对，是我。（司机或别人喊你名字时。）",
+      "fromLineId": "l5",
+      "sayAfter": "Hey, you Maya? Yeah, that's me.",
+      "audio": "audio/pack03-01-im-out-front/c2.m4a",
+      "durationMs": 1239,
+      "afterAudio": "audio/pack03-01-im-out-front/c2-after.m4a",
+      "afterDurationMs": 2420
+    },
+    {
+      "id": "c3",
+      "form": "The main one, not the little stop.",
+      "meaningZh": "是那个总站，不是那个小站。",
+      "fromLineId": "l7",
+      "sayAfter": "Yeah. The main one, not the little stop on Fifth.",
+      "audio": "audio/pack03-01-im-out-front/c3.m4a",
+      "durationMs": 2122,
+      "afterAudio": "audio/pack03-01-im-out-front/c3-after.m4a",
+      "afterDurationMs": 3403
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你在路边等网约车去火车站，朋友和你一起走。车到了，你要确认是自己的车，报目的地，并说清楚是主站而不是附近的小站。",
+    "aiRole": "Luis, a relaxed rideshare driver, plus Chris getting in with you. Luis is human, not a script: he'll confirm the destination, offer to turn the music down, and talk about traffic naturally.",
+    "variants": [
+      "The driver is at the wrong entrance.",
+      "Traffic looks worse than twelve minutes.",
+      "Maya's bag needs the trunk."
+    ],
+    "mustUse": [
+      "I'm out front",
+      "Yeah, that's me",
+      "the main one"
+    ],
+    "starters": [
+      "I'm out front.",
+      "Yeah, that's me.",
+      "The main one, not the little stop on Fifth."
+    ]
+  },
+  "fluency": {
+    "promptZh": "讲讲上车这一段：他们在哪等，司机怎么确认，要去哪个站，路上大概多久。准备 15 秒，然后 60、45、30 秒。",
+    "promptEn": "Tell the pickup: where they waited, how they confirmed the car, which station they wanted, and how long the driver said it would take. Prep 15 seconds, then 60, 45, 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l3"
+  ],
+  "audioFull": "audio/pack03-01-im-out-front/full.m4a",
+  "audioFullDurationMs": 58815
+}

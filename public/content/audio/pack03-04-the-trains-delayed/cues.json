@@ -1,0 +1,138 @@
+{
+  "sceneId": "pack03-04-the-trains-delayed",
+  "lines": {
+    "l1": {
+      "file": "audio/pack03-04-the-trains-delayed/l1.m4a",
+      "durationMs": 3857,
+      "fullStartMs": 0,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l2": {
+      "file": "audio/pack03-04-the-trains-delayed/l2.m4a",
+      "durationMs": 5052,
+      "fullStartMs": 4137,
+      "voice": "joe",
+      "speaker": "ben"
+    },
+    "l3": {
+      "file": "audio/pack03-04-the-trains-delayed/l3.m4a",
+      "durationMs": 1546,
+      "fullStartMs": 9469,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l4": {
+      "file": "audio/pack03-04-the-trains-delayed/l4.m4a",
+      "durationMs": 6400,
+      "fullStartMs": 11295,
+      "voice": "joe",
+      "speaker": "ben"
+    },
+    "l5": {
+      "file": "audio/pack03-04-the-trains-delayed/l5.m4a",
+      "durationMs": 3493,
+      "fullStartMs": 17975,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l6": {
+      "file": "audio/pack03-04-the-trains-delayed/l6.m4a",
+      "durationMs": 5032,
+      "fullStartMs": 21748,
+      "voice": "joe",
+      "speaker": "ben"
+    },
+    "l7": {
+      "file": "audio/pack03-04-the-trains-delayed/l7.m4a",
+      "durationMs": 3321,
+      "fullStartMs": 27060,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l8": {
+      "file": "audio/pack03-04-the-trains-delayed/l8.m4a",
+      "durationMs": 6120,
+      "fullStartMs": 30661,
+      "voice": "joe",
+      "speaker": "ben"
+    },
+    "l9": {
+      "file": "audio/pack03-04-the-trains-delayed/l9.m4a",
+      "durationMs": 2159,
+      "fullStartMs": 37061,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l10": {
+      "file": "audio/pack03-04-the-trains-delayed/l10.m4a",
+      "durationMs": 5037,
+      "fullStartMs": 39500,
+      "voice": "joe",
+      "speaker": "ben"
+    },
+    "l11": {
+      "file": "audio/pack03-04-the-trains-delayed/l11.m4a",
+      "durationMs": 3556,
+      "fullStartMs": 44817,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l12": {
+      "file": "audio/pack03-04-the-trains-delayed/l12.m4a",
+      "durationMs": 4125,
+      "fullStartMs": 48653,
+      "voice": "joe",
+      "speaker": "ben"
+    },
+    "l13": {
+      "file": "audio/pack03-04-the-trains-delayed/l13.m4a",
+      "durationMs": 3591,
+      "fullStartMs": 53058,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l14": {
+      "file": "audio/pack03-04-the-trains-delayed/l14.m4a",
+      "durationMs": 2840,
+      "fullStartMs": 56929,
+      "voice": "joe",
+      "speaker": "ben"
+    },
+    "l15": {
+      "file": "audio/pack03-04-the-trains-delayed/l15.m4a",
+      "durationMs": 3904,
+      "fullStartMs": 60049,
+      "voice": "kristin",
+      "speaker": "maya"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack03-04-the-trains-delayed/c1.m4a",
+      "durationMs": 1230,
+      "voice": "joe",
+      "afterFile": "audio/pack03-04-the-trains-delayed/c1-after.m4a",
+      "afterDurationMs": 3902
+    },
+    "c2": {
+      "file": "audio/pack03-04-the-trains-delayed/c2.m4a",
+      "durationMs": 1515,
+      "voice": "kristin",
+      "afterFile": "audio/pack03-04-the-trains-delayed/c2-after.m4a",
+      "afterDurationMs": 2640
+    },
+    "c3": {
+      "file": "audio/pack03-04-the-trains-delayed/c3.m4a",
+      "durationMs": 1502,
+      "voice": "kristin",
+      "afterFile": "audio/pack03-04-the-trains-delayed/c3-after.m4a",
+      "afterDurationMs": 3298
+    }
+  },
+  "full": {
+    "file": "audio/pack03-04-the-trains-delayed/full.m4a",
+    "durationMs": 64618,
+    "gapMs": 280
+  }
+}

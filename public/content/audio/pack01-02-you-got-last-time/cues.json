@@ -1,0 +1,152 @@
+{
+  "sceneId": "pack01-02-you-got-last-time",
+  "lines": {
+    "l1": {
+      "file": "audio/pack01-02-you-got-last-time/l1.m4a",
+      "durationMs": 1951,
+      "fullStartMs": 0,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l2": {
+      "file": "audio/pack01-02-you-got-last-time/l2.m4a",
+      "durationMs": 667,
+      "fullStartMs": 2231,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l3": {
+      "file": "audio/pack01-02-you-got-last-time/l3.m4a",
+      "durationMs": 4227,
+      "fullStartMs": 3178,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l4": {
+      "file": "audio/pack01-02-you-got-last-time/l4.m4a",
+      "durationMs": 1562,
+      "fullStartMs": 7685,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l5": {
+      "file": "audio/pack01-02-you-got-last-time/l5.m4a",
+      "durationMs": 5229,
+      "fullStartMs": 9527,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l6": {
+      "file": "audio/pack01-02-you-got-last-time/l6.m4a",
+      "durationMs": 5157,
+      "fullStartMs": 15036,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l7": {
+      "file": "audio/pack01-02-you-got-last-time/l7.m4a",
+      "durationMs": 4204,
+      "fullStartMs": 20473,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l8": {
+      "file": "audio/pack01-02-you-got-last-time/l8.m4a",
+      "durationMs": 1647,
+      "fullStartMs": 24957,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l9": {
+      "file": "audio/pack01-02-you-got-last-time/l9.m4a",
+      "durationMs": 4128,
+      "fullStartMs": 26884,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l10": {
+      "file": "audio/pack01-02-you-got-last-time/l10.m4a",
+      "durationMs": 3358,
+      "fullStartMs": 31292,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l11": {
+      "file": "audio/pack01-02-you-got-last-time/l11.m4a",
+      "durationMs": 803,
+      "fullStartMs": 34930,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l12": {
+      "file": "audio/pack01-02-you-got-last-time/l12.m4a",
+      "durationMs": 3434,
+      "fullStartMs": 36013,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l13": {
+      "file": "audio/pack01-02-you-got-last-time/l13.m4a",
+      "durationMs": 3011,
+      "fullStartMs": 39727,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l14": {
+      "file": "audio/pack01-02-you-got-last-time/l14.m4a",
+      "durationMs": 4375,
+      "fullStartMs": 43018,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l15": {
+      "file": "audio/pack01-02-you-got-last-time/l15.m4a",
+      "durationMs": 2318,
+      "fullStartMs": 47673,
+      "voice": "kristin",
+      "speaker": "maya"
+    },
+    "l16": {
+      "file": "audio/pack01-02-you-got-last-time/l16.m4a",
+      "durationMs": 2037,
+      "fullStartMs": 50271,
+      "voice": "joe",
+      "speaker": "chris"
+    },
+    "l17": {
+      "file": "audio/pack01-02-you-got-last-time/l17.m4a",
+      "durationMs": 4102,
+      "fullStartMs": 52588,
+      "voice": "kristin",
+      "speaker": "maya"
+    }
+  },
+  "chunks": {
+    "c1": {
+      "file": "audio/pack01-02-you-got-last-time/c1.m4a",
+      "durationMs": 1188,
+      "voice": "kristin",
+      "afterFile": "audio/pack01-02-you-got-last-time/c1-after.m4a",
+      "afterDurationMs": 2254
+    },
+    "c2": {
+      "file": "audio/pack01-02-you-got-last-time/c2.m4a",
+      "durationMs": 1210,
+      "voice": "kristin",
+      "afterFile": "audio/pack01-02-you-got-last-time/c2-after.m4a",
+      "afterDurationMs": 2503
+    },
+    "c3": {
+      "file": "audio/pack01-02-you-got-last-time/c3.m4a",
+      "durationMs": 1714,
+      "voice": "kristin",
+      "afterFile": "audio/pack01-02-you-got-last-time/c3-after.m4a",
+      "afterDurationMs": 2919
+    }
+  },
+  "full": {
+    "file": "audio/pack01-02-you-got-last-time/full.m4a",
+    "durationMs": 57376,
+    "gapMs": 280
+  }
+}

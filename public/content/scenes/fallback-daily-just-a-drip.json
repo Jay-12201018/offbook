@@ -1,0 +1,243 @@
+{
+  "id": "fallback-daily-just-a-drip",
+  "packId": "pack-fallback-daily",
+  "dayInPack": 1,
+  "title": "Just a drip",
+  "titleZh": "一杯普通咖啡",
+  "setting": "A quiet neighborhood cafe on a weekday morning. Maya is ordering at the counter.",
+  "situationZh": "工作日早上，街角咖啡店。Maya 在柜台点单。",
+  "speakers": [
+    {
+      "id": "chris",
+      "name": "Chris",
+      "gender": "male"
+    },
+    {
+      "id": "maya",
+      "name": "Maya",
+      "gender": "female"
+    }
+  ],
+  "register": "daily",
+  "skillNode": "A-daily-open",
+  "targetWpm": 115,
+  "slowerWpm": 95,
+  "durationSec": 52,
+  "newItems": [
+    "room for milk"
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "chris",
+      "text": "Hey, what can I get started for you?",
+      "spoken": "Hey, what can I get started for you?",
+      "meaningZh": "嗨，你要点什么？",
+      "audio": "audio/fallback-daily-just-a-drip/l1.m4a",
+      "durationMs": 2097
+    },
+    {
+      "id": "l2",
+      "speaker": "maya",
+      "text": "Hi — just a drip coffee, room for milk.",
+      "spoken": "Hi — just a drip coffee, room for milk.",
+      "meaningZh": "嗨，就要一杯滴滤咖啡，帮我留一点空位加奶。",
+      "audio": "audio/fallback-daily-just-a-drip/l2.m4a",
+      "durationMs": 3005
+    },
+    {
+      "id": "l3",
+      "speaker": "chris",
+      "text": "Room for milk, got it. Anything else?",
+      "spoken": "Room for milk, got it. Anything else?",
+      "meaningZh": "留空加奶，好。还要别的吗？",
+      "audio": "audio/fallback-daily-just-a-drip/l3.m4a",
+      "durationMs": 2914
+    },
+    {
+      "id": "l4",
+      "speaker": "maya",
+      "text": "That's it. Can I get that for here?",
+      "spoken": "That's it. Can I get that for here?",
+      "meaningZh": "就这些。可以在店里喝吗？",
+      "audio": "audio/fallback-daily-just-a-drip/l4.m4a",
+      "durationMs": 2462
+    },
+    {
+      "id": "l5",
+      "speaker": "chris",
+      "text": "Yep. Name for the order?",
+      "spoken": "Yep. Name for the order?",
+      "meaningZh": "可以。名字写哪个？",
+      "audio": "audio/fallback-daily-just-a-drip/l5.m4a",
+      "durationMs": 2129
+    },
+    {
+      "id": "l6",
+      "speaker": "maya",
+      "text": "Maya.",
+      "spoken": "Maya.",
+      "meaningZh": "Maya。",
+      "audio": "audio/fallback-daily-just-a-drip/l6.m4a",
+      "durationMs": 811
+    },
+    {
+      "id": "l7",
+      "speaker": "chris",
+      "text": "Cool. It'll be right up.",
+      "spoken": "Cool. It'll be right up.",
+      "meaningZh": "好。马上就好。",
+      "audio": "audio/fallback-daily-just-a-drip/l7.m4a",
+      "durationMs": 2015
+    },
+    {
+      "id": "l8",
+      "speaker": "maya",
+      "text": "Thanks.",
+      "spoken": "Thanks.",
+      "meaningZh": "谢谢。",
+      "audio": "audio/fallback-daily-just-a-drip/l8.m4a",
+      "durationMs": 854
+    },
+    {
+      "id": "l9",
+      "speaker": "chris",
+      "text": "Maya? Drip, room for milk.",
+      "spoken": "Maya? Drip, room for milk.",
+      "meaningZh": "Maya？滴滤咖啡，留空加奶。",
+      "audio": "audio/fallback-daily-just-a-drip/l9.m4a",
+      "durationMs": 2413
+    },
+    {
+      "id": "l10",
+      "speaker": "maya",
+      "text": "That's me. Thank you.",
+      "spoken": "That's me. Thank you.",
+      "meaningZh": "是我。谢谢。",
+      "audio": "audio/fallback-daily-just-a-drip/l10.m4a",
+      "durationMs": 1840
+    }
+  ],
+  "gist": [
+    {
+      "id": "g1",
+      "askZh": "她点了什么？",
+      "askEn": "What did she order?",
+      "accept": [
+        "drip",
+        "coffee",
+        "滴滤",
+        "咖啡",
+        "room for milk",
+        "留空"
+      ]
+    },
+    {
+      "id": "g2",
+      "askZh": "她是带走还是在店里喝？",
+      "askEn": "Is it for here or to go?",
+      "accept": [
+        "for here",
+        "in the cafe",
+        "在店里",
+        "堂食",
+        "here"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "d1",
+      "askZh": "她为什么要 room for milk？",
+      "askEn": "Why does she ask for room for milk?",
+      "accept": [
+        "milk",
+        "留空",
+        "加奶",
+        "don't fill it",
+        "space"
+      ]
+    }
+  ],
+  "glue": [
+    {
+      "id": "glue1",
+      "lineId": "l1",
+      "span": "what can I get started for you",
+      "hear": "what can I get started for you",
+      "noteZh": "美式咖啡店很常见的开场，比 What would you like 更随口，get started 连在一起很快。",
+      "standard": "what can I get started for you"
+    },
+    {
+      "id": "glue2",
+      "lineId": "l2",
+      "span": "room for milk",
+      "hear": "room for milk",
+      "noteZh": "room for 是「留一点空」，for 被弱读，容易只听到 room 和 milk。",
+      "standard": "room for milk"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "c1",
+      "form": "Just a drip coffee, room for milk.",
+      "meaningZh": "就要一杯滴滤咖啡，请留空加奶。",
+      "fromLineId": "l2",
+      "sayAfter": "Just a drip, room for milk. That's it.",
+      "audio": "audio/fallback-daily-just-a-drip/c1.m4a",
+      "durationMs": 2393,
+      "afterAudio": "audio/fallback-daily-just-a-drip/c1-after.m4a",
+      "afterDurationMs": 2790
+    },
+    {
+      "id": "c2",
+      "form": "Can I get that for here?",
+      "meaningZh": "可以在店里喝吗？",
+      "fromLineId": "l4",
+      "sayAfter": "Can I get that for here? Thanks.",
+      "audio": "audio/fallback-daily-just-a-drip/c2.m4a",
+      "durationMs": 1457,
+      "afterAudio": "audio/fallback-daily-just-a-drip/c2-after.m4a",
+      "afterDurationMs": 2497
+    },
+    {
+      "id": "c3",
+      "form": "That's me.",
+      "meaningZh": "是我。（店员叫到名字时。）",
+      "fromLineId": "l10",
+      "sayAfter": "That's me. Thank you.",
+      "audio": "audio/fallback-daily-just-a-drip/c3.m4a",
+      "durationMs": 913,
+      "afterAudio": "audio/fallback-daily-just-a-drip/c3-after.m4a",
+      "afterDurationMs": 1778
+    }
+  ],
+  "roleplay": {
+    "setupZh": "你在街角咖啡店点单。你只要一杯普通滴滤咖啡，并且要留空加奶，在店里喝。",
+    "aiRole": "Chris, a relaxed barista. He confirms the order and may ask if you want anything else.",
+    "variants": [
+      "They are out of drip and offer pour-over.",
+      "Maya wants a larger size.",
+      "The name gets misspelled."
+    ],
+    "mustUse": [
+      "room for milk",
+      "for here"
+    ],
+    "starters": [
+      "Just a drip coffee, room for milk.",
+      "Can I get that for here?",
+      "That's it."
+    ]
+  },
+  "fluency": {
+    "promptZh": "用自己的话讲你刚才怎么点的咖啡。准备 15 秒，然后说 60 秒，再更短、更快地说两遍。",
+    "promptEn": "Tell the story of how you ordered coffee. Prep 15 seconds, then speak for 60, then 45, then 30."
+  },
+  "warmupLineIds": [
+    "l1",
+    "l2"
+  ],
+  "audioFull": "audio/fallback-daily-just-a-drip/full.m4a",
+  "audioFullDurationMs": 23559
+}
